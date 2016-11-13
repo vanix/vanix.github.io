@@ -1,0 +1,124 @@
+<title>劍俠情緣三</title>
+<center><h1><b>劍俠情緣三</b></h1></center>
+<hr>
+《劍俠情緣網絡版三》是由中國金山軟件旗下的西山居工作室開發的武俠題材大型多人在線角色扮演遊戲，是劍俠情緣系列的第六部作品，也是該系列網路遊戲化之後的第三部作品。<br>
+遊戲的故事背景設定在比系列其他作品背景更早的大唐唐玄宗年間。
+大陸的版本採取包月收費制，而在2014年，在台灣所發行的，由網銀國際代理所代理的劍俠情緣三免費版，<br>
+則是採取免費制，除去商城商品需要購買遊戲點數才能購買外，不需要包月收費。
+金山於2008年初公布劍網三。2009年8月28日劍網三公測。至今已發布22部資料片。<br>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/lYF4fnh8xjs" frameborder="0" allowfullscreen></iframe></center><hr>
+<h2>門派介紹</h2><br>
+<font size="12" color="blue">純陽</font>
+<br>
+職業概況：氣宗和劍宗，內外功雙線，遠近兼備。
+<br>關鍵字：氣場。
+<br>上手難度：上，較考操作
+<br>劣勢：血量偏少，防禦偏低。
+<br>優勢：攻擊高，爆發強，出色的反控制能力。
+<br>團隊定位：屬主力傷害輸出者和控場輔助者。
+<br>門派評價：強悍的輸出和控制，氣場的靈活運用，面對各種情況都可得心應手。
+<br>
+<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcScmq7r55wEPm6Ckm6s87o2OqHF5VoM7H-AA0AzB8ATWPHZgSV0" width="400" height"400">
+<table border="1">
+<tr><th>紫霞功</th><th>遠端爆發力位居五大門派之首，尤為講究戰機把握和對敵距離，同樣招式在不同時機釋放會達到完全不同的效果。</th></tr>
+<tr><th>太虛劍意</th><th>作為輔助近戰攻擊門派，一對一並非太虛純陽的戰場，他們更適合在群戰中發揮優勢，攻守之間玩法多變，操控需得有一定技巧。</th></tr>
+</table>
+<br>
+<font size="12" color="pink">七秀</font>
+<br>職業概況：治療和傷害兩條路線，攻擊高，躲閃高，且擁有眾多回血招式。
+<br>關鍵字：高生存、戰鬥復活、群體治療。
+<br>上手難度：中，針對女性設計的門派。
+<br>劣勢：血量少、防禦偏低。
+<br>優勢：攻擊高，爆發力強，治療亦十分強大。
+<br>團隊定位：受歡迎的團隊多面手。
+<br>門派評價：攻擊高還可治療的強勢純女性門派。
+<br>
+<img src="http://reso2.yiihuu.com/1344958-z.jpg" width="400" height"400">
+<table border="1">
+<tr><th>冰心訣</th><th>擁有最強閃躲效果的冰心七秀雖防禦不高卻常令對手束手無策，瞬發招式需配合靈巧身法，強大的瞬間爆發力往往可在關鍵時刻逆轉戰局。</th></tr>
+<tr><th>雲裳心經</th><th>僅次於萬花的治療能力異常強大，劍舞之間輔助效果克敵助友，招式多乃瞬發，能夠拯救團隊於一刻之間，乃團隊之中最受歡迎的隊友之一。</th></tr>
+</table>
+<br>
+<font size="12" color="orange">少林</font>
+<br>職業概況：防禦和傷害兩條路線，高血，高內防，控制能力強。
+<br>關鍵字：內功防禦者，傷害反彈。
+<br>上手難度：上，操作較複雜。
+<br>劣勢：突進能力較弱，較難接近敵人。
+<br>優勢：高血高內防高控制；內外兼修全面平衡。
+<br>團隊定位：團隊中的核心人物。
+<br>門派評價：內功防禦專家，拉怪擅長以單對多。
+<br>
+<img src="http://reso2.yiihuu.com/1344964-z.jpg" width="400" height"400">
+<table border="1">
+<tr><th>易筋經</th><th>作為輔助近戰攻擊門派，一對一並非易筋少林的戰場，他們更適合在群戰中發揮優勢，攻守之間玩法多變，操控需得有一定技巧。</th></tr>
+<tr><th>洗髓經</th><th>所謂我不入地獄，誰入地獄。洗髓少林具所有門派中最強大的內功防禦力，還可同時吸引眾多敵人仇恨，一夫當關，萬夫莫開。</th></tr>
+</table>
+<br>
+<font size="12" color="Maroon">天策</font>
+<br>職業概況：防禦和傷害兩條路線，高輸出傷害，也可做肉盾。
+<br>關鍵字：外功防禦者，馬上戰鬥。
+<br>上手難度：中上，較考操作。
+<br>劣勢：反控制能力稍弱。
+<br>優勢：唯一能馬上戰鬥的門派，高血高外防高機動。
+<br>團隊定位：攻防兼備的多面手。
+<br>門派評價：外功防禦專家，攻防較均衡的強勢門派。
+<br>
+<img src="http://p1.so.qhmsg.com/bdr/_240_/t015ce59c471724c53b.jpg" width="400" height"400">
+<table border="1">
+<tr><th>傲血戰意</th><th>無論攻防，皆乃外功系王者，加以五大門派中獨有的馬上戰鬥，攻防轉換之余進退自如，危急時刻的搏命一擊更是成為其他門派的噩夢，東都之狼，名副其實。</th></tr>
+<tr><th>鐵牢律</th><th>外功防禦位列五大門派之首，關鍵時刻捨身引敵，使鐵牢天策成為交戰時夥伴最安心的一道防線，大唐鐵盾，絕非浪得虛名。</th></tr>
+</table>
+<br>
+<font size="12" color="purple">萬花</font>
+<br>職業概況：治療和控制兩條路線，救死扶傷，制敵控場。
+<br>關鍵字：持久治療輸出；靈活多變。
+<br>上手難度：上，需重視身法走位與控制耗內。
+<br>劣勢：治療與傷害的瞬間爆發力不足。
+<br>優勢：連續治療傷害能力強；生存力高，擅長小規模作戰。
+<br>團隊定位：不可或缺的靈魂人物。
+<br>門派評價：醫生到哪裡都是最受人尊重的。
+<br>
+<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTTZvVIRya5Ubh8EIZPnpKC3mGq9aLIkEkIG5fRJWurwHcAgoRcMvZPeao" width="400" height"400">
+<table border="1">
+<tr><th>花間遊</th><th>	萬花叢中過，片葉不沾身。作為五大門派中最難操控的門派，飄逸的身法，靈巧的走位，有爆發力的攻擊令花間萬花達到以柔克剛的極致。</th></tr>
+<tr><th>離經易道</th><th>萬花醫學之根本。習之可精通岐黃之術，可驅疾病，健體魄，亦可解除百毒，懸壺濟世。</th></tr>
+</table>
+<br>
+<font size="12" color="yellow">藏劍</font>
+<br>職業概況：輕劍和重劍，內功快速切換，純外功近戰。
+<br>優勢：劍氣無限續航，裝備雙武器，動靜結合，輕重互補。
+<br>關鍵字：快速切換內功，劍氣。
+<br>上手難度：上，較考操作。
+<br>團隊定位：屬主力群體傷害輸出者，緊急時刻可充當暫時防禦者。
+<br>劣勢：需積累一定劍氣才能爆發。
+<br>門派評價：出色的身法移動和強悍的群體輸出，裝備雙武器，可快速切換內功，無限續航，極具威脅力！
+<br>
+<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRv22134t41EHEycV_iUXRMCcDPBCDnlR-kVq57YRBkyqtlq_cX" width="400" height"400">
+<table border="1">
+<tr><th>問水訣</th><th>問水訣配合輕劍，藏劍會獲得出色的身位移動能力，能應對各種複雜環境，施展輕劍招式不會消耗任何內力和氣血，還能積累劍氣，可攻可守，可進可退，蓄勢待發。</th></tr>
+<tr><th>山居劍意</th><th>山居劍意配合重劍，藏劍會獲得出色的傷害能力，施展消耗劍氣的重劍招式不會消耗任何內力和氣血，但會消耗劍氣，對目標進行爆發性攻擊。裝備重劍後，藏劍需儘量靠近目標以達到最高傷害效果。合理分配和消耗劍氣，藏劍將具有極高的近戰群體傷害能力。</th></tr>
+</table>
+<br>
+<font size="12" color="light blue">五毒</font>
+<br>
+<img src="https://s-media-cache-ak0.pinimg.com/originals/d2/2d/65/d22d658fc97d5f5512ca3b726d79e623.jpg" width="400" height"400">
+<br>
+<font size="12" color="green">唐門</font>
+<br>
+<img src="http://content.52pk.com/files/allimg/121231/12011941b-5.jpg" width="400" height"400">
+<br>
+<font size="12" color="red">明教</font>
+<br>
+<img src="http://bbsnew.pic.178.com/pic/1652/16523886/month_1212/151434rxy1cyy6zd84bwz4.jpg" width="400" height"400">
+<br>
+<font size="12" color="brown">丐幫</font>
+<br>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6plnlK66YSp7xui2MGu01VhqLKb6ciLHKMDwlyN0Rv7OxasmeJg" width="400" height"400">
+<br>
+<font size="12" color="black">蒼雲</font>
+<br>
+<img src="http://m.tiebaimg.com/timg?wapp&quality=80&size=b150_150&subsize=20480&cut_x=0&cut_w=0&cut_y=0&cut_h=0&sec=1369815402&srctrace&di=7e623720d573663ea811d7ada3e1bb71&wh_rate=null&src=http%3A%2F%2Fimgsrc.baidu.com%2Fforum%2Fpic%2Fitem%2Ff9198618367adab455d8c5688fd4b31c8701e495.jpg" width="400" height"400">
+<br>
+<font size="12" color="turquoise">長歌</font>
+<br>
+<img src="http://img8.nidongdetu.com:890/nidongde/0159d7db8c720e6b62.jpg" width="400" height"400">

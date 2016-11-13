@@ -1,0 +1,21 @@
+<table border="1">
+  <tr>
+    <th rowspan="2" colspan="2">囚犯兩難</th>
+    <th colspan="2">B 的選擇</th>
+  </tr>
+  <tr>
+    <th>沉默</th> <th>坦承</th>
+  </tr>
+  <tr>
+    <th rowspan="2">A 的選擇</th>
+    <th>沉默</th>
+    <td>各坐牢 1 個月</td>
+    <td>A 坐牢 1 年<br>B 釋放</td>
+    
+  </tr>
+  <tr>
+    <th>坦承</th>
+    <td>A 釋放<br>B 坐牢 1 年</td>
+    <td>各坐牢 3 個月</td>
+  </tr>
+</table>

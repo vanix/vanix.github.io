@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=big5">
+    <title>周興哲 - 我愛的那種 歌詞</title>
+  </head>
+  <body>
+
+    內文
+
+  </body>
+</html>
+
+特殊字元：空白 &nbsp;
+<br> 換行 
+<p> 段落
+<h1>~<h6> 標題
+<blockqoute> 引文
+<strong> 重點（目前顯示效果為粗體）
+<em> 強調（目前顯示效果為斜體）
+
+語言編碼
+http://mirlab.org/jang/books/html/metaCharset.asp?title=5-2%20%BBy%A8%A5%BDs%BDX
+
+Wibibi網頁設計教學百科
+http://www.wibibi.com/info.php?tid=115
+
+插入圖片語法
+<img src="圖片網址">
+
+圖片加上連結語法
+<a href="連結前往的網址"><img src="圖片網址"></a>
+
+圖片加上寬度與高度的限制
+<a href="連結前往的網址"><img src="圖片網址" width="200" height="100"></a>
