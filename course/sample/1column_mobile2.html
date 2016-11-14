@@ -1,8 +1,48 @@
 <head>
+  <title>行動裝置網頁</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+  <style>
+    .bs {
+      transition: background-color 0.5s ease;
+      background-color:#99ffab;
+      padding:10 20 10 20;
+    }
+    .bs:hover {
+      background-color: #72ff8b;
+    }
 
-  <title>行動裝置網頁</title>
+    .calendar {
+      transition: background-color 0.5s ease;
+      background-color:#ffc899;
+      padding:10 20 10 20;
+    }
+    .calendar:hover {
+      background-color: #ffb475;
+    }
+
+    .photo {
+      transition: all 0.5s ease;
+      background-color:#ff9999;
+      padding:10 20 10 20;
+    }
+    .photo:hover {
+      background-color: #ff7575;
+      color: #666666;
+    }
+
+    .website {
+      transition: all 0.5s ease;
+      background-color:#99fffb;
+      padding:10 20 10 20;
+    }
+    .website:hover {
+      background-color: #70fff9;
+      color: #666666;
+    }
+
+  </style>
+
 </head>
 
 <!-- 網頁內文開始，設定邊界為0以及網頁字體 -->
@@ -21,16 +61,18 @@
 <!-- 中間內文 -->
 
   <div style="text-align:center;">
-    <div style="background-color:#99ffab; padding:10 20 10 ;">
+    <div class="bs">
       <img src="pic/bb1.png" width="100px" height="100px" style="vertical-align:middle;"> 最新公告
     </div>
-    <div style="background-color:#ffc899; padding:10 20 10 20;">
+    <a href="http://www.sssh.tyc.edu.tw/ezfiles/1/1001/img/22/175534275.pdf" style="text-decoration:none;">
+    <div class="calendar">
       <img src="pic/calendar1.png" width="100px" height="100px" style="vertical-align:middle;"> 行事曆
     </div>
-    <div style="background-color:#ff9999; padding:10 20 10 20;">
+    </a>
+    <div class="photo">
       <img src="pic/photo1.png" width="100px" height="100px" style="vertical-align:middle;"> 活動照片
     </div>
-    <div style="background-color:#99fffb; padding:10 20 10 20;">
+    <div class="website">
       <img src="pic/website1.png" width="100px" height="100px" style="vertical-align:middle;"> 常用系統
     </div>
   </div>
