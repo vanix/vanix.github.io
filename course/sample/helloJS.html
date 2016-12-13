@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>視窗標題</title>
+  <style type="text/css">
+    html, body { height: 100%; margin: 0; padding: 0; }
+    #map { height: 500px; }
+  </style>
+</head>
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCixdDDAICaUlb5XHtlI2GcnCeVFQzo4MI&language=zh-TW&callback=initMap">
+</script>
+<script type="text/javascript">
+  // window.alert("Hello, JavaScript");
+  document.write("Hello<br>");
+  console.log("JavaScript");
+
+  var count = 8;
+  count = count + 9;
+
+  var hello = "hello";
+  hello = hello + ", <u>Javascript</u>";
+
+  document.write(count);
+  document.write(hello);
+
+  var result = 90 >= 60;
+  document.write("<br>90分有及格嗎？" + result);
+
+  // var grade = window.prompt("輸入你的成績","100");
+  var grade = 100;
+  if (grade >= 60) {
+    document.write("好棒棒唷");
+  } else {
+    document.write("要加油唷");
+  }
+
+  //多選一
+
+
+  // 0~9
+  var loop1=0, loop2=0;
+  for (loop1 = 0; loop1 < 10; loop1++) {
+    document.write(loop1 + " ");
+  }
+
+  while (loop2<10) {
+    document.write(loop2 + " ");
+    loop2 += 1;
+  }
+
+  // 2*1 ~ 2*9
+  for (var i = 1; i < 10; i++) {
+    document.write(2*i + "<br>");
+  }
+
+  // 2*1 ~ 9*9
+  for (var i = 2; i < 10; i++) {
+    for (var j = 1; j < 10; j++) {
+      document.write(i*j + " ");
+    }
+    document.write("<br>");
+  }
+
+  var hello = function(name, greeting ) {
+    var str = "hello " + name + ", " + greeting;
+    return str;
+  }
+
+  document.write(hello("bin","呷飽沒？"));
+
+  // 運算：BMI 溫度換算 匯率換算
+  // 條件：成績評語 檢查手機號碼 計算閏年 身分證字號男生女生、出生地 台大練習題
+  // 重複：99乘法表 最大公因數 階層 alert炸彈 台大練習題
+  // 函數：台大練習題
+  // 陣列：？
+  // 計算機 身分證字號驗證 檢查電話號碼 檢查EMAIL
+  // 開放資料平台 公車 氣象 匯率
+  // 公車：申請介接臺北市即時交通資訊作業說明
+  // http://www.dot.gov.taipei/ct.asp?xItem=3167481&CtNode=44829&mp=117001
+  // XMLHttpRequest開local file不是所有瀏覽器都支援
+
+  //下學期目標：jquery動態效果（如：？），開放資料分析網頁，LBS網頁（PM2.5 天氣 龜山小吃 歷史景點...(在地結合)）
+
+  // http://data.gov.tw/ 不支援JSONP
+  // 目前僅發現環保署環境資源資料開放平台，可使用JSONP
+  // 天氣 https://developer.yahoo.com/weather/
+  // 輸入YQL: select * from weather.forecast where u="c" and woeid=2306179 //2306179是台北
+  // 產生一組API
+  // http://opendata.epa.gov.tw/Data/Contents/ATM00625/ PM2.5
+  function insertReply(content) {
+      // var obj = JSON.parse(content); //不需parse，已經是JSON了
+      document.getElementById('output').innerHTML = content[0]["PM2.5"];
+      // document.getElementById('output').innerHTML = content;
+      // document.write(content);
+  }
+
+  // create script element
+  var script = document.createElement('script');
+  // assing src with callback name
+  //紫外線
+  // script.src = "http://opendata.epa.gov.tw/ws/Data/UV/?$orderby=PublishAgency&$skip=0&$top=1000&format=json&callback=insertReply";
+  // PM2.5
+  script.src = "http://opendata.epa.gov.tw/ws/Data/REWXQA/?$orderby=SiteName&$skip=0&$top=1000&format=json&callback=insertReply";
+  // script.src = "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20u%3Dc%20and%20woeid%3D2306179&format=json&callback=insertReply"
+  // insert script to document and load content
+  document.body.appendChild(script);
+
+  var map;
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: 24.994581, lng: 121.341237},
+      zoom: 15
+    });
+  }
+
+
+
+</script>
+
+<body>
+  網頁內容&#46;
+  <div id="output"></div>
+  <div id="map"></div>
+</body>
+</html>
