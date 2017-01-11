@@ -91,9 +91,15 @@
   // http://opendata.epa.gov.tw/Data/Contents/ATM00625/ PM2.5
   function insertReply(content) {
       // var obj = JSON.parse(content); //不需parse，已經是JSON了
+      // document.getElementById('output').innerHTML = content;
       document.getElementById('output').innerHTML = content[0]["PM2.5"];
       // document.getElementById('output').innerHTML = content;
       // document.write(content);
+  }
+
+  function fromAppEngine(content) {
+      // var obj = JSON.parse(content); //不需parse，已經是JSON了
+      document.getElementById('output').innerHTML = content.fullname;
   }
 
   // create script element
@@ -102,8 +108,10 @@
   //紫外線
   // script.src = "http://opendata.epa.gov.tw/ws/Data/UV/?$orderby=PublishAgency&$skip=0&$top=1000&format=json&callback=insertReply";
   // PM2.5
-  script.src = "http://opendata.epa.gov.tw/ws/Data/REWXQA/?$orderby=SiteName&$skip=0&$top=1000&format=json&callback=insertReply";
+  // script.src = "http://opendata.epa.gov.tw/ws/Data/REWXQA/?$orderby=SiteName&$skip=0&$top=1000&format=json&callback=insertReply";
   // script.src = "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20u%3Dc%20and%20woeid%3D2306179&format=json&callback=insertReply"
+  // Google App Engine
+  script.src = "https://sssh-bulletin-board-152502.appspot.com/?callback=fromAppEngine";
   // insert script to document and load content
   document.body.appendChild(script);
 

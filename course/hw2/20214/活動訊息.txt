@@ -1,0 +1,39 @@
+﻿
+<body style="margin: 0; font-family: Helvetica, 蘋果儷中黑, 微軟正黑體;">
+<div style="background-color: #333333; height:35px; color:#FFFFFF; margin-bottom:5px;">
+<a href="封面.html" style="text-decoration:none; color:white;">
+<div style="display:inline-block; font-size: 15pt; padding-top: 7px; padding-left:5px;">SSSH</div></a>
+    <div style="float:right; font-size:20pt; padding-right:5px;">&#9776;</div>
+  </div>
+<body style="margin: 0; font-family:Helvetica;">
+  <div style="max-width:600px; margin: auto;">
+<div style="background-color: #0d01af; color:#FFFFFF; height: 70px;">
+ <div style="font-size: 20pt; float:center; padding-top:25px; text-align: center;">活動訊息</div>
+  </div>
+
+<section style="background-color:#b2adff;">
+<a href="http://www.sssh.tyc.edu.tw/files/14-1001-4285,r16-1.php" style="text-decoration:none;">《學》【競賽】轉知~教育部106年度《教育金像獎》短片徵件競賽相關資料</a>
+<br>
+<a href="http://www.sssh.tyc.edu.tw/files/14-1001-4152,r16-1.php" style="text-decoration:none;">《學》【教育旅行】轉知~106年度應邀赴韓國教育旅行協會參訪遴選案</a>
+<br>
+<a href="http://www.sssh.tyc.edu.tw/files/14-1001-3991,r16-1.php" style="text-decoration:none;">《教》【外交小天使】日本外交小天使熱烈招募中！！！</a>
+<br>
+<a href="http://www.sssh.tyc.edu.tw/files/14-1001-3966,r16-1.php" style="text-decoration:none;">《學》【運動會】105年運動會徑賽決賽名單及田徑賽成績</a>
+<br>
+<a href="http://www.sssh.tyc.edu.tw/files/14-1001-3900,r16-1.php" style="text-decoration:none;">《教》【萬聖節】105學年度 萬聖節活動「萬聖夜驚魂」開始報名</a>
+<br>
+<a href="http://www.sssh.tyc.edu.tw/files/14-1001-3897,r16-1.php" style="text-decoration:none;">《學》【競賽】轉知!本市「105學年度學生舞蹈比賽」報名網址更正一事</a>
+<br>
+<a href="http://www.sssh.tyc.edu.tw/files/14-1001-3650,r16-1.php" style="text-decoration:none;">《教》【教育旅行】第七屆日本國際教育旅行 最後報名機會</a>
+<br>
+<a href="http://www.sssh.tyc.edu.tw/files/14-1001-3660,r16-1.php" style="text-decoration:none;">《學》【社團】本校105學年度開放電腦選填社團注意事項</a>
+<br>
+<a href="http://www.sssh.tyc.edu.tw/files/14-1001-2711,r16-1.php" style="text-decoration:none;">《學》【舞台劇】5月18日【2016向文學大師致敬系列-鍾肇政-魯冰花】舞台劇，邀請全校師生一同參加。</a>
+<br>
+<a href="http://www.sssh.tyc.edu.tw/files/14-1001-2530,r16-1.php" style="text-decoration:none;">《學》【志工】活動訊息！！用愛洗車 愛心公益活動--報名開始囉！！【額滿為止】</a>
+</section>
+<div style="background-color:#dddddd;height: 130px;">
+    <div style="padding-top:30px; color:#333333; font-size:9pt; text-align: center;">
+      <p>地址：333 桃園市龜山區大同路23號 (<a href="#">專車資訊</a>)</p>
+      <p>電話：(03)-3501778 (<a href="#">分機表</a>)</p>
+    </div>
