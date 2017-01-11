@@ -1,0 +1,146 @@
+﻿<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+
+<body style="margin: 0;">
+<div style=margin-left: left; margin-right: left;>
+<div style="background-color:#fffff; color:#000000; font-size:26px; text-align: center;">
+<img src="http://www.ifii.org.tw/upload/news/share20150312_093129.jpg" style="vertical-align:middle;width: 30px;height: 30px;>
+<div style="background-color: #333333; color:#ffffff; height: 150px; position:fixed; width:100%;">
+  <div style="display:inline-block; font-size: 15pt; padding-top: 7px; padding-left:5px;">壽山高中</div>
+
+
+<select onchange="window.open(this.options[this.selectedIndex].value)">
+
+ <option value="index.html">首頁</option>
+ <option value="關於壽山.html">關於壽山</option>
+ <option value="最新公告.html">最新公告</option>
+ <option value="常用系統.html">常用系統</option>
+ <option value="http://www.sssh.tyc.edu.tw/ezfiles/1/1001/img/24/157933362.pdf">行事曆</option> 
+<option value="網頁導覽.html">網頁導覽</option>
+</select>
+
+
+
+
+</div>
+
+<style>
+.slider_container {
+    margin: 0px auto;
+    width: 230px;
+    height: 280px;
+    position: relative;
+    border: 10px solid;    
+    border-color: #fff;
+    border-bottom-width: 10px;
+    background-color: #f5f5f5;
+    box-shadow: #666 0 0 5px;
+}
+
+.slider_container div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.slider_container div {
+    -webkit-animation: round 25s linear infinite;
+            animation: round 25s linear infinite;
+}
+
+@-webkit-keyframes round {
+    4% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒淡入*/
+    }
+    20% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 5秒靜止*/
+    }
+    24% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 5-6秒淡出*/
+    }
+}
+@keyframes round {
+    4% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡入*/
+    }
+    20% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 5秒靜止*/
+    }
+    24% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 5-6秒淡出*/
+    }
+}
+
+.slider_container div:nth-child(5) {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+}
+
+.slider_container div:nth-child(4) {
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s;
+}
+
+.slider_container div:nth-child(3) {
+    -webkit-animation-delay: 10s;
+            animation-delay: 10s;
+}
+
+.slider_container div:nth-child(2) {
+    -webkit-animation-delay: 15s;
+            animation-delay: 15s;
+}
+
+.slider_container div:nth-child(1) {
+    -webkit-animation-delay: 20s;
+            animation-delay: 20s;
+}
+
+</style>
+<body>
+<div class="slider_container">
+    <div>
+        <img src="http://www.sssh.tyc.edu.tw/ezfiles/1/1001/gallery/53/53/gallery_53_6373612_86104.jpg" alt="pure css3 slider" width="100%" />
+        <span class="info">105日本姊妹校高岡商業高校來訪</span>
+    </div>
+    <div>
+        <img src="http://www.sssh.tyc.edu.tw/ezfiles/1/1001/gallery/41/41/gallery_41_5560726_74673.jpg" alt="pure css3 slider" width="100%" />
+        <span class="info">105學年度運動大會</span>
+    </div>
+    <div>
+        <img src="http://www.sssh.tyc.edu.tw/ezfiles/1/1001/gallery/52/52/gallery_52_4295782_98330.jpg" alt="pure css3 slider" width="100%" />
+        <span class="info">韓國姊妹校聖光高校來訪</span>
+    </div>
+    <div>
+        <img src="http://www.sssh.tyc.edu.tw/ezfiles/1/1001/gallery/19/19/gallery_19_9342179_93878.jpg" alt="pure css3 slider" width="100%" />
+        <span class="info">2016世界室外拔河賽-壽山首摘銀牌</span>
+    </div>
+    <div>
+        <img src="http://www.sssh.tyc.edu.tw/ezfiles/1/1001/gallery/46/46/gallery_46_2756240_58858.jpg" alt="pure css3 slider" width="100%" />
+        <span class="info">105技藝競賽榮獲佳績</span>
+    </div>
+</div>
+
+<div style="background-color:#dddddd;height: 100px; margin-top:5px;">
+    <div style="padding-top:30px; color:#333333; font-size:10pt; text-align: center;">
+      桃園市立壽山高級中學<br>
+      333 桃園市龜山區大同路23號<br>
+      總機電話：03-3501778    傳真：03-3297861
+    </div>
+
+</body>

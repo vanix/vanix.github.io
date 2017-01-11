@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>sssh</title>
+  <style>
+a{text-decoration:none}
+</style>
+</head>
+  <body style="margin: 0;">
+
+
+
+
+
+
+<div style="background-color: #ffffff;color:#000000; text-align: ; font-size: 15px;">
+<a href="file:///C:/Users/win7/Desktop/index.html" title="SSSH首頁">
+<img src="https://upload.wikimedia.org/wikipedia/zh/6/61/Shou-Shan_Senior_High_School_Logo.gif" height="50" style="vertical-align:middle;border-radius:25px;"><span style="font-family:fantasy;"><font color="#000000">SSSH</font></span>
+</a>
+</div>
+
+<h1>壽山高中位置</h1>
+<br>
+
+<font face="font-family:fantasy" size="5" color="#000000"><b>330桃園市桃園區大同路23號</b></font><br>
+<br><br>
+<font face="font-family:fantasy" size="3" color="#000000"><b>桃園市區→</b></font><font face="font-family:fantasy" size="3" color="#000000"><b>壽山高中</b></font><br>
+<br>
+<font face="font-family:fantasy" size="2" ><b>公車11分鐘</b></font><br>
+<br>
+<font face="font-family:fantasy" size="2" ><b>步行45分鐘</b></font><br>
+<br>
+<font face="font-family:fantasy" size="2" ><b>腳踏車22分鐘</b></font><br>
+
+
+
+
+<a href="https://www.google.com/maps/place/%E6%A1%83%E5%9C%92%E5%B8%82%E7%AB%8B%E5%A3%BD%E5%B1%B1%E9%AB%98%E7%B4%9A%E4%B8%AD%E5%AD%B8/@24.9945839,121.339032,17z/data=!3m1!4b1!4m5!3m4!1s0x34681e62c07c49cb:0x1f47800ad1d016ff!8m2!3d24.9945839!4d121.3412207?hl=zh-TW"><font color="#007bff">詳細資訊</font></a>
+
+
+
+
+
+<head runat="server">
+    <title>內嵌Google地圖</title>
+    <script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.js'></script>   
+    <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style>
+        body,input { font-size: 9pt; }
+        html { height: 100% }  
+        body { height: 100%; margin: 0px; padding: 0px }  
+        #map_canvas { height: 100% }        
+    </style>
+    <script>
+        $(function () {
+            //定義經緯度位置: 壽山高中
+            var latlng = new google.maps.LatLng(24.994587, 121.341247);
+            //設定地圖參數
+            var mapOptions = {
+                zoom: 16, //初始放大倍數
+                center: latlng, //中心點所在位置
+                mapTypeId: google.maps.MapTypeId.ROADMAP //正常2D道路模式
+            };
+            //在指定DOM元素中嵌入地圖
+            var map = new google.maps.Map(
+                document.getElementById("map_canvas"), mapOptions);
+            //加入標示點(Marker)
+            var marker = new google.maps.Marker({
+                position: latlng, //經緯度
+                title: "八角亭", //顯示文字
+                map: map //指定要放置的地圖對象
+            });
+        });
+    </script>
+</head>
+<body>
+<div id="map_canvas" style="width:100%; height:48%;"></div>
+
+</body>

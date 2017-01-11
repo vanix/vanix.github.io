@@ -1,0 +1,77 @@
+﻿<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+
+
+<body style="margin: 0;">
+<div style=margin-left: left; margin-right: left;>
+<div style="background-color: #ffffff; color:#000000; font-size:15px; text-align: center;">
+<img src="http://www.ifii.org.tw/upload/news/share20150312_093129.jpg" style="vertical-align:middle;width: 30px;height: 30px;>
+<div style="background-color: #333333; color:#ffffff; height: 150px; position:fixed; width:100%;">
+  <div style="display:inline-block; font-size: 18pt; padding-top: 7px; padding-left:5px;">壽山高中</div>
+
+
+<script language="JavaScript">
+<!--
+var NS4 = (document.layers);
+var IE4 = (document.all);
+var win = this;
+var n = 0;
+function findInPage(str) {
+var txt, i, found;
+if (str == "")
+return false;
+if (NS4) {
+if (!win.find(str))
+while(win.find(str, false, true))
+n++;
+else
+n++;
+if (n == 0) alert("本頁無任何【 " + str + " 】字句！");
+}
+if (IE4) {
+txt = win.document.body.createTextRange();
+for (i = 0; i <= n && (found = txt.findText(str)) != false; i++) {
+txt.moveStart("character", 1);
+txt.moveEnd("textedit");
+}
+if (found) {
+txt.moveStart("character", -1);
+txt.findText(str);
+txt.select();
+txt.scrollIntoView();
+n++;
+}
+else {
+if (n > 0) {
+n = 0;
+findInPage(str);
+}
+else
+alert("本頁無任何【 " + str + " 】字句！");
+}
+}
+return false;
+}
+-->
+</script>
+<center>
+<form name=search>
+請輸入欲尋找之系統<br>
+<input name=string type=text size=15 value=成績管理系統 onChange="n = 0;">
+<input type=button value="搜尋"onClick="findInPage(this.form.string.value);">
+</form>
+</center>
+
+<style>a{text-decoration:none}</style>
+<div style="font-size: 18px; color: #000000; text-align: center;background-color: #cff7f5;width:100%;height:100% "
+
+<a href="http://163.30.43.9/hcode/Index.asp">成績管理系統</a>
+<br>
+<a href="http://163.30.43.23/csv3_web/">課表查詢系統</a>
+<br>
+<a href="http://163.30.43.20/sscr/">多元選修選課系統</a>
+<br>
+<a href="http://www.sssh.tyc.edu.tw/files/11-1001-370.php">K中申請系統</a>
+<br>
+<a href="http://www.sssh.tyc.edu.tw/bin/index.php?Plugin=school&Action=schoolrepqbrowse&Repcg=2">線上報修系統(非電腦類)</a>

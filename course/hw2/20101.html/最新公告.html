@@ -1,0 +1,82 @@
+﻿<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+
+
+<body style="margin: 0;background-color:#e8fcc2;">
+<div style=margin-left: left; margin-right: left;>
+<div style="background-color: #ffffff; color:#000000; font-size:15px; text-align: center;">
+<img src="http://www.ifii.org.tw/upload/news/share20150312_093129.jpg" style="vertical-align:middle;width: 30px;height: 30px;>
+<div style="background-color: #dff7b2; color:#ffffff; height: 150px; position:fixed; width:100%;">
+  <div style="display:inline-block; font-size: 18pt; padding-top: 7px; padding-left:5px;">壽山高中</div>
+
+<script language="JavaScript">
+<!--
+var NS4 = (document.layers);
+var IE4 = (document.all);
+var win = this;
+var n = 0;
+function findInPage(str) {
+var txt, i, found;
+if (str == "")
+return false;
+if (NS4) {
+if (!win.find(str))
+while(win.find(str, false, true))
+n++;
+else
+n++;
+if (n == 0) alert("本頁無任何【 " + str + " 】字句！");
+}
+if (IE4) {
+txt = win.document.body.createTextRange();
+for (i = 0; i <= n && (found = txt.findText(str)) != false; i++) {
+txt.moveStart("character", 1);
+txt.moveEnd("textedit");
+}
+if (found) {
+txt.moveStart("character", -1);
+txt.findText(str);
+txt.select();
+txt.scrollIntoView();
+n++;
+}
+else {
+if (n > 0) {
+n = 0;
+findInPage(str);
+}
+else
+alert("本頁無任何【 " + str + " 】字句！");
+}
+}
+return false;
+}
+-->
+</script>
+<center>
+<form name=search>
+請輸入欲尋找之公告<br>
+<input name=string type=text size=15 value=寒假營隊活動 onChange="n = 0;">
+<input type=button value="搜尋"onClick="findInPage(this.form.string.value);">
+</form>
+</center>
+
+
+
+<div style="color: #000000;font-size:15pt;background-color:#e8fcc2;">最新公告
+
+  <table style="font-size:8pt; width:100%; background-color:#e8fcc2;padding-top:20px;">
+  <tr>
+    <th style="width:45px;">處室</th>
+    <th style="width:50px;">日期</th>
+    <th style="">標題</th>
+  </tr>
+ <style>a{text-decoration:none}</style>
+  <tr><td>圖書館</td><td>2017-01-03</td><td><a href="http://www.sssh.tyc.edu.tw/files/14-1001-4416,r12-1.php">長庚大學 -壽山高中 程式設計與專題應用 營隊課程(1/23-1/25 另有安排參訪活動)</a></td></tr>
+  <tr><td>教務處</td><td>2017-01-01</td><td><a href="http://www.sssh.tyc.edu.tw/files/14-1001-4414,r12-1.php">105學年度寒假營隊活動(網路報名1/2-1/8)</a></td></tr>
+  <tr><td>教務處</td><td>2017-01-01</td><td><a href="http://www.sssh.tyc.edu.tw/files/14-1001-4415,r12-1.php">105學年度寒假營隊活動-各營隊計畫表及活動流程</a></td></tr>
+ 
+</table>
+
+</div>
