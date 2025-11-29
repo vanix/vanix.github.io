@@ -2,7 +2,10 @@
 layout: page
 title: "關於我"
 permalink: /about/
-order: 2
+order: 4
+icon: fas fa-info-circle
+
+
 ---
 
 嗨，我是**宅爸**。  
