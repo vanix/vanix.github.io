@@ -1,8 +1,34 @@
 ---
-# the default layout is 'page'
-icon: fas fa-info-circle
-order: 4
+layout: page
+title: "關於我"
+permalink: /about/
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+嗨，我是**宅爸**。  
+以前是阿宅工程師，現在是在學校馴獸師。
+以為要去義大利，結果卻到了荷蘭。
+
+- [我的 YouTube 頻道](https://www.youtube.com/@homedad-vanix)
+
+---
+
+## 這個部落格在做什麼？
+
+這裡主要紀錄我的興趣與生活，內容大致分成幾個方向：
+
+- **高中資訊課程**：  
+  把課堂上用的教材、範例與教學影片整理出來，讓學生與自學者都能跟著學。
+
+- **軟體分享**：  
+  實用工具、好用軟體的介紹與心得，偏向實際操作、能馬上上手的那種。
+
+- **旅遊**：  
+  偶爾出門走走，把看到的風景、遇到的人事物記錄下來。
+
+- **親子**：  
+  身為宅爸的日常，和孩子一起玩的遊戲、學習、成長紀錄。
+
+- **電玩**：  
+  休閒時間的紓壓區，遊戲心得、通關紀錄、以及一些有趣的玩法分享。
+
+如果你剛好對以上這些主題有興趣，歡迎一起逛逛，也許可以在這裡找到一些對你有用的東西，或是單純打發時間也很好。
