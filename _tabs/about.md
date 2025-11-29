@@ -2,6 +2,7 @@
 layout: page
 title: "關於我"
 permalink: /about/
+order: 2
 ---
 
 嗨，我是**宅爸**。  
