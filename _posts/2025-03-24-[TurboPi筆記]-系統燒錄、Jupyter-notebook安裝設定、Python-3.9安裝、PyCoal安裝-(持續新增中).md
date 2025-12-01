@@ -4,6 +4,9 @@ date: 2025-03-24 04:20:00.026000+00:00
 layout: post
 permalink: /2025/03/turbopi-jupyter-notebook.html
 title: '[TurboPi筆記] 系統燒錄、Jupyter notebook安裝設定、Python 3.9安裝、PyCoal安裝 (持續新增中)'
+
+categories: [教學, TurboPi]
+tags: [TurboPi, Raspberry Pi, 系統燒錄, Jupyter Notebook, Python, PyCoal, 安裝教學, 開發環境]
 ---
 
 ## [別人的TurboPi筆記](https://github.com/rartino/turbopi)

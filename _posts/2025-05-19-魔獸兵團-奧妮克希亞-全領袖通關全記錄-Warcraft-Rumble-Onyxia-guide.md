@@ -4,6 +4,9 @@ date: 2025-05-19 15:48:00.012000+00:00
 layout: post
 permalink: /2025/05/blog-post.html
 title: 魔獸兵團 奧妮克希亞 全領袖通關全記錄 Warcraft Rumble Onyxia guide
+
+categories: [電玩,魔獸兵團]
+tags: [魔獸兵團, Warcraft Rumble, 奧妮克希亞, Onyxia, 通關攻略, 遊戲心得, 手機遊戲]
 ---
 
 從去年九月開始挑戰奧妮克希亞到今年五月，使用將軍的低等陣容過關後，開始嘗試是否有其他低等陣容也可以打敗奧妮克希亞。

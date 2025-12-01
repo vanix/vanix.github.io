@@ -4,6 +4,9 @@ date: 2025-03-03 04:22:00.005000+00:00
 layout: post
 permalink: /2025/03/aigoodtapecapcutwhispergoogle.html
 title: 快速產生字幕、逐字稿！選擇最適合你的AI工具：Goodtape、剪映Capcut、Whisper與Google即時轉錄
+
+categories: [教學,軟體工具]
+tags: [AI工具, 字幕產生, 逐字稿, Goodtape, 剪映, CapCut, Whisper, Google即時轉錄, 影音製作]
 ---
 
 教學影片如上，由於教學影片已有一段時間，剪映已經不再提供免費AI字幕

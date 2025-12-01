@@ -4,6 +4,9 @@ date: 2025-06-03 08:31:00.003000+00:00
 layout: post
 permalink: /2025/06/virtualboxraspberry-pi-desktop.html
 title: 如何在VirtualBox上安裝樹莓派 Raspberry Pi Desktop
+
+categories: [教學, 軟體工具]
+tags: [VirtualBox, Raspberry Pi, 樹莓派, 系統安裝, 教學筆記, 虛擬機]
 ---
 
 <iframe width="560" height="315"

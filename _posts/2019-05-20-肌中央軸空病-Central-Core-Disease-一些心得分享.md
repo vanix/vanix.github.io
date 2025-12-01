@@ -4,6 +4,9 @@ date: 2019-05-20 16:15:00.011000+00:00
 layout: post
 permalink: /2019/05/central-core-disease.html
 title: 肌中央軸空病 Central Core Disease 一些心得分享
+
+categories: [罕見疾病, 生活]
+tags: [肌中央軸空病, Central Core Disease, 罕見疾病, 醫療心得, 生活調適, 病友經驗]
 ---
 
 原文在最下方，更新資料在上方
