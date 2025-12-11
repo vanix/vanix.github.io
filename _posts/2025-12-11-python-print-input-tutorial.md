@@ -11,6 +11,14 @@ tags: [Python, 程式教學, Print, Input]
 
 # Python 基礎：Print 和 Input 函數教學
 
+<iframe width="560" height="315"
+        src="https://www.youtube.com/embed/OCMkUz74R3s"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+</iframe>
+
 ## 課程概要
 在這一單元中，我們將學習如何在 Python 中顯示文字以及如何從使用者那裡輸入資料。我們將主要介紹兩個功能：`print` 與 `input`。
 
