@@ -3,7 +3,7 @@ author: 歐巴計概
 date: 2025-12-22 02:07:14 +0000
 layout: post
 permalink: /2025/12/python-loop-introduction.html
-title: Python 迴圈介紹與使用
+title: Python 基礎：迴圈介紹與使用
 
 categories: [教學, 程式教學]
 tags: [Python, 程式教學, 迴圈, 程式設計]
@@ -11,7 +11,7 @@ tags: [Python, 程式教學, 迴圈, 程式設計]
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/X_w3U5izmJM" frameborder="0" allowfullscreen></iframe>
 
-# Python 迴圈介紹與使用
+# Python 基礎：迴圈介紹與使用
 
 ## 1. 迴圈的基本概念
 - 迴圈可分為兩類：
