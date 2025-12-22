@@ -6,7 +6,7 @@ permalink: /2025/12/python-print-input-tutorial.html
 title: Python 基礎：Print 和 Input 函數教學
 
 categories: [教學, 程式教學]
-tags: [Python, 程式教學, Print, Input]
+tags: [Python, 程式教學, print, input]
 ---
 
 # Python 基礎：Print 和 Input 函數教學
@@ -97,3 +97,8 @@ print(greeting)
 
 ## 課程小結
 在本單元中，我們學習了 `print` 及 `input` 函數的基本使用方法。希望大家能夠加以練習，實際操作來熟悉這些功能。如果在過程中有任何問題，隨時可以在留言板提出。接下來，我們將有幾分鐘的時間進行練習！
+
+## 換你動手做做看囉
+- 連到解題網：http://163.30.43.15/
+  - 註冊帳號且登入，加入課程，課程代碼：SzNTKb （已註冊過就不需再註冊）
+  - 練習完成第1個作業：YouTube線上課程 - 課堂作業 print and input
