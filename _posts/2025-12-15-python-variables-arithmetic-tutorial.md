@@ -114,8 +114,8 @@ print(result)
 如果輸入 100 和 200，輸出：300
 ```
 
+如果要做小數加法
 ```python
-#如果要做小數加法
 I = float(input("請輸入第一個數字: "))
 J = float(input("請輸入第二個數字: "))
 print(I+J)
