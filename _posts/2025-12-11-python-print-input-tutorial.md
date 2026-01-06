@@ -9,12 +9,6 @@ categories: [教學, 程式教學]
 tags: [Python, 程式教學, print, input]
 ---
 
-## 課程概要：你會學到什麼？
-1. 用 `print()` 輸出文字、數字與變數  
-2. 用 `sep`、`end` 控制輸出格式（空白與換行）  
-3. 用 `input()` 接收輸入並存到變數  
-4. 把輸入資料組成句子（字串相加 / f-string）  
- 
 <iframe width="560" height="315"
         src="https://www.youtube.com/embed/OCMkUz74R3s"
         title="YouTube video player"
@@ -23,7 +17,12 @@ tags: [Python, 程式教學, print, input]
         allowfullscreen>
 </iframe>
 
-## 課程概要
+## 課程概要：你會學到什麼？
+1. 用 `print()` 輸出文字、數字與變數  
+2. 用 `sep`、`end` 控制輸出格式（空白與換行）  
+3. 用 `input()` 接收輸入並存到變數  
+4. 把輸入資料組成句子（字串相加 / f-string）  
+
 在這一單元中，我們將學習如何在 Python 中顯示文字以及如何從使用者那裡輸入資料。我們將主要介紹兩個功能：`print` 與 `input`。
 
 ## 1. `print()`：把內容顯示到螢幕上
