@@ -2,7 +2,7 @@
 author: 歐巴計概
 date: 2025-05-19 15:48:00.012000+00:00
 layout: post
-permalink: /2025/05/blog-post.html
+permalink: /2025/05/warcraft-rumble-onyxia-all-leaders-guide.html
 title: 魔獸兵團 奧妮克希亞 全領袖通關全記錄 Warcraft Rumble Onyxia guide
 
 categories: [電玩,魔獸兵團]
@@ -46,17 +46,37 @@ tags: [魔獸兵團, Warcraft Rumble, 奧妮克希亞, Onyxia, 通關攻略, 遊
 其他陣容在等級不高的條件下容錯率太低，不推薦使用。但通過不斷的摸索與實戰，即便是以平均低於26等級的隊伍，除了將軍之外，還有其他的選擇。觀看完整通關過程以及試驗不同領袖的精彩影片，歡迎至我的 [YouTube播放清單](https://youtube.com/playlist?list=PLN9g1rvyo05rWLIimQZqJwnJ7qpx94hXx&si=eqQijJhETVUq-rV1)。
 
 ## 【通用的牌組組合】
-
 除了老瞎眼的牌組比較特殊之外，其他牌組組合大多有一定的規律
-
-- 坦克：火元素 or 其他坦克領袖。
-- 範圍傷害：火占師 or 獵手。
-- 補師：薩滿 or 祭司。
-- 守家：骷髏戰隊（少數組合不需要骷髏戰隊）。
-- 清小龍：巫醫 or 獅鷲騎士 or 火鎚 or 飛龍 or 食人妖。
-- 其他：盜賊 or 精靈龍 or 法術 或其他你覺得有用的棋子
-
 個人經驗覺得至少要有兩個棋子可以自己清小龍，牌組組合再根據不同的領袖進行微調。
+
+- 坦克：火元素 or 其他坦克領袖。（火元素的獻祭光環超實用）
+- 範圍傷害：火占師 or 獵手。（火占師較泛用，獵手花費太高，但如果搭配瑪法里恩，獵手就是個好選擇）
+- 補師：薩滿 or 祭司。（需要重甲可用薩滿，金幣吃緊可用祭司）
+- 守家：骷髏戰隊（少數組合不需要骷髏戰隊）。
+- 清小龍：巫醫 or 獅鷲騎士 or 火鎚 or 飛龍 or 食人妖。(等級不高的話，我最近愛用巫醫+禿鷲)
+- 其他：盜賊 or 精靈龍 or 法術 或其他你覺得有用的棋子（缺錢用盜賊，需要抗性就用精靈龍）
+
+## 【階段性攻略】： 雖然不同領袖策略不同，但奧妮克希亞的階段（P1、P2、P3），有幾個共同的問題要解決
+- P1： 需要穩定解龍蛋的牌組，除了前面提到的清小龍牌組，如果巫醫等級不夠高，也可以搭配禿鷲解牌，不用拘泥於只用一個小兵解牌。
+- P2： 優先守著前方雙塔，並且能夠穩定解掉土元素，骷髏戰隊是容易應對的打法。
+- P3： DPS高的組合，可在加時階段，集中走右路打王，DPS不高的組合，則要打敗龍人守衛，拿回前方雙塔後，從兩側進攻。
+
+
+## 【通關影片】：這邊列出多數人愛用的將軍打法
+
+奧妮西希克 正規通關 將軍 avg 25.1 and 27.0 快攻  
+
+<iframe width="560" height="315"
+        src="https://www.youtube.com/embed/AYa4k6BC0Yc"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+</iframe>
+
+其他首領通關影片，或是低等策略影片，可直接到我的YouTube[播放清單](https://youtube.com/playlist?list=PLN9g1rvyo05rWLIimQZqJwnJ7qpx94hXx&si=5GzOlPBiIEjs5iJQ)觀看
+
+
 
 【全陣容牌組】
 
@@ -72,334 +92,3 @@ tags: [魔獸兵團, Warcraft Rumble, 奧妮克希亞, Onyxia, 通關攻略, 遊
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4x1TY2ECxrawEMFzxIOKAHatjP-AFYn53XCy1ntEncndYmzn0tdV4epqwmr-F83BmPfCKmUQP1z99JqeOHdTi-m7rWwl3d6qhL_aVgxS58hifTayoksaptYjHL1SU6yaoS18KtFRZWqxv9NFS0VVYtcYjiJT7rVfNSGDLZLmmmtm8dteKPwdjqA/w640-h640/65D97A82-0810-4117-9AF5-39AC38EE41F9.JPG)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4x1TY2ECxrawEMFzxIOKAHatjP-AFYn53XCy1ntEncndYmzn0tdV4epqwmr-F83BmPfCKmUQP1z99JqeOHdTi-m7rWwl3d6qhL_aVgxS58hifTayoksaptYjHL1SU6yaoS18KtFRZWqxv9NFS0VVYtcYjiJT7rVfNSGDLZLmmmtm8dteKPwdjqA/s2048/65D97A82-0810-4117-9AF5-39AC38EE41F9.JPG)
 
-## 【所有通關影片如下】
-
-奧妮西希克 正規通關 將軍 avg 25.0  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/xf6TbF5MLno"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 將軍 avg 25.1 and 27.0 快攻  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/AYa4k6BC0Yc"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 老瞎眼 avg 25.0  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/JDwHtscjHIQ"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 瑪法里恩 avg 25.0  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/A4SjtCRyB4c"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 斯尼德 avg 25.0  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/JNEuqA-uocg"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 瑪法里恩 (第一次削弱) avg 25.4  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/EbdyQlYz0qU"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 瑪法里恩 (第二次削弱) avg 25.4  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/rgTmCo9BJ1Y"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 塞納留斯 avg 25.4  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/eGW3zgiWGtw"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 伊瑟拉 avg 25.4  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/MOodeJPMQMs"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 索瑞森大帝 avg 25.6  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/yYva2aXWiw0"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 阿努巴拉克 (削弱後) avg 25.6  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/Ko0ohbo49vk"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 霍格 avg 25.6  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/WRcgbcvJKNw"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 血法師 avg 25.9  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/vfdaEW8KZg0"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 提里奧弗丁 avg 26.0  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/3PXyr5hrsP0"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 希瓦納斯 (重製) avg 26.0  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/3L64vuhpad4"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 拉格納羅斯 + 熔火巨人 avg 26.0  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/nD-9gATiLrY"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 地獄吼 avg 26.1  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/qv37LzCmj0s"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 血法師（buff後） avg 26.1  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/D1pn18C7JKs"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 珍娜 avg 26.3  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/0i5woigFen0"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 奧格林 avg 26.3  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/D7fHCq0OETY"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 黑手雷德 + 深呼吸 avg 26.3  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/VmeuXhf5HjY"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 安努 avg 26.3  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/ANZgiOhKDNQ"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 索爾 avg 26.3  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/bNRxcLkDO2g"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 凱恩血蹄 + 暗矛食人妖 avg 26.4  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/d2-lG3uF3kc"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 拉格納羅斯 avg 26.6  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/PScv9euKDZU"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 瑞文戴爾 + 投石車 avg 26.6  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/WepcQH82iJ8"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 暗矛食人妖 avg 26.7  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/SyCdeQfn2Zo"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 霍格 + 蜘蛛禿鷹 avg 26.7  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/DsCPxA5Zxbk"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 珍娜 + 秘法衝擊 avg 26.7  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/KAi8P_RdorI"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 阿薩斯 avg 26.9  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/p-kCZADNjjo"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 卡爾加 avg 26.9  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/HUkHD1gq7uA"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 拉格納羅斯+黃金造型 avg 27.3  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/AhcdQZm8CUc"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-奧妮西希克 正規通關 瑪翼夫 avg 27.6  
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/baA1HFRNL_s"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
