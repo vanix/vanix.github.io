@@ -14,8 +14,7 @@ layout: null
     </script>
 </head>
 <body>
-    <p>頁面已搬家，正在跳轉至：
-        <a href="/2025/03/tokyo-disneyland-das-guide.html" data-proofer-ignore>東京迪士尼 DAS 指南</a>
+    <p>頁面已搬家，東京迪士尼 DAS 指南
     </p>
 </body>
 </html>
