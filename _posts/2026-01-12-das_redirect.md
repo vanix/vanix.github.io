@@ -7,13 +7,15 @@ layout: null
 <head>
     <meta charset="utf-8">
     <title>頁面跳轉中...</title>
-    <meta http-equiv="refresh" content="0; url=https://vanix.github.io/2025/03/tokyo-disneyland-das-guide.html">
+    <meta http-equiv="refresh" content="0; url=/2025/03/tokyo-disneyland-das-guide.html">
     <link rel="canonical" href="https://vanix.github.io/2025/03/tokyo-disneyland-das-guide.html">
     <script>
-        window.location.href = "https://vanix.github.io/2025/03/tokyo-disneyland-das-guide.html";
+        window.location.href = "/2025/03/tokyo-disneyland-das-guide.html";
     </script>
 </head>
 <body>
-    <p>頁面已搬家，正在跳轉至：<a href="https://vanix.github.io/2025/03/tokyo-disneyland-das-guide.html">東京迪士尼 DAS 指南</a></p>
+    <p>頁面已搬家，正在跳轉至：
+        <a href="/2025/03/tokyo-disneyland-das-guide.html" data-proofer-ignore>東京迪士尼 DAS 指南</a>
+    </p>
 </body>
 </html>
