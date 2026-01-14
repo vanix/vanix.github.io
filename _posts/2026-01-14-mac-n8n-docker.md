@@ -181,11 +181,9 @@ Chat Trigger
    └─ Gmail: Send a message
 ```
 
-若可成功執行，即代表設定完成 ✅
+若可成功執行，即代表設定完成 ✅，以下為此範例的JSON，可自行匯入測試
 
-5. 以下為此範例的JSON，可自行匯入測試
-
-```
+```json
 {
   "name": "Gmail API Testing",
   "nodes": [
