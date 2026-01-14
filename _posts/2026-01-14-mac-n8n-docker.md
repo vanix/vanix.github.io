@@ -64,7 +64,7 @@ docker compose up -d
 http://localhost:5678
 ```
 
-即可看到 n8n 介面 🎉
+看到 n8n 介面後，再註冊帳號且登入即可
 
 ---
 
