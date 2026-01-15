@@ -40,7 +40,6 @@ services:
       - "5678:5678"
     volumes:
       - ./n8n_data:/home/node/.n8n
-      - /home/xxx:/mnt/xxx
     restart: always
 ```
 
