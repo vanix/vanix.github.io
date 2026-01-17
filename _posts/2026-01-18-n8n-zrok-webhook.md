@@ -1,12 +1,12 @@
 ---
 author: 歐巴計概
 layout: post 
-title: "n8n + zrok 教學｜讓自架 n8n Webhook 對外服務（免公開且固定IP）" 
+title: n8n + zrok 教學｜讓自架 n8n Webhook 對外服務（不需要公開IP跟固定IP）
 date: 2026-01-18
 permalink: /2026/01/n8n-zrok-webhook.html
 
 categories: [教學, n8n] 
-tags: [n8n, zrok, webhook, tunnel]
+tags: [n8n, zrok, webhook, tunnel, 自動化]
 ---
 
 👉 如果你還沒完成 n8n 安裝，可以先看上一篇：[在 Mac 上用 Docker 架設 n8n 教學](https://vanix.github.io/2026/01/mac-n8n-docker-setup.html)
