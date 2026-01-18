@@ -9,7 +9,7 @@ categories: [教學, n8n]
 tags: [n8n, zrok, webhook, tunnel, 自動化]
 ---
 
-👉 如果你還沒完成 n8n 安裝，可以先看上一篇：[在 Mac 上用 Docker 架設 n8n 教學](https://vanix.github.io/2026/01/mac-n8n-docker-setup.html)
+如果你還沒完成 n8n 安裝，可以先看上一篇：[在 Mac 上用 Docker 架設 n8n 教學](https://vanix.github.io/2026/01/mac-n8n-docker-setup.html)
 
 ## 為什麼自架 n8n 需要 Webhook 對外？
 
@@ -132,7 +132,7 @@ https://xxxxx.zrok.io/webhook-test/d42aedb3-69c9-4c85-abb8-4f3c4017621d
 
 - curl
 - GitHub Webhook
-- LINE / Discord / Stripe / 自動化服務
+- LINE / Discord / 或其他可用webhook的服務
 
 直接呼叫你的 **本機 n8n Workflow** 🚀
 
