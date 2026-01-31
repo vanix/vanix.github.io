@@ -1,12 +1,12 @@
 ---
 author: 宅爸
 layout: post
-title: "打造全自動個人 AI 助理：我的 Clawdbot 專屬任務清單與實戰指南"
+title: "打造全自動個人 AI 助理：我的 Clawdbot 任務清單與實戰指南"
 date: 2026-01-31
 permalink: /2026/01/my-openclaw-tasks-guide.html
 categories: [教學, openclaw]
 tags: [Clawdbot, AI Agent, Moltbot, Openclaw,  自動化, 效率工具, 教學]
-description: "深度解密如何利用 Clawdbot 建立個人化的 AI 助理！包含天氣預報、郵件監控、日語學習自動化及 YouTube 內容產出等四大核心任務，讓 AI 真正進入你的生活。"
+description: "深度解密如何利用 Clawdbot 建立個人化的 AI 助理！包含天氣預報、郵件監控、旅遊語言學習自動化 YouTube 內容產出及網路搜尋等五項任務，讓 AI 真正進入你的生活。"
 ---
 
 Clawdbot又双叒叕改名了，先改成MoltBot，現在改成OpenClaw。這此都統稱為Clawdbot。
@@ -28,7 +28,7 @@ Clawdbot又双叒叕改名了，先改成MoltBot，現在改成OpenClaw。這此
 
 ---
 
-## 📋 我的四大專屬任務清單
+## 📋 我設計了五項任務
 
 ### 1. 🌦️ 智慧氣象導覽 (結合地理位置)
 **任務目標**：每天主動推播當前位置的精準天氣，避免出門淋雨或著涼。
