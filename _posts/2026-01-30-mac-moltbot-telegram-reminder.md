@@ -2,7 +2,7 @@
 author: 歐巴計概
 layout: post
 title: "Mac mini的Moltbot安裝，並且串接Telegram"
-date: 2026-01-31
+date: 2026-01-30
 permalink: /2026/01/mac-moltbot-telegram-reminder.html
 categories: [教學, 自動化]
 tags: [mac, moltbot, clawdbot, telegram, reminder, 教學]
@@ -16,7 +16,9 @@ Moltbot 是一款以 Node.js 編寫的多通道聊天機器人框架，它能輕
 2. 串接 Telegram Bot  
 3. 透過 Telegram Bot指派任務
 
-> 手邊剛好有台Mac mini，這幾天剛裝好，趁還有印象的時候趕快來記錄一下，如果有一些疏漏，請見諒
+> 手邊剛好有台Mac mini M2 16GB，這幾天剛裝好，趁還有印象的時候趕快來記錄一下，如果有一些疏漏，請見諒
+> 通訊部分測試了Telegram跟Line，Telegram設定非常簡單，建議先串接Telegram
+> 語言模型部分，目前是使用OpenAI API，費用消耗的有點快，ollama的部分則是速度太慢，之後在試試看串接google antigravity
 ---
 
 ## 事前準備：建立 Telegram Bot
@@ -78,7 +80,7 @@ clawdbot pairing approve telegram <code>
 clawdbot pairing approve telegram SCJxxxxxx
 ```
 
-> 配對後，可傳送訊息測試是否成功，不需要另外設定Webhook。
+> 配對後，可傳送訊息測試是否成功，如果串接Line，則需要另外設定Webhook。
 
 ---
 
