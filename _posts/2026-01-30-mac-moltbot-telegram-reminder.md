@@ -4,7 +4,7 @@ layout: post
 title: "Mac mini的Moltbot安裝，並且串接Telegram"
 date: 2026-01-30
 permalink: /2026/01/mac-moltbot-telegram-reminder.html
-categories: [教學, 自動化]
+categories: [教學, moltbot]
 tags: [mac, moltbot, clawdbot, telegram, reminder, 教學]
 ---
 
