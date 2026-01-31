@@ -1,18 +1,21 @@
 ---
 author: 歐巴計概
 layout: post
-title: "Mac mini的Moltbot安裝，並且串接Telegram"
+title: "安裝ClawdBot/Moltbot/Openclaw在Mac mini上，並且串接Telegram"
 date: 2026-01-30
 permalink: /2026/01/mac-moltbot-telegram-reminder.html
 categories: [教學, moltbot]
-tags: [mac, moltbot, clawdbot, telegram, reminder, 教學]
+tags: [mac, openclaw, moltbot, clawdbot, telegram, reminder, 教學]
 ---
+
+Clawdbot又双叒叕改名了，先改成MoltBot，現在改成OpenClaw
+> 以下的相關指令可能也會受到改名的影響，各位安裝時請注意一下
 
 # 前言
 
-Moltbot 是一款以 Node.js 編寫的多通道聊天機器人框架，它能輕鬆串接各種通訊平台、外部 API 以及自動化工作。本文將示範如何：
+OpenClaw 是一款以 Node.js 編寫的多通道聊天機器人框架，它能輕鬆串接各種通訊平台、外部 API 以及自動化工作。本文將示範如何：
 
-1. 在Mac本機裡安裝與設定 Moltbot  
+1. 在Mac本機裡安裝與設定 OpenClaw  
 2. 串接 Telegram Bot  
 3. 透過 Telegram Bot指派任務
 
@@ -33,7 +36,7 @@ Moltbot 是一款以 Node.js 編寫的多通道聊天機器人框架，它能輕
 ## 一、Moltbot 安裝與啟動
 
 ```bash
-# 1. 打開終端機，安裝 Moltbot
+# 1. 打開終端機，安裝 OpenClaw
 curl -fsSL https://openclaw.ai/install.sh | bash
 
 # 2. 第一次設定
@@ -56,7 +59,7 @@ How do you want to hatch your bot? 選擇Open the Web UI
 （沒意外的話，moltbot已經順利啟動）
 ```
 
-> 執行後，Moltbot 會在本機開啟預設的 HTTP 伺服器（http://127.0.0.1:18789），可在瀏覽器中使用 Dashboard 管理設定。
+> 執行後，OpenClaw 會在本機開啟預設的 HTTP 伺服器（http://127.0.0.1:18789），可在瀏覽器中使用 Dashboard 管理設定。
 
 ---
 
@@ -103,9 +106,9 @@ clawdbot pairing approve telegram SCJxxxxxx
 ## 結語
 
 本文示範了：
-- Moltbot 的安裝與設定  
+- OpenClaw 的安裝與設定  
 - Telegram 串接  
 - 透過 Telegram Bot指派提醒任務
 
 由於moltbot可以跟本機系統串接，可透過CLI執行更多指令，也能夠控制本機端，帶來便利性的同時，也增加不少安全性的疑慮。
-這個簡單的範例驗證的兩個功能，`主動推播`以及`定時執行任務`，讓AI助理看起來更加主動了。希望我可以想到更多有趣又實用的應用。
+這個簡單的範例驗證兩個功能，`主動推播`以及`定時執行任務`，讓AI助理看起來更加主動了，期待之後更多的應用。
