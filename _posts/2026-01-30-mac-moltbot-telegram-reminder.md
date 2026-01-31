@@ -19,9 +19,10 @@ OpenClaw 是一款以 Node.js 編寫的多通道聊天機器人框架，它能�
 2. 串接 Telegram Bot  
 3. 透過 Telegram Bot指派任務
 
-> 手邊剛好有台Mac mini M2 16GB，這幾天剛裝好，趁還有印象的時候趕快來記錄一下，如果有一些疏漏，請見諒
-> 通訊部分測試了Telegram跟Line，Telegram設定非常簡單，建議先串接Telegram
-> 語言模型部分，目前是使用OpenAI API，費用消耗的有點快，ollama的部分則是速度太慢，之後在試試看串接google antigravity
+> 手邊剛好有台Mac mini M2 16GB，這幾天剛裝好，趁還有印象的時候趕快來記錄一下，如果有一些疏漏，請見諒。
+> 通訊部分測試了Telegram跟Line，Telegram設定非常簡單，建議先串接Telegram。
+> 語言模型部分，目前是使用OpenAI API，費用消耗的有點快，ollama的部分則是速度太慢，之後在試試看串接google antigravity。
+
 ---
 
 ## 事前準備：建立 Telegram Bot
