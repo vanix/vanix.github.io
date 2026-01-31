@@ -13,7 +13,7 @@ Clawdbot又双叒叕改名了，先改成MoltBot，現在改成OpenClaw。這此
 
 # 🤖 打造全自動個人 AI 助理：我的 Clawdbot 專屬任務清單與實戰指南
 
-上一篇文章(安裝ClawdBot/Moltbot/Openclaw在Mac mini上，並且串接Telegram)[https://vanix.github.io/2026/01/mac-moltbot-telegram-reminder.html]，介紹了如何安裝這個很火紅的AI助理。
+上一篇文章[安裝ClawdBot/Moltbot/Openclaw在Mac mini上，並且串接Telegram](https://vanix.github.io/2026/01/mac-moltbot-telegram-reminder.html)，介紹了如何安裝這個很火紅的AI助理。
 
 這篇文章我將分享如何利用 **Clawdbot** 這個強大的 AI 框架，建立一套完整的「個人專屬任務清單」。從自動化通知、旅遊翻譯到內容創作，跟各位分享。
 
