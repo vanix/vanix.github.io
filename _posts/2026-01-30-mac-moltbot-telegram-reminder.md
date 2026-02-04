@@ -104,6 +104,23 @@ clawdbot pairing approve telegram SCJxxxxxx
 
 ---
 
+## 補充說明：如果你覺得有安全性問題，想移除clawdbot
+
+### 官方指令
+```shell
+clawdbot uninstall
+clawdbot uninstall --all --yes
+clawdbot uninstall --dry-run
+```
+
+### 如果使用npm移除
+```shell
+npm uninstall -g clawdbot
+```
+> 不確定哪種移除方式比較好就是了
+
+---
+
 ## 結語
 
 本文示範了：
