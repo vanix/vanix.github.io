@@ -1,12 +1,15 @@
 ---
+author: 宅爸
 layout: post
 title: "樹莓派 5 打造最強 AI 助理：OpenClaw 安裝、Gemini 模型設定與 Telegram 連動全攻略"
-date: 2026-02-04 10:00:00 +0800
+date: 2026-02-03
 permalink: /2026/02/openclaw-on-raspberrypi-googleantigravity.html
 categories: [教學, openclaw]
 tags: [Clawdbot, AI Agent, Moltbot, Openclaw,  Googleantigravity, 自動化, 樹莓派5, RaspberryPi, 教學]
 
 ---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PCMNf-XINgw?si=9Dj9HxvhXTsWYLOC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 最近 AI 領域出現了一個超級火紅的助理軟體 —— **OpenClaw**。聽說這款軟體紅到連 Mac mini 都賣到缺貨！雖然網路上有很多安裝在 Mac 上的教學，但今天宅爸要帶大家走一條不一樣的路：使用 **樹莓派 5 (Raspberry Pi 5)** 來打造一個專屬、安全且成本更低的 AI 基地！
 
