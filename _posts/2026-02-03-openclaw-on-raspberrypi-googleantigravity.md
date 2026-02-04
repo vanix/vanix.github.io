@@ -24,7 +24,7 @@ tags: [Clawdbot, AI Agent, Moltbot, Openclaw,  Googleantigravity, 自動化, 樹
 
 安裝過程簡單到令人驚訝。只需打開樹莓派的瀏覽器，進入 OpenClaw 官網，複製那一長串安裝指令，並在終端機貼上執行即可。
 
-![安裝指令](/assets/images/blog/install_cmd.gif)
+![安裝指令](assets/images/blog/install_cmd.gif)
 *只需一行指令，系統就會自動處理複雜的環境設定。*
 
 ---
@@ -33,7 +33,7 @@ tags: [Clawdbot, AI Agent, Moltbot, Openclaw,  Googleantigravity, 自動化, 樹
 
 宅爸一開始測試過 OpenAI，發現使用 API Key 跑應用的成本非常高（隨便測測就噴了 20 多塊美金！）。後來改用 **Google 的 AntiGravity (Gemini-3-Flash)**，不僅設定方便，流量也相對慷慨許多。
 
-![模型認證](/assets/images/blog/model_auth.gif)
+![模型認證](assets/images/blog/model_auth.gif)
 *透過 Google 帳號快速認證，選擇 CP 值最高的 Gemini-3-Flash。*
 
 ---
@@ -46,7 +46,7 @@ tags: [Clawdbot, AI Agent, Moltbot, Openclaw,  Googleantigravity, 自動化, 樹
 2.  取得 **Token** 並貼回終端機。
 3.  最關鍵的一步：在終端機執行 **`/pair`** 指令完成授權。
 
-![Telegram 設定](/assets/images/blog/tg_setup.gif)
+![Telegram 設定](assets/images/blog/tg_setup.gif)
 *完成配對後，你就能直接在手機上跟你的樹莓派 AI 聊天了！*
 
 ---
@@ -55,7 +55,7 @@ tags: [Clawdbot, AI Agent, Moltbot, Openclaw,  Googleantigravity, 自動化, 樹
 
 為了讓助理能用繁體中文流暢溝通，我們需要幫樹莓派安裝 `fcitx5-chewing` (酷音輸入法)。
 
-![輸入法設定](/assets/images/blog/input_method.gif)
+![輸入法設定](assets/images/blog/input_method.gif)
 *安裝完成並重啟後，就能順利在 Web UI 打中文字囉。*
 
 接下來就是最有趣的環節：**賦予 AI 性格**。你可以叫他「經紀人」，讓他稱呼你為「明星」；或者讓他化身為「女僕」。他會完全依照你的設定來與你對答。
@@ -66,7 +66,7 @@ tags: [Clawdbot, AI Agent, Moltbot, Openclaw,  Googleantigravity, 自動化, 樹
 
 當一切設定就緒，在 Telegram 傳送一句「你好」，看到 AI 即時回覆的那一刻，你的專屬個人秘書就正式上線了！
 
-![實測回覆](/assets/images/blog/success_chat.gif)
+![實測回覆](assets/images/blog/success_chat.gif)
 *雖然回覆需要幾秒鐘的運算時間，但品質與精確度都非常高。*
 
 ## 結語
