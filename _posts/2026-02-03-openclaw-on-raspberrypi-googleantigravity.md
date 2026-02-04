@@ -24,8 +24,11 @@ tags: [Clawdbot, AI Agent, Moltbot, Openclaw,  Googleantigravity, 自動化, 樹
 ## 🛠️ 第一步：一鍵安裝 OpenClaw
 
 安裝過程簡單到令人驚訝。只需打開樹莓派的瀏覽器，進入 OpenClaw 官網，複製那一長串安裝指令，並在終端機貼上執行即可。
+```shell
+curl -fsSL https://openclaw.ai/install.sh | bash
+```
 
-![安裝指令](assets/images/blog/install_cmd.gif)
+![安裝指令](/assets/images/blog/install_cmd.gif)
 *只需一行指令，系統就會自動處理複雜的環境設定。*
 
 ---
@@ -34,7 +37,7 @@ tags: [Clawdbot, AI Agent, Moltbot, Openclaw,  Googleantigravity, 自動化, 樹
 
 宅爸一開始測試過 OpenAI，發現使用 API Key 跑應用的成本非常高（隨便測測就噴了 20 多塊美金！）。後來改用 **Google 的 AntiGravity (Gemini-3-Flash)**，不僅設定方便，流量也相對慷慨許多。
 
-![模型認證](assets/images/blog/model_auth.gif)
+![模型認證](/assets/images/blog/model_auth.gif)
 *透過 Google 帳號快速認證，選擇 CP 值最高的 Gemini-3-Flash。*
 
 ---
@@ -43,11 +46,11 @@ tags: [Clawdbot, AI Agent, Moltbot, Openclaw,  Googleantigravity, 自動化, 樹
 
 為了讓 AI 助理隨時隨地為我們服務，**Telegram** 是最佳的通訊橋樑。
 
-1.  找 **BotFather** 建立機器人。
+1.  找 **BotFather** 建立機器人 > /start > 幫機器人命名。
 2.  取得 **Token** 並貼回終端機。
-3.  最關鍵的一步：在終端機執行 **`/pair`** 指令完成授權。
+3.  最關鍵的一步：在終端機執行 **`/pair`** 指令完成授權（後面設定）。
 
-![Telegram 設定](assets/images/blog/tg_setup.gif)
+![Telegram 設定](/assets/images/blog/tg_setup.gif)
 *完成配對後，你就能直接在手機上跟你的樹莓派 AI 聊天了！*
 
 ---
@@ -55,19 +58,27 @@ tags: [Clawdbot, AI Agent, Moltbot, Openclaw,  Googleantigravity, 自動化, 樹
 ## ⌨️ 第四步：中文化環境與角色設定
 
 為了讓助理能用繁體中文流暢溝通，我們需要幫樹莓派安裝 `fcitx5-chewing` (酷音輸入法)。
+直接在Web Chat裡面，輸入`install fcitx5 fcitx5-chewing`，助理就會幫你裝好了
 
-![輸入法設定](assets/images/blog/input_method.gif)
+![輸入法設定](/assets/images/blog/input_method.gif)
 *安裝完成並重啟後，就能順利在 Web UI 打中文字囉。*
 
-接下來就是最有趣的環節：**賦予 AI 性格**。你可以叫他「經紀人」，讓他稱呼你為「明星」；或者讓他化身為「女僕」。他會完全依照你的設定來與你對答。
+接下來就是最有趣的環節：**賦予 AI 性格**。你可以叫他「經紀人」，讓他稱呼你為「金城武」；或者讓他化身為「女僕」。他會完全依照你的設定來與你對答。
 
 ---
 
-## ✅ 第五步：實測成功！
+## ✅ 第五步：配對Telegram Bot，實測成功！
 
+1. 到Telegram App裡面，搜尋你的機器人
+2. 開始對話
+3. 對話框裡面有配對碼
+4. 在終端機裡輸入
+```shell
+openclaw pairing approve telegram <配對碼>
+```
 當一切設定就緒，在 Telegram 傳送一句「你好」，看到 AI 即時回覆的那一刻，你的專屬個人秘書就正式上線了！
 
-![實測回覆](assets/images/blog/success_chat.gif)
+![實測回覆](/assets/images/blog/success_chat.gif)
 *雖然回覆需要幾秒鐘的運算時間，但品質與精確度都非常高。*
 
 ## 結語
