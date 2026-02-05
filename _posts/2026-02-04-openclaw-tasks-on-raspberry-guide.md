@@ -1,13 +1,15 @@
 ---
 layout: post
 title: "Raspberry Pi 5 也能跑出強大 AI 影響力：OpenClaw 五項基礎應用設定與個人實測心得"
-date: 2026-02-05
+date: 2026-02-04
 permalink: /2026/02/openclaw-tasks-on-raspberry-guide.html
 categories: [教學, openclaw]
 tags: [Clawdbot, AI Agent, Moltbot, Openclaw,  樹莓派, raspberry pi, 自動化, 教學]
 ---
 
-自從 AI 助手 OpenClaw（前身為 Clawdbot/MoltBot）在社群爆紅後，許多人瘋狂搶購 Mac mini 來搭建環境。身為一個放寒假的宅爸，我一直在思考：難道這一定要花大錢買高階硬體嗎？在上一集教學中，我成功在 **樹莓派 5 (Raspberry Pi 5)** 搭建了環境。今天，我要更進一步，帶大家看看我如何真正將這個 AI 助理「融入生活」，分享我最常用的五項基礎應用，以及我在實測過程中的第一手個人見解。
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HVa5DcAk-cM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+自從 AI 助手 OpenClaw（前身為 Clawdbot/MoltBot）在社群爆紅後，許多人瘋狂搶購 Mac mini 來搭建環境。身為一個放寒假的宅爸，我一直在思考：難道這一定要花大錢買硬體嗎？在上一集教學中，我成功在 **樹莓派 5 (Raspberry Pi 5)** 搭建了環境。今天，我要更進一步，帶大家看看我如何真正將這個 AI 助理「融入生活」，分享我最常用的五項基礎應用，以及我在實測過程中的個人見解。
 
 揪竟～openclaw可以讓我們的生活變得多便利，讓我們繼續看下去。
 
@@ -69,7 +71,7 @@ tags: [Clawdbot, AI Agent, Moltbot, Openclaw,  樹莓派, raspberry pi, 自動�
 這是我在影片中最後提到的「黑科技」。一般的 AI 搜尋只是抓取舊數據，但 OpenClaw 能真的幫你「打開瀏覽器」。當我搜尋「最近蝦皮上 Switch 2 的價格」時，它能模擬人的行為去抓取最即時的資訊。
 **技術分析：** `web_fetch` 適合讀文章，`browser` 適合做任務。在樹莓派上執行帶界面的瀏覽器對 CPU 壓力不小，可能也會吃掉不少RAM，可能還需要多實測幾次，觀察系統的負荷狀況。不過這讓 AI 有了真正觀察並操作真實世界網頁的能力。
 
-> 編按：perplexity之類的工具也能完成這類任務，甚至做得更好。或許AI助理的主動性，也會有不錯的效果。
+> 編按：perplexity之類的工具也能完成這類任務，甚至做得更好。或許AI助理的主動性，也能夠有不錯的效果。
 ---
 
 ## 總結與個人建議：AI 轉型的必經之路
