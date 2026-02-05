@@ -1,4 +1,5 @@
 ---
+author: 宅爸
 layout: post
 title: "Raspberry Pi 5 也能跑出強大 AI 影響力：OpenClaw 五項基礎應用設定與個人實測心得"
 date: 2026-02-05
