@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Raspberry Pi 5 也能跑出強大 AI 影響力：OpenClaw 五項基礎應用設定與個人實測心得"
-date: 2026-02-04
+date: 2026-02-05
 permalink: /2026/02/openclaw-tasks-on-raspberry-guide.html
 categories: [教學, openclaw]
-tags: [Clawdbot, AI Agent, Moltbot, Openclaw,  樹莓派, raspberry pi, 自動化, 教學]
+tags: [Clawdbot, AI Agent, Moltbot, Openclaw, 樹莓派, raspberrypi, 自動化, 教學]
+
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HVa5DcAk-cM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
