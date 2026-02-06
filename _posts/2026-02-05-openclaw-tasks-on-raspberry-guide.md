@@ -11,7 +11,7 @@ tags: [Clawdbot, AI Agent, Moltbot, Openclaw, 樹莓派, raspberry pi, 自動化
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HVa5DcAk-cM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-自從 AI 助手 OpenClaw（前身為 Clawdbot/MoltBot）在社群爆紅後，許多人瘋狂搶購 Mac mini 來搭建環境。身為一個放寒假的宅爸，我一直在思考：難道這一定要花大錢買硬體嗎？在上一集教學中，我成功在 **樹莓派 5 (Raspberry Pi 5)** 搭建了環境。今天，我要更進一步，帶大家看看我如何真正將這個 AI 助理「融入生活」，分享我最常用的五項基礎應用，以及我在實測過程中的個人見解。
+自從 AI 助手 OpenClaw（前身為 Clawdbot/MoltBot）在社群爆紅後，許多人瘋狂搶購 Mac mini 來搭建環境。身為一個放寒假的宅爸，我一直在思考：難道這一定要花大錢買硬體嗎？在[上一集教學](https://vanix.github.io/2026/02/openclaw-on-raspberrypi-googleantigravity.html)中，我成功在 **樹莓派 5 (Raspberry Pi 5)** 搭建了環境。今天，我要更進一步，帶大家看看我如何真正將這個 AI 助理「融入生活」，分享我最常用的五項基礎應用，以及我在實測過程中的個人見解。
 
 揪竟～openclaw可以讓我們的生活變得多便利，讓我們繼續看下去。
 
