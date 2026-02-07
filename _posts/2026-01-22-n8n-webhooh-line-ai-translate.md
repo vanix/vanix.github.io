@@ -64,8 +64,10 @@ LINE Webhook
 
 ## 步驟二：建立n8n Line AI 翻譯機器人 Workflow(文章最後會附上此workflow的json內容)
 
+需先建立好zrok，請參閱[n8n + zrok 教學](https://vanix.github.io/2026/01/n8n-zrok-webhook.html)
+
 ```workflow流程
-Webhook Trigger (需先建立好zrok，請參閱[n8n + zrok 教學](https://vanix.github.io/2026/01/n8n-zrok-webhook.html))
+Webhook Trigger 
    │            │
    │            ▼
    │   Gemini Message Model (需先取得API key)
