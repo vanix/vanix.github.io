@@ -1,6 +1,6 @@
 ---
 author: 歐巴計概
-date: 2025-12-22 00:20:59 +0000
+date: 2025-12-22 20:20:59 +0000
 layout: post
 permalink: /2025/12/python-string-list-introduction.html
 title: Python 基礎：字串處理與串列的完整教學
