@@ -3,7 +3,7 @@ author: 歐巴計概
 date: 2025-12-22 20:20:59 +0000
 layout: post
 permalink: /2025/12/python-string-list-introduction.html
-title: Python 基礎：字串處理與串列的完整教學
+title: Python 基礎：字串處理與串列
 
 categories: [教學, 程式教學]
 tags: [Python, 程式教學, 字串, 串列, List, String]
