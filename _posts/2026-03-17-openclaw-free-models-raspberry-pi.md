@@ -6,7 +6,7 @@ permalink: /2026/03/openclaw-free-models-raspberry-pi.html
 title: 樹莓派 + OpenClaw 免費 AI 模型設定教學 - Ollama 與 NVIDIA Kimi K2.5
 
 categories: [教學, openclaw]
-tags: [OpenClaw, 樹莓派, AI, Ollama, NVIDIA, Raspberry Pi, LLM, 免費AI]
+tags: [OpenClaw, 樹莓派, AI, Ollama, NVIDIA, Raspberry Pi, LLM, AI agent, 免費AI]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xJsQBrSki1g" frameborder="0" allowfullscreen></iframe>
