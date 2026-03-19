@@ -1,6 +1,6 @@
 ---
 author: 歐巴計概
-date: 2026-03-18 00:07:59 +0000
+date: 2026-03-17 00:07:59 +0000
 layout: post
 permalink: /2026/03/openclaw-free-models-raspberry-pi.html
 title: 樹莓派 + OpenClaw 免費 AI 模型設定教學 - Ollama 與 NVIDIA Kimi K2.5
