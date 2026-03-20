@@ -34,7 +34,7 @@ tags: [OpenClaw, 樹莓派, AI, Ollama, NVIDIA, Raspberry Pi, LLM, AI agent, 免
 
 | 模型 | 特色 | 限制 |
 |------|------|------|
-| **Ollama** | 有提供雲端模型 | 每週有流量限制（約 5 天後重置） |
+| **Ollama** | 有提供雲端模型 | 每週有流量限制（週一重置） |
 | **NVIDIA Kimi K2.5** | 每分鐘 40 個請求 | 有時會感到延遲 |
 
 > 「所以我最近試了兩個免費的模型是可以用的，所以我們現在就操作給大家看。」
@@ -44,8 +44,6 @@ tags: [OpenClaw, 樹莓派, AI, Ollama, NVIDIA, Raspberry Pi, LLM, AI agent, 免
 ## 2. Ollama 免費雲端模型設定
 
 ### 2.1 Ollama 介紹
-
-![Ollama 雲端模型設定](/assets/images/blog/adsense-ollama.gif)
 
 Ollama 是一家提供本地端和雲端 AI 模型的服務商。對於樹莓派等硬體資源有限的設備，Ollama 提供了**雲端模型**的選項。
 
@@ -82,8 +80,6 @@ ollama sign in
 ## 3. NVIDIA Kimi K2.5 免費模型設定
 
 ### 3.1 NVIDIA Build 平台介紹
-
-![NVIDIA 帳號註冊](/assets/images/blog/adsense-nvidia-signup.gif)
 
 NVIDIA 提供了 **build.nvidia.com** 平台，讓使用者可以申請 API Key 來使用 Kimi K2.5 模型。
 
