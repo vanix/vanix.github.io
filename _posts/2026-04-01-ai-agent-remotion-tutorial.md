@@ -8,7 +8,7 @@ categories: [教學, remotion]
 tags: [AI Agent, Remotion, 自動化, opencode,google antigravity]
 ---
 
-# 打字就能做影片？用 AI Agent 操控 Remotion 自動產出 YouTube 影片
+# 打字就能做影片？用 AI Agent 操控 Remotion 自動產出影片
 
 身為內容創作者，你是否曾覺得學習 Premiere Pro 等專業剪輯軟體耗時又費力？如果有一種方法，能讓你只要「打字」對著 AI 下達指令，它就能幫你把影片排版、加上動畫特效，最後直接渲染出高畫質的 MP4 檔案呢？
 
@@ -25,8 +25,9 @@ tags: [AI Agent, Remotion, 自動化, opencode,google antigravity]
 你可能會問，現在不是有很多 AI 產片工具嗎（如 Sora, 剪映）？
 市面的 AI 產片通常難以控制精準的「品牌字體」、「排版」與「按鈕動畫」。而讓 AI Agent 去寫出 Remotion 程式碼，好處在於：
 
-1. **100% 精準與客製化**：AI 產出的是 React 程式碼，圖標位置、字型大小可以豪釐不差，完全套用你的個人品牌樣式。
-2. **極致修改效率**：只要對 AI 說「幫我把解析度改成 YouTube Shorts 格式」，它幾秒鐘就能把長寬比改好，立刻產出直式影片。
+1. **產出的影片內容性質不同**：一般 AI 生成影片（如 Sora、剪映 AI）偏向「影像生成」，適合做寫實畫面、轉場動畫或短影音素材，但較不適合「結構清楚、資訊導向」的內容。而使用 AI Agent 撰寫 Remotion，產出的其實是「程式驅動的資訊型影片」，更接近簡報影片或教學影片。
+2. **100% 精準與客製化**：AI 產出的是 React 程式碼，圖標位置、字型大小可以豪釐不差，完全套用你的個人品牌樣式。
+3. **極致修改效率**：只要對 AI 說「幫我把解析度改成 YouTube Shorts 格式」，它幾秒鐘就能把長寬比改好，立刻產出直式影片。
 
 ---
 
@@ -58,7 +59,7 @@ AI 接收到指令後，立刻會為我們建立出對應的 `HomedadOutro.tsx` 
 
 > **我下的 Prompt (第二版)：**
 > 1. 我的顯示圖片請使用 public 裡的 `homedad.png`。
-> 2. 放上一個 YouTube 訂閱鈴鐺動畫。」
+> 2. 放上一個 YouTube 訂閱鈴鐺動畫。
 
 做完橫向影片後，想要再馬上改成 YouTube Shorts 上的直立版本。我不用打開影片編輯器重新拉座標，也只要對 AI Agent 說：
 
