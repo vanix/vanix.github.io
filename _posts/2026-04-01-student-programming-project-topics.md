@@ -1,12 +1,12 @@
 ---
 author: 歐巴計概
-date: 2026-04-03 00:07:59 +0000
+date: 2026-04-01 00:07:59 +0000
 layout: post
 permalink: /2026/04/student-programming-project-topics.html
 title: 高中生自主學習不知道做什麼？資訊類自主學習題目選擇與規劃分享
 
 categories: [教學, 自主學習]
-tags: [學生自主學習, 程式設計, APCS, 資訊自主學習, 自主學習製作]
+tags: [程式設計, APCS, 資訊自主學習, 高中自主學習]
 ---
 
 # 自主學習是什麼
