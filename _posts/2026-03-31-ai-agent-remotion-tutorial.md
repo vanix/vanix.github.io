@@ -1,9 +1,9 @@
 ---
-author: 宅爸
+author: 歐巴計概
 layout: post
-title: "打字就能做影片？用 AI Agent 操控 Remotion 自動產出影片"
-date: 2026-04-01
-permalink: /2026/04/ai-agent-remotion-tutorial.html
+title: 打字就能做影片？用 AI Agent 操控 Remotion 自動產出影片
+date: 2026-03-31
+permalink: /2026/03/ai-agent-remotion-tutorial.html
 categories: [教學, remotion]
 tags: [AI Agent, Remotion, 自動化, opencode,google antigravity]
 ---
@@ -16,16 +16,16 @@ tags: [AI Agent, Remotion, 自動化, opencode,google antigravity]
 
 **[Remotion](https://www.remotion.dev/)** 是一個能用 React（HTML/CSS/JS）撰寫影片的強大框架，而當它結合了能自動寫 Code、下指令的 **AI Agent（例如 Google Antigravity 或 Opencode）**，你將擁有一個完全自動化的 AI 剪輯工具！
 
-今天這篇文章，我將以我的 YouTube 頻道（**充滿意外的宅爸人生**）為例，帶你看看我是如何靠對話，一步步讓 AI Agent 幫我做出高品質的專屬結尾動畫 (Outro)。
+今天這篇文章，我將以我的 YouTube 頻道（**充滿意外的宅爸人生**）為例，帶你看看我是如何靠對話，一步步讓 AI Agent 幫我做出結尾動畫 (Outro)。
 
 ---
 
 ## 為什麼讓 AI 寫 Remotion 而不是直接用主流 AI 生成影片？
 
-你可能會問，現在不是有很多 AI 產片工具嗎（如 Sora, 剪映）？
+你可能會問，現在不是有很多 AI 產片工具嗎（如 Sora, Veo）？
 市面的 AI 產片通常難以控制精準的「品牌字體」、「排版」與「按鈕動畫」。而讓 AI Agent 去寫出 Remotion 程式碼，好處在於：
 
-1. **產出的影片內容性質不同**：一般 AI 生成影片（如 Sora、剪映 AI）偏向「影像生成」，適合做寫實畫面、轉場動畫或短影音素材，但較不適合「結構清楚、資訊導向」的內容。而使用 AI Agent 撰寫 Remotion，產出的其實是「程式驅動的資訊型影片」，更接近簡報影片或教學影片。
+1. **產出的影片內容性質不同**：一般 AI 生成影片（如 Sora、Veo）偏向「影像生成」，適合做寫實畫面、轉場動畫或短影音素材，但較不適合「結構清楚、資訊導向」的內容。而使用 AI Agent 撰寫 Remotion，產出的其實是「程式驅動的資訊型影片」，更接近簡報影片或教學影片。
 2. **100% 精準與客製化**：AI 產出的是 React 程式碼，圖標位置、字型大小可以豪釐不差，完全套用你的個人品牌樣式。
 3. **極致修改效率**：只要對 AI 說「幫我把解析度改成 YouTube Shorts 格式」，它幾秒鐘就能把長寬比改好，立刻產出直式影片。
 
