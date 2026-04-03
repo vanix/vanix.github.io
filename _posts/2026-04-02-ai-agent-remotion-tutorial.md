@@ -2,7 +2,7 @@
 author: 歐巴計概
 layout: post
 title: 打字就能做影片？用 AI Agent 操控 Remotion 自動產出影片
-date: 2026-04-03
+date: 2026-04-02
 permalink: /2026/04/ai-agent-remotion-tutorial.html
 categories: [教學, remotion]
 tags: [AI Agent, Remotion, 自動化, opencode,google antigravity]
