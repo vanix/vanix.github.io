@@ -8,8 +8,6 @@ categories: [教學, remotion]
 tags: [AI Agent, Remotion, 自動化, opencode,google antigravity]
 ---
 
-# 打字就能做影片？用 AI Agent 操控 Remotion 自動產出影片
-
 身為內容創作者，你是否曾覺得學習 Premiere Pro 等專業剪輯軟體耗時又費力？如果有一種方法，能讓你只要「打字」對著 AI 下達指令，它就能幫你把影片排版、加上動畫特效，最後直接渲染出高畫質的 MP4 檔案呢？
 
 答案是：**AI Agent 加上 Remotion 框架！**
