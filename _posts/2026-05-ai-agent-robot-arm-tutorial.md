@@ -1,6 +1,6 @@
 ---
 author: 歐巴計概
-date: 2026-05-17 00:07:59 +0000
+date: 2026-05-16 00:07:59 +0000
 layout: post
 permalink: /2026/05/ai-agent-robot-arm-tutorial.html
 title: AI Agent 把機器手臂自走車變成一隻狗 — 從舵機 PWM 到正向運動學
