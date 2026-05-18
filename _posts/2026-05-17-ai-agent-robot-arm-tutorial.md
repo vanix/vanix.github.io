@@ -153,7 +153,7 @@ time.sleep(0.5)  # 給舵機時間執行
 在 AI Agent 的設定檔（`Agents.md` 或 `memory.md`）中，寫入完整的舵機資訊：
 
 
-#### Agents.md 或 Memory.md內容
+### Agents.md 或 Memory.md內容
 ``` 舵機控制
 import sys
 sys.path.insert(0, '/home/pi/MasterPi')
@@ -163,7 +163,7 @@ b.pwm_servo_set_position(時間, [[舵機, PWM], ...])
 #要搭配time.sleep()，讓舵機有時間執行
 ```
 
-##### ⚙️ 我的身體（舵機）
+### ⚙️ 我的身體（舵機）
 | ID | 名稱 | 功能 | >1500 | <1500 |
 |----|------|------|-------|-------|
 | 6 | 肩部 | 後腳🦵 | 往前 | 往後 |
