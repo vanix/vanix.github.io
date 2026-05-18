@@ -103,8 +103,6 @@ time.sleep(0.5)  # 給舵機時間執行
 
 ## 第 3 課：方法一 — 手動設定姿勢（基礎做法）
 
-![舵機控制教學](/assets/images/blog/robot-dog-servo.gif)
-
 第一種做法是「人類告訴 AI 每個姿勢的 PWM 值」，讓 AI 記住並重現。
 
 ### 步驟 1：讓 AI 學習控制語法
@@ -147,8 +145,6 @@ time.sleep(0.5)  # 給舵機時間執行
 ---
 
 ## 第 4 課：方法二 — 直接讓 AI 設計動作（第一次嘗試）
-
-![第一版 AI 設計測試](/assets/images/blog/robot-dog-first-test.gif)
 
 接下來我們要挑戰真正的目標：**讓 AI 自己設計小狗的姿勢**。
 
