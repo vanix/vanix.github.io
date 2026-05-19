@@ -4,6 +4,7 @@ date: 2026-02-22 00:07:59 +0000
 layout: post
 permalink: /2026/02/beppu-family-trip.html
 title: 【2025九州親子遊】別府兩天一夜 - 海地獄、杉乃井飯店、室內水上樂園一次滿足！
+image: /assets/images/cover/beppu_Umi_Jigoku.jpg
 
 categories: [旅遊, 親子]
 tags: [九州, 別府, 親子旅遊, 溫泉, 海地獄, 杉乃井飯店, Aqua Beat]
