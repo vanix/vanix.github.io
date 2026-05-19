@@ -4,7 +4,7 @@ date: 2026-05-17 00:07:59 +0000
 layout: post
 permalink: /2026/05/ai-agent-robot-arm-tutorial.html
 title: 使用OpenClaw / OpenCode 把機器手臂自走車變成一隻狗 — 從舵機 PWM 到正向運動學
-image:/assets/images/cover/AI_Agent_car.png
+image: /assets/images/cover/AI_Agent_car.png
 categories: [教學, AI應用]
 tags: [AI, AI Agent, OpenClaw, OpenCode, 機器手臂, 樹莓派, Raspberry Pi, 舵機控制, PWM, 正向運動學, 教學, 機器狗]
 ---
