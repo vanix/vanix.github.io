@@ -4,6 +4,7 @@ layout: post
 title: 打字就能做影片？用 AI Agent 操控 Remotion 自動產出影片
 date: 2026-04-02
 permalink: /2026/04/ai-agent-remotion-tutorial.html
+image: /assets/images/cover/AI_Agent_remotion.png
 categories: [教學, remotion]
 tags: [AI Agent, Remotion, 自動化, opencode,google antigravity]
 ---
@@ -75,6 +76,13 @@ npx remotion render HomedadOutro out/homedad-outro-v2.mp4
 
 ---
 
+如果要啟動remotion的網頁編輯器，可打開終端機，並在你的remotion資料夾裡輸入
+
+```bash
+npx run dev
+```
+
+---
 ## 結語：未來做影片的全新樣貌
 
 透過這次實戰你會發現，當我們將 **Remotion (影片視覺框架) + AI Agent (大腦與雙手)** 結合起來，未來甚至能夠做到：撈取最新的 API 資料 > AI 自動改寫提醒文案 > 自動渲染出 MP4 > 自動上傳社群媒體的一條龍式影音工廠。
