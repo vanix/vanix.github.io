@@ -4,6 +4,8 @@ layout: post
 title: "樹莓派 5 打造最強 AI 助理：OpenClaw 安裝、Gemini 模型設定與 Telegram 連動全攻略"
 date: 2026-02-03
 permalink: /2026/02/openclaw-on-raspberrypi-googleantigravity.html
+image: /assets/images/cover/AI_Agent_openclaw.png
+
 categories: [教學, openclaw]
 tags: [Clawdbot, AI Agent, Moltbot, Openclaw,  Googleantigravity, 自動化, 樹莓派5, RaspberryPi, 教學]
 
