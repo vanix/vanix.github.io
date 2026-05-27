@@ -4,6 +4,8 @@ layout: post
 title: "安裝ClawdBot/Moltbot/Openclaw在Mac mini上，並且串接Telegram"
 date: 2026-01-30
 permalink: /2026/01/mac-moltbot-telegram-reminder.html
+image: /assets/images/cover/openclaw_macmini.png
+
 categories: [教學, openclaw]
 tags: [mac, openclaw, moltbot, clawdbot, telegram, reminder, 教學]
 ---
