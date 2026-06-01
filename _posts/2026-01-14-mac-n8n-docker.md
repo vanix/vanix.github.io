@@ -102,6 +102,10 @@ http://localhost:5678
 
 > 請自行複製，待會建立憑證會用到
 
+已授權的重新導向 URI，設定如下
+
+- http://localhost:5678/rest/oauth2-credential/callback
+
 ---
 
 **加入測試使用者**
