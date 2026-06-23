@@ -3,7 +3,7 @@ author: 歐巴計概
 date: 2026-06-22 00:07:59 +0000
 layout: post
 permalink: /2026/06/ai-agent-video-editing-palmier-opencode.html
-title: 使用 OpenCode + Palmier Pro - AI 自動剪輯旅遊 Vlog — 從粗剪影片到 Final Cut Pro
+title: 使用 OpenCode + Palmier Pro - AI Agent 自動剪輯旅遊 Vlog — 從粗剪影片到 Final Cut Pro
 image: /assets/images/cover/opencode_palmierpro.png
 categories: [教學, AI應用]
 tags: [AI, AI Agent, OpenCode, Palmier Pro, 影片剪輯, 旅遊Vlog, AI編輯, 自動剪輯, 教學]
@@ -25,7 +25,7 @@ tags: [AI, AI Agent, OpenCode, Palmier Pro, 影片剪輯, 旅遊Vlog, AI編輯, 
 
 這就是 **OpenCode** + **Palmier Pro** 做的事。
 
-- **OpenCode**：一個 AI 編碼代理工具，能理解自然語言指令並執行複雜的多步驟任務。
+- **OpenCode**：一個 AI 編碼代理工具，能理解自然語言指令並執行複雜的多步驟任務。當然你也可以使用其他AI Agent，如：Claude、Codex、Cursor
 - **Palmier Pro**：一個具備完整 API 的影片編輯器，支援時間軸操作、字幕生成、特效添加等專業功能。
 
 兩者結合後，你只需要用中文描述「幫我把這支 Vlog 剪好，加上字幕，移除沉默片段」，AI Agent 就會自動完成。
