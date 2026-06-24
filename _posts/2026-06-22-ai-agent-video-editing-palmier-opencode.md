@@ -9,6 +9,8 @@ categories: [教學, AI應用]
 tags: [AI, AI Agent, OpenCode, Palmier Pro, 影片剪輯, 旅遊Vlog, AI編輯, 自動剪輯, 教學]
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bLcKXRIdxiE" frameborder="0" allowfullscreen></iframe>
+
 最近我用了一套很特別的工具組合來試著剪輯一支日本長崎的旅遊 Vlog —— 整個過程幾乎都是由 AI Agent 自動完成的。從匯入原始影片、建立時間軸、上字幕、修正語音辨識錯誤、移除空白片段，到最後匯出 FCPXML 給 Final Cut Pro 做後續調整，全部透過對話指令搞定。
 
 這篇文章會詳細記錄整個工作流程，以及過程中的技術細節與學到的經驗。
