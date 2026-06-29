@@ -9,7 +9,7 @@ categories: [電玩, Warcraft Rumble]
 tags: [Warcraft Rumble, Onyxia, Clear Guide, Game Tips, Mobile Game]
 ---
 
-I started challenging Onyxia from September 2024, and after clearing it with a low-level Rend Blackhand setup this May, I began experimenting to see if other low-level setups could also defeat Onyxia.
+I started challenging Onyxia from September 2024, and after clearing it with a low-level drakki setup this May, I began experimenting to see if other low-level setups could also defeat Onyxia.
 
 As I kept trying, my levels gradually increased, so I decided to go all out and challenge Onyxia with every leader.
 
@@ -17,7 +17,7 @@ Below are some brief thoughts on the process — hope you can clear it with your
 
 ## 【Recommended Leaders for Average Level Below 26.0】
 
-- Rend Blackhand
+- Drakki
 - Old Murk-Eye
 - Cenarius
 - Ysera
@@ -34,14 +34,14 @@ Below are some brief thoughts on the process — hope you can clear it with your
 
 Through exploration, I found the following strategies effective or interesting:
 
-- Tank + Heal + Auto-Attack: Rend Blackhand, Cenarius, Malfurion.
-- Poison Damage: Kal'gur, Hogger, Anub'arak.
+- Tank + Heal, Auto-Attack build: Drakki, Cenarius, Malfurion.
+- Poison Damage: Hogger, Anub'arak, Charlga.
 - Tank + Spell: Jaina.
-- Tank + Thorns Damage: Ragnaros.
+- Tank + Damage of Reflection: Ragnaros.
 - Mass Swarm DPS: Old Murk-Eye.
 - 1v1 Duel: Bloodmage Thalnos, Cairne Bloodhoof + Darkspear Troll.
-- Easy Tower Cap: Sylvanas.
-- Slight Bug Bomb: Sneed.
+- Easy Tower Cap / Fauy + Bloodlust Build: Sylvanas.
+- Slight Bug Bomb / Level Up telant: Sneed.
 
 Other setups have too low a margin for error at low levels and are not recommended. But through trial and error, even with teams averaging below level 26, there are options beyond Rend. Check out my [YouTube playlist](https://youtube.com/playlist?list=PLN9g1rvyo05rWLIimQZqJwnJ7qpx94hXx&si=eqQijJhETVUq-rV1) for full clear videos and experiments with different leaders.
 
@@ -55,7 +55,7 @@ In my experience, you need at least two minis that can clear whelps on their own
 - **Healer**: Shaman or Priestess. (Use Shaman if you need armor, Priestess if gold is tight)
 - **Home Defense**: Skeleton Party (few setups don't need it).
 - **Whelp Clear**: Witch Doctor or Gryphon Rider or Firehammer or Drake or Troll. (For low levels, I recently like Witch Doctor + Vulture)
-- **Other**: Excavator or Faerie Dragon or spells or other minis you find useful (use Excavator if low on gold, Faerie Dragon for resistance)
+- **Other**: Bandit or Faerie Dragon or spells or other minis you find useful (use Bandit if low on gold, Faerie Dragon for resistance)
 
 ## 【Phased Strategy】
 
@@ -67,9 +67,9 @@ Although each leader's strategy differs, Onyxia's phases (P1, P2, P3) share some
 
 ## 【Clear Video】
 
-Here's the popular Rend Blackhand strategy:
+Here's the popular Drakki strategy:
 
-Onyxia Normal Clear — Rend avg 25.1 & 27.0 Rush
+Onyxia Normal Clear — Drakki avg 25.1 & 27.0 Rush
 
 <iframe width="560" height="315"
         src="https://www.youtube.com/embed/AYa4k6BC0Yc"
