@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音樂營課程：管子的科學與藝術</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Noto+Sans+TC:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        /* 兒童友善與活潑色彩主題 */
+        :root {
+            --bg-gradient: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            --slide-bg: #ffffff;
+            --primary-color: #ff6b6b; /* 熱情粉紅 */
+            --secondary-color: #4ecdc4; /* 活力粉綠 */
+            --accent-color: #ffbe0b; /* 太陽金黃 */
+            --dark-blue: #2f3e46; /* 溫和深色字 */
+            --text-color: #3d4a52;
+            --card-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        * { box-sizing: border-box; }
+        
+        body {
+            background: var(--bg-gradient);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Noto Sans TC', 'Fredoka', sans-serif;
+            overflow: hidden;
+            user-select: none;
+        }
+
+        /* 簡報主容器 */
+        .presentation-wrapper {
+            position: relative;
+            width: 1100px;
+            height: 650px;
+            background: var(--slide-bg);
+            border-radius: 24px;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.15);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* 頂部 LOGO 區 */
+        .header-logo-bar {
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            z-index: 100;
+        }
+
+        .logo-box {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.85);
+            border: 2px solid #e9ecef;
+            padding: 6px 16px;
+            border-radius: 30px;
+            font-size: 13px;
+            font-weight: bold;
+            color: var(--dark-blue);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            height: 40px;
+        }
+
+        .logo-box img {
+            height: 24px;
+            width: auto;
+            margin-right: 8px;
+            border-radius: 4px;
+        }
+
+        .logo-box i {
+            margin-right: 6px;
+            font-size: 16px;
+        }
+
+        .logo-box.organizer {
+            border-color: var(--secondary-color);
+            color: var(--secondary-color);
+        }
+
+        .logo-box.camp {
+            border-color: var(--primary-color);
+            color: var(--primary-color);
+        }
+
+        /* 單個幻燈片樣式 */
+        .slide {
+            display: none;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            padding: 50px 60px;
+            position: relative;
+        }
+
+        .slide.active {
+            display: flex;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.98); }
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        /* 標題與版面樣式 */
+        .slide-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+            border-bottom: 4px dashed #e9ecef;
+            padding-bottom: 15px;
+            width: 65%; /* 確保不會重疊到右上角 LOGO */
+        }
+
+        .slide-icon {
+            font-size: 32px;
+            color: var(--primary-color);
+            margin-right: 15px;
+            background: rgba(255, 107, 107, 0.1);
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+
+        .slide-title {
+            font-size: 34px;
+            font-weight: 900;
+            color: var(--dark-blue);
+            margin: 0;
+        }
+
+        /* 內容區塊佈局 */
+        .slide-content {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+        }
+
+        .full-content {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* 圖文兩欄比例調整 */
+        .text-column {
+            flex: 1.2;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .visual-column {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            min-height: 280px;
+        }
+
+        /* 兒童化字體與卡片 */
+        h3 {
+            font-size: 24px;
+            color: var(--dark-blue);
+            margin: 0 0 10px 0;
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: var(--text-color);
+            margin: 0;
+        }
+
+        .info-card {
+            background: #f8f9fa;
+            border-left: 6px solid var(--secondary-color);
+            padding: 18px;
+            border-radius: 12px;
+            box-shadow: var(--card-shadow);
+        }
+
+        .info-card.accent {
+            border-left-color: var(--accent-color);
+            background: #fffdf5;
+        }
+
+        .step-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .step-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            font-size: 20px;
+            color: var(--text-color);
+            background: #fff;
+            padding: 12px 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+            border: 2px solid #f1f3f5;
+        }
+
+        .step-num {
+            background: var(--primary-color);
+            color: white;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-weight: bold;
+            font-size: 16px;
+            flex-shrink: 0;
+        }
+
+        /* 自製向量插圖樣式 */
+        .svg-illustration {
+            width: 100%;
+            max-width: 360px;
+            height: 300px;
+            background: #f8f9fa;
+            border-radius: 20px;
+            padding: 10px;
+            box-shadow: var(--card-shadow);
+            border: 4px dashed var(--secondary-color);
+        }
+
+        /* 導覽控制器 */
+        .navigation-bar {
+            height: 70px;
+            border-top: 2px solid #f1f3f5;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 40px;
+            background: #ffffff;
+            border-bottom-left-radius: 24px;
+            border-bottom-right-radius: 24px;
+            z-index: 10;
+        }
+
+        .nav-btn {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 10px 24px;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 6px 12px rgba(255, 107, 107, 0.2);
+        }
+
+        .nav-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(255, 107, 107, 0.3);
+            filter: brightness(1.05);
+        }
+
+        .nav-btn:disabled {
+            background: #ced4da;
+            color: #6c757d;
+            box-shadow: none;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .edit-toggle-btn {
+            background: #6c757d;
+            box-shadow: 0 6px 12px rgba(108, 117, 125, 0.2);
+        }
+        .edit-toggle-btn.editing {
+            background: #28a745;
+            box-shadow: 0 6px 12px rgba(40, 167, 69, 0.3);
+        }
+
+        .slide-indicator {
+            font-weight: bold;
+            color: var(--dark-blue);
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+
+        /* 進度條 */
+        .progress-container {
+            width: 100%;
+            height: 6px;
+            background: #e9ecef;
+            position: absolute;
+            bottom: 70px;
+            left: 0;
+        }
+
+        .progress-bar {
+            height: 100%;
+            width: 8.33%; /* 1/12 slides */
+            background: var(--secondary-color);
+            transition: width 0.3s ease;
+        }
+
+        /* 網格系統與特色元件 */
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            width: 100%;
+        }
+
+        .kid-card {
+            background: #fff;
+            border-radius: 16px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: var(--card-shadow);
+            border: 3px solid #f1f3f5;
+            transition: all 0.3s;
+        }
+
+        .kid-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--secondary-color);
+        }
+
+        .kid-card i {
+            font-size: 44px;
+            margin-bottom: 15px;
+        }
+
+        /* 3D 卡片翻轉系統（用於Q&A解答） */
+        .qa-card-container {
+            perspective: 1000px;
+            cursor: pointer;
+            height: 250px;
+        }
+
+        .qa-card {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            border-radius: 16px;
+            box-shadow: var(--card-shadow);
+        }
+
+        .qa-card.flipped {
+            transform: rotateY(180deg);
+        }
+
+        .qa-card-front, .qa-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 16px;
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border: 3px solid #e9ecef;
+        }
+
+        .qa-card-front {
+            background: #ffffff;
+            color: var(--dark-blue);
+        }
+
+        .qa-card-front .qa-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .qa-card-back {
+            background: var(--secondary-color);
+            color: white;
+            transform: rotateY(180deg);
+            border-color: var(--secondary-color);
+        }
+
+        .qa-card-back h3 {
+            color: #ffffff !important;
+        }
+
+        .click-hint {
+            font-size: 12px;
+            color: #adb5bd;
+            margin-top: 15px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        /* 音階對照表 */
+        .scale-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 5px;
+            margin-top: 15px;
+        }
+
+        .scale-table th {
+            background: var(--dark-blue);
+            color: white;
+            padding: 12px;
+            border-radius: 10px;
+            font-size: 18px;
+        }
+
+        .scale-table td {
+            background: #f8f9fa;
+            padding: 12px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            border-radius: 10px;
+            border: 2px solid #e9ecef;
+        }
+
+        /* 歡迎頁裝飾 */
+        .welcome-hero {
+            text-align: center;
+            animation: bounce 2s infinite alternate;
+        }
+
+        @keyframes bounce {
+            from { transform: translateY(0); }
+            to { transform: translateY(-10px); }
+        }
+
+        /* 快速鍵提示 */
+        .shortcut-tips {
+            position: absolute;
+            bottom: 20px;
+            font-size: 12px;
+            color: #adb5bd;
+            text-align: center;
+            width: 100%;
+            pointer-events: none;
+        }
+
+        /* 編輯模式提示框 */
+        .edit-mode-banner {
+            display: none;
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #28a745;
+            color: white;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            z-index: 101;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 0.9; }
+            50% { opacity: 1; transform: translateX(-50%) scale(1.03); }
+            100% { opacity: 0.9; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- 編輯模式頂部橫幅 -->
+<div class="edit-mode-banner" id="editBanner">
+    🔧 編輯模式已開啟：請直接點擊畫面的任何文字進行修改！
+</div>
+
+<div class="presentation-wrapper">
+
+    <!-- 頂部雙 LOGO 區：支援實體圖檔置入，您可將 logo 置於同資料夾並將下方註解打開 -->
+    <div class="header-logo-bar">
+        <!-- 主辦單位 LOGO -->
+        <div class="logo-box camp" title="將同資料夾下的 logo-organizer.png 置入即可更換">
+            <img src="logo-organizer.png" onerror="this.style.display='none'">
+            <span class="editable-logo-text">台灣管風琴協會主辦</span>
+        </div>
+        <!-- 營隊專屬 LOGO -->
+        <div class="logo-box organizer" title="將同資料夾下的 logo-camp.png 置入即可更換">
+            <img src="logo-camp.png" onerror="this.style.display='none'">
+            <span class="editable-logo-text">2026管風琴體驗營</span>
+        </div>
+    </div>
+
+    <!-- SLIDE 1: 封面 -->
+    <div class="slide active" id="slide1">
+        <div class="full-content" style="text-align: center;">
+            <div class="welcome-hero">
+                <span style="font-size: 90px;">🎺</span>
+                <h1 style="font-size: 68px; margin: 15px 0 5px 0; color: var(--primary-color); font-weight: 900;">管出好聲音</h1>
+                <h2 style="font-size: 32px; color: var(--dark-blue); margin-top: 0;">音樂ｘ科學ｘ手作 實驗室</h2>
+            </div>
+            <div style="margin-top: 30px; display: flex; justify-content: center; gap: 15px;">
+                <span class="step-item" style="background: var(--accent-color); color: var(--dark-blue); font-weight: bold; font-size: 20px;">
+                    💡 科學探索
+                </span>
+                <span class="step-item" style="background: var(--secondary-color); color: white; font-weight: bold; font-size: 20px;">
+                    ✂️ 動手作一作
+                </span>
+                <span class="step-item" style="background: var(--primary-color); color: white; font-weight: bold; font-size: 20px;">
+                    🎵 歡樂合奏
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDE 2: 一、管與氣流 -->
+    <div class="slide" id="slide2">
+        <div class="slide-header">
+            <div class="slide-icon"><i class="fa-solid fa-wind"></i></div>
+            <h2 class="slide-title">一、管與氣流：巨型樂器的秘密</h2>
+        </div>
+        <div class="slide-content">
+            <div class="text-column">
+                <div class="info-card">
+                    <h3>什麼是音管 (Pipes)？</h3>
+                    <p>音管是歐洲最古老、最巨大的樂器——<b>「管風琴」</b>發聲的核心寶貝！</p>
+                </div>
+                <div class="info-card accent" style="margin-top: 10px;">
+                    <h3>一管一音的奧秘</h3>
+                    <p>通常<b>每一支音管只能發出一個固定的音高</b>。如果我們想要彈一首美妙的曲子，就需要許許多多長短不同的音管在一起工作！</p>
+                    <p style="font-weight: bold; margin-top: 8px; color: var(--primary-color);">
+                        🔥 驚人事實：一座超大型的管風琴，裡面可能藏著數百到數萬支音管哦！
+                    </p>
+                </div>
+            </div>
+            <div class="visual-column">
+                <!-- 自製管風琴 SVG 插圖 -->
+                <svg class="svg-illustration" viewBox="0 0 100 100">
+                    <!-- 背景裝飾 -->
+                    <rect x="0" y="0" width="100" height="100" fill="#f1faee" rx="10"/>
+                    <!-- 鍵盤底座 -->
+                    <rect x="15" y="75" width="70" height="15" fill="#a8dadc" rx="3"/>
+                    <rect x="20" y="78" width="60" height="8" fill="#ffffff" rx="1"/>
+                    <!-- 管風琴管子 -->
+                    <rect x="22" y="55" width="6" height="20" fill="#e63946" rx="2"/>
+                    <rect x="30" y="45" width="6" height="30" fill="#f1faee" stroke="#e63946" stroke-width="2" rx="2"/>
+                    <rect x="38" y="30" width="6" height="45" fill="#4ecdc4" rx="2"/>
+                    <rect x="46" y="20" width="8" height="55" fill="#ffbe0b" rx="2"/>
+                    <rect x="56" y="30" width="6" height="45" fill="#4ecdc4" rx="2"/>
+                    <rect x="64" y="45" width="6" height="30" fill="#f1faee" stroke="#e63946" stroke-width="2" rx="2"/>
+                    <rect x="72" y="55" width="6" height="20" fill="#e63946" rx="2"/>
+                    <!-- 氣流波動符號 -->
+                    <path d="M 15 25 Q 30 15, 45 25 T 75 25" fill="none" stroke="#4ecdc4" stroke-width="2" stroke-dasharray="3"/>
+                    <path d="M 25 15 Q 45 5, 65 15" fill="none" stroke="#ffbe0b" stroke-width="2" stroke-dasharray="3"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDE 3: 音高與長度的秘密 -->
+    <div class="slide" id="slide3">
+        <div class="slide-header">
+            <div class="slide-icon"><i class="fa-solid fa-arrows-left-right"></i></div>
+            <h2 class="slide-title">管子的長短與音高的悄悄話</h2>
+        </div>
+        <div class="slide-content">
+            <div class="text-column">
+                <div class="info-card" style="border-left-color: #ff6b6b;">
+                    <h3>📐 管子越長 ➔ 聲音越低沉！</h3>
+                    <p>長管子裡住著「高大」的空氣，振動得慢悠悠的，發出好聽的低音 🐘 (像大象走步)。</p>
+                </div>
+                <div class="info-card" style="border-left-color: #4ecdc4; margin-top: 15px;">
+                    <h3>📐 管子越短 ➔ 聲音越清脆！</h3>
+                    <p>短管子裡住著「嬌小」的空氣，振動得非常快速，發出可愛的高音 🐥 (像小雞唱歌)。</p>
+                </div>
+            </div>
+            <div class="visual-column">
+                <!-- 自製空氣波形圖 -->
+                <svg class="svg-illustration" viewBox="0 0 100 100">
+                    <rect x="0" y="0" width="100" height="100" fill="#f8f9fa" rx="10"/>
+                    <!-- 長管與慢波 -->
+                    <rect x="15" y="15" width="15" height="70" fill="#e9ecef" stroke="#ced4da" stroke-width="2" rx="5"/>
+                    <path d="M 22.5 15 Q 12 35, 22.5 50 T 22.5 85" fill="none" stroke="#ff6b6b" stroke-width="3"/>
+                    <text x="22.5" y="93" font-size="6" font-weight="bold" fill="#ff6b6b" text-anchor="middle">長管 ➔ 低音</text>
+                    
+                    <!-- 短管與快波 -->
+                    <rect x="65" y="45" width="15" height="40" fill="#e9ecef" stroke="#ced4da" stroke-width="2" rx="5"/>
+                    <path d="M 72.5 45 Q 67 52, 72.5 58 T 72.5 70 T 72.5 82 T 72.5 85" fill="none" stroke="#4ecdc4" stroke-width="3"/>
+                    <text x="72.5" y="93" font-size="6" font-weight="bold" fill="#4ecdc4" text-anchor="middle">短管 ➔ 高音</text>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDE 4: 動手作一作：吸管排笛材料 -->
+    <div class="slide" id="slide4">
+        <div class="slide-header">
+            <div class="slide-icon"><i class="fa-solid fa-scissors"></i></div>
+            <h2 class="slide-title">二、動手作一作：吸管排笛材料清單</h2>
+        </div>
+        <div class="slide-content">
+            <div class="grid-3">
+                <div class="kid-card">
+                    <i class="fa-solid fa-lines-leaning" style="color: #4ecdc4;"></i>
+                    <h3>1. 粗吸管</h3>
+                    <p>珍珠奶茶吸管，老師已經幫大家量好尺寸，並畫上<b>紅色剪裁線</b>囉！</p>
+                </div>
+                <div class="kid-card">
+                    <i class="fa-solid fa-scissors" style="color: #ff6b6b;"></i>
+                    <h3>2. 剪刀與膠帶</h3>
+                    <p>安全剪刀用來沿紅線剪開，神奇寬膠帶用來把吸管大集合固定！</p>
+                </div>
+                <div class="kid-card">
+                    <i class="fa-solid fa-tape" style="color: #ffbe0b;"></i>
+                    <h3>3. 摺疊密封法</h3>
+                    <p>不需黏土，這次我們將底端「折一下」再貼緊，就能變出超響亮的聲音！</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDE 5: 動手作一作：第一步 -->
+    <div class="slide" id="slide5">
+        <div class="slide-header">
+            <div class="slide-icon"><i class="fa-solid fa-cut"></i></div>
+            <h2 class="slide-title">動手作一作：剪裁與摺角封底</h2>
+        </div>
+        <div class="slide-content">
+            <div class="text-column">
+                <ul class="step-list">
+                    <li class="step-item">
+                        <span class="step-num">1</span>
+                        <div>
+                            <strong>細心剪裁：</strong>
+                            <p>拿起畫有<b>紅色剪裁線</b>的吸管，用剪刀整齊地沿著紅色標記剪下。</p>
+                        </div>
+                    </li>
+                    <li class="step-item">
+                        <span class="step-num">2</span>
+                        <div>
+                            <strong>底部摺起：</strong>
+                            <p>將每根吸管的<b>其中一端往上摺起約 0.5 公分</b>。</p>
+                        </div>
+                    </li>
+                    <li class="step-item">
+                        <span class="step-num">3</span>
+                        <div>
+                            <strong>密封包緊：</strong>
+                            <p>用一小段透明膠帶，將摺起的地方纏繞貼死。<b>不能漏氣喔！</b></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="visual-column">
+                <!-- 自製手作步驟 SVG：紅色記號線 -->
+                <svg class="svg-illustration" viewBox="0 0 100 100">
+                    <rect x="0" y="0" width="100" height="100" fill="#fff9db" rx="10"/>
+                    <!-- 剪裁剪刀與紅色剪線標示 -->
+                    <rect x="25" y="15" width="10" height="50" fill="#4ecdc4" rx="1"/>
+                    <!-- 紅色剪裁記號線 -->
+                    <line x1="20" y1="35" x2="40" y2="35" stroke="#ff6b6b" stroke-width="2.5" stroke-linecap="round"/>
+                    <text x="45" y="38" font-size="5.5" font-weight="bold" fill="#ff6b6b">紅色標記線</text>
+
+                    <!-- 吸管摺疊示意圖 -->
+                    <rect x="65" y="15" width="10" height="40" fill="#4ecdc4" rx="1"/>
+                    <rect x="65" y="55" width="10" height="6" fill="#ff6b6b" rx="1"/>
+                    <path d="M 70 51 L 70 60" stroke="#2f3e46" stroke-width="1.5" marker-end="url(#arrow)" fill="none"/>
+                    <rect x="61" y="52" width="18" height="10" fill="rgba(255,190,11,0.5)" stroke="#ffbe0b" stroke-width="1.2" rx="1" stroke-dasharray="1.5"/>
+                    <text x="50" y="85" font-size="6" font-weight="bold" fill="#2f3e46" text-anchor="middle">沿紅色標記剪好後摺起貼牢</text>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDE 6: 吹奏技巧 (原Slide 7) -->
+    <div class="slide" id="slide6">
+        <div class="slide-header">
+            <div class="slide-icon"><i class="fa-solid fa-music"></i></div>
+            <h2 class="slide-title">吹奏祕訣：讓排笛唱歌吧！</h2>
+        </div>
+        <div class="slide-content">
+            <div class="grid-3">
+                <div class="kid-card">
+                    <span style="font-size: 50px;">😗</span>
+                    <h3 style="margin-top: 15px;">1. 吹氣嘴型</h3>
+                    <p style="font-size: 16px;">嘴唇微微嘟起，像吹熱湯一樣，發出輕輕的 "Poo" 音。</p>
+                </div>
+                <div class="kid-card">
+                    <span style="font-size: 50px;">📐</span>
+                    <h3 style="margin-top: 15px;">2. 斜角 45 度</h3>
+                    <p style="font-size: 16px;">不要直往吸管裡灌氣！要把風吹向<b>管口內壁的邊緣</b>。</p>
+                </div>
+                <div class="kid-card">
+                    <span style="font-size: 50px;">🌬️</span>
+                    <h3 style="margin-top: 15px;">3. 氣流強弱</h3>
+                    <p style="font-size: 16px;">長管需要溫柔的暖氣流，短管需要快速又集中的冷氣流！</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDE 7: 音階與長度 (原Slide 8 - 調整燈號與合奏內容) -->
+    <div class="slide" id="slide7">
+        <div class="slide-header">
+            <div class="slide-icon"><i class="fa-solid fa-list-ol"></i></div>
+            <h2 class="slide-title">小小演奏家：認識你的音符長度</h2>
+        </div>
+        <div class="slide-content" style="flex-direction: column; justify-content: center;">
+            <table class="scale-table">
+                <thead>
+                    <tr>
+                        <th>唱名 (Do Re Mi)</th>
+                        <th>Do (1)</th>
+                        <th>Re (2)</th>
+                        <th>Mi (3)</th>
+                        <th>Fa (4)</th>
+                        <th>Sol (5)</th>
+                        <th>La (6)</th>
+                        <th>Ti (7)</th>
+                        <th>Do' (i)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>吸管長度 (cm)</td>
+                        <td>16.0</td>
+                        <td>14.2</td>
+                        <td>12.6</td>
+                        <td>12.0</td>
+                        <td>10.7</td>
+                        <td>9.5</td>
+                        <td>8.4</td>
+                        <td>8.0</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div class="info-card accent" style="width: 100%; margin-top: 25px; text-align: left; padding: 15px 30px;">
+                <div style="margin-bottom: 12px;">
+                    <span style="font-size: 20px; font-weight: bold; color: var(--dark-blue);"><i class="fa-solid fa-star"></i> 合奏首部曲《小星星》：</span>
+                    <span style="font-size: 24px; color: var(--primary-color); font-family: 'Fredoka', sans-serif; font-weight: bold; margin-left: 10px;">
+                        1 1 5 5 | 6 6 5 - | 4 4 3 3 | 2 2 1 -
+                    </span>
+                </div>
+                <div>
+                    <span style="font-size: 20px; font-weight: bold; color: var(--dark-blue);"><i class="fa-solid fa-music"></i> 經典二部曲《快樂頌》：</span>
+                    <span style="font-size: 24px; color: var(--secondary-color); font-family: 'Fredoka', sans-serif; font-weight: bold; margin-left: 10px;">
+                        3 3 4 5 | 5 4 3 2 | 1 1 2 3 | 3 2 2 -
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDE 8: 排排站與固定 (原Slide 6 - 移至此處並改為底端對齊) -->
+    <div class="slide" id="slide8">
+        <div class="slide-header">
+            <div class="slide-icon"><i class="fa-solid fa-layer-group"></i></div>
+            <h2 class="slide-title">動手作一作：排排站與固定</h2>
+        </div>
+        <div class="slide-content">
+            <div class="text-column">
+                <ul class="step-list">
+                    <li class="step-item">
+                        <span class="step-num">1</span>
+                        <div>
+                            <strong>底端對齊：</strong>
+                            <p>把<b>摺好的那一端（封口處）</b>對齊在同一條水平線上。</p>
+                        </div>
+                    </li>
+                    <li class="step-item">
+                        <span class="step-num">2</span>
+                        <div>
+                            <strong>從長到短排列：</strong>
+                            <p>依序由最長到最短，從左向右整齊排好。</p>
+                        </div>
+                    </li>
+                    <li class="step-item">
+                        <span class="step-num">3</span>
+                        <div>
+                            <strong>腰帶固定：</strong>
+                            <p>用寬膠帶橫向把所有吸管牢牢纏繞兩圈。大功告成！</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="visual-column">
+                <!-- 修改為底端對齊的向量 SVG -->
+                <svg class="svg-illustration" viewBox="0 0 100 100">
+                    <rect x="0" y="0" width="100" height="100" fill="#e8f0fe" rx="10"/>
+                    
+                    <!-- 8 根吸管 (頂部參差不齊，底端對齊在 y=70) -->
+                    <rect x="15" y="20" width="6" height="50" fill="#ff6b6b" rx="1"/>
+                    <rect x="24" y="25" width="6" height="45" fill="#ffbe0b" rx="1"/>
+                    <rect x="33" y="29" width="6" height="41" fill="#4ecdc4" rx="1"/>
+                    <rect x="42" y="32" width="6" height="38" fill="#1d3557" rx="1"/>
+                    <rect x="51" y="36" width="6" height="34" fill="#a8dadc" rx="1"/>
+                    <rect x="60" y="39" width="6" height="31" fill="#457b9d" rx="1"/>
+                    <rect x="69" y="43" width="6" height="27" fill="#e63946" rx="1"/>
+                    <rect x="78" y="46" width="6" height="24" fill="#2a9d8f" rx="1"/>
+
+                    <!-- 對齊的底線 (移至下方 y=70) -->
+                    <line x1="10" y1="70" x2="90" y2="70" stroke="#ff6b6b" stroke-width="2" stroke-dasharray="3"/>
+                    
+                    <!-- 橫向膠帶 -->
+                    <rect x="10" y="42" width="80" height="12" fill="rgba(255,255,255,0.7)" stroke="#6c757d" stroke-width="1.5" rx="3"/>
+                    <text x="50" y="50" font-size="6" font-weight="bold" fill="#2f3e46" text-anchor="middle">用寬膠帶捆兩圈</text>
+                    <text x="50" y="78" font-size="6" font-weight="bold" fill="#ff6b6b" text-anchor="middle">▲ 摺口底端對齊線 ▲</text>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDE 9: 進階挑戰：水管氣球笛 -->
+    <div class="slide" id="slide9">
+        <div class="slide-header">
+            <div class="slide-icon"><i class="fa-solid fa-rocket"></i></div>
+            <h2 class="slide-title">三、進階挑戰：神奇水管氣球笛！</h2>
+        </div>
+        <div class="slide-content">
+            <div class="text-column">
+                <div class="info-card">
+                    <h3>什麼是水管氣球笛？</h3>
+                    <p>利用一截粗 PVC 水管和一個乳膠氣球，做出一個能發出<b>「超震撼重低音」</b>的膜鳴樂器！</p>
+                </div>
+                <div class="info-card accent" style="margin-top: 15px;">
+                    <h3>🎉 製作超簡單：</h3>
+                    <p>1. 把氣球從中間剪開，留下上半部橡皮膜。</p>
+                    <p>2. 把橡皮膜<b>緊緊地繃在水管一端</b>，用膠帶黏死！</p>
+                    <p>3. 吹奏秘訣：嘴巴對準橡皮膜與水管交界的縫隙吹氣！</p>
+                </div>
+            </div>
+            <div class="visual-column">
+                <!-- 自製氣球水管笛 SVG -->
+                <svg class="svg-illustration" viewBox="0 0 100 100">
+                    <rect x="0" y="0" width="100" height="100" fill="#f4f4f9" rx="10"/>
+                    <!-- 水管 -->
+                    <rect x="40" y="35" width="20" height="50" fill="#ced4da" stroke="#adb5bd" stroke-width="2" rx="2"/>
+                    <!-- 氣球膜 -->
+                    <path d="M 38 35 Q 50 25, 62 35" fill="none" stroke="#ff6b6b" stroke-width="4" stroke-linecap="round"/>
+                    <path d="M 38 35 Q 50 38, 62 35" fill="none" stroke="#ff6b6b" stroke-width="2"/>
+                    <!-- 固定膠帶 -->
+                    <rect x="36" y="38" width="28" height="8" fill="rgba(78,205,196,0.8)" rx="1"/>
+                    <!-- 吹氣箭頭 -->
+                    <path d="M 28 25 Q 38 25, 42 32" fill="none" stroke="#ffbe0b" stroke-width="3" stroke-dasharray="2" marker-end="url(#arrow)"/>
+                    <text x="50" y="93" font-size="6" font-weight="bold" fill="#2f3e46" text-anchor="middle">對著氣球皮與水管縫隙吹氣</text>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDE 10: 氣球膜的震動與共鳴 -->
+    <div class="slide" id="slide10">
+        <div class="slide-header">
+            <div class="slide-icon"><i class="fa-solid fa-drum"></i></div>
+            <h2 class="slide-title">氣球膜與空氣大作戰</h2>
+        </div>
+        <div class="slide-content">
+            <div class="text-column">
+                <div class="info-card">
+                    <h3>📢 1. 膜鳴樂器的原理</h3>
+                    <p>氣球皮就像我們的「聲帶」。當我們吹氣時，氣流會衝開氣球皮，讓它開始<b>每秒幾百次地快速拍打振動</b>！</p>
+                </div>
+                <div class="info-card accent" style="margin-top: 15px;">
+                    <h3>🔧 2. 控制聲音的高低</h3>
+                    <p>當我們把氣球膜<b>拉得越緊（張力大）</b>，它振動得就越快，聲音聽起來就會變尖（高音）哦！</p>
+                </div>
+            </div>
+            <div class="visual-column">
+                <div class="kid-card" style="width: 100%; border-color: var(--primary-color);">
+                    <i class="fa-solid fa-waveform-path" style="color: var(--primary-color); font-size: 50px;"></i>
+                    <h3 style="margin-top: 10px;">水管是天然大喇叭</h3>
+                    <p style="font-size: 16px;">快速抖動的氣球膜把聲音送進長長的水管，水管將低頻振動放大，就變成了像「小喇叭」一樣震撼的重低音！</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDE 11: 創意大合奏 -->
+    <div class="slide" id="slide11">
+        <div class="slide-header">
+            <div class="slide-icon"><i class="fa-solid fa-people-group"></i></div>
+            <h2 class="slide-title">快樂大合奏：排笛 × 水管低音炮</h2>
+        </div>
+        <div class="full-content" style="text-align: center;">
+            <div style="font-size: 80px; margin-bottom: 20px;">🎶🥳🎻</div>
+            <div style="display: flex; justify-content: center; gap: 30px; margin-bottom: 30px;">
+                <div class="kid-card" style="background: #fff5f5; border-color: var(--primary-color); width: 250px;">
+                    <h3 style="color: var(--primary-color);">🎼 排笛旋律組</h3>
+                    <p>負責吹奏主旋律：<br><b>《小星星》或《快樂頌》</b></p>
+                </div>
+                <div class="kid-card" style="background: #e6fffa; border-color: var(--secondary-color); width: 250px;">
+                    <h3 style="color: var(--secondary-color);">🥁 水管伴奏組</h3>
+                    <p>負責在每小節第一拍：<br><b>BOOM！ ──</b> 穩定節奏</p>
+                </div>
+            </div>
+            <p style="font-size: 22px; font-weight: bold; color: var(--dark-blue);">
+                大家準備好了嗎？跟著老師的拍子，管風琴體驗營大合奏，開始！
+            </p>
+        </div>
+    </div>
+
+    <!-- SLIDE 12: Q&A 互動答題卡 -->
+    <div class="slide" id="slide12">
+        <div class="slide-header">
+            <div class="slide-icon"><i class="fa-solid fa-comments"></i></div>
+            <h2 class="slide-title">今天我們學到了什麼？</h2>
+        </div>
+        <div class="slide-content">
+            <div class="grid-3" style="grid-template-columns: repeat(4, 1fr); align-items: stretch;">
+                
+                <!-- 卡片一 -->
+                <div class="qa-card-container" onclick="flipCard(this)">
+                    <div class="qa-card">
+                        <!-- 正面：問題 -->
+                        <div class="qa-card-front">
+                            <span class="qa-icon">🤔</span>
+                            <h3>問題一</h3>
+                            <p style="font-size: 15px;">音管的長度越長，聲音就會變得越高還低？ 為什麼？</p>
+                            <span class="click-hint">👉 點擊翻看答案</span>
+                        </div>
+                        <!-- 反面：答案 -->
+                        <div class="qa-card-back">
+                            <h3 style="font-size: 20px;"><i class="fa-solid fa-lightbulb"></i> 答案一</h3>
+                            <p style="font-size: 15px; line-height: 1.5; text-align: left;">
+                                管子越長，裡面的空氣柱也越長，空氣振動速度就變慢（頻率低），發出的聲音就越低沉哦！
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 卡片二 -->
+                <div class="qa-card-container" onclick="flipCard(this)">
+                    <div class="qa-card">
+                        <!-- 正面：問題 -->
+                        <div class="qa-card-front">
+                            <span class="qa-icon">🎈</span>
+                            <h3>問題二</h3>
+                            <p style="font-size: 15px;">摺疊封底的膠帶如果沒貼好，漏氣會怎樣？</p>
+                            <span class="click-hint">👉 點擊翻看答案</span>
+                        </div>
+                        <!-- 反面：答案 -->
+                        <div class="qa-card-back" style="background-color: var(--primary-color); border-color: var(--primary-color);">
+                            <h3 style="font-size: 20px;"><i class="fa-solid fa-triangle-exclamation"></i> 答案二</h3>
+                            <p style="font-size: 15px; line-height: 1.5; text-align: left;">
+                                如果漏氣了，管子裡的空氣就無法好好反射形成稳定的「共振波」，聲音就會變得很小，或者吹不出聲音！
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 卡片三 -->
+                <div class="qa-card-container" onclick="flipCard(this)">
+                    <div class="qa-card">
+                        <!-- 正面：問題 -->
+                        <div class="qa-card-front">
+                            <span class="qa-icon">🧐</span>
+                            <h3>問題三</h3>
+                            <p style="font-size: 15px;">要把水管氣球笛聲音變尖，氣球膜應該拉緊還是放鬆？</p>
+                            <span class="click-hint">👉 點擊翻看答案</span>
+                        </div>
+                        <!-- 反面：答案 -->
+                        <div class="qa-card-back" style="background-color: var(--accent-color); border-color: var(--accent-color); color: var(--dark-blue);">
+                            <h3 style="font-size: 20px; color: var(--dark-blue) !important;"><i class="fa-solid fa-award"></i> 答案三</h3>
+                            <p style="font-size: 15px; line-height: 1.5; text-align: left; color: var(--dark-blue);">
+                                應該要<b>「拉緊」</b>！氣球膜拉得越緊，它的張力就越大，振動速度就越快（頻率變高），聲音聽起來就會變尖（高音）！
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 卡片四 -->
+                <div class="qa-card-container" onclick="flipCard(this)">
+                    <div class="qa-card">
+                        <!-- 正面：問題 -->
+                        <div class="qa-card-front">
+                            <span class="qa-icon">🔬</span>
+                            <h3>問題四</h3>
+                            <p style="font-size: 15px;">氣球皮可以換成其他的材料也能發出聲音嗎？</p>
+                            <span class="click-hint">👉 點擊翻看答案</span>
+                        </div>
+                        <!-- 反面：答案 -->
+                        <div class="qa-card-back" style="background-color: var(--secondary-color); border-color: var(--secondary-color);">
+                            <h3 style="font-size: 20px;"><i class="fa-solid fa-lightbulb"></i> 答案四</h3>
+                            <p style="font-size: 15px; line-height: 1.5; text-align: left;">
+                                任何<b>「輕薄」</b>且<b>「具備彈性或足夠韌性」</b>的片狀材料都能讓聲波產生共振並發出聲音。<br><br>
+                                例如：膠帶、保鮮膜、塑膠袋。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 進度條與導航列 -->
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <div class="navigation-bar">
+        <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)" disabled>
+            <i class="fa-solid fa-arrow-left"></i> 上一頁
+        </button>
+        <div class="slide-indicator" id="slideIndicator">1 / 12</div>
+        <div style="display: flex; gap: 10px;">
+            <!-- 免費隨時修改編輯模式切換按鈕 -->
+            <button class="nav-btn edit-toggle-btn" id="editToggleBtn" onclick="toggleEditMode()">
+                <i class="fa-solid fa-wrench"></i> 進入編輯模式
+            </button>
+            <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)">
+                下一頁 <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+
+</div>
+
+<!-- 快速鍵輔助提示 -->
+<div class="shortcut-tips">
+    提示：可以使用鍵盤 <b>左鍵 (←)</b> 或 <b>右鍵 (→)</b> 切換投影片 | 點擊右下角「<b>編輯模式</b>」可以直接修改講義上的文字喔！
+</div>
+
+<!-- 箭頭定義 -->
+<svg width="0" height="0">
+    <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#2f3e46"/>
+        </marker>
+    </defs>
+</svg>
+
+<script>
+    let currentSlide = 1;
+    const totalSlides = 12;
+    let isEditMode = false;
+
+    function changeSlide(direction) {
+        // 隱藏當前 Slide
+        document.getElementById(`slide${currentSlide}`).classList.remove('active');
+        
+        // 更新計算
+        currentSlide += direction;
+        if (currentSlide < 1) currentSlide = 1;
+        if (currentSlide > totalSlides) currentSlide = totalSlides;
+        
+        // 顯示新的 Slide
+        document.getElementById(`slide${currentSlide}`).classList.add('active');
+        
+        // 更新導覽控制狀態
+        document.getElementById('prevBtn').disabled = (currentSlide === 1);
+        document.getElementById('nextBtn').disabled = (currentSlide === totalSlides);
+        
+        // 更新頁碼指示器
+        document.getElementById('slideIndicator').innerText = `${currentSlide} / ${totalSlides}`;
+        
+        // 更新進度條
+        const progressPercent = (currentSlide / totalSlides) * 100;
+        document.getElementById('progressBar').style.width = `${progressPercent}%`;
+    }
+
+    // 鍵盤切換投影片
+    document.addEventListener('keydown', function(event) {
+        // 如果目前是在編輯模式打字中，不觸發投影片切換
+        if (document.activeElement.tagName === 'INPUT' || document.activeElement.hasAttribute('contenteditable')) {
+            return;
+        }
+        if (event.key === 'ArrowRight' || event.key === ' ') {
+            if (currentSlide < totalSlides) {
+                changeSlide(1);
+            }
+        } else if (event.key === 'ArrowLeft') {
+            if (currentSlide > 1) {
+                changeSlide(-1);
+            }
+        }
+    });
+
+    // 翻轉卡片函數 (Q&A 專屬)
+    function flipCard(container) {
+        const card = container.querySelector('.qa-card');
+        card.classList.toggle('flipped');
+    }
+
+    // 切換免代碼線上編輯模式
+    function toggleEditMode() {
+        isEditMode = !isEditMode;
+        const editBtn = document.getElementById('editToggleBtn');
+        const editBanner = document.getElementById('editBanner');
+        
+        // 找出簡報中所有可以編輯的文字元素
+        const editableElements = document.querySelectorAll(
+            '.slide h1, .slide h2, .slide h3, .slide p, .slide li, .slide td, .slide th, .slide strong, .editable-logo-text'
+        );
+
+        if (isEditMode) {
+            editBtn.innerHTML = '<i class="fa-solid fa-circle-check"></i> 保存並退出';
+            editBtn.classList.add('editing');
+            editBanner.style.display = 'block';
+            
+            // 啟用編輯
+            editableElements.forEach(el => {
+                el.setAttribute('contenteditable', 'true');
+                el.style.outline = '2px dashed #28a745';
+                el.style.backgroundColor = 'rgba(40,167,69,0.05)';
+            });
+            // 停用簡報中不必要的點擊行為
+            document.body.style.userSelect = 'text';
+        } else {
+            editBtn.innerHTML = '<i class="fa-solid fa-wrench"></i> 進入編輯模式';
+            editBtn.classList.remove('editing');
+            editBanner.style.display = 'none';
+            
+            // 停用編輯
+            editableElements.forEach(el => {
+                el.removeAttribute('contenteditable');
+                el.style.outline = 'none';
+                el.style.backgroundColor = 'transparent';
+            });
+            document.body.style.userSelect = 'none';
+        }
+    }
+</script>
+
+</body>
+</html>
