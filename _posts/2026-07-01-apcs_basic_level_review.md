@@ -48,11 +48,11 @@ for i in range(n):
 你可以根據第一筆資料得知倉庫裡面有幾個箱子，接著便可以使用迴圈，去檢查倉庫裡的每一個箱子，找出誰是最大值，程式範例如下
 
 ```python
-n=int(input())
-c=list(map(int,input().split()))
+c=int(input())
+n=list(map(int,input().split()))
 max=0
 
-for i in range(n):
+for i in range(c):
   if max<n[i]:
     max=n[i]
 
@@ -140,6 +140,20 @@ print(max(n))
 ```python
 for i in n:
   print(i)
+```
+
+[電腦教室題目](http://163.30.43.15/ShowProblem?problemid=a030)改用倉庫迴圈來寫的話，請參考以下範例
+
+```python
+c=int(input())
+n=list(map(int,input().split()))
+max=0
+
+for i in n:
+  if max<i:
+    max=i
+
+print(max)
 ```
 
 ### 溫馨小提醒
