@@ -3,13 +3,13 @@ author: 宅爸
 date: 2026-07-21 00:07:59 +0000
 layout: post
 permalink: /2026/07/shoushan-bot-rag-tutorial.html
-title: RAG 是什麼？用壽山高中選課小助手看懂 AI 客服機器人的大腦
+title: RAG 是什麼？用高中選課小助手看懂 AI 客服機器人的大腦
 
 categories: [教學, AI應用]
 tags: [RAG, 機器學習, AI, 客服機器人, 向量資料庫, Python應用, AI Agent, Opencode]
 ---
 
-# RAG 是什麼？用壽山高中選課小助手看懂 AI 客服機器人的大腦
+# RAG 是什麼？用高中選課小助手看懂 AI 客服機器人的大腦
 
 <iframe src="https://shoushan-bot.onrender.com/" width="100%" height="600" frameborder="0" style="border: 1px solid #ddd; border-radius: 8px; margin-bottom: 20px;"></iframe>
 
@@ -26,7 +26,7 @@ tags: [RAG, 機器學習, AI, 客服機器人, 向量資料庫, Python應用, AI
 
 這位管理員看過全世界的書，幾乎什麼都知道。但他有個毛病：他不會去翻書回答你，而是憑記憶回答。
 
-所以你問他：「壽山高中這個學期的選課時間是什麼時候？」
+所以你問他：「我們學校這個學期的選課時間是什麼時候？」
 
 他可能說：「我記得好像是在 2 月開學的時候，大概是月中吧...」
 
@@ -54,9 +54,9 @@ AI 看著這些參考資料，根據資料內容回答問題。
 
 ---
 
-## 壽山高中選課小助手
+## 高中選課小助手
 
-這是一個真實的開源專案（[GitHub](https://github.com/homedad-vanix/shoushan-bot)），直接在壽山高中上線給學生使用。學生登入後問選課問題，系統會從選課文件中找到相關內容，再由 AI 生成回答。
+這是一個真實的開源專案（[GitHub](https://github.com/homedad-vanix/shoushan-bot)），直接在我們學校上線給學生使用。學生登入後問選課問題，系統會從選課文件中找到相關內容，再由 AI 生成回答。
 
 ### 架構總覽
 
@@ -214,7 +214,7 @@ if score >= DEFAULT_RELEVANCE_THRESHOLD:  # 0.38
 找到相關段落後，把它們跟問題包在一起送給 AI：
 
 ```python
-system_prompt = "你是壽山高中選課小助手..."
+system_prompt = "你是高中選課小助手..."
 prompt = system_prompt + relevant_context + f"\n\n=====\n\n學生的問題：\n{question}"
 ```
 
