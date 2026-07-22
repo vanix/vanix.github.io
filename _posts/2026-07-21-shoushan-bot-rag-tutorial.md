@@ -9,10 +9,7 @@ categories: [教學, AI應用]
 tags: [RAG, 機器學習, AI, 客服機器人, 向量資料庫, Python應用, AI Agent, Opencode]
 ---
 
-# RAG 是什麼？用高中選課小助手看懂 AI 客服機器人的大腦
-
 <iframe src="https://shoushan-bot.onrender.com/" width="100%" height="600" frameborder="0" style="border: 1px solid #ddd; border-radius: 8px; margin-bottom: 20px;"></iframe>
-
 
 這是因為 ChatGPT 這類大型語言模型（LLM）是「通才」，它學過很多東西，但對特定的、最新的事就不一定準確。
 
