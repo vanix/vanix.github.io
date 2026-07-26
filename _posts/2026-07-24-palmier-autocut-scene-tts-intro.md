@@ -15,7 +15,7 @@ tags: [AI, Agent, OpenCode, Palmier Pro, 影片剪輯, 自動化, MCP, TTS, 台�
 
 於是我寫了第二個 Skill — **Palmier AutoCut Scene TTS**（[GitHub 開源](https://github.com/vanix/palmier-autocut-scene-tts)），專攻**場景式剪片**：自動切場景 → 視覺描述 → 寫旁白 → TTS 語音合成 → 組 timeline → 輸出 MP4。
 
-整個過程嘗試使用開源軟體跟模型，目標是不花任何一毛錢就可以剪出成果，不過成品還有改善空間就是了
+整個過程嘗試使用開源軟體跟模型，目標是不花任何一毛錢就可以剪出成果，不過**成品還有改善空間**就是了
 
 > 測試平台是Apple M2，記憶體16GB，AI Agent使用OpenCode，其他系統就得自行測試了
 
@@ -23,8 +23,7 @@ tags: [AI, Agent, OpenCode, Palmier Pro, 影片剪輯, 自動化, MCP, TTS, 台�
 
 ## Demo 影片
 
-下面這支影片就是用這個 Skill 全自動剪輯出來的。從原始素材到最終輸出，全程 AI Agent 自動完成：(成果有點普通就是了)
-
+下面這支影片就是用這個 Skill 全自動剪輯出來的。從原始素材到最終輸出，全程 AI Agent 自動完成：
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WScbSQn-2KU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
