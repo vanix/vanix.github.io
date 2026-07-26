@@ -23,7 +23,8 @@ tags: [AI, Agent, OpenCode, Palmier Pro, 影片剪輯, 自動化, MCP, TTS, 台�
 
 ## Demo 影片
 
-下面這支影片就是用這個 Skill 全自動剪輯出來的。從原始素材到最終輸出，全程 AI Agent 自動完成：
+下面這支影片就是用這個 Skill 全自動剪輯出來的。從原始素材到最終輸出，全程 AI Agent 自動完成：(成果有點普通就是了)
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WScbSQn-2KU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
