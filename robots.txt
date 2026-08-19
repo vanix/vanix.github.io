@@ -1,0 +1,65 @@
+# ==================================================
+# 1. 基礎 SEO：允許傳統搜尋引擎（確保 Google, Bing 正常收錄）
+# ==================================================
+User-agent: *
+Allow: /
+
+# ==================================================
+# 2. 精準放行：允許 AI 搜尋與即時引用爬蟲（送流量給你）
+# ==================================================
+# [OpenAI] 允許 ChatGPT Search 搜尋索引
+User-agent: OAI-SearchBot
+Allow: /
+
+# [OpenAI] 允許使用者在對話中丟你的網址給 ChatGPT 讀取
+User-agent: ChatGPT-User
+Allow: /
+
+# [Anthropic] 允許 Claude Search 搜尋索引
+User-agent: Claude-SearchBot
+Allow: /
+
+# [Anthropic] 允許使用者在對話中丟你的網址給 Claude 讀取
+User-agent: Claude-User
+Allow: /
+
+# [Perplexity] 允許 Perplexity 搜尋索引與引用來源
+User-agent: PerplexityBot
+Allow: /
+
+# ==================================================
+# 3. 嚴格封鎖：AI 模型訓練爬蟲（拒絕給大模型當免費飼料）
+# ==================================================
+# 封鎖 OpenAI (ChatGPT) 的訓練爬蟲
+User-agent: GPTBot
+Disallow: /
+
+# 封鎖 Anthropic (Claude) 的訓練爬蟲
+User-agent: ClaudeBot
+Disallow: /
+
+# 封鎖 Google Gemini 的訓練爬蟲
+User-agent: Google-Extended
+Disallow: /
+
+# 封鎖 Apple AI 的訓練爬蟲
+User-agent: Applebot-Extended
+Disallow: /
+
+# 封鎖各大開源 AI 常用的大型通用語料庫 (Common Crawl)
+User-agent: CCBot
+Disallow: /
+
+# 封鎖 ByteDance (字節跳動) 的 AI 訓練爬蟲
+User-agent: Bytespider
+Disallow: /
+
+# 封鎖其他常見的 AI 抓取器
+User-agent: Diffbot
+Disallow: /
+
+# ==================================================
+# 4. 網站地圖指南（Chirpy 預設會自動產生此檔案）
+# ==================================================
+# 請將下面的網址改為你實際的部落格網址
+Sitemap: https://vanix.github.io/sitemap.xml
