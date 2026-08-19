@@ -3,7 +3,7 @@ author: 宅爸
 date: 2026-07-18 00:07:59 +0000
 layout: post
 permalink: /2026/07/palmier-autocut-skill-intro.html
-title: 自製 Palmier AutoCut Skill — 用 AI Agent 自動剪片，一句話搞定後製！
+title: 自製 Palmier AutoCut Skill — 用 AI Agent 自動剪片，一句話搞定粗剪與字幕！
 
 categories: [教學, AI應用]
 tags: [AI, Agent, OpenCode, Palmier Pro, 影片剪輯, 自動化, MCP, Whisper, 字幕, 後製]
@@ -11,7 +11,7 @@ tags: [AI, Agent, OpenCode, Palmier Pro, 影片剪輯, 自動化, MCP, Whisper, 
 
 你有沒有遇過這種情況：拍了一堆素材，想到要剪輯就頭痛？從素材整理、粗剪、上字幕、配樂到輸出，一套流程走下來動輒幾小時，甚至一整天。
 
-為了解決這個問題，宅爸我寫了一個 OpenCode Skill — **Palmier AutoCut**（[GitHub 開源](https://github.com/vanix/palmier-autocut-skill)），讓 AI Agent 透過 [Palmier Pro MCP](https://palmier.pro) 自動執行完整後製流程。
+為了解決這個問題，我寫了一個 OpenCode Skill — **Palmier AutoCut**（[GitHub 開源](https://github.com/vanix/palmier-autocut-skill)），讓 AI Agent 透過 [Palmier Pro MCP](https://palmier.pro) 自動執行完整後製流程。
 
 你只需要說一句「**幫我剪片**」，剩下的交給 AI。
 
