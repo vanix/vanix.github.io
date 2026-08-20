@@ -9,11 +9,30 @@ categories: [教學, AI應用]
 tags: [AI, Agent, OpenCode, Palmier Pro, 影片剪輯, 自動化, MCP, Whisper, 字幕, 後製]
 ---
 
-你有沒有遇過這種情況：拍了一堆素材，想到要剪輯就頭痛？從素材整理、粗剪、上字幕、配樂到輸出，一套流程走下來動輒幾小時，甚至一整天。
+## 文章摘要
 
-為了解決這個問題，我寫了一個 OpenCode Skill — **Palmier AutoCut**（[GitHub 開源](https://github.com/vanix/palmier-autocut-skill)），讓 AI Agent 透過 [Palmier Pro MCP](https://palmier.pro) 自動執行完整後製流程。
+- 介紹宅爸做的免費剪片SKILL
+- SKILL名稱：Palmier AutoCut 
+- AI Agent軟體：OpenCode
+- 影片編輯軟體：Palmier Pro
+- 語音轉錄軟體：Whisper 或 mlx-whisper
+- 成本花費：0元
+
+---
+
+宅爸2025年暑假帶小朋友去旅遊，想要剪親子旅遊影上傳Youtuber分享，結果拍了一堆影片，從素材整理、粗剪、上字幕、配樂到輸出，一套流程走下來動輒幾小時，甚至一整天，剪完一支影片就懶得繼續剪了。
+
+為了解決這個問題，我寫了一個 AI Agent Skill — **Palmier AutoCut**（[GitHub 開源](https://github.com/vanix/palmier-autocut-skill)），讓 AI Agent 透過 [Palmier Pro MCP](https://palmier.pro) 自動執行完整後製流程。
 
 你只需要說一句「**幫我剪片**」，剩下的交給 AI。
+
+---
+
+我用這個Skill幫我粗剪由布院旅遊影片，我提供42個影片素材，全長45:32
+
+最終剪成37:06的長片，並且分好章節上完字幕，字幕的錯誤率還可以接受，最終粗剪成品如下
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/byfnA3mhK_c?si=SimdlVrrLO0ARIeP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -43,10 +62,6 @@ Palmier AutoCut 涵蓋了影片後製的完整流程，從素材匯入到最終�
 ### 痛點 2：字幕工程尤其麻煩
 
 Palmier Pro 內建的字幕功能（`add_captions`）斷句不自然、時間軸不準。手動調整字幕更是惡夢。這個 Skill 強制使用外部 Whisper 引擎進行轉錄，再透過 Python 腳本除幻覺、修正錯字，產出品質遠勝內建工具。
-
-### 痛點 3：BGM 與 silence removal 的衝突
-
-這是一個實際踩過的坑：如果先放背景音樂再做 `remove_silence`，靜音刪除的 ripple 會把 BGM 切成幾十段碎片。這個 Skill 的 SOP 嚴格規定**先 silence → 後 BGM**，避免這個問題。
 
 ---
 
