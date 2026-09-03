@@ -15,6 +15,68 @@ As I kept trying, my levels gradually increased, so I decided to go all out and 
 
 Below are some brief thoughts on the process — hope you can clear it with your favorite leader.
 
+After clearing Onyxia with every leader, I started a brand new account to challenge it again with an even lower-level approach.
+
+For higher-average-level strategies, please refer to the old article below. The lower-average-level strategies are now updated at the top of this article.
+
+Basically, the core clearing principles are:
+
+1. Have at least two different minis that can clear Whelp Eggs.
+2. AoE damage to deal with Dragons and big clumps of units.
+3. Enough damage to deal with Earth Elementals — otherwise, you'll have to rely on Skeleton Party.
+4. A tank that can hold against the Dragon Guard, or a deck that can quickly remove the Dragon Guard.
+
+## 【Current Successful Leaders with Average Level Below 25.0】
+
+- Old Murk-Eye
+- Sneed
+- Ysera
+- Hogger
+- Jaina
+- Sylvanas
+- Ragnaros
+- Bloodmage Thalnos
+- Malfurion
+- Arthas
+- Thrall
+- Emperor Thaurissan
+- General Drakkisath
+- Cairne Bloodhoof
+
+## 【Strategy Sharing】
+
+The goal of low-average-level play is to discover new strategies — some require a few higher-level minis, while others don't.
+
+Because the average level is so low, the margin for error drops dramatically, and not every deck can clear easily.
+
+However, setups like **Ragnaros**, **Arthas**, and **Thrall** still clear easily even without a high average level.
+
+- Tank + Auto-Attack build
+  - General Drakkisath: high-level General, high-level Shaman
+  - Ragnaros: high-level Molten Giant
+  - Emperor Thaurissan: high-level Molten Hound
+  - Arthas
+  - Thrall
+- Poison + Heal build
+  - Hogger
+- Level Up build
+  - Sneed
+  - Bloodmage Thalnos: high-level Bloodmage
+- Rush / Aggro build
+  - Old Murk-Eye: high-level Dire Wolf
+- Pure Spell DPS build
+  - Jaina: high-level Arcane Blast
+- Frenzy High DPS build
+  - Sylvanas: high-level Troll Mage
+- Global Heal + Magic Resistance build
+  - Malfurion: high-level Huntress
+- 1v1 Duel build
+  - Cairne Bloodhoof: high-level Darkspear Troll, high-level Execute
+
+For detailed clear content, see homedad's Warcraft Rumble [playlist](https://youtube.com/playlist?list=PLN9g1rvyo05rWLIimQZqJwnJ7qpx94hXx&si=oNiu4euFpvJYj8Tm)
+
+It also includes videos of various Molten Core challenges — enjoy!
+
 ## 【Recommended Leaders for Average Level Below 26.0】
 
 - Drakki
