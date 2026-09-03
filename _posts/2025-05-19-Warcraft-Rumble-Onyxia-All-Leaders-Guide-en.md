@@ -9,11 +9,7 @@ categories: [電玩, Warcraft Rumble]
 tags: [Warcraft Rumble, Onyxia, Clear Guide, Game Tips, Mobile Game]
 ---
 
-I started challenging Onyxia from September 2024, and after clearing it with a low-level drakki setup this May, I began experimenting to see if other low-level setups could also defeat Onyxia.
-
-As I kept trying, my levels gradually increased, so I decided to go all out and challenge Onyxia with every leader.
-
-Below are some brief thoughts on the process — hope you can clear it with your favorite leader.
+## Warcraft Rumble Onyxia Guide - including All Leaders Strategy and Low Avg Level Strategy
 
 After clearing Onyxia with every leader, I started a brand new account to challenge it again with an even lower-level approach.
 
@@ -61,13 +57,13 @@ However, setups like **Ragnaros**, **Arthas**, and **Thrall** still clear easily
   - Hogger
 - Level Up build
   - Sneed
-  - Bloodmage Thalnos: high-level Bloodmage
+  - Bloodmage Thalnos: high-level Thalnos
 - Rush / Aggro build
-  - Old Murk-Eye: high-level Dire Wolf
+  - Old Murk-Eye: high-level Wolf
 - Pure Spell DPS build
   - Jaina: high-level Arcane Blast
 - Frenzy High DPS build
-  - Sylvanas: high-level Troll Mage
+  - Sylvanas: high-level Ogre Mage
 - Global Heal + Magic Resistance build
   - Malfurion: high-level Huntress
 - 1v1 Duel build
@@ -76,6 +72,14 @@ However, setups like **Ragnaros**, **Arthas**, and **Thrall** still clear easily
 For detailed clear content, see homedad's Warcraft Rumble [playlist](https://youtube.com/playlist?list=PLN9g1rvyo05rWLIimQZqJwnJ7qpx94hXx&si=oNiu4euFpvJYj8Tm)
 
 It also includes videos of various Molten Core challenges — enjoy!
+
+---
+
+I started challenging Onyxia from September 2024, and after clearing it with a low-level drakki setup this May, I began experimenting to see if other low-level setups could also defeat Onyxia.
+
+As I kept trying, my levels gradually increased, so I decided to go all out and challenge Onyxia with every leader.
+
+Below are some brief thoughts on the process — hope you can clear it with your favorite leader.
 
 ## 【Recommended Leaders for Average Level Below 26.0】
 
