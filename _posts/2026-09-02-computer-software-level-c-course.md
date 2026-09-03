@@ -1,7 +1,7 @@
 ---
 author: 歐巴計概
 layout: post 
-title: 電腦軟體應用丙級到底在考什麼？術科教學影片＋自製免費評分系統
+title: 電腦軟體應用丙級術科到底在考什麼？術科教學影片＋自製免費評分系統
 date: 2026-09-02 
 permalink: /2026/09/computer-software-level-c-course.html
 
