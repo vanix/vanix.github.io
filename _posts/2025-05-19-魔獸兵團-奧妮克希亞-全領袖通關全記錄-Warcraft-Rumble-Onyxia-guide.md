@@ -73,6 +73,17 @@ tags: [魔獸兵團, Warcraft Rumble, 奧妮克希亞, Onyxia, 通關攻略, 遊
 
 其中也包含熔火之心的各種挑戰影片，歡迎收看
 
+## 最低等成功通關的影片：斯尼德牌組 平均等級 23.7
+
+<iframe width="560" height="315"
+        src="https://www.youtube.com/embed/GHlhadOvCjk"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+</iframe>
+
+
 ---
 
 從去年九月開始挑戰奧妮克希亞到今年五月，使用將軍的低等陣容過關後，開始嘗試是否有其他低等陣容也可以打敗奧妮克希亞。
