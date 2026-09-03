@@ -73,6 +73,18 @@ For detailed clear content, see homedad's Warcraft Rumble [playlist](https://you
 
 It also includes videos of various Molten Core challenges — enjoy!
 
+## 【One of Low Avg level Strategy】
+
+Here's my lowest avg level strategy: Sneed avg 23.7
+
+<iframe width="560" height="315"
+        src="https://www.youtube.com/embed/GHlhadOvCjk"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+</iframe>
+
 ---
 
 I started challenging Onyxia from September 2024, and after clearing it with a low-level drakki setup this May, I began experimenting to see if other low-level setups could also defeat Onyxia.
