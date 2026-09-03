@@ -13,7 +13,7 @@ Word很實用，但不知道該從何開始學習，電腦軟體應用丙級就�
 
 這篇文章不只是講證照，先帶你認識「電腦軟體應用丙級」術科到底在考什麼，再介紹我錄製的完整線上課程與自動評分系統，讓你學會基礎又實用的 Word 文書技能。
 
-👉 **宅爸Youtube播放清單**：<https://www.youtube.com/playlist?list=PLN9g1rvyo05rYFCEqocboBP6U8XdOl2w9>
+👉 **宅爸電腦軟體應用丙級 術科教學影片 播放清單**：<https://www.youtube.com/playlist?list=PLN9g1rvyo05rYFCEqocboBP6U8XdOl2w9>
 
 ---
 
