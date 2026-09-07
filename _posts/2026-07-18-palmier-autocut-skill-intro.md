@@ -20,7 +20,7 @@ tags: [AI, Agent, OpenCode, Palmier Pro, 影片剪輯, 自動化, MCP, Whisper, 
 
 ---
 
-宅爸2025年暑假帶小朋友去旅遊，想要剪親子旅遊影上傳Youtuber分享，結果拍了一堆影片，從素材整理、粗剪、上字幕、配樂到輸出，一套流程走下來動輒幾小時，甚至一整天，剪完一支影片就懶得繼續剪了。
+宅爸2025年暑假帶小朋友去旅遊，想要剪親子旅遊影上傳Youtuber分享，結果拍了一堆影片，從素材整理、粗剪、上字幕、配樂到輸出，一套流程走下來動輒幾小時，甚至好幾天，剪完一支影片就懶得繼續剪了。
 
 為了解決這個問題，我寫了一個 AI Agent Skill — **Palmier AutoCut**（[GitHub 開源](https://github.com/vanix/palmier-autocut-skill)），讓 AI Agent 透過 [Palmier Pro MCP](https://palmier.pro) 自動執行完整後製流程。
 
