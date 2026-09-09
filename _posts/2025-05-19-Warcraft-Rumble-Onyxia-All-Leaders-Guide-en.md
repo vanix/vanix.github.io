@@ -9,7 +9,7 @@ categories: [電玩, Warcraft Rumble]
 tags: [Warcraft Rumble, Onyxia, Clear Guide, Game Tips, Mobile Game]
 ---
 
-## Warcraft Rumble Onyxia Guide - including All Leaders Strategy and Low Avg Level Strategy
+## Warcraft Rumble Onyxia Guide - Low Avg Level Strategy
 
 After clearing Onyxia with every leader, I started a brand new account to challenge it again with an even lower-level approach.
 
@@ -18,9 +18,21 @@ For higher-average-level strategies, please refer to the old article below. The 
 Basically, the core clearing principles are:
 
 1. Have at least two different minis that can clear Whelp Eggs.
-2. AoE damage to deal with Dragons and big clumps of units.
-3. Enough damage to deal with Earth Elementals — otherwise, you'll have to rely on Skeleton Party.
-4. A tank that can hold against the Dragon Guard, or a deck that can quickly remove the Dragon Guard.
+2. AoE damage to deal with Drake and big clumps of units.
+3. Enough damage to deal with Earth Elementals at P2 — otherwise, you'll have to rely on Skeleton Party.
+4. A tank that can hold against warders at P3, or a deck that can quickly remove the Dragon Guard.
+
+## 【One of Low Avg level Strategy】
+
+Here's my lowest avg level strategy: Sneed avg 23.7
+
+<iframe width="560" height="315"
+        src="https://www.youtube.com/embed/GHlhadOvCjk"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+</iframe>
 
 ## 【Current Successful Leaders with Average Level Below 25.0】
 
@@ -73,19 +85,9 @@ For detailed clear content, see homedad's Warcraft Rumble [playlist](https://you
 
 It also includes videos of various Molten Core challenges — enjoy!
 
-## 【One of Low Avg level Strategy】
-
-Here's my lowest avg level strategy: Sneed avg 23.7
-
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/GHlhadOvCjk"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
 ---
+
+## Warcraft Rumble Onyxia Guide - All Leaders Strategy
 
 I started challenging Onyxia from September 2024, and after clearing it with a low-level drakki setup this May, I began experimenting to see if other low-level setups could also defeat Onyxia.
 
