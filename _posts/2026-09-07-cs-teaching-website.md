@@ -3,7 +3,7 @@ author: 歐巴計概
 date: 2026-09-07
 layout: post
 permalink: /2026/09/cs-teaching-website.html
-title: 計算機概論也能很有趣！我想要用互動式網頁打造的計概教學網站
+title: 計算機概論也能很有趣！我想用互動式網頁打造計概教學網站
 image: /assets/images/cover/cs-teaching-cover.png
 categories: [教學, 計算機概論]
 tags: [教材, 互動教學, 遊戲化學習, 數位科技, 商管群, 外語群, 專業科目一]
