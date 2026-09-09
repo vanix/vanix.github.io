@@ -3,10 +3,20 @@ author: 宅爸
 date: 2026-07-21 00:07:59 +0000
 layout: post
 permalink: /2026/07/shoushan-bot-rag-tutorial.html
-title: RAG 是什麼？用高中選課小助手看懂 AI 客服機器人的大腦
+title: RAG 是什麼？用高中選課小助手學習 AI 客服機器人的大腦，並架設在Render平台上
 
 categories: [教學, AI應用]
-tags: [RAG, 機器學習, AI, 客服機器人, 向量資料庫, Python應用, AI Agent, Opencode]
+tags: [RAG, 機器學習, AI, 客服機器人, 向量資料庫, Python應用, AI Agent, Opencode, render, PAAS]
+---
+
+本文摘要：0成本使用RAG製作AI客服機器人，並且架設在Render雲端平台上
+- RAG設計
+- 串接opencode
+- 系統跑在本地電腦上
+- 私有網路可用zrog連接系統，但重啟zrog後，網址會隨之改變
+- 另外，上傳iframe網頁至Render平台，iframe使用zrog網址連到系統
+- 使用者只要連到Render平台，就可以順利使用系統
+
 ---
 
 <iframe src="https://shoushan-bot.onrender.com/" width="100%" height="600" frameborder="0" style="border: 1px solid #ddd; border-radius: 8px; margin-bottom: 20px;"></iframe>
