@@ -1,6 +1,6 @@
 ---
 author: 宅爸
-date: 2026-09-13 10:00:00 +0800
+date: 2026-09-14 10:00:00 +0800
 layout: post
 permalink: /2026/09/hotel-points-guide.html
 title: 飯店點數入門教學｜用 Choice Hotels 點數一晚 50 美金住日本，兌換前先看這篇
