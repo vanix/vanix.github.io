@@ -4,7 +4,7 @@ date: 2026-09-14 10:00:00 +0800
 layout: post
 permalink: /2026/09/hotel-points-guide.html
 title: 飯店點數入門教學｜用 Choice Hotels 點數一晚 50 美金住日本，兌換前先看這篇
-description: 飯店點數入門完整教學：從常客計劃的點數貶值、時間成本等真相出發，分享我實際用 Choice Hotels 點數一晚約 50 美金入住日本 Comfort 系列飯店的經驗，並教你點數怎麼收集、兌換前要算的三件事、以及 choicehotels.com 查點數房的實作步驟，2026 年 8 月日本點數調漲前必看。
+description: 飯店點數入門完整教學：從常客計劃的點數貶值、時間成本等真相出發，分享我實際用 Choice Hotels 點數一晚約 50 美金入住日本 Comfort 系列飯店的經驗，並教你點數怎麼收集、兌換前要算的三件事、以及 choicehotels.com 查點數房的實作步驟，可惜的是在 2026 年 8 月日本飯店點數大調漲，入坑前請三思。
 categories: [旅遊, 教學]
 tags: [飯店點數, Choice Hotels, 常客計劃, 點數旅遊, 低成本旅行, 訂房教學, 日本住宿]
 ---
