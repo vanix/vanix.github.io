@@ -130,10 +130,12 @@ A：這是里程最大的風險。航空公司隨時可能調整兌換標準，�
 
 ## 結語
 
-**里程點數不是遙不可及的富人遊戲，它就是「把日常消費變成旅行基金」的方法。** 選對聯盟、挑對計劃、持續累積，再用對規則去兌換，一張又一張的免費機票就是你的回報。
+**里程點數不是遙不可及的商務客專屬計劃，它就是「把日常消費變成旅行基金」的方法。** 選對聯盟、挑對計劃、持續累積，再用對規則去兌換，一張又一張的免費機票就是你的回報。
 
 **相關文章（省錢旅遊系列）**：
 - [Google Flights 查票攻略｜地圖找低價機票、開口票與外站四段票](https://vanix.github.io/2026/09/google-flights-ticket-guide.html)
 - [Google 地圖訂房攻略｜無痕模式比價飯店、親子同住規定](https://vanix.github.io/2026/09/google-map-hotel-guide.html)
 - [飯店點數入門教學｜用 Choice Hotels 點數一晚 50 美金住日本](https://vanix.github.io/2026/09/hotel-points-guide.html)
 - [ANA 里程票教學｜台灣信用卡怎麼選、開票組合與兌換表全攻略](https://vanix.github.io/2026/09/ana-miles-ticket-guide.html)
+
+點數投資一定有風險，里程投資有賺有賠，申購前應詳閱里程計劃書，祝各位找到合適自己的玩法。
