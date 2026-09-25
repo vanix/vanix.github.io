@@ -4,10 +4,14 @@ date: 2025-03-24 04:20:00.026000+00:00
 layout: post
 permalink: /2025/03/turbopi-jupyter-notebook.html
 title: '[TurboPi筆記] 系統燒錄、Jupyter notebook安裝設定、Python 3.9安裝、PyCoal安裝 (持續新增中)'
-
-categories: [教學, TurboPi]
+description: "TurboPi 樹莓派機器人開箱筆記：系統燒錄、WiFi 遠端連線（預設192.168.149.1）、Jupyter notebook 安裝與開機自動啟動、Coral AI 安裝、Python 3.9 切換、PyCoal 安裝。"
+categories: [資訊教學,TurboPi]
 tags: [TurboPi, Raspberry Pi, 系統燒錄, Jupyter Notebook, Python, PyCoal, 安裝教學, 開發環境]
 ---
+💡 TurboPi 樹莓派筆記重點
+
+這篇筆記紀錄 TurboPi（樹莓派四輪 AI 智慧車）的環境設定，包含系統燒錄、Jupyter Notebook 安裝、Python 3.9 與 PyCoal 安裝，會陸續更新。
+
 
 ## [別人的TurboPi筆記](https://github.com/rartino/turbopi)
 
@@ -123,3 +127,23 @@ display(grid, output)
 ## TurboPi 相機雲台篇
 
 ## ``` # TurboPi範例 ```
+
+---
+
+## 常見問題（FAQ）
+
+### TurboPi 要怎麼連上它？
+
+用 Wi-Fi 連 TurboPi 發出的熱點（SSID：TurboPi，密碼 hiwonder），預設 IP 是 192.168.149.1，帳號/密碼為 pi/raspberrypi，內建支援 VNC 與 SSH 遠端連線。
+
+### TurboPi 怎麼安裝 Jupyter notebook？
+
+先 `sudo apt-get install python3-pip && pip3 install jupyter`，執行 `jupyter notebook --generate-config` 與 `jupyter notebook password` 設定密碼，再編輯 ~/.jupyter/jupyter_notebook_config.py 加入 `c.NotebookApp.ip='*'` 允許遠端存取。
+
+### TurboPi 安裝 PyCoal（Coral AI）要注意什麼？
+
+官方映像內建 Python 可能不是 3.9，需用 pyenv install 3.9.18 切換；先安裝 coral-edgetpu 的 apt runtime，執行 AdvancedHobbyLab 提供的 setup 腳本裝 PCIe Edge TPU 驅動，再 `pip install --extra-index-url https://google-coral.github.io/py-repo/ pycoral~=2.0`，並把 numpy 降到 1.19.5。
+
+### SD 卡空間不夠或需要調整分割區？
+
+用 Gparted 調整分割區大小即可。
