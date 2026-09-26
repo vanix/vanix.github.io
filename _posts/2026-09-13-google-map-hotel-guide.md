@@ -5,7 +5,7 @@ layout: post
 permalink: /2026/09/google-map-hotel-guide.html
 title: Google 地圖訂房攻略｜無痕模式比價飯店、親子同住規定與省錢技巧教學
 description: Google 地圖訂房攻略完整教學：教你開無痕模式避免追蹤定價、用地圖一次比價各家 OTA 平台的飯店價格，再加上 VPN、日文訂房網、定時巡價格等省錢技巧，並整理 Hilton、Dormy Inn、Comfort Hotel 的親子同住規定與訂房前檢查清單，自由行找飯店想不住貴、帶小孩安心訂房就看這篇。
-categories: [旅遊, 教學]
+categories: [旅遊, 訂房教學]
 tags: [Google Maps, 飯店比價, 訂房攻略, 無痕模式, 親子住宿, 省錢旅遊, OTA]
 ---
 
