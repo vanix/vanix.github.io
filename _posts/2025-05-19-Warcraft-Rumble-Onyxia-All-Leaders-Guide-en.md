@@ -7,7 +7,12 @@ title: Warcraft Rumble - Onyxia All Leaders Guide
 
 categories: [電玩, Warcraft Rumble]
 tags: [Warcraft Rumble, Onyxia, Clear Guide, Game Tips, Mobile Game]
+description: Low average level Onyxia guide for Warcraft Rumble: every leader's strategy, recommended leaders below level 26, common deck composition, and phased tips for P1/P2/P3.
 ---
+
+💡 Warcraft Rumble Onyxia All-Leaders Guide at a Glance
+
+This guide covers how to beat Onyxia in Warcraft Rumble with every leader, listing the best army comps, unit choices, and fight tactics for the raid.
 
 ## Warcraft Rumble Onyxia Guide - Low Avg Level Strategy
 
@@ -50,6 +55,7 @@ Here's my lowest avg level strategy: Sneed avg 23.7
 - Emperor Thaurissan
 - General Drakkisath
 - Cairne Bloodhoof
+- Charlga Razorflank
 
 ## 【Strategy Sharing】
 
@@ -65,6 +71,7 @@ However, setups like **Ragnaros**, **Arthas**, and **Thrall** still clear easily
   - Emperor Thaurissan: high-level Molten Hound
   - Arthas
   - Thrall
+  - Charlga Razorflank
 - Poison + Heal build
   - Hogger
 - Level Up build
@@ -118,7 +125,7 @@ Through exploration, I found the following strategies effective or interesting:
 - Poison Damage: Hogger, Anub'arak, Charlga.
 - Tank + Spell: Jaina.
 - Tank + Damage of Reflection: Ragnaros.
-- Mass Swarm DPS: Old Murk-Eye.
+- Mass Swarm DPS: Old Murk-Eye, Onu.
 - 1v1 Duel: Bloodmage Thalnos, Cairne Bloodhoof + Darkspear Troll.
 - Easy Tower Cap / Fauy + Bloodlust Build: Sylvanas.
 - Slight Bug Bomb / Level Up telant: Sneed.
@@ -174,3 +181,23 @@ For other leader clear videos or low-level strategies, check out my [YouTube pla
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYu12LZCWQ7FPclBI7ByxkiXAirKCpE0Kf2EPXB8j_ASJlHXaoOE1oXpQkyO1sQwzvm0G3WcxDFGdDpdfPd0_KSX7pR7j63-Q6aRcSHYXl_biiJGG5bMTzWEvFJITKvQIydXs_qV0-dzIYltSuD6r1tGC0MlIajnLW2LaropzjvUBszSJTw2K6MQ/w640-h632/f2p-player-defeats-onyxia-with-20-different-low-level-v0-f22jwwdh25we1.webp)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYu12LZCWQ7FPclBI7ByxkiXAirKCpE0Kf2EPXB8j_ASJlHXaoOE1oXpQkyO1sQwzvm0G3WcxDFGdDpdfPd0_KSX7pR7j63-Q6aRcSHYXl_biiJGG5bMTzWEvFJITKvQIydXs_qV0-dzIYltSuD6r1tGC0MlIajnLW2LaropzjvUBszSJTw2K6MQ/s1080/f2p-player-defeats-onyxia-with-20-different-low-level-v0-f22jwwdh25we1.webp)
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4x1TY2ECxrawEMFzxIOKAHatjP-AFYn53XCy1ntEncndYmzn0tdV4epqwmr-F83BmPfCKmUQP1z99JqeOHdTi-m7rWwl3d6qhL_aVgxS58hifTayoksaptYjHL1SU6yaoS18KtFRZWqxv9NFS0VVYtcYjiJT7rVfNSGDLZLmmmtm8dteKPwdjqA/w640-h640/65D97A82-0810-4117-9AF5-39AC38EE41F9.JPG)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4x1TY2ECxrawEMFzxIOKAHatjP-AFYn53XCy1ntEncndYmzn0tdV4epqwmr-F83BmPfCKmUQP1z99JqeOHdTi-m7rWwl3d6qhL_aVgxS58hifTayoksaptYjHL1SU6yaoS18KtFRZWqxv9NFS0VVYtcYjiJT7rVfNSGDLZLmmmtm8dteKPwdjqA/s2048/65D97A82-0810-4117-9AF5-39AC38EE41F9.JPG)
+
+---
+
+## FAQ
+
+### What is the best way to clear Onyxia with a low average level in Warcraft Rumble?
+
+Follow four core principles: include at least two minis that can clear Whelp Eggs, bring AoE damage for Drakes and big unit clumps, ensure enough damage to deal with Earth Elementals at P2, and bring a tank that can hold against warders at P3 (or a deck that quickly removes the Dragon Guard).
+
+### Which leaders are recommended for clearing Onyxia below average level 26?
+
+Drakki, Old Murk-Eye, Cenarius, Ysera, Anub'arak, Hogger, Sylvanas, Ragnaros, Bloodmage Thalnos, Malfurion, Arthas, and Thrall. At the even stricter below-level-25 mark, setups like Ragnaros, Arthas, and Thrall still clear easily.
+
+### How should I handle Onyxia's phases (P1, P2, P3)?
+
+P1: clear Whelp Eggs reliably — pair Witch Doctor with Vulture if your Witch Doctor isn't high level. P2: hold the front towers and deal with Earth Elementals, with Skeleton Party as an easy counter. P3: high DPS comps push the right side to rush the boss during overtime; lower DPS comps take out the Dragon Guard, reclaim the front towers, then attack from both sides.
+
+### What does a common Onyxia deck composition look like?
+
+Tank: Fire Elemental (Immolation Aura is very useful) or another tank leader. AoE: Pyromancer or Huntress. Healer: Shaman (armor) or Priestess (cheaper). Home defense: Skeleton Party. Whelp clear: Witch Doctor, Gryphon Rider, Firehammer, Drake or Troll. Fill with Bandit, Faerie Dragon, or spells as needed.
