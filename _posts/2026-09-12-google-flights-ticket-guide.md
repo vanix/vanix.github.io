@@ -5,7 +5,7 @@ layout: post
 permalink: /2026/09/google-flights-ticket-guide.html
 title: Google Flights 查票攻略｜地圖找低價機票、開口票與外站四段票省錢技巧教學
 description: Google Flights 查票攻略完整教學：用探索地圖一次比價全球低價航點，用月曆找出最便宜的來回日期，再進階學會開口票（Open-Jaw）與外站出發四段票的查法、步驟與注意事項，自由行省機票錢就看這篇。附手把手操作步驟、Skyscanner 交叉比對與完整 FAQ，新手也能立刻上手、馬上省荷包。
-categories: [旅遊, 教學]
+categories: [旅遊, 查票教學]
 tags: [Google Flights, 機票, 便宜機票, 外站票, 開口票, 自由行, 省錢旅遊, 訂票教學]
 ---
 
