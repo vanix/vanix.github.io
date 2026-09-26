@@ -4,10 +4,15 @@ date: 2025-05-19 15:48:00.012000+00:00
 layout: post
 permalink: /2025/05/warcraft-rumble-onyxia-all-leaders-guide.html
 title: 魔獸兵團 奧妮克希亞 全領袖通關全記錄 Warcraft Rumble Onyxia guide
+description: "魔獸兵團（Warcraft Rumble）奧妮克希亞全領袖通關攻略：平均等級低於25/26，甚至24的低等打法、各領袖策略流派、通用牌組組合與 P1~P3 階段攻略。"
 
 categories: [電玩,魔獸兵團]
 tags: [魔獸兵團, Warcraft Rumble, 奧妮克希亞, Onyxia, 通關攻略, 遊戲心得, 手機遊戲]
 ---
+
+💡 魔獸兵團奧妮克希亞全領袖通關重點
+
+這篇文章整理 Warcraft Rumble（魔獸兵團）奧妮克希亞副本的全領袖通關陣容與打法，附每個領袖的兵種配置與對戰重點。
 
 ## 魔獸兵團 奧妮克希亞 通關策略 - 包含全領袖通關策略 以及 低等通關策略
 
@@ -53,6 +58,7 @@ tags: [魔獸兵團, Warcraft Rumble, 奧妮克希亞, Onyxia, 通關攻略, 遊
   - 索瑞森大帝：高等熔核犬
   - 阿薩斯
   - 索爾
+  - 卡爾加
 - 毒傷回血流
   - 霍格
 - 升級流
@@ -115,7 +121,7 @@ tags: [魔獸兵團, Warcraft Rumble, 奧妮克希亞, Onyxia, 通關攻略, 遊
 - 毒傷流：卡爾加、霍格、阿努巴拉克。
 - 坦克+法術流：珍娜。
 - 坦克+反彈傷害：拉格納羅斯。
-- 爆兵輸出流：老瞎眼。
+- 爆兵輸出流：老瞎眼、安努。
 - 單挑流：血法師、凱恩血蹄+暗矛食人妖。
 - 輕鬆拿塔流：希瓦納斯。
 - 微BUG炸彈流：斯尼德。
@@ -169,3 +175,22 @@ tags: [魔獸兵團, Warcraft Rumble, 奧妮克希亞, Onyxia, 通關攻略, 遊
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4x1TY2ECxrawEMFzxIOKAHatjP-AFYn53XCy1ntEncndYmzn0tdV4epqwmr-F83BmPfCKmUQP1z99JqeOHdTi-m7rWwl3d6qhL_aVgxS58hifTayoksaptYjHL1SU6yaoS18KtFRZWqxv9NFS0VVYtcYjiJT7rVfNSGDLZLmmmtm8dteKPwdjqA/w640-h640/65D97A82-0810-4117-9AF5-39AC38EE41F9.JPG)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4x1TY2ECxrawEMFzxIOKAHatjP-AFYn53XCy1ntEncndYmzn0tdV4epqwmr-F83BmPfCKmUQP1z99JqeOHdTi-m7rWwl3d6qhL_aVgxS58hifTayoksaptYjHL1SU6yaoS18KtFRZWqxv9NFS0VVYtcYjiJT7rVfNSGDLZLmmmtm8dteKPwdjqA/s2048/65D97A82-0810-4117-9AF5-39AC38EE41F9.JPG)
 
+---
+
+## 常見問題（FAQ）
+
+### 魔獸兵團打奧妮克希亞的基本牌組原則？
+
+至少要有兩種能解龍蛋的小兵、範圍傷害解飛龍、足以解土元素的傷害、和能扛住龍人守衛的坦克；通用組合：坦克火元素、範圍傷害火占師或獵手、補師薩滿或祭司、守家骷髏戰隊、清小龍巫醫、飛龍或獅鷲騎士、其他帶盜賊/精靈龍。
+
+### 平均等級不高的話，推薦用哪些領袖？
+
+低於 25.0 已成功的有老瞎眼、斯尼德、伊瑟拉、霍格、珍娜、希瓦納斯、拉格納羅斯、血法師、瑪法里恩、阿薩斯、索爾、凱恩血蹄等；其中拉格納羅斯、阿薩斯、索爾即使平均等級不高也較容易通關。
+
+### 各領袖適合什麼打法？
+
+拉格納羅斯/索瑞森大帝/將軍用坦克平A流；霍格毒傷回血流；斯尼德/血法師升級流；老瞎眼快攻流；珍娜純法術打王流；希瓦納斯狂怒高DPS流；瑪法里恩全域回血+魔抗流；凱恩血蹄單挑流（暗矛食人妖+斬殺）。
+
+### 奧妮克希亞的三個階段要注意什麼？
+
+P1 需要穩定解龍蛋的牌組（巫醫可搭配禿鷲）；P2 優先守住前方雙塔並穩定解掉土元素（骷髏戰隊好應對）；P3 DPS 高的組合集中走右路打王，DPS 不高則打敗龍人守衛拿回雙塔後從兩側進攻。
