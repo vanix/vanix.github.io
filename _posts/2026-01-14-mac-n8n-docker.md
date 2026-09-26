@@ -4,10 +4,14 @@ layout: post
 title: 在 Mac 上架設 n8n 教學｜Docker 快速自架自動化流程（含 Google API）
 date: 2026-01-14 
 permalink: /2026/01/mac-n8n-docker-setup.html
-
-categories: [教學, n8n] 
+description: 教你如何用 Docker 在 Mac 快速自架 n8n 自動化工具，並串接 Gmail、Google Calendar、Sheets、Drive 等 Google API，附完整 OAuth 憑證設定步驟。
+categories: [資訊教學,n8n]
 tags: [n8n, Docker, Mac, 自動化]
 ---
+
+💡 Mac 用 Docker 安裝 n8n 重點
+
+這篇教學示範如何在 Mac 上用 Docker 一鍵啟動 n8n 自動化平台，包含 docker-compose 設定、啟動 Web 介面與常見問題排除。
 
 n8n 是一套強大的自動化工作流程工具，本文將教你如何在 Mac 上使用 Docker 自架 n8n，並完成 Google API（Gmail、Calendar、Sheet）整合，新手也能順利完成。
 
@@ -269,3 +273,41 @@ Chat Trigger
 
 👉 **敬請期待下篇文章說明 🚀**
 
+---
+
+## 常見問題（FAQ）
+
+### 在 Mac 上安裝 n8n 需要先準備什麼？
+
+只需要先在 Mac 安裝 **Docker Desktop**（從官方網站下載並啟動即可）。n8n 以 Docker 容器方式部署，不需要另外安裝 Node.js 或 Python。
+
+### docker-compose.yml 要怎麼寫？
+
+最小設定如下：
+
+```yaml
+version: "3.8"
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    ports:
+      - "5678:5678"
+    volumes:
+      - ./n8n_data:/home/node/.n8n
+    restart: always
+```
+
+其中 `./n8n_data` 用來保存 n8n 設定與資料，避免容器刪除後資料遺失。儲存後在該資料夾執行 `docker compose up -d`，再開啟 `http://localhost:5678` 即可。
+
+### 怎麼讓 n8n 串接 Gmail、Google Calendar、Sheets？
+
+1. 到 [Google Cloud Console](https://console.cloud.google.com/) 建立專案；
+2. 啟用需要的 API（例如 Gmail API、Google Calendar API、Google Sheets API、Google Drive API）；
+3. 建立 **OAuth 網頁應用程式用戶端**，取得 Client ID 與 Client Secret；
+4. 回到 n8n 的 **Create credentials** 選擇 Google OAuth2 API，填入 Client ID / Secret 與 Scope；
+5. 將授權的重新導向 URI 設為 `http://localhost:5678/rest/oauth2-credential/callback`，並將自己的 Google 信箱加入測試使用者；
+6. 最後在 n8n 按 **Sign in with Google** 用測試帳號授權即可。
+
+### 想讓 n8n 接收 Webhook、串接 Line 等對外服務要怎麼做？
+
+自行架設的 n8n 需要把本機對外公開，推薦搭配 **zrok** 這類內網穿透工具，將 n8n 的 5678 端口暴露到公網後，就能讓外部服務（如 Line）呼叫你的 Webhook。

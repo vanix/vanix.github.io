@@ -4,10 +4,14 @@ date: 2025-12-25 00:07:59 +0000
 layout: post
 permalink: /2025/12/python-built-in-functions.html
 title: Python 基礎：常用內建函數教學
-
-categories: [教學, 程式教學]
+description: "Python 常用內建函數教學：數學（abs/pow/round/divmod/max/min/sum）、型態轉換（int/float/str/list/tuple/bool）、迭代（range/enumerate/zip/filter/map/sorted）、物件（len/type/id/help）。"
+categories: [資訊教學,程式教學]
 tags: [Python, 程式教學, 內建函數, Built-in Functions]
 ---
+💡 Python 內建函數教學重點
+
+這篇是 Python 超入門系列的一課，介紹常用的內建函數（len、max、min、sum、sorted 等），並用實例說明怎麼搭配資料結構活用。
+
 
 # Python 基礎：常用內建函數教學
 
@@ -506,3 +510,23 @@ Python 的內建函數是程式設計的強大工具，熟練使用這些函數�
 透過練習和實際應用，你會發現這些內建函數能大幅提升開發效率。建议在日常編程中多練習使用這些函數，逐漸形成使用內建函數的習慣。
 
 持續學習，多練習、多應用，你會發現 Python 程式設計越來越順手！
+
+---
+
+## 常見問題（FAQ）
+
+### 常用的數學內建函數有哪些？
+
+abs() 絕對值、pow(a,b) 次方（pow(2,3,3) 可再取餘）、round(x,位數) 四捨五入、divmod(a,b) 回傳 (商, 餘數)、max()/min() 與 sum()（sum([1,2,3],10)=16）。
+
+### int() 可以怎麼用？
+
+int(3.14)→3、int("42")→42、int("1010",2)→10（把二進位字串轉十進位）；轉換失敗會 ValueError，可加 try/except 安全處理。
+
+### enumerate/zip/filter/map 是什麼？
+
+enumerate(串列, start=1) 一次拿到索引與值；zip(a,b) 把多個串列配對合併；filter(lambda x: x%2==0, 數列) 過濾出偶數；map(lambda x: x**2, 數列) 對每個元素套用函數。三者回傳的都是迭代器，要用時務必 list() 包起來。
+
+### len()/type()/id() 做什麼用？
+
+len() 取長度（list/str/tuple/dict 都可用）、type() 查型別（配合 isinstance(x, int) 檢查）、id() 看物件記憶體位址（用 is 判斷是否同一物件）、help(print) 查函數說明。

@@ -4,10 +4,14 @@ date: 2025-12-22 02:07:14 +0000
 layout: post
 permalink: /2025/12/python-loop-introduction.html
 title: Python 基礎：迴圈介紹與使用
-
-categories: [教學, 程式教學]
+description: "Python 迴圈教學：for 迴圈與 range(i)、while 迴圈、計算 2的5次方與階乘、巢狀迴圈畫星星、無限迴圈防範與練習題。"
+categories: [資訊教學,程式教學]
 tags: [Python, 程式教學, 迴圈, 程式設計]
 ---
+💡 Python 迴圈教學重點
+
+這篇是 Python 超入門系列的一課，講解 while 與 for 迴圈的寫法，並用實例練習累加、遍歷與 break/continue 的使用。
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/X_w3U5izmJM" frameborder="0" allowfullscreen></iframe>
 
 # Python 基礎：迴圈介紹與使用
@@ -190,3 +194,23 @@ for j in range(rows):
     2. **第 7 個作業**：YouTube 線上課程 - 課堂作業 巢狀迴圈+條件
 
 加油！寫程式就是不斷試錯與成長的過程。有任何問題歡迎在下方留言！
+
+---
+
+## 常見問題（FAQ）
+
+### for 和 while 什麼時候用哪個？
+
+知道確切執行次數用 for + range；不知道次數、只知道「什麼情況下要繼續做」用 while。while 重點是條件不成立就停。
+
+### range() 有哪些陷阱？
+
+range(n) 從 0 開始數 n 個數字、含頭不含尾，所以 range(5) 是 0,1,2,3,4（不會包含 5）；可指定 `range(1,6)` 從 1 到 5。
+
+### 巢狀迴圈怎麼理解？
+
+外層迴圈控制有幾列（換行幾次），內層迴圈控制每一列有幾顆星星；例如外層 range(3)、內層 range(5) 會排出 3 列 x 5 顆的矩形，內層次數隨外層變動可排出倒三角形。
+
+### while 迴圈為什麼會一直跑不停？
+
+忘了更新條件變數（如漏掉 `i += 1`），條件恆為 True 就陷入無限迴圈；務必在迴圈內改變條件相關的變數。

@@ -4,10 +4,14 @@ date: 2026-07-01 00:07:59 +0000
 layout: post
 permalink: /2026/07/apcs_basic_level_review.html
 title: APCS初級實作 - Python考前複習及注意事項
-
-categories: [教學, 程式教學]
+description: "APCS 初級實作 Python 考前複習：迴圈執行次數判斷、串列（倉庫）掃描找最大值、串列內建功能（sort/reverse/max/min/sum/count/index）、考前注意事項與刷題建議。"
+categories: [資訊教學,程式教學]
 tags: [Python, 程式設計, 入門教學, 程式課程, APCS基礎, 實作初級]
 ---
+💡 APCS 初級實作考前複習重點
+
+這篇是 APCS 初級實作的 Python 考前複習，重點整理迴圈與串列的題型解題步驟、串列內建功能與考前注意事項。
+
 
 以下內容以複習迴圈跟串列(倉庫)為主
 
@@ -183,3 +187,23 @@ print(max)
 - 練習平台：[點此前往解題系統](http://163.30.43.15/){:target="_blank"}
 - 課程代碼：SzNTKb
 - 練習目標：完成「YouTube 線上課程」裡面所有作業
+
+---
+
+## 常見問題（FAQ）
+
+### APCS 初級實作考什麼重點？
+
+以迴圈與串列（倉庫）為主：根據執行次數決定迴圈、用迴圈掃描倉庫記錄資訊（如找最大值）、熟練串列的內建功能（sort、max、min、sum、count、index、append、pop）。
+
+### 怎麼讀取多筆輸入資料？
+
+先 `n=int(input())` 讀筆數，再用 for i in range(n) 依序讀取每筆；若是一行多個數字可用 `list(map(int, input().split()))` 直接建整數串列，常見的列表最大值題目可直接用 max(n) 一行解決。
+
+### 串列有哪些必背內建功能？
+
+把資料變倉庫：input().split() 與 list(map(int, s))；附加：append()；排序：sort() 後 reverse() 變大到小；統計：len(n)、max(n)、min(n)、sum(n)、n.count(資料)、n.index(資料)；刪除：n.remove(資料)、n.pop()（刪最後一筆）。
+
+### 考前要注意什麼？
+
+刷 APCS 考古題第一題，看考前注意事項跟作答系統說明；還沒有基礎可看文章分類裡的教學影片與文章，再到解題系統練習（http://163.30.43.15/，課程代碼 SzNTKb）。

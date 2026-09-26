@@ -4,10 +4,14 @@ date: 2025-12-18 11:05:01 +0000
 layout: post
 permalink: /2025/12/python-conditional-judgment-tutorial.html
 title: Python 基礎：條件判斷觀念教學，讓你的程式學會做決策！
-
-categories: [教學, 程式教學]
+description: "Python 條件判斷教學：if/elif/else、比較運算子、and/or/not 邏輯運算、巢狀條件、猜數字遊戲與常見錯誤（= vs ==）。"
+categories: [資訊教學,程式教學]
 tags: [Python, 程式教學, 條件判斷, if, else, elif]
 ---
+💡 Python 條件判斷教學重點
+
+這篇是 Python 超入門系列的一課，用生活案例講解 if/else 條件判斷的寫法與常見陷阱，適合初學者搭配練習題學習。
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KghpckpI8e4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -180,3 +184,23 @@ tags: [Python, 程式教學, 條件判斷, if, else, elif]
 - 練習目標
   - 練習完成第4個作業：YouTube線上課程 - 課堂作業 條件判斷
   - 練習完成第5個作業：YouTube線上課程 - 課堂作業 巢狀條件
+
+---
+
+## 常見問題（FAQ）
+
+### Python 條件判斷的語法重點？
+
+if 後接條件與冒號（例如 `if grade >= 60:`），隸屬於該條件的程式碼必須縮排（慣例 4 個空格），否則 Python 無法判斷程式碼屬於誰。
+
+### if 和 elif/else 有什麼差別？
+
+if 判斷第一個條件；elif 處理「否則如果」的多個條件；else 是最後不成立時執行。多個條件同時成立時只會執行最早成立的那一段。
+
+### 「=」和「==」有什麼差別？
+
+`x = 10` 是把 10 指定給變數；`x == 10` 是比較兩邊是否相等。在 if 條件裡用單等號會噴 SyntaxError。
+
+### 條件判斷能用在哪些實作？
+
+成績及格判斷、數字猜測遊戲（`random.randint` + `guess == number`）、電影院買票的巢狀判斷（會員→尊榮/一般、非會員→學生/全票）、輸入檢查（`guess.isdigit()`）。

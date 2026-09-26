@@ -4,11 +4,15 @@ date: 2026-03-17 00:07:59 +0000
 layout: post
 permalink: /2026/03/openclaw-free-models-raspberry-pi.html
 title: Raspberry Pi + OpenClaw 免費 AI 模型設定教學 - Ollama 與 NVIDIA Kimi K2.5
+description: "樹莓派 + OpenClaw 免費 AI 模型設定教學：Ollama 雲端模型與 NVIDIA Kimi K2.5 申請、OpenClaw Service Not Found 修復（systemd service）、/models 指令切換模型。"
 image: /assets/images/cover/AI_Agent_ollama.jpg
-
-categories: [教學, openclaw]
+categories: [資訊教學,openclaw]
 tags: [OpenClaw, 樹莓派, AI, Ollama, NVIDIA, Raspberry Pi, LLM, AI agent, 免費AI]
 ---
+💡 OpenClaw 免費 AI 模型設定重點
+
+這篇教學教你 Google AntiGravity 停用後，如何在樹莓派上改用 Ollama 與 NVIDIA Kimi K2.5 免費模型，並解決 OpenClaw Service Not Found 的問題。
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xJsQBrSki1g" frameborder="0" allowfullscreen></iframe>
 
@@ -343,3 +347,27 @@ ollama sign out
 - [OpenClaw 官方網站](https://openclaw.ai)
 - [Ollama 官網](https://ollama.com)
 - [NVIDIA Build 平台](https://build.nvidia.com)
+
+---
+
+## 常見問題（FAQ）
+
+### Google AntiGravity 不能用了，有哪些免費替代？
+
+兩個可用：Ollama 雲端模型（官網註冊拿 API Key，每週流量限制、週一重置）與 NVIDIA Kimi K2.5（build.nvidia.com 註冊並電話驗證後 Create API Key，每分鐘最多 40 請求）。
+
+### NVIDIA Kimi K2.5 的 API Key 怎麼申請？
+
+到 build.nvidia.com 註冊（email+密碼+電話驗證），登入後進 API Key 頁面點 Create API Key，複製產生的 Key（效期 12 個月）。
+
+### OpenClaw 執行 gateway start 出現 Service Not Found 怎麼辦？
+
+安裝時沒建好 systemd service：手動建 /etc/systemd/system/openclaw.service，寫 User=pi、ExecStart=/usr/local/bin/openclaw gateway start、Restart=on-failure，再 sudo systemctl daemon-reload、enable、start 即可。
+
+### OpenClaw 怎麼切換模型？
+
+進 Dashboard 的 Config→Raw 新增 provider（如 nvidia 與 api_key），然後在對話用 `/models` 查看、`/models 模型名稱` 切換（例如 /models nvidia/kimi-k2.5-cloud、/models ollama/kimi）。
+
+### 免費模型的流量要怎麼管理？
+
+日常先用 Ollama，流量用完切 NVIDIA 當備援；可註冊多個 Ollama 帳號輪流（官方指令 ollama sign out / sign in），並在 Ollama 網站 Settings→Usage 看每週用量。

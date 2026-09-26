@@ -4,10 +4,15 @@ date: 2026-06-22 00:07:59 +0000
 layout: post
 permalink: /2026/06/ai-agent-video-editing-palmier-opencode.html
 title: 使用 OpenCode + Palmier Pro - AI Agent 自動剪輯旅遊 Vlog — 從粗剪影片到 Final Cut Pro
+description: "用 OpenCode（AI Agent）+ Palmier Pro（API-first 影片編輯器）自動剪輯旅遊 Vlog 教學：MCP Server 設定、時間軸批次建立、自動上字幕、ASR 校正、移除空白片段、FCPXML 匯出 Final Cut Pro。"
 image: /assets/images/cover/opencode_palmierpro.png
-categories: [教學, AI應用]
+categories: [資訊教學,AI應用]
 tags: [AI, AI Agent, OpenCode, Palmier Pro, 影片剪輯, 旅遊Vlog, AI編輯, 自動剪輯, 教學]
 ---
+💡 AI Agent 自動剪旅遊 Vlog 重點
+
+這篇文章記錄用 OpenCode + Palmier Pro 自動剪一支長崎旅遊 Vlog 的完整流程：批次上時間軸、自動上字幕、移除空白段落到匯出 FCPXML，並分享踩過的坑。
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bLcKXRIdxiE" frameborder="0" allowfullscreen></iframe>
 
@@ -264,3 +269,27 @@ AI Agent 不是要取代剪輯師，而是要讓剪輯師能專注在創意決�
 
 *本文使用的工具：OpenCode（AI Agent）、Palmier（API-first 影片編輯器）、Final Cut Pro（後製調整）*
 *所有素材皆為自行拍攝。*
+
+---
+
+## 常見問題（FAQ）
+
+### OpenCode 要怎麼連接 Palmier Pro？
+
+在 ~/.config/opencode/opencode.json 的 mcp 區塊加入 {"palmier": {"type": "remote", "url": "http://127.0.0.1:19789/mcp", "enabled": true}}，重新啟動 OpenCode，對話輸入 palmier_get_media 能回素材列表就是成功。
+
+### AI 剪輯能省多少時間？
+
+作者實測：94 段影片排列、192 句字幕生成修改、41 段空白移除，手動要好幾小時，AI Agent 幾分鐘完成；素材 58 分鐘最後剪成 25 分 15 秒。
+
+### 字幕辨識錯誤怎麼修正？
+
+Palmier 用裝置端語音辨識，專有名詞（如雙星→雙清、長崎→長期）準確率不夠，建議先讓 AI Agent 批次取代修正，再人工掃描一遍；注意字幕修正要在移除空白片段之前完成，否則時間軸變動會讓修正遺失。
+
+### 匯出 Final Cut Pro 有什麼雷？
+
+用 29.97fps NTSC 會有 1001/30000s 影格時長問題，建議匯 30fps 整數影格率；字幕片段與透明度關鍵幀 FCPXML 匯入時讀不到，只匯出 V1 影片軌，字幕標題在 FCP 重做；FCP 0.4.5 版影片下方會有灰色區塊，影片被限制要按 cmd+option+方向鍵移出。
+
+### 背景音樂怎麼處理？
+
+Palmier Pro 的 AI 音樂生成需要額外配額，作者改在 Final Cut Pro 中手動加入音樂。

@@ -4,10 +4,14 @@ layout: post
 title: "打造全自動個人 AI 助理：我的 Clawdbot 任務清單與實戰指南"
 date: 2026-01-31
 permalink: /2026/01/my-openclaw-tasks-guide.html
-categories: [教學, openclaw]
+categories: [資訊教學,openclaw]
 tags: [Clawdbot, AI Agent, Moltbot, Openclaw,  自動化, 教學]
 description: "深度解密如何利用 Clawdbot 建立個人化的 AI 助理！包含天氣預報、郵件監控、旅遊語言學習自動化 YouTube 內容產出及網路搜尋等五項任務，讓 AI 真正進入你的生活。"
 ---
+💡 全自動個人 AI 助理任務重點
+
+這篇文章分享用 Clawdbot（OpenClaw）打造個人 AI 助理的五項實戰任務：天氣推播、Gmail 特賣監控、旅遊翻譯學習、YT 轉文章與網頁搜尋，並說明 MEMORY.md 長期記憶的做法。
+
 
 Clawdbot又双叒叕改名了，先改成MoltBot，現在改成OpenClaw。這此都統稱為Clawdbot。
 
@@ -108,4 +112,24 @@ AI 不應該只是工具，它應該是你的「分身」。透過 Clawdbot，�
 
 ---
 
-**宅爸的效率筆記**：*「機器能做的事，就讓機器去做；人類的時間，應該留給真正的創造與旅行。」* 
+**宅爸的效率筆記**：*「機器能做的事，就讓機器去做；人類的時間，應該留給真正的創造與旅行。」*
+
+---
+
+## 常見問題（FAQ）
+
+### Clawdbot（OpenClaw）跟 ChatGPT 這類工具差在哪？
+
+三大特質：主動性（Cron Jobs 在指定時間主動做）、工具力（可直接讀寫 Gmail/Google 試算表/操作本機終端）、持久記憶（MEMORY.md 記住你的偏好與 SOP）。
+
+### 跑這些任務要花多少錢？
+
+主要燒大模型的 Token；用 Gemini-3-Flash 這類高效低成本模型可在免費額度內跑完，作者用 OpenAI API 測試噴了 20 多美金覺得貴。
+
+### 電腦休眠時排程任務還會跑嗎？
+
+本機休眠時任務會暫停，但 Clawdbot 有補跑機制，喚醒後會偵測過期任務立即執行。
+
+### MEMORY.md 是什麼？
+
+Clawdbot 的長期記憶檔案，把 SOP（如旅遊翻譯流程、目標試算表）寫進去，確保對話過長、重啟電腦或換模型後 AI 仍記得格式與規則。

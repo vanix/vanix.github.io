@@ -2,13 +2,17 @@
 author: 歐巴計概
 layout: post
 title: "安裝ClawdBot/Moltbot/Openclaw在Mac mini上，並且串接Telegram"
+description: "在 Mac mini 安裝 ClawdBot/MoltBot/OpenClaw 並串接 Telegram 教學：BotFather 建 Bot、onboard 設定、Telegram 配對、用自然語言指派定時提醒任務與移除方式。"
 date: 2026-01-30
 permalink: /2026/01/mac-moltbot-telegram-reminder.html
 image: /assets/images/cover/openclaw_macmini.png
-
-categories: [教學, openclaw]
+categories: [資訊教學,openclaw]
 tags: [mac, openclaw, moltbot, clawdbot, telegram, reminder, 教學]
 ---
+💡 Mac 安裝 OpenClaw 串接 Telegram 重點
+
+這篇教學示範如何在 Mac mini 上安裝 OpenClaw（前身 ClawdBot/MoltBot）並串接 Telegram，用自然語言指派定時提醒任務，附 BotFather 建 Bot 與配對的完整流程。
+
 
 Clawdbot又双叒叕改名了，先改成MoltBot，現在改成OpenClaw
 > 以下的相關指令可能也會受到改名的影響，各位安裝時請注意一下
@@ -132,3 +136,23 @@ npm uninstall -g clawdbot
 
 由於moltbot可以跟本機系統串接，可透過CLI執行更多指令，也能夠控制本機端，帶來便利性的同時，也增加不少安全性的疑慮。
 這個簡單的範例驗證兩個功能，`主動推播`以及`定時執行任務`，讓AI助理看起來更加主動了，期待之後更多的應用。
+
+---
+
+## 常見問題（FAQ）
+
+### OpenClaw（ClawdBot/MoltBot）是什麼？
+
+以 Node.js 寫成的多通道聊天機器人框架，可輕鬆串接 Telegram/LINE 等通訊平台、外部 API 與自動化工作；作者提醒它可透過 CLI 操控本機，便利之餘也有安全疑慮。
+
+### Telegram Bot 要怎麼建？
+
+在 @BotFather 輸入 /newbot 取名即可取得 Bot Token，之後安裝時會用到；作者建議先串 Telegram，因為設定最簡單（LINE 還要另外設 Webhook）。
+
+### 安裝與串接 Telegram 的步驟？
+
+`curl -fsSL https://openclaw.ai/install.sh | bash` 安裝；`clawdbot onboard --install-daemon` 開始設定（選 QuickStart、OpenAI API key 與預設模型、channel 選 telegram 貼 token）；傳訊息給 Bot 得到 pairing code 後，終端機執行 `clawdbot pairing approve telegram <code>` 完成配對。
+
+### 怎麼用 Telegram 指派定時任務？
+
+直接傳自然語言，例如「五分鐘後用 telegram 提醒我該去睡覺了」，Bot 會回覆並建立單次提醒的 Job（到 Web UI 的 Cron Jobs 可確認），時間到自動在主 session 推播提醒。

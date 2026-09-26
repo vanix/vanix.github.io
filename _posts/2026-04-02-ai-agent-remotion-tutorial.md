@@ -2,12 +2,17 @@
 author: 歐巴計概
 layout: post
 title: 打字就能做影片？用 AI Agent 操控 Remotion 自動產出影片
+description: "打字就能做影片：用 AI Agent（Google Antigravity/Opencode）操控 Remotion（React 寫影片框架）自動產出 MP4，實戰示範做 YT 結尾動畫與改短片版型。"
 date: 2026-04-02
 permalink: /2026/04/ai-agent-remotion-tutorial.html
 image: /assets/images/cover/AI_Agent_remotion.png
-categories: [教學, remotion]
+categories: [資訊教學,remotion]
 tags: [AI Agent, Remotion, 自動化, opencode,google antigravity]
 ---
+💡 AI Agent 用 Remotion 做影片重點
+
+這篇文章示範用 AI Agent（如 Google Antigravity、Opencode）搭配 Remotion 框架，靠打字下指令就能產出高畫質 MP4，並實作一段 YouTube 結尾動畫與 Shorts 直式版型。
+
 
 身為內容創作者，你是否曾覺得學習 Premiere Pro 等專業剪輯軟體耗時又費力？如果有一種方法，能讓你只要「打字」對著 AI 下達指令，它就能幫你把影片排版、加上動畫特效，最後直接渲染出高畫質的 MP4 檔案呢？
 
@@ -92,3 +97,23 @@ npx run dev
 如果你也覺得這套流程很酷，趕緊去下載 [Remotion](https://www.remotion.dev/) 搭配你身邊的 AI 開發工具，試著「打字」產生你的第一支影片吧！
 
 > 編按：模型的選擇會影響最終產出的品質，建議可使用各種不同的模型生成看看。
+
+---
+
+## 常見問題（FAQ）
+
+### 為什麼用 Remotion 而不用 Sora/Veo 這類 AI 生影工具？
+
+一般 AI 產片偏向影像生成，適合寫實畫面與短影音素材，但難以控制品牌字體、排版與按鈕動畫；用 AI 寫 Remotion 程式碼產出的是程式驅動的資訊型影片，版型 100% 精準客製，改解析度只要口頭下指令。
+
+### AI 要怎麼知道如何寫 Remotion？
+
+在專案目錄建立 skills 資料夾並匯入 Remotion 官方 Skill（github.com/remotion-dev/skills），AI 就能自行挑選合適工具產生動畫。
+
+### 怎麼把橫式影片改成 Shorts 直式？
+
+不用重拉座標，直接對 AI 說「把解析度改成 1080x1920、重新排版圖片大小與文字換行並 render」，AI 會改 Root.tsx 的 Composition 尺寸後自動執行 npx remotion render。
+
+### 產出的畫質如何？
+
+作者實測約 10 秒渲染出高質感、含流暢平滑動畫的 1080x1920 MP4；模型選擇會影響最終品質，建議可多試不同模型。

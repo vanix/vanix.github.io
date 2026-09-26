@@ -4,10 +4,15 @@ date: 2026-05-17 00:07:59 +0000
 layout: post
 permalink: /2026/05/ai-agent-robot-arm-tutorial.html
 title: 使用OpenClaw / OpenCode 把機器手臂自走車變成一隻狗 — 從舵機 PWM 到正向運動學
+description: "用 OpenClaw/OpenCode 控制 HiWonder MasterPi 機器手臂自走車變機器狗教學：從舵機 PWM 控制、發現 AI 無空間感、引入正向運動學（座標系統）到成功設計狗姿勢，含 Agents.md 設定。"
 image: /assets/images/cover/AI_Agent_car.png
-categories: [教學, AI應用]
+categories: [資訊教學,AI應用]
 tags: [AI, AI Agent, OpenClaw, OpenCode, 機器手臂, 樹莓派, Raspberry Pi, 舵機控制, PWM, 正向運動學, 教學, 機器狗]
 ---
+💡 AI Agent 控制機器手臂重點
+
+這篇教學從舵機 PWM 控制講到正向運動學，教你用 OpenClaw/OpenCode 讓機器手臂自走車做出機器狗的姿勢，說明為什麼 AI 需要座標系統才有空間感。
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HKYj1N_WmDs" frameborder="0" allowfullscreen></iframe>
 
@@ -488,3 +493,27 @@ AI 就能根據你的反饋，用座標系統重新計算出正確的 PWM 值。
 ---
 
 如果你對這篇教學有任何問題，或想要進一步了解某個環節，歡迎在下方留言提問！
+
+---
+
+## 常見問題（FAQ）
+
+### MasterPi 機器手臂有哪些舵機？
+
+四軸（肩部ID6、肘部ID4、腕部ID3、夾爪ID1）加底座旋轉（ID5）共 5 個舵機；腕部方向相反（PWM 越大反而往後）、底座 PWM=500 右轉 90°、PWM=2500 左轉 90°。
+
+### PWM 跟角度怎麼對應？
+
+PWM 500→-90°、1500→0°、2500→+90°；控制指令為 b.pwm_servo_set_position(時間ms, [[舵機ID, PWM值], ...]) 並搭配 time.sleep() 給舵機執行時間。
+
+### 為什麼 AI 設計的機器狗姿勢歪歪扭扭？
+
+因為 AI 缺乏空間感：對它而言 [6,2500],[4,500],[3,500] 只是一串數字，無法想像組合看起來像什麼，也不懂前後上下的 PWM 對應。
+
+### 正向運動學怎麼解決 AI 的空間問題？
+
+把臂長（6/6/10cm）、角度與 PWM 對應、坐標系統寫進 Agents.md，AI 用三角函數算出夾爪座標與鏡頭角度，再請它畫 HTML 即時預覽驗證；之後可用口語指令（座標方向）修正姿勢。
+
+### 除了靜態姿勢還能做什麼？
+
+進階應用：撿東西投籃、語音/Telegram 呼叫機器狗過來、結合鏡頭辨識撿垃圾、遠端遙控帶出門散步（AI 會依地面起伏調整姿態）。

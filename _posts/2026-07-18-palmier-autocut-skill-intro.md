@@ -4,10 +4,14 @@ date: 2026-07-18 00:07:59 +0000
 layout: post
 permalink: /2026/07/palmier-autocut-skill-intro.html
 title: 自製 Palmier AutoCut Skill — 用 AI Agent 自動剪片，一句話搞定粗剪與字幕！
-
-categories: [教學, AI應用]
+description: "自製 Palmier AutoCut Skill 開源免費剪片教學：用 OpenCode AI Agent + Palmier Pro MCP + Whisper 自動粗剪、上字幕、配樂，一句話搞定，支援 H.264/FCPXML 輸出。"
+categories: [資訊教學,AI應用]
 tags: [AI, Agent, OpenCode, Palmier Pro, 影片剪輯, 自動化, MCP, Whisper, 字幕, 後製]
 ---
+💡 Palmier AutoCut 自動剪片 Skill 重點
+
+這篇文章介紹開源的 Palmier AutoCut Skill：用 OpenCode 搭配 Palmier Pro 與 Whisper 一句話自動完成粗剪、分章節、上字幕與配樂，成本為零，附安裝步驟與三種剪輯模式說明。
+
 
 ## 文章摘要
 
@@ -244,3 +248,27 @@ SKILL.md 中收錄了 10 條從實際剪片專案中歸納的經驗教訓，例�
 ---
 
 如果你也對 AI 自動化剪輯有興趣，歡迎試試這個 Skill，有任何問題或建議歡迎在 GitHub 上開 Issue！
+
+---
+
+## 常見問題（FAQ）
+
+### Palmier AutoCut 需要花錢嗎？
+
+完全免費：OpenCode、Palmier Pro、Whisper 都不需費用；字幕用 mlx-whisper（Apple Silicon GPU 加速）或 openai-whisper（CPU 備用）。
+
+### 安裝步驟有哪些？
+
+1) git clone https://github.com/vanix/palmier-autocut-skill.git 到 ~/.config/opencode/skills/palmier-autocut；2) 在 ~/.config/opencode/opencode.json 加入 palmier MCP Server（type: remote, url: http://127.0.0.1:19789/mcp）；3) pip install mlx-whisper 或 openai-whisper。
+
+### 三種剪輯模式差在哪？
+
+A 流水帳（vlog/活動紀錄，所有素材按時間全上）、B AI 挑重點（AI 逐段檢查畫面與語音判斷重要性保留精華）、C 自訂腳本（AI 產出逐字稿供你手動編輯章節/刪段落，再依腳本建時間軸）。
+
+### 字幕品質好嗎？
+
+強制使用外部 Whisper 而非 Palmier Pro 內建（內建斷句不準），從去靜音後的時間軸提取音訊確保影音同步，自動清除 Whisper 幻覺（連續重複字詞）並內建錯字修正表（在→再、因該→應該等）。
+
+### 可以輸出哪些格式？
+
+H.264 MP4（直接上傳 YouTube/社群）、H.265（更小體積）、ProRes（後製用）、FCPXML（保留完整時間軸進 Final Cut Pro 微調）。

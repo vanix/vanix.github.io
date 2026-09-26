@@ -4,10 +4,14 @@ date: 2025-12-15 08:36:19 +0000
 layout: post
 permalink: /2025/12/python-variables-arithmetic-tutorial.html
 title: Python 基礎：變數與算術運算教學
-
-categories: [教學, 程式教學]
+description: "Python 基礎：變數與資料型態（int/float/str/bool）、算術運算子優先順序、input() 字串陷阱、BMI 實作與常見錯誤。"
+categories: [資訊教學,程式教學]
 tags: [Python, 程式教學, 變數, 算術運算]
 ---
+💡 Python 變數與運算教學重點
+
+這篇是 Python 超入門系列課程的一課，用實例講解變數的宣告、常用資料型態與四則運算，幫助初學者建立程式基礎。
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c6kWZHP2LGI" frameborder="0" allowfullscreen></iframe>
 
@@ -165,3 +169,23 @@ BMI = 25.00
 - 練習目標
   - 完成第2個作業：YouTube線上課程 - 課堂作業 算術運算
   - 完成第3個作業：YouTube線上課程 - 題目講解 算術運算
+
+---
+
+## 常見問題（FAQ）
+
+### Python 有哪些變數資料型態？
+
+四種：int 整數（100）、float 浮點數（3.14）、str 字串（"100"）、bool 布林（True/False）。注意 100 和 "100" 是不同的型態，數字才能做算術運算。
+
+### Python 算術優先順序？
+
+括號→次方 **→乘除 * /→取餘數 % / 取商數 //→加減 + -；例如 (2+3)*4 = 20。
+
+### 為什麼 input() 輸入數字加起來卻變成字串？
+
+因為 input() 回傳的永遠是字串，100 和 200 相加得到 "100200"；解法是 `I = int(input("..."))` 或 float() 轉型後再運算。
+
+### 想讓運算結果只顯示小數點後兩位？
+
+用 f-string 格式化：`print(f"BMI = {bmi:.2f}")`。

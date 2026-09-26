@@ -2,14 +2,17 @@
 author: 歐巴計概
 layout: post 
 title: "n8n + Webhook 教學｜製作 LINE AI 翻譯機器人（即時中英日韓都可）" 
+description: "用 n8n + Webhook + Gemini 製作 LINE AI 翻譯機器人教學：建立 LINE Bot、n8n 工作流程（Webhook→Gemini→LINE Reply API）、設定 Webhook URL 與啟用，附完整 workflow JSON。"
 date: 2026-01-22
 permalink: /2026/01/n8n-webhooh-line-ai-translate.html
-
-
-categories: [教學, n8n] 
+categories: [資訊教學,n8n]
 tags: [n8n, webhook, LINE Bot, AI 翻譯]
 
 ---
+💡 n8n 打造 LINE AI 翻譯機器人重點
+
+這篇教學示範用 n8n 串接 Webhook 與 Gemini 打造 LINE AI 翻譯機器人，從建立 LINE Bot、組 workflow 到設定 Webhook URL 的完整流程附範例 JSON。
+
 
 如果你還沒設定好 zrok，可以先看上一篇：[n8n + zrok 教學｜讓自架 n8n Webhook 對外服務](https://vanix.github.io/2026/01/n8n-zrok-webhook.html)
 
@@ -351,3 +354,22 @@ https://你的zrok網址/webhook/path
 }
 ```
 
+---
+
+## 常見問題（FAQ）
+
+### 做 LINE 翻譯機器人需要什麼前置？
+
+需要 n8n（可參考本系列前兩篇：Docker 安裝與 zrok 對外通道）、LINE Developers 帳號建立 Messaging API Channel（取得 Channel Secret 與 Channel Access Token）、Gemini API Key（Google AI Studio → Get API key），以及把外部能觸發的 Webhook URL 先架好。
+
+### n8n 的工作流程怎麼接？
+
+Webhook Trigger（POST）→ Google Gemini「Message a model」節點（Put API key、Model 選 Gemini-2.5-flash、Prompt 帶入 `{{ $json.body.events[0].message.text }}`）→ Merge 節點（Combine by Position）→ HTTP Request 呼叫 LINE Reply API（`Authorization: Bearer 你的token`、body 填 replyToken 與翻譯結果）。
+
+### LINE 的 Webhook URL 要填什麼？
+
+先複製 n8n Webhook 節點的 Test URL（測試）或 Production URL（Activation）；測試用 `https://你的zrok網址/webhook-test/path`，啟用後改成 `https://你的zrok網址/webhook/path`；path 在 Webhook 節點裡查詢，且要記得先啟動 zrok。
+
+### 可以怎麼延伸這個機器人？
+
+搭配 iOS 捷徑變語音翻譯機器人、自動判斷翻譯語言、輸出中英對照、把翻譯結果存到 Google Sheet。

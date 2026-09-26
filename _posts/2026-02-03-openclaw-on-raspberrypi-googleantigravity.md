@@ -2,14 +2,18 @@
 author: 宅爸
 layout: post
 title: "樹莓派 5 打造最強 AI 助理：OpenClaw 安裝、Gemini 模型設定與 Telegram 連動全攻略"
+description: "樹莓派 5 打造 AI 助理教學：OpenClaw 一鍵安裝、改用 Google AntiGravity（Gemini-3-Flash）省模型費用、Telegram 配對、酷音輸入法與角色設定。"
 date: 2026-02-03
 permalink: /2026/02/openclaw-on-raspberrypi-googleantigravity.html
 image: /assets/images/cover/AI_Agent_openclaw.png
-
-categories: [教學, openclaw]
+categories: [資訊教學,openclaw]
 tags: [Clawdbot, AI Agent, Moltbot, Openclaw,  Googleantigravity, 自動化, 樹莓派5, RaspberryPi, 教學]
 
 ---
+💡 樹莓派安裝 OpenClaw 重點
+
+這篇教學示範在樹莓派 5 上安裝 OpenClaw，改用 Google AntiGravity（Gemini-3-Flash）省模型費用，並完成 Telegram 配對、酷音輸入法與角色設定的完整流程。
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PCMNf-XINgw?si=9Dj9HxvhXTsWYLOC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -88,3 +92,23 @@ openclaw pairing approve telegram <配對碼>
 樹莓派 5 搭配 OpenClaw 的體驗非常棒。它提供了一個獨立、乾淨且強大的 AI 實驗空間。如果你也想體驗最近最紅的 AI 科技，不妨從樹莓派開始嘗試！
 
 接下來宅爸還會分享如何連動 Google App（Gmail、日曆、雲端硬碟）等進階應用，記得持續關注喔！
+
+---
+
+## 常見問題（FAQ）
+
+### 為什麼用樹莓派 5 而不是 Mac mini？
+
+價格親民、系統乾淨（不用擔心隱私資料與主電腦混在一起）、效能穩定，宅爸實測跑 OpenClaw 反應速度理想，是 90 分以上的替代方案。
+
+### OpenClaw 安裝需要什麼特殊設定嗎？
+
+一行指令 `curl -fsSL https://openclaw.ai/install.sh | bash` 即可，環境設定自動完成；接著選模型（推薦 Google AntiGravity 的 Gemini-3-Flash 省錢）、設定 Telegram channel 即可。
+
+### 怎麼讓 OpenClaw 用繁體中文溝通？
+
+樹莓派安裝 fcitx5-chewing 酷音輸入法——直接在 Web Chat 輸入「install fcitx5 fcitx5-chewing」，助理會自動裝好，重啟後即可輸入中文，還能自訂 AI 角色個性。
+
+### Telegram 配對步驟？
+
+BotFather 建 Bot 取 Token 貼回終端機；到 Telegram 搜尋你的機器人開始對話，把對話框顯示的配對碼拿到終端機執行 `openclaw pairing approve telegram <配對碼>` 即可。

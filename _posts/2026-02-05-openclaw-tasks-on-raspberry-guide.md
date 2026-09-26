@@ -2,12 +2,17 @@
 author: 宅爸
 layout: post
 title: "Raspberry Pi 5 也能跑出強大 AI 影響力：OpenClaw 五項基礎應用設定與個人實測心得"
+description: "Raspberry Pi 5 跑 OpenClaw 的五項基礎應用實測：天氣排程推播、Google 行事曆 GOG、yt-dlp+ffmpeg 部落格自動化、ElevenLabs 翻譯語音、Browser Mode 網頁操作。"
 date: 2026-02-05
 permalink: /2026/02/openclaw-tasks-on-raspberry-guide.html
-categories: [教學, openclaw]
+categories: [資訊教學,openclaw]
 tags: [Clawdbot, AI Agent, Moltbot, Openclaw, 樹莓派, raspberry pi, 自動化, 教學]
 
 ---
+💡 樹莓派 OpenClaw 五項應用重點
+
+這篇實測紀錄樹莓派 5 上 OpenClaw 的五項基礎應用：天氣排程推播、Google 行事曆、部落格自動化、旅遊翻譯與瀏覽器搜尋，附各應用的設定與使用心得。
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HVa5DcAk-cM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -87,3 +92,27 @@ tags: [Clawdbot, AI Agent, Moltbot, Openclaw, 樹莓派, raspberry pi, 自動化
 ---
 
 如果您覺得這篇應用分享對您有幫助，歡迎分享給更多想踏入 AI 自動化領域的朋友！
+
+---
+
+## 常見問題（FAQ）
+
+### OpenClaw 跟普通 AI 聊天機器人差在哪？
+
+一般 AI 是被動的（你問才答）；OpenClaw 是主動型系統，可接管系統指令、連動 Google API、排程主動發送通知，放樹莓派上就是 24 小時不打烊的數位大腦，隱私資料在自己手上。
+
+### 天氣推播要怎麼設？
+
+設定排程，每天指定時間（如早上九點、下午一點）由 AI 讀取 wttr.in/Open-Meteo 資料判斷後推播到 Telegram，會給行動建議（如「降雨機率30%但集中在下班時間，建議帶傘」），也能透過 Telegram 傳位置更新所在座標。
+
+### Google 行事曆怎麼連？
+
+透過 GOG 技能連動 Google Calendar，設定需到 Google Cloud Console 開通 API 權限；連通後可用口頭新增行程，活動前可設定 10 分鐘前 Telegram 提醒。
+
+### 部落格自動化怎麼做？
+
+yt-dlp 自動下載影片抓字幕，AI 分析轉寫成具 SEO 價值的文章，ffmpeg 切精華 GIF；以前寫一篇要兩小時，現在只需給網址。
+
+### 瀏覽器搜尋模式（web_fetch/browser）差別？
+
+web_fetch 適合快速讀取文章文字資訊；browser 模式會真正打開瀏覽器模擬人類操作抓即時資訊（如查蝦皮 Switch 2 價格）。注意在樹莓派上開帶界面的瀏覽器對 CPU/RAM 壓力不小。

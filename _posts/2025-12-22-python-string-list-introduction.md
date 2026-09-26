@@ -4,10 +4,14 @@ date: 2025-12-22 20:20:59 +0000
 layout: post
 permalink: /2025/12/python-string-list-introduction.html
 title: Python 基礎：字串處理與串列
-
-categories: [教學, 程式教學]
+description: "Python 字串與串列完整教學：索引切片、大小寫轉換、split/join、串列新增刪除排序、列表推導式、字串串列互轉與常見錯誤。"
+categories: [資訊教學,程式教學]
 tags: [Python, 程式教學, 字串, 串列, List, String]
 ---
+💡 Python 字串與串列教學重點
+
+這篇是 Python 超入門系列的一課，用實例講解字串的操作與串列（list）的建立、走訪與常用方法。
+
 
 # Python 基礎：字串處理與串列的完整教學
 
@@ -402,3 +406,22 @@ print(text.encode('utf-8'))  # 正常輸出
 
 持續練習，將所學應用於解題中，有助於鞏固這些基礎概念，並提升你的 Python 程式設計能力！
 
+---
+
+## 常見問題（FAQ）
+
+### 字串和串列有什麼不同？
+
+字串不可變（不能修改，只能建新字串）、串列可變（可原地新增/刪除/改元素）；兩者都支援索引與切片，都可直接配 for 迴圈。
+
+### 字串怎麼分割和合併？
+
+分割用 split：`"apple,banana".split(",")` → ['apple','banana']；合併用 join：`", ".join(['apple','banana'])` → 'apple, banana'。
+
+### 串列要做新增、刪除、排序？
+
+新增：append() 加在末尾、insert(i,x) 插在指定位置、extend() 一次加多筆；刪除 remove(x) 刪第一個匹配、pop() 刪並回傳指定索引（預設最後）、clear() 清空；排序 list.sort() 原地、sorted() 回傳新串列。
+
+### 列表推導式怎麼寫？
+
+`[x**2 for x in range(10)]` 產生平方數列，加條件 `if x%2==0` 過濾；巢狀可建二維串列，例如 `[[i*j for j in range(3)] for i in range(3)]`。

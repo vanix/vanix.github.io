@@ -4,10 +4,14 @@ date: 2025-12-23 00:07:59 +0000
 layout: post
 permalink: /2025/12/custom-functions-introduction.html
 title: Python 基礎：自訂函數的基礎介紹
-
-categories: [教學, 程式教學]
+description: "Python 自訂函數教學：def 語法、參數與 return、全域/區域變數（global）、預設參數陷阱、判斷閏年/質數/階乘實作與常見錯誤。"
+categories: [資訊教學,程式教學]
 tags: [Python, 程式教學, 自訂函數]
 ---
+💡 Python 自訂函數教學重點
+
+這篇是 Python 超入門系列的一課，講解如何定義與呼叫自訂函數，包含參數、回傳值與作用域的基礎概念。
+
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qx0jy-Pzn0k" frameborder="0" allowfullscreen></iframe>
@@ -451,3 +455,27 @@ print(稅率)              # 會錯誤：NameError
     1. **第 9 個作業**：YouTube 線上課程 - 課堂作業 自訂函數
 
 加油！寫程式就是不斷試錯與成長的過程。有任何問題歡迎在下方留言！
+
+---
+
+## 常見問題（FAQ）
+
+### 函數定義的語法？
+
+`def 函數名稱(參數1, 參數2):` 縮排寫程式碼，最後用 `return 回傳值` 把結果交給呼叫者；呼叫時 `結果 = 函數名稱(參數值)`。
+
+### return 和 print 有什麼差別？
+
+print() 只是把內容顯示在螢幕；return 把結果「回傳」給呼叫者儲存與繼續使用。函數沒有 return 時預設回傳 None。
+
+### 什麼是全域/區域變數？
+
+函數內定義的是區域變數（函數結束就銷毀），函數外定義的是全域變數（整個檔案可用）。在函數內讀取全域變數 OK，但要修改必須 `global` 宣告，否則會被當成新區域變數而報錯。
+
+### 預設參數為什麼不要用 [] 或 {}？
+
+可變物件當預設參數會被所有呼叫共享，導致資料累積；應改用 `def 添加到列表(項目, 列表=None):` 並在函數內 `if 列表 is None: 列表 = []`。
+
+### 有哪些經典練習？
+
+判斷閏年（(y%4==0 and y%100!=0) or y%400==0）、判斷質數（小於等於根號 n 的因數檢查）、計算階乘（遞迴 n*f(n-1)）。

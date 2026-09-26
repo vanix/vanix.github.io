@@ -4,7 +4,12 @@ date: 2026-01-12 00:07:59 +0000
 layout: null
 permalink: /2025/03/2025das.html
 title: （轉址）2025東京迪士尼樂園，身障服務DAS實測分享
+description: "（轉址頁面）2025 東京迪士尼身障服務 DAS 實測分享已搬家，此頁自動導向新網址：https://vanix.github.io/2025/03/tokyo-disneyland-das-guide.html"
 ---
+💡 東京迪士尼 DAS 文章轉址說明
+
+此頁是轉址頁面：東京迪士尼身障服務 DAS 實測分享文章已搬家，會自動導向新網址，請以新頁面為準。
+
 
 <!DOCTYPE html>
 <html lang="zh-TW">

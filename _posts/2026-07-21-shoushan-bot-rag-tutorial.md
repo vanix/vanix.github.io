@@ -4,10 +4,14 @@ date: 2026-07-21 00:07:59 +0000
 layout: post
 permalink: /2026/07/shoushan-bot-rag-tutorial.html
 title: RAG 是什麼？用高中選課小助手學習 AI 客服機器人的大腦，並架設在Render平台上
-
-categories: [教學, AI應用]
+description: "RAG 是什麼？用高中選課小助手（Flask + ChromaDB + SentenceTransformer + opencode serve）學習 AI 客服機器人架構，架設在 Render 雲端平台，0 成本。"
+categories: [資訊教學,AI應用]
 tags: [RAG, 機器學習, AI, 客服機器人, 向量資料庫, Python應用, AI Agent, Opencode, render, PAAS]
 ---
+💡 RAG 與 AI 客服機器人教學重點
+
+這篇文章教你認識 RAG（檢索增強生成）的原理，並用高中選課小助手（Flask + ChromaDB + opencode serve）說明如何零成本打造 AI 客服機器人並架設在 Render 平台。
+
 
 本文摘要：0成本使用RAG製作AI客服機器人，並且架設在Render雲端平台上
 - RAG設計
@@ -332,3 +336,23 @@ RAG 讓 AI 不再只能憑記憶回答，而是學會了「翻書找答案」，
 👉 [https://github.com/homedad-vanix/shoushan-bot](https://github.com/homedad-vanix/shoushan-bot)
 
 歡迎 fork、改寫、或實際部署使用！
+
+---
+
+## 常見問題（FAQ）
+
+### RAG 跟直接把文件塞進 prompt 有什麼差別？
+
+四個優勢：突破模型文字長度限制、避免文件太長注意力稀釋、更新文件只重索引（不用重傳）、RAG 能標註答案來源章節增加可信度。
+
+### Chunking 怎麼切比較好？
+
+根據文件格式智慧切割：● 用 re.split(r'(?=\n●)'）、=== 用 re.split(r'(?=^===)'）、否則用空行切；每塊 600 字以內，太長再切但保留章節標題維持語意，切太粗撈不準、切太細會漏上下文。
+
+### 搜尋相關段落的機制？
+
+兩種：關鍵字精準匹配（問題提到班群名直接找對應章節，不經語意搜尋）；語意搜尋（把問題轉向量做 cosine 比對，距離 <0.38 視為相關，門檻是調校經驗值）。
+
+### 0 成本怎麼做到的？
+
+Flask + ChromaDB（免費 Python 套件）+ SentenceTransformer（本地免費模型）+ opencode serve（本機跑 LLM）；系統跑在本地，私有網路可用 zrok 連接，Render.com 免費一鍵部署 iframe 前端（但 zrok 重啟網址會變）。

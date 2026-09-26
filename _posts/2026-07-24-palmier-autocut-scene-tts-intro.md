@@ -4,10 +4,14 @@ date: 2026-07-24 21:35:00 +0000
 layout: post
 permalink: /2026/07/palmier-autocut-scene-tts-intro.html
 title: 場景式 AI 自動剪片進化版 — 自動切場景、寫旁白、合成語音，一條龍搞定！
-
-categories: [教學, AI應用]
+description: "場景式 AI 自動剪片（進化版）：ffmpeg 場景偵測 → Qwen2.5VL 視覺描述 → AI 寫旁白 → Edge TTS / 台灣藍鵲 TTS 語音合成 → Palmier Pro 組時間軸 → 一條龍輸出 MP4。"
+categories: [資訊教學,AI應用]
 tags: [AI, Agent, OpenCode, Palmier Pro, 影片剪輯, 自動化, MCP, TTS, 台灣藍鵲, 場景剪輯]
 ---
+💡 場景式 AI 自動剪片重點
+
+這篇文章介紹開源的 Palmier AutoCut Scene TTS Skill：用 ffmpeg 切場景、Qwen2.5VL 描述畫面、AI 寫旁白並用 TTS 合成語音，一條龍輸出旅遊 Vlog 的 MP4。
+
 
 如果你已經看過上一篇〈[自製 Palmier AutoCut Skill](/2026/07/palmier-autocut-skill-intro.html)〉，那套 Skill 解決的是「後製自動化」——幫你把已經拍好的素材做粗剪、上字幕、配樂。
 
@@ -212,3 +216,23 @@ MIT 授權，歡迎 fork、改寫、提交 PR。
 - 支援多語系字幕（日文、英文）
 
 如果你對場景式 AI 自動剪片有興趣，歡迎試試這個 Skill，有任何問題或建議歡迎在 GitHub 上開 Issue！
+
+---
+
+## 常見問題（FAQ）
+
+### 場景式剪片跟前一篇的後製自動化差在哪？
+
+前一篇 AutoCut 是「後製」：素材有聲音、直接粗剪上字幕配樂；這篇是「前製敘事」：素材沒旁白（如旅遊 Vlog），需要 ffmpeg 自動切場景 → AI 寫旁白 → TTS 合成語音 → 再組時間軸。
+
+### TTS 有哪種選擇？
+
+兩種免費引擎：Edge TTS（微軟，免安裝速度快，輸出 MP3）、台灣藍鵲 TTS（OpenFormosa 開源，台灣華語，可上傳自己的聲音向量 my_voice.pt 用你的聲音講旁白，輸出 WAV）。
+
+### 為什麼旁白寫完會暫停？
+
+作者實測 AI 寫的旁白有時太ㄎㄧㄤ，所以加了檢查點：輸出旁白表（段落、描述、秒數、旁白文字）讓你逐句修改，滿意按 y 才繼續執行 TTS → BGM → Palmier 剪輯。
+
+### 遇到哪些常見問題？
+
+BGM 沒指定 trackIndex 會跟 TTS 擠同一軌把旁白蓋掉（要先放 TTS 再指定 BGM 在 A1+1）；音檔 endFrame 超過真實長度 Palmier Pro 會靜默拒絕（改用 source 指定來源區間）；迴圈逐個 add TTS 會等 35 次 response（一次全部塞進同一個 add_clips call）。

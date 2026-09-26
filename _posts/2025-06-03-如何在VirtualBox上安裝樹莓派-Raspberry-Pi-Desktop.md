@@ -4,10 +4,14 @@ date: 2025-06-03 08:31:00.003000+00:00
 layout: post
 permalink: /2025/06/virtualboxraspberry-pi-desktop.html
 title: 如何在VirtualBox上安裝樹莓派 Raspberry Pi Desktop
-
-categories: [教學, 軟體工具]
+description: "在 VirtualBox 虛擬機上安裝 Raspberry Pi Desktop 的教學：下載來源、建立虛擬機、掛載 ISO、安裝流程與 Guest Additions 設定。"
+categories: [資訊教學,軟體工具]
 tags: [VirtualBox, Raspberry Pi, 樹莓派, 系統安裝, 教學筆記, 虛擬機]
 ---
+💡 VirtualBox 安裝樹莓派桌面重點
+
+這篇教學示範如何在 Windows/Mac 的 VirtualBox 虛擬機器上安裝 Raspberry Pi Desktop，讓沒有樹莓派實機的人也能練習 Linux 環境。
+
 
 <iframe width="560" height="315"
         src="https://www.youtube.com/embed/SBbgGC4ybYc"
@@ -46,3 +50,19 @@ Hello 大家好！歡迎回到資訊小教室！今天我們將介紹虛擬機�
 最終設置成功後，您可以探索虛擬機器下的Raspberry Pi系統，測試其功能並體驗多系統運作的便利性。
 
 裝有Raspberry Pi Desktop的虛擬機器，讓您在不擁有物理樹莓派硬體的情況下，也能體驗Linux系統與相關樹莓派專案。
+
+---
+
+## 常見問題（FAQ）
+
+### Raspberry Pi Desktop 可以用虛擬機跑嗎？
+
+可以。在 VirtualBox 下載 ISO 後以虛擬光碟機開機安裝；VirtualBox 要用 6.1 等 X64 版本，虛擬機作業系統型別選 Linux 的 Debian 32-bit。
+
+### 虛擬機資源要配多少？
+
+記憶體建議 2GB 以上，硬碟選固定大小、設 15GB 到 20GB 之間。
+
+### 裝好系統後還要做什麼？
+
+安裝 VirtualBox Guest Additions，可提升顯示解析度，並建立共享資料夾與剪貼簿更方便使用。

@@ -4,10 +4,14 @@ date: 2025-12-11 02:01:21 +0000
 layout: post
 permalink: /2025/12/python-print-input-tutorial.html
 title: Python 基礎：print 和 input 輸入輸出基礎教學
-
-categories: [教學, 程式教學]
+description: "Python 基礎入門：print() 與 input() 輸入輸出教學，含 sep/end 控制格式、字串相加與 f-string、常見錯誤與實作練習。"
+categories: [資訊教學,程式教學]
 tags: [Python, 程式教學, print, input]
 ---
+💡 Python print 與 input 教學重點
+
+這篇是 Python 超入門系列第一課，用生活化例子帶學員認識怎麼用 print() 印出訊息、用 input() 接收使用者輸入，並練習字串與數字的基礎操作。
+
 
 <iframe width="560" height="315"
         src="https://www.youtube.com/embed/OCMkUz74R3s"
@@ -171,3 +175,19 @@ print(a + b)
 - 練習平台：[點此前往解題系統](http://163.30.43.15/){:target="_blank"}
 - 課程代碼：SzNTKb
 - 練習目標：完成「YouTube 線上課程 - 課堂作業 print and input」，確認你是否能正確處理題目的輸入資料。
+
+---
+
+## 常見問題（FAQ）
+
+### print() 要怎麼在同一行優化輸出格式？
+
+用 sep 控制多個值之間的分隔符號，例 `print("2026","01","06",sep="-")` 輸出 2026-01-06；用 end 控制結尾字元，例 `print("載入中",end="...")` 就不會換行。
+
+### input() 回傳的是什麼資料型態？
+
+永遠是字串 str；所以 `input()` 輸入兩個數字後用 + 相加會變成拼字串（例如 100+200=100200），要算術需先 int()/float() 轉型。
+
+### f-string 是什麼？怎麼用？
+
+格式化字串，把變數放進大括號內，例如 `name=input("名字?")` 後 `print(f"哈囉，{name}")`；比字串相加可讀性更好。
