@@ -7,6 +7,8 @@ title: Warcraft Rumble - Onyxia All Leaders Guide
 
 categories: [電玩, Warcraft Rumble]
 tags: [Warcraft Rumble, Onyxia, Clear Guide, Game Tips, Mobile Game]
+description: Low average level Onyxia guide and every leader's strategy for Warcraft Rumble, recommended leaders below level 26 even below level 25/24, common deck composition, and phased tips for P1/P2/P3.
+
 ---
 
 💡 Warcraft Rumble Onyxia All-Leaders Guide at a Glance
