@@ -4,6 +4,15 @@
 <meta name="google-adsense-account" content="ca-pub-8522276249008152">
 
 <style>
+/* 側邊欄抖內按鈕（Buy Me a Coffee + 綠界）
+   注意：Chirpy 打包的 Bootstrap 是精簡版，pb-3 等工具類別不存在，
+   因此間距與縮排一律寫在這裡，不依賴 Bootstrap utility class。 */
+.sidebar-bmc,
+.sidebar-donate {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+}
 .sidebar-bmc {
   text-align: center;
 }
@@ -30,9 +39,6 @@
 }
 
 /* 綠界抖內按鈕（與 BMC 同套主題配色） */
-.sidebar-donate {
-  text-align: center;
-}
 .sidebar-donate .donate-btn {
   display: flex;
   align-items: center;
