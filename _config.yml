@@ -153,6 +153,13 @@ paginate: 10
 # The base URL of your site
 baseurl: ""
 
+# 抖內設定（側邊欄按鈕）
+# ecpay_url: 綠界金流的收款／抖內連結（申請通過後把連結填這裡）
+# 格式範例：https://p.ecpay.com.tw/xxxxxx
+# 填入 _config.yml 即可生效，不必修改 _includes/sidebar.html
+donate:
+  ecpay_url:
+
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:

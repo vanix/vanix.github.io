@@ -2,3 +2,83 @@
      crossorigin="anonymous"></script>
 
 <meta name="google-adsense-account" content="ca-pub-8522276249008152">
+
+<style>
+.sidebar-bmc {
+  text-align: center;
+}
+.sidebar-bmc .bmc-btn {
+  width: 100% !important;
+  font-family: "Cookie", cursive !important;
+  background-color: var(--sidebar-bg) !important;
+  color: var(--text-color) !important;
+  border: 1px solid var(--btn-border-color) !important;
+  box-shadow: var(--card-shadow) !important;
+  border-radius: 16px !important;
+}
+.sidebar-bmc .bmc-btn:hover {
+  background-color: var(--sidebar-hover-bg) !important;
+  color: var(--link-color) !important;
+  border-color: var(--sidebar-active-color) !important;
+}
+.sidebar-bmc svg {
+  display: inline-block;
+  fill: var(--link-color) !important;
+}
+.sidebar-bmc .bmc-btn .bmc-btn-text {
+  color: inherit !important;
+}
+
+/* 綠界抖內按鈕（與 BMC 同套主題配色） */
+.sidebar-donate {
+  text-align: center;
+}
+.sidebar-donate .donate-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 8px 14px;
+  border: 1px solid var(--btn-border-color);
+  border-radius: 16px;
+  background-color: var(--sidebar-bg);
+  color: var(--text-color);
+  box-shadow: var(--card-shadow);
+  text-decoration: none !important;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+.sidebar-donate .donate-btn:hover {
+  background-color: var(--sidebar-hover-bg);
+  border-color: var(--sidebar-active-color);
+  color: var(--link-color);
+}
+.sidebar-donate .donate-btn-icon {
+  font-size: 1.05em;
+  line-height: 1;
+}
+.sidebar-donate .donate-btn-text {
+  font-family: var(--font-family-base);
+  font-size: 0.95rem;
+  line-height: 1.2;
+}
+.sidebar-donate .donate-btn.is-disabled {
+  cursor: default;
+  opacity: 0.75;
+}
+.sidebar-donate .donate-btn.is-disabled:hover {
+  background-color: var(--sidebar-bg);
+  border-color: var(--btn-border-color);
+  color: var(--text-color);
+}
+.sidebar-donate .donate-btn-badge {
+  margin-left: auto;
+  padding: 1px 8px;
+  border: 1px solid var(--btn-border-color);
+  border-radius: 16px;
+  font-size: 0.72rem;
+  line-height: 1.6;
+  color: var(--text-muted-color);
+  white-space: nowrap;
+}
+</style>

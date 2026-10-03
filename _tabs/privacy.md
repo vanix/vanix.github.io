@@ -1,31 +1,33 @@
 ---
 layout: page
-title: 隱私權政策
+title: Privacy Policy
 permalink: /privacy/
 icon: fas fa-user-shield
 order: 5
 ---
 
-## 1. 關於本網站
-本網站 [充滿意外的宅爸人生[ (以下簡稱「我們」) 致力於保護您的個人隱私。本政策說明我們如何處理您在使用本網站時產生的資訊。
+## 1. About This Website
+This website, "充滿意外的宅爸人生" (hereinafter "we"), is committed to protecting your privacy. This policy explains how we handle information generated when you use this website.
 
-## 2. 收集的資訊
-我們本身不會主動收集您的姓名、電話或地址等個人識別資料。但是，我們可能會透過第三方服務（如 Google Analytics 或 Google AdSense）收集非個人識別資訊，例如：
-* 瀏覽器類型
-* 存取時間
-* 瀏覽的頁面
+## 2. Information We Collect
+We do not proactively collect personal identifying information such as your name, phone number, or address. However, we may collect non-personally identifiable information through third-party services (such as Google Analytics or Google AdSense), including:
 
-## 3. Cookie 的使用
-本網站使用 Cookie 來改善您的瀏覽體驗。Cookie 是存儲在您設備上的小型文字檔案。
-* **Google AdSense：** 作為第三方廣告供應商，Google 會使用 Cookie 根據您在本網站及其他網站的造訪記錄向您投放廣告。
-* 您可以透過造訪 [Google 廣告設定](https://www.google.com/settings/ads) 來選擇退出個人化廣告。
+* Browser type
+* Access time
+* Pages visited
 
-## 4. 第三方連結
-本網站可能包含指向其他網站的連結。我們對這些第三方網站的隱私做法不負任何責任，建議您閱讀其各自的隱私權政策。
+## 3. Use of Cookies
+This website uses cookies to improve your browsing experience. Cookies are small text files stored on your device.
 
-## 5. 政策修訂
-我們可能會不時更新此政策。建議您定期查看本頁面以了解任何更改。
+* **Google AdSense:** As a third-party advertising vendor, Google uses cookies to serve ads based on your visits to this website and other websites.
+* You can opt out of personalized advertising by visiting [Google Ads Settings](https://www.google.com/settings/ads).
 
-## 6. 聯絡我們
-如果您對本政策有任何疑問，請透過以下方式聯絡：
+## 4. Third-Party Links
+This website may contain links to other websites. We are not responsible for the privacy practices of these third-party websites. We encourage you to review the privacy policies of each site you visit.
+
+## 5. Policy Revisions
+We may update this policy from time to time. We recommend that you check this page periodically for any changes.
+
+## 6. Contact Us
+If you have any questions about this policy, please contact us at:
 * Email: homedad.ytr@gmail.com
