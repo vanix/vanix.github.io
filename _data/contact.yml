@@ -11,6 +11,10 @@
   icon: "fab fa-instagram"
   url: "https://www.instagram.com/homedad.teach.code/"
 
+- type: buymeacoffee
+  icon: "fas fa-coffee"
+  url: "https://buymeacoffee.com/vanix"
+
 #- type: twitter
 #  icon: "fa-brands fa-x-twitter"
 
