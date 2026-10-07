@@ -10,8 +10,7 @@ tags: [Python, 程式教學, 變數, 算術運算,APCS]
 ---
 💡 Python 變數與運算教學重點
 
-這篇是 Python 超入門系列課程的一課，用實例講解變數的宣告、常用資料型態與四則運算，幫助初學者建立程式基礎。
-
+這篇是 Python APCS初級課程 的第二課，用實例講解變數的宣告、常用資料型態與四則運算，幫助初學者建立程式基礎。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c6kWZHP2LGI" frameborder="0" allowfullscreen></iframe>
 
