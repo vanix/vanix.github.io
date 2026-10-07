@@ -413,6 +413,9 @@ print(text.encode('utf-8'))  # 正常輸出
 
 下一篇:[APCS中級課程：Python的自訂函數的基礎介紹](https://vanix.github.io/2025/12/custom-functions-introduction.html)
 
+下一篇:[APCS初級考前簡短複習](https://vanix.github.io/2026/07/apcs_basic_level_review.html)
+
+
 ---
 
 ## 常見問題（FAQ）
