@@ -6,7 +6,7 @@ permalink: /2025/12/python-recursion.html
 title: APCS中級課程：Python的遞迴函數基礎教學
 description: "APCS中級課程，內容是Python 遞迴函數教學：基本案例與遞迴案例、階乘/費波那契/次方/反轉字串/二元搜尋範例、全域區域變數、記憶化優化、常見錯誤與實際應用。"
 categories: [資訊教學,程式教學]
-tags: [Python, 程式教學, 遞迴, Recursion,APCS]
+tags: [Python, 程式教學, 遞迴, Recursion, APCS]
 ---
 💡 Python 遞迴教學重點
 
