@@ -3,19 +3,22 @@ author: 歐巴計概
 date: 2025-12-23 00:07:59 +0000
 layout: post
 permalink: /2025/12/custom-functions-introduction.html
-title: Python 基礎：自訂函數的基礎介紹
-description: "Python 自訂函數教學：def 語法、參數與 return、全域/區域變數（global）、預設參數陷阱、判斷閏年/質數/階乘實作與常見錯誤。"
+title: APCS中級課程：Python自訂函數基礎介紹
+description: "APCS中級課程，內容是Python 自訂函數教學：def 語法、參數與 return、全域/區域變數（global）、預設參數陷阱、判斷閏年/質數/階乘實作與常見錯誤。"
 categories: [資訊教學,程式教學]
-tags: [Python, 程式教學, 自訂函數]
+tags: [Python, 程式教學, 自訂函數,APCS]
 ---
 💡 Python 自訂函數教學重點
 
 這篇是 Python 超入門系列的一課，講解如何定義與呼叫自訂函數，包含參數、回傳值與作用域的基礎概念。
 
-
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qx0jy-Pzn0k" frameborder="0" allowfullscreen></iframe>
 
+[APCS教學文章列表](https://vanix.github.io/categories/%E7%A8%8B%E5%BC%8F%E6%95%99%E5%AD%B8/)
+
+[APCS實作線上課程](https://www.youtube.com/playlist?list=PLN9g1rvyo05p70K3HU-hWhEkoNs26WhD0)
+
+[APCS程式識讀線上課程](https://www.youtube.com/watch?v=2FW8NuSXdcU&list=PLN9g1rvyo05rQkcAghl_TcF9cHl0IeAp0)
 
 # Python 基礎：自訂函數的基礎介紹
 
@@ -454,7 +457,7 @@ print(稅率)              # 會錯誤：NameError
 - **步驟 3**：練習完成以下作業：
     1. **第 9 個作業**：YouTube 線上課程 - 課堂作業 自訂函數
 
-加油！寫程式就是不斷試錯與成長的過程。有任何問題歡迎在下方留言！
+下一篇:[APCS中級課程：Python的常用內建函數教學](https://vanix.github.io/2025/12/python-built-in-functions.html)
 
 ---
 
