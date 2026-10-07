@@ -10,7 +10,7 @@ tags: [Python, 程式教學, 迴圈, 程式設計,APCS]
 ---
 💡 Python 迴圈教學重點
 
-這篇是 Python 超入門系列的一課，講解 while 與 for 迴圈的寫法，並用實例練習累加、遍歷與 break/continue 的使用。
+這篇是 Python APCS初級課程的第四課，講解 while 與 for 迴圈的寫法，並用實例練習累加、遍歷與 break/continue 的使用。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/X_w3U5izmJM" frameborder="0" allowfullscreen></iframe>
 
