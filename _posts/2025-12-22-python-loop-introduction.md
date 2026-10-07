@@ -3,16 +3,22 @@ author: 歐巴計概
 date: 2025-12-22 02:07:14 +0000
 layout: post
 permalink: /2025/12/python-loop-introduction.html
-title: Python 基礎：迴圈介紹與使用
-description: "Python 迴圈教學：for 迴圈與 range(i)、while 迴圈、計算 2的5次方與階乘、巢狀迴圈畫星星、無限迴圈防範與練習題。"
+title: APCS初級課程：Python的迴圈介紹與使用
+description: "APCS初級課程，內容是Python 迴圈教學：for 迴圈與 range(i)、while 迴圈、計算 2的5次方與階乘、巢狀迴圈畫星星、無限迴圈防範與練習題。"
 categories: [資訊教學,程式教學]
-tags: [Python, 程式教學, 迴圈, 程式設計]
+tags: [Python, 程式教學, 迴圈, 程式設計,APCS]
 ---
 💡 Python 迴圈教學重點
 
 這篇是 Python 超入門系列的一課，講解 while 與 for 迴圈的寫法，並用實例練習累加、遍歷與 break/continue 的使用。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/X_w3U5izmJM" frameborder="0" allowfullscreen></iframe>
+
+[APCS教學文章列表](https://vanix.github.io/categories/%E7%A8%8B%E5%BC%8F%E6%95%99%E5%AD%B8/)
+
+[APCS實作線上課程](https://www.youtube.com/playlist?list=PLN9g1rvyo05p70K3HU-hWhEkoNs26WhD0)
+
+[APCS程式識讀線上課程](https://www.youtube.com/watch?v=2FW8NuSXdcU&list=PLN9g1rvyo05rQkcAghl_TcF9cHl0IeAp0)
 
 # Python 基礎：迴圈介紹與使用
 
@@ -194,6 +200,8 @@ for j in range(rows):
     2. **第 7 個作業**：YouTube 線上課程 - 課堂作業 巢狀迴圈+條件
 
 加油！寫程式就是不斷試錯與成長的過程。有任何問題歡迎在下方留言！
+
+下一篇:[APCS初級、中級課程：Python的字串處理與串列](https://vanix.github.io/2025/12/python-string-list-introduction.html)
 
 ---
 
