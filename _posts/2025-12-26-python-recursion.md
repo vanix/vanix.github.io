@@ -10,8 +10,13 @@ tags: [Python, 程式教學, 遞迴, Recursion,APCS]
 ---
 💡 Python 遞迴教學重點
 
-這篇是 Python 超入門系列的一課，用生活化例子講解遞迴（recursion）的概念、寫法與終止條件，並示範常見的遞迴題型。
+這篇是 Python APCS初級、中級課程的第八課，用生活化例子講解遞迴（recursion）的概念、寫法與終止條件，並示範常見的遞迴題型。
 
+[APCS教學文章列表](https://vanix.github.io/categories/%E7%A8%8B%E5%BC%8F%E6%95%99%E5%AD%B8/)
+
+[APCS實作線上課程](https://www.youtube.com/playlist?list=PLN9g1rvyo05p70K3HU-hWhEkoNs26WhD0)
+
+[APCS程式識讀線上課程](https://www.youtube.com/watch?v=2FW8NuSXdcU&list=PLN9g1rvyo05rQkcAghl_TcF9cHl0IeAp0)
 
 # Python 基礎：遞迴函數的完整教學
 
