@@ -4,7 +4,7 @@ date: 2025-12-25 00:07:59 +0000
 layout: post
 permalink: /2025/12/python-built-in-functions.html
 title: APCS中級課程：Python的常用內建函數教學
-description: "Python 常用內建函數教學：數學（abs/pow/round/divmod/max/min/sum）、型態轉換（int/float/str/list/tuple/bool）、迭代（range/enumerate/zip/filter/map/sorted）、物件（len/type/id/help）。"
+description: "APCS中級課程，內容是Python 常用內建函數教學：數學（abs/pow/round/divmod/max/min/sum）、型態轉換（int/float/str/list/tuple/bool）、迭代（range/enumerate/zip/filter/map/sorted）、物件（len/type/id/help）。"
 categories: [資訊教學,程式教學]
 tags: [Python, 程式教學, 內建函數, Built-in Functions,APCS]
 ---
