@@ -3,15 +3,22 @@ author: 歐巴計概
 date: 2025-12-22 20:20:59 +0000
 layout: post
 permalink: /2025/12/python-string-list-introduction.html
-title: Python 基礎：字串處理與串列
-description: "Python 字串與串列完整教學：索引切片、大小寫轉換、split/join、串列新增刪除排序、列表推導式、字串串列互轉與常見錯誤。"
+title: APCS初級、中級課程：Python的字串處理與串列
+description: "APCS初級、中級課程，內容是Python 字串與串列完整教學：索引切片、大小寫轉換、split/join、串列新增刪除排序、列表推導式、字串串列互轉與常見錯誤。"
 categories: [資訊教學,程式教學]
-tags: [Python, 程式教學, 字串, 串列, List, String]
+tags: [Python, 程式教學, 字串, 串列, List, String,APCS]
 ---
 💡 Python 字串與串列教學重點
 
-這篇是 Python 超入門系列的一課，用實例講解字串的操作與串列（list）的建立、走訪與常用方法。
+這篇是 Python 超入門系列的一課，用實例講解字串的操作與串列（list）的建立、走訪與常用方法。以下影片內容以解題為主，更多細節請參閱教學文章。
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aZ5sfHJ01Sg?si=XW8OnfbKF-WRzXkf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+[APCS教學文章列表](https://vanix.github.io/categories/%E7%A8%8B%E5%BC%8F%E6%95%99%E5%AD%B8/)
+
+[APCS實作線上課程](https://www.youtube.com/playlist?list=PLN9g1rvyo05p70K3HU-hWhEkoNs26WhD0)
+
+[APCS程式識讀線上課程](https://www.youtube.com/watch?v=2FW8NuSXdcU&list=PLN9g1rvyo05rQkcAghl_TcF9cHl0IeAp0)
 
 # Python 基礎：字串處理與串列的完整教學
 
@@ -404,7 +411,7 @@ print(text.encode('utf-8'))  # 正常輸出
 - **步驟 3**：練習完成以下作業：
     1. **第 8 個作業**：YouTube 線上課程 - 字串與串列
 
-持續練習，將所學應用於解題中，有助於鞏固這些基礎概念，並提升你的 Python 程式設計能力！
+下一篇:[APCS中級課程：Python的自訂函數的基礎介紹](https://vanix.github.io/2025/12/custom-functions-introduction.html)
 
 ---
 
