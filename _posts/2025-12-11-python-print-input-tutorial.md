@@ -3,15 +3,14 @@ author: 歐巴計概
 date: 2025-12-11 02:01:21 +0000
 layout: post
 permalink: /2025/12/python-print-input-tutorial.html
-title: Python 基礎：print 和 input 輸入輸出基礎教學
-description: "Python 基礎入門：print() 與 input() 輸入輸出教學，含 sep/end 控制格式、字串相加與 f-string、常見錯誤與實作練習。"
+title: APCS初級課程：Python的print 和 input 輸入輸出基礎教學
+description: "APCS初級課程教學文章，內容是Python 基礎入門：print() 與 input() 輸入輸出教學，含 sep/end 控制格式、字串相加與 f-string、常見錯誤與實作練習。"
 categories: [資訊教學,程式教學]
-tags: [Python, 程式教學, print, input]
+tags: [Python, 程式教學, print, input, APCS]
 ---
 💡 Python print 與 input 教學重點
 
 這篇是 Python 超入門系列第一課，用生活化例子帶學員認識怎麼用 print() 印出訊息、用 input() 接收使用者輸入，並練習字串與數字的基礎操作。
-
 
 <iframe width="560" height="315"
         src="https://www.youtube.com/embed/OCMkUz74R3s"
@@ -20,6 +19,12 @@ tags: [Python, 程式教學, print, input]
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen>
 </iframe>
+
+[APCS教學文章列表](https://vanix.github.io/categories/%E7%A8%8B%E5%BC%8F%E6%95%99%E5%AD%B8/)
+
+[APCS實作線上課程](https://www.youtube.com/playlist?list=PLN9g1rvyo05p70K3HU-hWhEkoNs26WhD0)
+
+[APCS程式識讀線上課程](https://www.youtube.com/watch?v=2FW8NuSXdcU&list=PLN9g1rvyo05rQkcAghl_TcF9cHl0IeAp0)
 
 ## 課程概要：你會學到什麼？
 1. 用 `print()` 輸出文字、數字與變數  
@@ -175,6 +180,8 @@ print(a + b)
 - 練習平台：[點此前往解題系統](http://163.30.43.15/){:target="_blank"}
 - 課程代碼：SzNTKb
 - 練習目標：完成「YouTube 線上課程 - 課堂作業 print and input」，確認你是否能正確處理題目的輸入資料。
+
+下一篇:[APCS初級課程：Python的變數與算術運算教學](https://vanix.github.io/2025/12/python-variables-arithmetic-tutorial.html)
 
 ---
 
