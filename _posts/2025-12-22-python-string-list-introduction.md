@@ -10,7 +10,7 @@ tags: [Python, 程式教學, 字串, 串列, List, String,APCS]
 ---
 💡 Python 字串與串列教學重點
 
-這篇是 Python APCS初級課程的第五課，用實例講解字串的操作與串列（list）的建立、走訪與常用方法。以下影片內容以解題為主，更多細節請參閱教學文章。
+這篇是 Python APCS初級、中級課程的第五課，用實例講解字串的操作與串列（list）的建立、走訪與常用方法。以下影片內容以解題為主，更多細節請參閱教學文章。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aZ5sfHJ01Sg?si=XW8OnfbKF-WRzXkf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
