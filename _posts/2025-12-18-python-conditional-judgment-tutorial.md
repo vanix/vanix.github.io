@@ -6,7 +6,7 @@ permalink: /2025/12/python-conditional-judgment-tutorial.html
 title: APCS初級課程：Python的條件判斷觀念教學，讓你的程式學會做決策！
 description: "APCS初級課程，內容是是Python 條件判斷教學：if/elif/else、比較運算子、and/or/not 邏輯運算、巢狀條件、猜數字遊戲與常見錯誤（= vs ==）。"
 categories: [資訊教學,程式教學]
-tags: [Python, 程式教學, 條件判斷, if, else, elif]
+tags: [Python, 程式教學, 條件判斷, if, else, elif,APCS]
 ---
 💡 Python 條件判斷教學重點
 
