@@ -10,7 +10,7 @@ tags: [Python, 程式教學, 條件判斷, if, else, elif,APCS]
 ---
 💡 Python 條件判斷教學重點
 
-這篇是 Python 超入門系列的一課，用生活案例講解 if/else 條件判斷的寫法與常見陷阱，適合初學者搭配練習題學習。
+這篇是 Python APCS初級課程的第三課，用生活案例講解 if/else 條件判斷的寫法與常見陷阱，適合初學者搭配練習題學習。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KghpckpI8e4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
