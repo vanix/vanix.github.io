@@ -10,7 +10,7 @@ tags: [Python, 程式教學, print, input, APCS]
 ---
 💡 Python print 與 input 教學重點
 
-這篇是 Python 超入門系列第一課，用生活化例子帶學員認識怎麼用 print() 印出訊息、用 input() 接收使用者輸入，並練習字串與數字的基礎操作。
+這篇是 Python的APCS初級課程 第一課，用生活化例子帶學員認識怎麼用 print() 印出訊息、用 input() 接收使用者輸入，並練習字串與數字的基礎操作。
 
 <iframe width="560" height="315"
         src="https://www.youtube.com/embed/OCMkUz74R3s"
