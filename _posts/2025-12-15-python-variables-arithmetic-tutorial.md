@@ -6,7 +6,7 @@ permalink: /2025/12/python-variables-arithmetic-tutorial.html
 title: APCS初級課程：Python的變數與算術運算教學
 description: "APCS初級課程，內容是Python 基礎：變數與資料型態（int/float/str/bool）、算術運算子優先順序、input() 字串陷阱、BMI 實作與常見錯誤。"
 categories: [資訊教學,程式教學]
-tags: [Python, 程式教學, 變數, 算術運算]
+tags: [Python, 程式教學, 變數, 算術運算,APCS]
 ---
 💡 Python 變數與運算教學重點
 
