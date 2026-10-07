@@ -6,12 +6,17 @@ permalink: /2026/07/apcs_basic_level_review.html
 title: APCS初級實作 - Python考前複習及注意事項
 description: "APCS 初級實作 Python 考前複習：迴圈執行次數判斷、串列（倉庫）掃描找最大值、串列內建功能（sort/reverse/max/min/sum/count/index）、考前注意事項與刷題建議。"
 categories: [資訊教學,程式教學]
-tags: [Python, 程式設計, 入門教學, 程式課程, APCS基礎, 實作初級]
+tags: [Python, 程式設計, 入門教學, 程式課程, APCS, 實作初級]
 ---
 💡 APCS 初級實作考前複習重點
 
 這篇是 APCS 初級實作的 Python 考前複習，重點整理迴圈與串列的題型解題步驟、串列內建功能與考前注意事項。
 
+[APCS教學文章列表](https://vanix.github.io/categories/%E7%A8%8B%E5%BC%8F%E6%95%99%E5%AD%B8/)
+
+[APCS實作線上課程](https://www.youtube.com/playlist?list=PLN9g1rvyo05p70K3HU-hWhEkoNs26WhD0)
+
+[APCS程式識讀線上課程](https://www.youtube.com/watch?v=2FW8NuSXdcU&list=PLN9g1rvyo05rQkcAghl_TcF9cHl0IeAp0)
 
 以下內容以複習迴圈跟串列(倉庫)為主
 
