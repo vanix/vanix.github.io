@@ -3,8 +3,8 @@ author: 歐巴計概
 date: 2025-12-18 11:05:01 +0000
 layout: post
 permalink: /2025/12/python-conditional-judgment-tutorial.html
-title: Python 基礎：條件判斷觀念教學，讓你的程式學會做決策！
-description: "Python 條件判斷教學：if/elif/else、比較運算子、and/or/not 邏輯運算、巢狀條件、猜數字遊戲與常見錯誤（= vs ==）。"
+title: APCS初級課程：Python的條件判斷觀念教學，讓你的程式學會做決策！
+description: "APCS初級課程，內容是是Python 條件判斷教學：if/elif/else、比較運算子、and/or/not 邏輯運算、巢狀條件、猜數字遊戲與常見錯誤（= vs ==）。"
 categories: [資訊教學,程式教學]
 tags: [Python, 程式教學, 條件判斷, if, else, elif]
 ---
@@ -12,8 +12,13 @@ tags: [Python, 程式教學, 條件判斷, if, else, elif]
 
 這篇是 Python 超入門系列的一課，用生活案例講解 if/else 條件判斷的寫法與常見陷阱，適合初學者搭配練習題學習。
 
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KghpckpI8e4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[APCS教學文章列表](https://vanix.github.io/categories/%E7%A8%8B%E5%BC%8F%E6%95%99%E5%AD%B8/)
+
+[APCS實作線上課程](https://www.youtube.com/playlist?list=PLN9g1rvyo05p70K3HU-hWhEkoNs26WhD0)
+
+[APCS程式識讀線上課程](https://www.youtube.com/watch?v=2FW8NuSXdcU&list=PLN9g1rvyo05rQkcAghl_TcF9cHl0IeAp0)
 
 什麼是條件判斷？
 在現實生活中，我們無時無刻不在做決定：「如果明天下雨，我就帶傘；否則，我就不帶傘。」在程式世界中，這種邏輯稱為 「條件判斷（Conditional Judgment）」。
@@ -184,6 +189,8 @@ tags: [Python, 程式教學, 條件判斷, if, else, elif]
 - 練習目標
   - 練習完成第4個作業：YouTube線上課程 - 課堂作業 條件判斷
   - 練習完成第5個作業：YouTube線上課程 - 課堂作業 巢狀條件
+
+下一篇:[APCS初級課程：Python的迴圈介紹與使用](https://vanix.github.io/2025/12/python-loop-introduction.html)
 
 ---
 
