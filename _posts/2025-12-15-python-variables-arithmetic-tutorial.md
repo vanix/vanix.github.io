@@ -3,8 +3,8 @@ author: 歐巴計概
 date: 2025-12-15 08:36:19 +0000
 layout: post
 permalink: /2025/12/python-variables-arithmetic-tutorial.html
-title: Python 基礎：變數與算術運算教學
-description: "Python 基礎：變數與資料型態（int/float/str/bool）、算術運算子優先順序、input() 字串陷阱、BMI 實作與常見錯誤。"
+title: APCS初級課程：Python的變數與算術運算教學
+description: "APCS初級課程，內容是Python 基礎：變數與資料型態（int/float/str/bool）、算術運算子優先順序、input() 字串陷阱、BMI 實作與常見錯誤。"
 categories: [資訊教學,程式教學]
 tags: [Python, 程式教學, 變數, 算術運算]
 ---
@@ -14,6 +14,12 @@ tags: [Python, 程式教學, 變數, 算術運算]
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c6kWZHP2LGI" frameborder="0" allowfullscreen></iframe>
+
+[APCS教學文章列表](https://vanix.github.io/categories/%E7%A8%8B%E5%BC%8F%E6%95%99%E5%AD%B8/)
+
+[APCS實作線上課程](https://www.youtube.com/playlist?list=PLN9g1rvyo05p70K3HU-hWhEkoNs26WhD0)
+
+[APCS程式識讀線上課程](https://www.youtube.com/watch?v=2FW8NuSXdcU&list=PLN9g1rvyo05rQkcAghl_TcF9cHl0IeAp0)
 
 ## 課程概要
 1. 變數是什麼、常見資料型別有哪些
@@ -169,6 +175,8 @@ BMI = 25.00
 - 練習目標
   - 完成第2個作業：YouTube線上課程 - 課堂作業 算術運算
   - 完成第3個作業：YouTube線上課程 - 題目講解 算術運算
+
+下一篇:[APCS初級課程：Python的條件判斷觀念教學，讓你的程式學會做決策！](https://vanix.github.io/2025/12/python-conditional-judgment-tutorial.html)
 
 ---
 
