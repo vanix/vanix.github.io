@@ -3,10 +3,10 @@ author: 歐巴計概
 date: 2025-12-25 00:07:59 +0000
 layout: post
 permalink: /2025/12/python-built-in-functions.html
-title: Python 基礎：常用內建函數教學
+title: APCS中級課程：Python的常用內建函數教學
 description: "Python 常用內建函數教學：數學（abs/pow/round/divmod/max/min/sum）、型態轉換（int/float/str/list/tuple/bool）、迭代（range/enumerate/zip/filter/map/sorted）、物件（len/type/id/help）。"
 categories: [資訊教學,程式教學]
-tags: [Python, 程式教學, 內建函數, Built-in Functions]
+tags: [Python, 程式教學, 內建函數, Built-in Functions,APCS]
 ---
 💡 Python 內建函數教學重點
 
@@ -510,6 +510,8 @@ Python 的內建函數是程式設計的強大工具，熟練使用這些函數�
 透過練習和實際應用，你會發現這些內建函數能大幅提升開發效率。建议在日常編程中多練習使用這些函數，逐漸形成使用內建函數的習慣。
 
 持續學習，多練習、多應用，你會發現 Python 程式設計越來越順手！
+
+下一篇:[APCS中級課程：Python的遞迴函數基礎教學](https://vanix.github.io/2025/12/python-recursion.html)
 
 ---
 
