@@ -10,7 +10,7 @@ tags: [Python, 程式教學, 自訂函數,APCS]
 ---
 💡 Python 自訂函數教學重點
 
-這篇是 Python APCS初級課程的第六課，講解如何定義與呼叫自訂函數，包含參數、回傳值與作用域的基礎概念。
+這篇是 Python APCS初級、中級課程的第六課，講解如何定義與呼叫自訂函數，包含參數、回傳值與作用域的基礎概念。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qx0jy-Pzn0k" frameborder="0" allowfullscreen></iframe>
 
