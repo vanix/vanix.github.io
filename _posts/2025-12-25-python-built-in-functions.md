@@ -10,7 +10,7 @@ tags: [Python, 程式教學, 內建函數, Built-in Functions,APCS]
 ---
 💡 Python 內建函數教學重點
 
-這篇是 Python APCS初級課程的第七課，介紹常用的內建函數（len、max、min、sum、sorted 等），並用實例說明怎麼搭配資料結構活用。
+這篇是 Python APCS初級、中級課程的第七課，介紹常用的內建函數（len、max、min、sum、sorted 等），並用實例說明怎麼搭配資料結構活用。
 
 [APCS教學文章列表](https://vanix.github.io/categories/%E7%A8%8B%E5%BC%8F%E6%95%99%E5%AD%B8/)
 
