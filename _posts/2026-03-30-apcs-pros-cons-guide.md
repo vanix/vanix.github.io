@@ -4,14 +4,19 @@ date: 2026-03-30
 layout: post
 permalink: /2026/03/apcs-pros-cons-guide.html
 title: APCS 有用嗎？完整解析優缺點＋適合對象＋升學案例
-categories: [資訊教學,APCS升學]
-tags: [APCS, 程式檢定, 資訊科系, 個人申請, 特殊選材, 學習歷程]
+categories: [資訊教學,高中升學]
+tags: [APCS, 程式檢定, 資訊科系, 個人申請, 特殊選材, 學習歷程,程式教學]
 description: APCS 值得考嗎？本篇完整解析 APCS 優缺點、適合對象、升學用途與真實案例，幫助高中生判斷是否要投入時間準備 APCS。
 ---
 💡 APCS 優缺點與適合對象重點
 
 這篇文章完整解析 APCS 的優缺點、適合對象與升學用途，用實際升學案例說明特殊選材與個人申請的策略，幫助高中生決定是否投入時間準備。
 
+[APCS教學文章列表](https://vanix.github.io/categories/%E7%A8%8B%E5%BC%8F%E6%95%99%E5%AD%B8/)
+
+[APCS實作線上課程](https://www.youtube.com/playlist?list=PLN9g1rvyo05p70K3HU-hWhEkoNs26WhD0)
+
+[APCS程式識讀線上課程](https://www.youtube.com/watch?v=2FW8NuSXdcU&list=PLN9g1rvyo05rQkcAghl_TcF9cHl0IeAp0)
 
 # APCS 有用嗎？完整解析優缺點＋適合對象
 
@@ -294,10 +299,6 @@ APCS 不是捷徑，但它是一條「可以努力換成果」的路。
 
 影片內容較為粗淺，文章則是補上更細節的內容
 [Python系列教學文章](https://vanix.github.io/categories/%E7%A8%8B%E5%BC%8F%E6%95%99%E5%AD%B8/)
-
----
-
-諮詢線上程式課程，請加Line官方帳號 @176yncbx ，帶你輕鬆入門程式的世界！
 
 ---
 
