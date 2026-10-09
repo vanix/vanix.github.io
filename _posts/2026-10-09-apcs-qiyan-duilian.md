@@ -36,7 +36,7 @@ image:
 
 這是 APCS 程式實作初級 2021 年 9 月範例的第一題（ZeroJudge 編號 [g275](https://zerojudge.tw/ShowProblem?problemid=g275){:target="_blank"}），也是典型的「讀資料 → 條件判斷 → 依結果輸出」題型。
 
-> **先備能力**：建議先學會 **條件判斷（if/else）**、**迴圈（for）** 與一點點 **串列（list／倉庫）** 再來挑戰。這些基礎可以看 [Python 超入門系列文章](https://vanix.github.io/categories/%E7%A8%8B%E5%BC%8F%E6%95%99%E5%AD%B8/)，練過迴圈與串列的練習題後再回來這題會順很多。
+> **先備能力**：建議先學會 **條件判斷（if/else）**、**迴圈（for）** 與一點點 **串列（list／倉庫）** 再來挑戰。這些基礎可以看 [APCS初級 Python基礎文章](https://vanix.github.io/categories/%E7%A8%8B%E5%BC%8F%E6%95%99%E5%AD%B8/)，練過迴圈與串列的練習題後再回來這題會順很多。
 {: .prompt-tip }
 
 ## 輸入格式怎麼看？
@@ -262,4 +262,4 @@ ABC
 
 ---
 
-還沒有基礎的同學，可以到[文章分類](https://vanix.github.io/categories/%E7%A8%8B%E5%BC%8F%E6%95%99%E5%AD%B8/)裡觀看教學文章跟教學影片，或看[Python 遞迴函數基礎教學](https://vanix.github.io/2025/12/python-recursion.html)。寫完可以到 [ZeroJudge g275](https://zerojudge.tw/ShowProblem?problemid=g275){:target="_blank"} 送出測驗，確認自己的程式邏輯沒有問題。
+還沒有基礎的同學，可以到[文章分類](https://vanix.github.io/categories/%E7%A8%8B%E5%BC%8F%E6%95%99%E5%AD%B8/)裡觀看教學文章跟教學影片，記得看完要寫作業。有基礎後再來寫這題，寫完可以到 [ZeroJudge g275](https://zerojudge.tw/ShowProblem?problemid=g275){:target="_blank"} 送出測驗，確認自己的程式邏輯沒有問題。
