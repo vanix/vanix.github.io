@@ -20,7 +20,7 @@ image:
 
 [APCS實作線上課程](https://www.youtube.com/playlist?list=PLN9g1rvyo05p70K3HU-hWhEkoNs26WhD0)
 
-[ZeroJudge g275 題目連結](https://zerojudge.tw/ShowProblem?problemid=g275){:target="_blank"}
+[ZeroJudge 七言對聯 題目連結](https://zerojudge.tw/ShowProblem?problemid=g275){:target="_blank"}
 
 <iframe width="560" height="315"
         src="https://www.youtube.com/embed/Ooy1F6ye2Yo"
