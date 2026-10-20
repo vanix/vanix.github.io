@@ -6,7 +6,7 @@ permalink: /2026/10/apcs-i400-string-decode.html
 title: APCS中級 字串解碼教學｜Python 反推 0/1 編碼表，還原原始字串
 description: "APCS 中級實作題「字串解碼」（ZeroJudge i400、2022 年 6 月第 2 題）完整解題教學。先用小虎的編碼規則拆解兩大步驟：1 的個數為奇數就把字串左半右半對調，再依 0/1 從左右兩端抽字；接著帶你學會反向還原的四個關鍵——外層迴圈、內層迴圈都要反著跑、字元要接回原本的那一端、對調要最後做。附完整 Python 程式碼、範例一與範例二逐步走讀、常見錯誤整理，適合準備挑戰 APCS 中級實作題的同學。"
 categories: [資訊教學, 程式教學]
-tags: [Python, APCS, 程式教學, 字串解碼, ZeroJudge, 巢狀迴圈, 字串處理, 實作中級, APCS中級]
+tags: [Python, APCS, 程式教學, 字串解碼, 巢狀迴圈, 字串處理, 實作中級, APCS中級]
 image:
   path: /assets/images/cover/apcs-i400-string-decode.png
   alt: APCS 中級字串解碼解題教學封面，說明如何用 Python 反向還原 0/1 編碼表
@@ -320,4 +320,4 @@ _在 ZeroJudge 上以 Python 送出 i400.2 字串解碼，16ms 取得 AC。_
 
 ---
 
-字串處理還不熟的話，可以先看 [APCS初級 裝飲料解題教學](https://vanix.github.io/2026/10/apcs-o711-pour-drink.html) 暖身，或是挑戰 [APCS中級 特殊位置解題教學](https://vanix.github.io/2026/10/apcs-k732-special-position.html) 練二維陣列與巢狀迴圈。完整題目清單請看 [APCS初級題單](https://vanix.github.io/2026/10/apcs-beginner-problem-list.html)。
+字串處理還不熟的話，可以先看宅爸的[Python的字串處理與串列教學文章](https://vanix.github.io/2025/12/python-string-list-introduction.html)暖身，或是挑戰 [APCS中級 特殊位置解題教學](https://vanix.github.io/2026/10/apcs-k732-special-position.html) 練二維陣列與巢狀迴圈。完整題目清單請看 [APCS初級題單](https://vanix.github.io/2026/10/apcs-beginner-problem-list.html)。
