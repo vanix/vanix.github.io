@@ -1,15 +1,15 @@
 - title: 專區首頁
   url: /apcs/
   icon: fas fa-house
+- title: 學習地圖
+  url: /apcs/roadmap/
+  icon: fas fa-route
 - title: 基本題庫
   url: /apcs/problem-bank/
   icon: fas fa-list-check
 - title: 歷屆實作題庫
   url: /apcs/exam-bank/
   icon: fas fa-star
-- title: 學習地圖
-  url: /apcs/roadmap/
-  icon: fas fa-route
 - title: 歷屆題解題
   url: /tags/apcs/
   icon: fab fa-python
