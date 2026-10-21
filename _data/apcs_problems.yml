@@ -1,18 +1,18 @@
 # APCS教學專區題庫資料
-# 三種評測網站：sssh = 壽山高中解題網、zjudge = ZeroJudge、tcirc = TCIRC 串中電研OJ
+# 三種評測網站：sssh = 壽山高中解題網、zjudge = ZeroJudge、tcirc = 其他外部題庫（TCIRC 串中電研OJ）
 # key = <網站>-<題號>，因不同網站可能有同號題（例：a015 壽山與 ZeroJudge 都有）
 sites:
   sssh:
-    name: "壽山高中解題網"
-    short: "壽山"
+    name: "壽高"
+    short: "壽高"
     base: "http://163.30.43.15/ShowProblem?problemid="
   zjudge:
-    name: "ZeroJudge"
+    name: "ZJ"
     short: "ZJ"
     base: "https://zerojudge.tw/ShowProblem?problemid="
   tcirc:
-    name: "TCIRC 串中電研OJ"
-    short: "TCIRC"
+    name: "其他"
+    short: "其他"
     base: "https://judge.tcirc.tw/problem/"
 
 classes:
