@@ -1,0 +1,298 @@
+# APCS 歷屆實作題庫（來源：ZeroJudge）
+# 考試場次與通過率取自 ZeroJudge 的 APCS 標籤清單頁
+# 舊制實作題第 1～4 題分別對應四個等級：初級／中級／中高級／高級
+# topic = 觀念（沿用考古題庫的章節分類）
+# solution 對應本站的解題文章
+
+levels:
+  - id: beginner
+    name: APCS初級題庫
+    level: 初級
+    desc: 歷屆 APCS 初級程式實作題，每場挑一題出，難度從觀念題一路到需要迴圈與陣列。
+    problems:
+      - id: g275
+        no: 1
+        title: 七言對聯
+        exam: 2021年9月
+        type: 範例題
+        topic: 規則檢查
+        pass: 94%
+        pass_count: 6324
+        judge: "https://zerojudge.tw/ShowProblem?problemid=g275"
+        solution: "/2026/10/apcs-qiyan-duilian.html"
+      - id: o711
+        no: 1
+        title: 裝飲料
+        exam: 2024年10月
+        type: 範例題
+        topic: 規則檢查
+        pass: 83%
+        pass_count: 2328
+        judge: "https://zerojudge.tw/ShowProblem?problemid=o711"
+        solution: "/2026/10/apcs-o711-pour-drink.html"
+      - id: m931
+        no: 1
+        title: 遊戲選角
+        exam: 2024年1月
+        type: 範例題
+        topic: 陣列與極值
+        pass: 95%
+        pass_count: 3868
+        judge: "https://zerojudge.tw/ShowProblem?problemid=m931"
+        solution: "/2026/10/apcs-game-character-selection.html"
+      - id: c294
+        no: 1
+        title: 三角形辨別
+        exam: 2016年10月
+        type: 舊制題
+        topic: 條件判斷
+        pass: 93%
+        pass_count: 13282
+        judge: "https://zerojudge.tw/ShowProblem?problemid=c294"
+        solution: ""
+      - id: b964
+        no: 1
+        title: 成績指標
+        exam: 2016年3月
+        type: 舊制題
+        topic: 排序與貪心
+        pass: 90%
+        pass_count: 15265
+        judge: "https://zerojudge.tw/ShowProblem?problemid=b964"
+        solution: ""
+      - id: c290
+        no: 1
+        title: 秘密差
+        exam: 2017年3月
+        type: 舊制題
+        topic: 迴圈與累加
+        pass: 93%
+        pass_count: 13929
+        judge: "https://zerojudge.tw/ShowProblem?problemid=c290"
+        solution: ""
+      - id: c461
+        no: 1
+        title: 邏輯運算子 (Logic Operators)
+        exam: 2017年10月
+        type: 舊制題
+        topic: 條件判斷
+        pass: 93%
+        pass_count: 8955
+        judge: "https://zerojudge.tw/ShowProblem?problemid=c461"
+        solution: ""
+      - id: f579
+        no: 1
+        title: 購物車
+        exam: 2020年7月
+        type: 舊制題
+        topic: 迴圈與累加
+        pass: 96%
+        pass_count: 5359
+        judge: "https://zerojudge.tw/ShowProblem?problemid=f579"
+        solution: ""
+      - id: f312
+        no: 1
+        title: 人力分配
+        exam: 2020年10月
+        type: 舊制題
+        topic: 陣列與極值
+        pass: 93%
+        pass_count: 7913
+        judge: "https://zerojudge.tw/ShowProblem?problemid=f312"
+        solution: ""
+
+  - id: intermediate
+    name: APCS中級題庫
+    level: 中級
+    desc: 歷屆 APCS 中級程式實作題，需要用到二維陣列、前綴和、字串處理或簡單的演算法。
+    problems:
+      - id: k732
+        no: 2
+        title: 特殊位置
+        exam: 2023年6月
+        type: 範例題
+        topic: 二維陣列
+        pass: 91%
+        pass_count: 1966
+        judge: "https://zerojudge.tw/ShowProblem?problemid=k732"
+        solution: "/2026/10/apcs-k732-special-position.html"
+      - id: o712
+        no: 2
+        title: 蒐集寶石
+        exam: 2024年10月
+        type: 範例題
+        topic: 狀態機
+        pass: 92%
+        pass_count: 1827
+        judge: "https://zerojudge.tw/ShowProblem?problemid=o712"
+        solution: ""
+      - id: i400
+        no: 2
+        title: 字串解碼
+        exam: 2022年6月
+        type: 範例題
+        topic: 字串處理
+        pass: 91%
+        pass_count: 2344
+        judge: "https://zerojudge.tw/ShowProblem?problemid=i400"
+        solution: "/2026/10/apcs-i400-string-decode.html"
+      - id: b965
+        no: 2
+        title: 矩陣轉換
+        exam: 2016年3月
+        type: 舊制題
+        topic: 二維陣列
+        pass: 82%
+        pass_count: 4559
+        judge: "https://zerojudge.tw/ShowProblem?problemid=b965"
+        solution: ""
+      - id: c295
+        no: 2
+        title: 最大和
+        exam: 2016年10月
+        type: 舊制題
+        topic: 陣列與極值
+        pass: 92%
+        pass_count: 7923
+        judge: "https://zerojudge.tw/ShowProblem?problemid=c295"
+        solution: ""
+      - id: c291
+        no: 2
+        title: 小群體
+        exam: 2017年3月
+        type: 舊制題
+        topic: 圖與連通
+        pass: 94%
+        pass_count: 7270
+        judge: "https://zerojudge.tw/ShowProblem?problemid=c291"
+        solution: ""
+      - id: c462
+        no: 2
+        title: 交錯字串 (Alternating Strings)
+        exam: 2017年10月
+        type: 舊制題
+        topic: 字串處理
+        pass: 84%
+        pass_count: 3055
+        judge: "https://zerojudge.tw/ShowProblem?problemid=c462"
+        solution: ""
+      - id: f580
+        no: 2
+        title: 骰子
+        exam: 2020年7月
+        type: 舊制題
+        topic: 狀態機
+        pass: 93%
+        pass_count: 2735
+        judge: "https://zerojudge.tw/ShowProblem?problemid=f580"
+        solution: ""
+      - id: f313
+        no: 2
+        title: 人口遷移
+        exam: 2020年10月
+        type: 舊制題
+        topic: 二維陣列
+        pass: 91%
+        pass_count: 3537
+        judge: "https://zerojudge.tw/ShowProblem?problemid=f313"
+        solution: ""
+      - id: f312
+        no: 1
+        title: 人力分配
+        exam: 2020年10月
+        type: 舊制題
+        topic: 陣列與極值
+        pass: 93%
+        pass_count: 7913
+        judge: "https://zerojudge.tw/ShowProblem?problemid=f312"
+        solution: ""
+        note: 該場第 1 題，同一題在初級題庫也出現
+
+  - id: upper_intermediate
+    name: APCS中高級題庫
+    level: 中高級
+    desc: 舊制第 3 題：開始需要前綴和、二分搜尋與遞迴下降，題目難度明顯跳一級。
+    problems:
+      - id: f581
+        no: 3
+        title: 圓環出口
+        exam: 2020年7月
+        type: 舊制題
+        topic: 前綴和
+        pass: 85%
+        pass_count: 1347
+        judge: "https://zerojudge.tw/ShowProblem?problemid=f581"
+        solution: ""
+        note: 整圈取餘數 + 前綴和搭配二分搜尋
+      - id: o713
+        no: 3
+        title: 連鎖反應
+        exam: 2024年10月
+        type: 舊制題
+        topic: 二分搜尋
+        pass: 62%
+        pass_count: 395
+        judge: "https://zerojudge.tw/ShowProblem?problemid=o713"
+        solution: ""
+        note: 對半徑二分搜 + 連鎖 BFS
+      - id: i401
+        no: 3
+        title: 雷射測試
+        exam: 2022年6月
+        type: 舊制題
+        topic: 二分搜尋
+        pass: 80%
+        pass_count: 724
+        judge: "https://zerojudge.tw/ShowProblem?problemid=i401"
+        solution: ""
+        note: 依列／依行排序後二分搜
+      - id: f640
+        no: 3
+        title: 函數運算式求值
+        exam: 2019年2月
+        type: 舊制題
+        topic: 遞迴與分治
+        pass: 95%
+        pass_count: 2416
+        judge: "https://zerojudge.tw/ShowProblem?problemid=f640"
+        solution: ""
+        note: 遞迴下降求值
+      - id: f637
+        no: 3
+        title: DF-expression
+        exam: 2018年10月
+        type: 舊制題
+        topic: 遞迴與分治
+        pass: 95%
+        pass_count: 1837
+        judge: "https://zerojudge.tw/ShowProblem?problemid=f637"
+        solution: ""
+        note: 前序解碼，同色整塊用面積
+
+  - id: advanced
+    name: APCS高級題庫
+    level: 高級
+    desc: 舊制第 4 題：對答案二分搜、貪心驗證、複雜度要求最緊，適合拿來挑戰極限。
+    problems:
+      - id: c575
+        no: 4
+        title: 基地台
+        exam: 2017年3月
+        type: 舊制題
+        topic: 二分搜尋
+        pass: 88%
+        pass_count: 2330
+        judge: "https://zerojudge.tw/ShowProblem?problemid=c575"
+        solution: ""
+        note: 對答案二分搜 + 貪心驗證
+      - id: h084
+        no: 4
+        title: 牆上海報
+        exam: 2022年1月
+        type: 舊制題
+        topic: 二分搜尋
+        pass: 88%
+        pass_count: 1259
+        judge: "https://zerojudge.tw/ShowProblem?problemid=h084"
+        solution: ""
+        note: 對高度二分搜 + 分段貪心

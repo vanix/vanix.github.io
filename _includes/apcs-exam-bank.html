@@ -1,0 +1,93 @@
+{% assign levels = site.data.apcs_exam_problems.levels %}
+{% assign types = "" | split: "" %}
+{% assign exams = "" | split: "" %}
+{% assign topics = "" | split: "" %}
+{% assign total = 0 %}
+{% for lv in levels %}
+  {% for p in lv.problems %}
+    {% assign types = types | push: p.type %}
+    {% assign exams = exams | push: p.exam %}
+    {% assign topics = topics | push: p.topic %}
+    {% assign total = total | plus: 1 %}
+  {% endfor %}
+{% endfor %}
+{% assign types = types | uniq %}
+{% assign exams = exams | uniq %}
+{% assign topics = topics | uniq %}
+
+<div class="apcs-tools">
+  <input id="apcs-q" class="apcs-search" type="search" placeholder="搜尋題號或題名，例如 k732、矩陣">
+  <div class="apcs-chips">
+    <span class="apcs-chips-label">級別</span>
+    <button class="apcs-chip active" data-filter="level" data-value="all">全部</button>
+    {% for lv in levels %}
+      <button class="apcs-chip" data-filter="level" data-value="{{ lv.id }}">{{ lv.level }}</button>
+    {% endfor %}
+  </div>
+  <div class="apcs-chips">
+    <span class="apcs-chips-label">類型</span>
+    <button class="apcs-chip active" data-filter="type" data-value="all">全部</button>
+    {% for t in types %}
+      <button class="apcs-chip" data-filter="type" data-value="{{ t }}">{{ t }}</button>
+    {% endfor %}
+  </div>
+  <div class="apcs-chips">
+    <span class="apcs-chips-label">觀念</span>
+    <button class="apcs-chip active" data-filter="topic" data-value="all">全部</button>
+    {% for t in topics %}
+      <button class="apcs-chip" data-filter="topic" data-value="{{ t }}">{{ t }}</button>
+    {% endfor %}
+  </div>
+  <div class="apcs-chips">
+    <span class="apcs-chips-label">考試場次</span>
+    <button class="apcs-chip active" data-filter="exam" data-value="all">全部</button>
+    {% for e in exams %}
+      <button class="apcs-chip" data-filter="exam" data-value="{{ e }}">{{ e }}</button>
+    {% endfor %}
+  </div>
+  <div class="apcs-chips">
+    <label class="apcs-chip" style="cursor:pointer">
+      <input type="checkbox" id="apcs-solved" style="vertical-align:-1px;margin-right:.3rem"> 只看有解題文章的題目
+    </label>
+  </div>
+</div>
+
+<div class="apcs-count" id="apcs-count">共 {{ total }} 題</div>
+
+<div class="apcs-table-wrap">
+<table class="apcs-table">
+  <thead>
+    <tr>
+      <th style="width:5.5rem">題號</th>
+      <th>題目</th>
+      <th style="width:6rem">考試</th>
+      <th style="width:5rem">類型</th>
+      <th style="width:7rem">通過率</th>
+      <th style="width:7rem">解題文章</th>
+    </tr>
+  </thead>
+  {% for lv in levels %}
+  <tbody class="apcs-group" data-level="{{ lv.id }}">
+    <tr class="apcs-group-row"><td colspan="6">{{ lv.name }}（{{ lv.problems.size }} 題）｜{{ lv.desc }}</td></tr>
+    {% for p in lv.problems %}
+    <tr class="apcs-problem-row"
+        data-level="{{ lv.id }}"
+        data-type="{{ p.type }}"
+        data-topic="{{ p.topic }}"
+        data-exam="{{ p.exam }}"
+        data-search="{{ p.id }} {{ p.title }} {{ p.exam }} {{ p.type }} {{ p.topic }} {{ lv.level }}"
+        data-solution="{% if p.solution and p.solution != '' %}1{% else %}0{% endif %}">
+      <td class="apcs-id"><a href="{{ p.judge }}" target="_blank" rel="noopener">{{ p.id }}</a></td>
+      <td><a href="{{ p.judge }}" target="_blank" rel="noopener">{{ p.title }}</a>{% if p.note != '' %} <span class="apcs-note">（{{ p.note }}）</span>{% endif %}</td>
+      <td class="apcs-note">{{ p.exam }}</td>
+      <td><span class="apcs-tag">{{ p.type }}</span></td>
+      <td class="apcs-note">{{ p.pass }}・{{ p.pass_count }} 人</td>
+      <td class="apcs-solution">{% if p.solution and p.solution != '' %}<a href="{{ p.solution | relative_url }}">看解題 →</a>{% else %}<span class="apcs-note">—</span>{% endif %}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+  {% endfor %}
+</table>
+</div>
+
+<p class="apcs-empty" id="apcs-empty" style="display:none">找不到符合條件的題目，換個關鍵字試試。</p>

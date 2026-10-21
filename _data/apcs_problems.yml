@@ -1,0 +1,1055 @@
+# APCS 專區題庫資料
+# 三種評測網站：sssh = 壽山高中解題網、zjudge = ZeroJudge、tcirc = TCIRC 串中電研OJ
+# key = <網站>-<題號>，因不同網站可能有同號題（例：a015 壽山與 ZeroJudge 都有）
+sites:
+  sssh:
+    name: "壽山高中解題網"
+    short: "壽山"
+    base: "http://163.30.43.15/ShowProblem?problemid="
+  zjudge:
+    name: "ZeroJudge"
+    short: "ZJ"
+    base: "https://zerojudge.tw/ShowProblem?problemid="
+  tcirc:
+    name: "TCIRC 串中電研OJ"
+    short: "TCIRC"
+    base: "https://judge.tcirc.tw/problem/"
+
+classes:
+  - id: io
+    name: "輸入輸出、變數與算術運算"
+    level: "初級"
+    order: 1
+    desc: "先練會把資料讀進來、算得動、印得出去，是所有題目的地基。"
+    topics:
+      - "輸入輸出"
+      - "算術運算"
+      - "整數除法與餘數"
+    groups:
+      - name: "課堂作業：輸入與輸出"
+        problems:
+          - id: a007
+            key: sssh-a007
+            site: sssh
+            title: "K-I-S-S-I-N-G"
+            group: "課堂作業"
+            topic: "輸入輸出"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a007"
+            solution: ""
+            excluded: false
+          - id: a012
+            key: sssh-a012
+            site: sssh
+            title: "Johnny B. Goode"
+            group: "課堂作業"
+            topic: "輸入輸出"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a012"
+            solution: ""
+            excluded: false
+          - id: a033
+            key: sssh-a033
+            site: sssh
+            title: "hello, world"
+            group: "課堂作業"
+            topic: "輸入輸出"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a033"
+            solution: ""
+            excluded: false
+          - id: a013
+            key: sssh-a013
+            site: sssh
+            title: "You can say that again!"
+            group: "課堂作業"
+            topic: "輸入輸出"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a013"
+            solution: ""
+            excluded: false
+          - id: a014
+            key: sssh-a014
+            site: sssh
+            title: "中華民國萬歲！"
+            group: "課堂作業"
+            topic: "輸入輸出"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a014"
+            solution: ""
+            excluded: false
+          - id: a046
+            key: sssh-a046
+            site: sssh
+            title: "簡單讀取"
+            group: "課堂作業"
+            topic: "輸入輸出"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a046"
+            solution: ""
+            excluded: false
+      - name: "課堂作業：算術運算"
+        problems:
+          - id: a048
+            key: sssh-a048
+            site: sssh
+            title: "攝氏轉華氏"
+            group: "課堂作業"
+            topic: "算術運算"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a048"
+            solution: ""
+            excluded: false
+          - id: a049
+            key: sssh-a049
+            site: sssh
+            title: "二數相加"
+            group: "課堂作業"
+            topic: "算術運算"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a049"
+            solution: ""
+            excluded: false
+          - id: a124
+            key: sssh-a124
+            site: sssh
+            title: "累加數字"
+            group: "課堂作業"
+            topic: "算術運算"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a124"
+            solution: ""
+            excluded: false
+      - name: "基礎練習題"
+        problems:
+          - id: a050
+            key: sssh-a050
+            site: sssh
+            title: "求矩形面積"
+            group: "基礎練習"
+            topic: "算術運算"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a050"
+            solution: ""
+            excluded: false
+          - id: a056
+            key: sssh-a056
+            site: sssh
+            title: "整數商餘"
+            group: "基礎練習"
+            topic: "整數除法與餘數"
+            source: ""
+            note: "用 // 與 % 分別取商與餘數"
+            judge: "http://163.30.43.15/ShowProblem?problemid=a056"
+            solution: ""
+            excluded: false
+          - id: a019
+            key: sssh-a019
+            site: sssh
+            title: "0 與 1"
+            group: "基礎練習"
+            topic: "算術運算"
+            source: "板橋高中教學題"
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a019"
+            solution: ""
+            excluded: false
+          - id: a071
+            key: sssh-a071
+            site: sssh
+            title: "兩個數字的七種算術運算"
+            group: "基礎練習"
+            topic: "算術運算"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a071"
+            solution: ""
+            excluded: false
+          - id: a072
+            key: sssh-a072
+            site: sssh
+            title: "計算圓面積"
+            group: "基礎練習"
+            topic: "算術運算"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a072"
+            solution: ""
+            excluded: false
+          - id: a054
+            key: sssh-a054
+            site: sssh
+            title: "長寬高算體積"
+            group: "基礎練習"
+            topic: "算術運算"
+            source: "arping瘋狂程設"
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a054"
+            solution: ""
+            excluded: false
+          - id: a070
+            key: sssh-a070
+            site: sssh
+            title: "換匯：台幣換美金"
+            group: "基礎練習"
+            topic: "算術運算"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a070"
+            solution: ""
+            excluded: false
+          - id: a015
+            key: sssh-a015
+            site: sssh
+            title: "妳那裡現在幾點了？"
+            group: "基礎練習"
+            topic: "算術運算"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a015"
+            solution: ""
+            excluded: false
+          - id: a042
+            key: sssh-a042
+            site: sssh
+            title: "買鉛筆"
+            group: "基礎練習"
+            topic: "算術運算"
+            source: "板橋高中教學題"
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a042"
+            solution: ""
+            excluded: false
+          - id: a076
+            key: sssh-a076
+            site: sssh
+            title: "定期儲蓄存款之整存整付：單利計算"
+            group: "基礎練習"
+            topic: "算術運算"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a076"
+            solution: ""
+            excluded: false
+          - id: a075
+            key: sssh-a075
+            site: sssh
+            title: "段考加權平均計算程式"
+            group: "基礎練習"
+            topic: "算術運算"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a075"
+            solution: ""
+            excluded: false
+          - id: a077
+            key: sssh-a077
+            site: sssh
+            title: "自動販賣機之找零程式"
+            group: "基礎練習"
+            topic: "算術運算"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a077"
+            solution: ""
+            excluded: false
+          - id: a029
+            key: sssh-a029
+            site: sssh
+            title: "分組報告"
+            group: "基礎練習"
+            topic: "算術運算"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a029"
+            solution: ""
+            excluded: false
+          - id: a035
+            key: sssh-a035
+            site: sssh
+            title: "伏林的三角地"
+            group: "基礎練習"
+            topic: "算術運算"
+            source: ""
+            note: "海龍公式求面積"
+            judge: "http://163.30.43.15/ShowProblem?problemid=a035"
+            solution: ""
+            excluded: false
+  - id: cond
+    name: "條件判斷"
+    level: "初級"
+    order: 2
+    desc: "同一批輸入要走不同的路，練 if／elif／else 與比較運算。"
+    topics:
+      - "條件判斷"
+      - "條件判斷（字串）"
+    groups:
+      - name: "課堂作業"
+        problems:
+          - id: a024
+            key: sssh-a024
+            site: sssh
+            title: "該減肥了！"
+            group: "課堂作業"
+            topic: "條件判斷"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a024"
+            solution: ""
+            excluded: false
+          - id: a031
+            key: sssh-a031
+            site: sssh
+            title: "山六九之旅"
+            group: "課堂作業"
+            topic: "條件判斷"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a031"
+            solution: ""
+            excluded: false
+          - id: a061
+            key: sssh-a061
+            site: sssh
+            title: "成績分級 1"
+            group: "課堂作業"
+            topic: "條件判斷"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a061"
+            solution: ""
+            excluded: false
+          - id: a055
+            key: sssh-a055
+            site: sssh
+            title: "計算工讀生薪水 1"
+            group: "課堂作業"
+            topic: "條件判斷"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a055"
+            solution: ""
+            excluded: false
+      - name: "基礎練習題"
+        problems:
+          - id: a067
+            key: sssh-a067
+            site: sssh
+            title: "季節判斷"
+            group: "基礎練習"
+            topic: "條件判斷"
+            source: "arping瘋狂程設"
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a067"
+            solution: ""
+            excluded: false
+          - id: a020
+            key: sssh-a020
+            site: sssh
+            title: "ㄑㄧˊ 數？"
+            group: "基礎練習"
+            topic: "條件判斷"
+            source: "板橋高中教學題"
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a020"
+            solution: ""
+            excluded: false
+          - id: a021
+            key: sssh-a021
+            site: sssh
+            title: "三人行必有我師"
+            group: "基礎練習"
+            topic: "條件判斷"
+            source: "板橋高中教學題"
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a021"
+            solution: ""
+            excluded: false
+          - id: a051
+            key: sssh-a051
+            site: sssh
+            title: "計算BMI"
+            group: "基礎練習"
+            topic: "條件判斷"
+            source: "arping瘋狂程設"
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a051"
+            solution: ""
+            excluded: false
+          - id: a060
+            key: sssh-a060
+            site: sssh
+            title: "計算工讀生薪水 2"
+            group: "基礎練習"
+            topic: "條件判斷"
+            source: "2020wwonsssh"
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a060"
+            solution: ""
+            excluded: false
+          - id: a062
+            key: sssh-a062
+            site: sssh
+            title: "成績分級2"
+            group: "基礎練習"
+            topic: "條件判斷"
+            source: "2020wwonsssh"
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a062"
+            solution: ""
+            excluded: false
+          - id: a063
+            key: sssh-a063
+            site: sssh
+            title: "求最大值"
+            group: "基礎練習"
+            topic: "條件判斷"
+            source: "2020wwonsssh"
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a063"
+            solution: ""
+            excluded: false
+          - id: a064
+            key: sssh-a064
+            site: sssh
+            title: "大月小月"
+            group: "基礎練習"
+            topic: "條件判斷"
+            source: "arping瘋狂程設"
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a064"
+            solution: ""
+            excluded: false
+          - id: a065
+            key: sssh-a065
+            site: sssh
+            title: "畢氏數"
+            group: "基礎練習"
+            topic: "條件判斷"
+            source: "arping瘋狂程設"
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a065"
+            solution: ""
+            excluded: false
+          - id: a066
+            key: sssh-a066
+            site: sssh
+            title: "奇偶數的判斷"
+            group: "基礎練習"
+            topic: "條件判斷"
+            source: "arping瘋狂程設"
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a066"
+            solution: ""
+            excluded: false
+          - id: a022
+            key: sssh-a022
+            site: sssh
+            title: "上學去吧！"
+            group: "基礎練習"
+            topic: "條件判斷"
+            source: "板橋高中教學題"
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a022"
+            solution: ""
+            excluded: false
+          - id: a079
+            key: sssh-a079
+            site: sssh
+            title: "百貨公司滿額折扣"
+            group: "基礎練習"
+            topic: "條件判斷"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a079"
+            solution: ""
+            excluded: false
+          - id: a081
+            key: sssh-a081
+            site: sssh
+            title: "停車費計算"
+            group: "基礎練習"
+            topic: "條件判斷"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a081"
+            solution: ""
+            excluded: false
+          - id: a082
+            key: sssh-a082
+            site: sssh
+            title: "判斷是否會被留級"
+            group: "基礎練習"
+            topic: "條件判斷"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a082"
+            solution: ""
+            excluded: false
+          - id: a083
+            key: sssh-a083
+            site: sssh
+            title: "判斷成績是否及格"
+            group: "基礎練習"
+            topic: "條件判斷"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a083"
+            solution: ""
+            excluded: false
+          - id: a080
+            key: sssh-a080
+            site: sssh
+            title: "輸入身分證字號，檢查字串長度以及判斷性別"
+            group: "基礎練習"
+            topic: "條件判斷（字串）"
+            source: ""
+            note: "會用到 len() 與字串索引"
+            judge: "http://163.30.43.15/ShowProblem?problemid=a080"
+            solution: ""
+            excluded: false
+          - id: a023
+            key: sssh-a023
+            site: sssh
+            title: "文文的求婚--續集（1 行版）"
+            group: "基礎練習"
+            topic: "條件判斷（字串）"
+            source: "板橋高中教學題"
+            note: "a025／a028 請用本題改寫"
+            judge: "http://163.30.43.15/ShowProblem?problemid=a023"
+            solution: ""
+            excluded: false
+  - id: loop
+    name: "迴圈"
+    level: "初級"
+    order: 3
+    desc: "把同樣的動作重複很多次：for、while、巢狀迴圈與質數等經典題。"
+    topics:
+      - "迴圈"
+      - "巢狀迴圈"
+      - "while 條件迴圈"
+    groups:
+      - name: "題目清單"
+        problems:
+          - id: a025
+            key: sssh-a025
+            site: sssh
+            title: "文文的求婚--續集（n 行版）"
+            group: "基礎練習"
+            topic: "迴圈"
+            source: ""
+            note: "請用 a023 的 1 行版改寫"
+            judge: "http://163.30.43.15/ShowProblem?problemid=a025"
+            solution: ""
+            excluded: false
+          - id: a028
+            key: sssh-a028
+            site: sssh
+            title: "文文的求婚--續集（Case 版）"
+            group: "基礎練習"
+            topic: "迴圈"
+            source: ""
+            note: "請用 a023 的 1 行版改寫，可用 str() 把整數變成文字"
+            judge: "http://163.30.43.15/ShowProblem?problemid=a028"
+            solution: ""
+            excluded: false
+          - id: a038
+            key: sssh-a038
+            site: sssh
+            title: "我不說髒話"
+            group: "基礎練習"
+            topic: "迴圈"
+            source: "板橋高中教學題"
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a038"
+            solution: ""
+            excluded: false
+          - id: a101
+            key: sssh-a101
+            site: sssh
+            title: "尋找2或7的倍數"
+            group: "基礎練習"
+            topic: "迴圈"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a101"
+            solution: ""
+            excluded: false
+          - id: a092
+            key: sssh-a092
+            site: sssh
+            title: "跟同學說哈囉"
+            group: "基礎練習"
+            topic: "迴圈"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a092"
+            solution: ""
+            excluded: false
+          - id: a097
+            key: sssh-a097
+            site: sssh
+            title: "攝氏華氏對照表"
+            group: "基礎練習"
+            topic: "迴圈"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a097"
+            solution: ""
+            excluded: false
+          - id: a093
+            key: sssh-a093
+            site: sssh
+            title: "顯示99乘法表中的某個區塊"
+            group: "基礎練習"
+            topic: "巢狀迴圈"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a093"
+            solution: ""
+            excluded: false
+          - id: a099
+            key: sssh-a099
+            site: sssh
+            title: "顯示99乘法表"
+            group: "基礎練習"
+            topic: "巢狀迴圈"
+            source: ""
+            note: "需使用巢狀迴圈"
+            judge: "http://163.30.43.15/ShowProblem?problemid=a099"
+            solution: ""
+            excluded: false
+          - id: a094
+            key: sssh-a094
+            site: sssh
+            title: "星星直角三角形"
+            group: "基礎練習"
+            topic: "巢狀迴圈"
+            source: ""
+            note: "需使用巢狀迴圈"
+            judge: "http://163.30.43.15/ShowProblem?problemid=a094"
+            solution: ""
+            excluded: false
+          - id: a096
+            key: sssh-a096
+            site: sssh
+            title: "星星等腰三角形"
+            group: "基礎練習"
+            topic: "巢狀迴圈"
+            source: ""
+            note: "需使用巢狀迴圈"
+            judge: "http://163.30.43.15/ShowProblem?problemid=a096"
+            solution: ""
+            excluded: false
+          - id: a088
+            key: sssh-a088
+            site: sssh
+            title: "最大公因數"
+            group: "基礎練習"
+            topic: "while 條件迴圈"
+            source: "wwon"
+            note: "建議使用 while 條件迴圈"
+            judge: "http://163.30.43.15/ShowProblem?problemid=a088"
+            solution: ""
+            excluded: false
+          - id: a104
+            key: sssh-a104
+            site: sssh
+            title: "小蝸要離開了"
+            group: "基礎練習"
+            topic: "while 條件迴圈"
+            source: ""
+            note: "一定要用 while 條件迴圈"
+            judge: "http://163.30.43.15/ShowProblem?problemid=a104"
+            solution: ""
+            excluded: false
+          - id: a030
+            key: sssh-a030
+            site: sssh
+            title: "電腦教室"
+            group: "基礎練習"
+            topic: "迴圈"
+            source: "板橋高中教學題"
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a030"
+            solution: ""
+            excluded: false
+          - id: a089
+            key: sssh-a089
+            site: sssh
+            title: "質數判別"
+            group: "基礎練習"
+            topic: "迴圈"
+            source: "wwon"
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a089"
+            solution: ""
+            excluded: false
+          - id: a095
+            key: sssh-a095
+            site: sssh
+            title: "費氏數列"
+            group: "基礎練習"
+            topic: "迴圈"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a095"
+            solution: ""
+            excluded: false
+          - id: a098
+            key: sssh-a098
+            site: sssh
+            title: "1到n的所有質數"
+            group: "基礎練習"
+            topic: "巢狀迴圈"
+            source: ""
+            note: "需使用巢狀迴圈"
+            judge: "http://163.30.43.15/ShowProblem?problemid=a098"
+            solution: ""
+            excluded: false
+          - id: a039
+            key: sssh-a039
+            site: sssh
+            title: "小明的作業"
+            group: "基礎練習"
+            topic: "迴圈"
+            source: "板橋高中教學題"
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a039"
+            solution: ""
+            excluded: false
+          - id: a090
+            key: sssh-a090
+            site: sssh
+            title: "因數分解"
+            group: "基礎練習"
+            topic: "while 條件迴圈"
+            source: ""
+            note: "使用 while"
+            judge: "http://163.30.43.15/ShowProblem?problemid=a090"
+            solution: ""
+            excluded: false
+  - id: adv
+    name: "進階：字串與陣列處理"
+    level: "中級"
+    order: 4
+    desc: "進到 APCS 中級的三個核心工具：字串的切片與編碼、前綴和讓「區間總和」一次算完，二維陣列是所有矩陣題的基礎。"
+    topics:
+      - "字串"
+      - "前綴和"
+      - "二維陣列"
+    groups:
+      - name: "前綴和"
+        problems:
+          - id: a693
+            key: zjudge-a693
+            site: zjudge
+            title: "吞食天地"
+            group: "前綴和"
+            topic: "前綴和"
+            source: ""
+            note: ""
+            judge: "https://zerojudge.tw/ShowProblem?problemid=a693"
+            solution: ""
+            excluded: false
+          - id: a694
+            key: zjudge-a694
+            site: zjudge
+            title: "吞食天地二"
+            group: "前綴和"
+            topic: "前綴和"
+            source: ""
+            note: ""
+            judge: "https://zerojudge.tw/ShowProblem?problemid=a694"
+            solution: ""
+            excluded: false
+      - name: "二維陣列"
+        problems:
+          - id: k554
+            key: zjudge-k554
+            site: zjudge
+            title: "地雷很危險"
+            group: "二維陣列"
+            topic: "二維陣列"
+            source: ""
+            note: ""
+            judge: "https://zerojudge.tw/ShowProblem?problemid=k554"
+            solution: ""
+            excluded: false
+          - id: d625
+            key: zjudge-d625
+            site: zjudge
+            title: "踩地雷真好玩"
+            group: "二維陣列"
+            topic: "二維陣列"
+            source: ""
+            note: ""
+            judge: "https://zerojudge.tw/ShowProblem?problemid=d625"
+            solution: ""
+            excluded: false
+          - id: a015
+            key: zjudge-a015
+            site: zjudge
+            title: "矩陣的翻轉"
+            group: "二維陣列"
+            topic: "二維陣列"
+            source: ""
+            note: "ZeroJudge 同號題：壽山 a015 是「妳那裡現在幾點了？」"
+            judge: "https://zerojudge.tw/ShowProblem?problemid=a015"
+            solution: ""
+            excluded: false
+          - id: b266
+            key: zjudge-b266
+            site: zjudge
+            title: "矩陣翻轉"
+            group: "二維陣列"
+            topic: "二維陣列"
+            source: ""
+            note: ""
+            judge: "https://zerojudge.tw/ShowProblem?problemid=b266"
+            solution: ""
+            excluded: false
+          - id: q366
+            key: zjudge-q366
+            site: zjudge
+            title: "1. 十字轟炸"
+            group: "二維陣列"
+            topic: "二維陣列"
+            source: ""
+            note: ""
+            judge: "https://zerojudge.tw/ShowProblem?problemid=q366"
+            solution: ""
+            excluded: false
+      - name: "字串"
+        problems:
+          - id: a010
+            key: sssh-a010
+            site: sssh
+            title: "聖經密碼"
+            group: "字串"
+            topic: "字串"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a010"
+            solution: ""
+            excluded: false
+          - id: a126
+            key: sssh-a126
+            site: sssh
+            title: "倒過來唸的句子"
+            group: "字串"
+            topic: "字串"
+            source: ""
+            note: "可用迴圈或字串切片法"
+            judge: "http://163.30.43.15/ShowProblem?problemid=a126"
+            solution: ""
+            excluded: false
+          - id: a009
+            key: zjudge-a009
+            site: zjudge
+            title: "解碼器"
+            group: "字串"
+            topic: "字串"
+            source: ""
+            note: "先備知識：ASCII"
+            judge: "https://zerojudge.tw/ShowProblem?problemid=a009"
+            solution: ""
+            excluded: false
+  - id: algo
+    name: "演算法：搜尋、堆疊、遞迴與枚舉"
+    level: "中級"
+    order: 5
+    desc: "初級的迴圈與條件判斷熟了之後，往演算法走：二分搜尋、堆疊、遞迴，以及用窮舉法解決組合問題。"
+    topics:
+      - "排序與搜尋"
+      - "堆疊"
+      - "遞迴"
+      - "枚舉"
+      - "組合"
+    groups:
+      - name: "排序與搜尋"
+        problems:
+          - id: d732
+            key: zjudge-d732
+            site: zjudge
+            title: "二分搜尋法"
+            group: "排序與搜尋"
+            topic: "排序與搜尋"
+            source: ""
+            note: "練習 bisect_left"
+            judge: "https://zerojudge.tw/ShowProblem?problemid=d732"
+            solution: ""
+            excluded: false
+          - id: d010
+            key: tcirc-d010
+            site: tcirc
+            title: "不同的數—排序"
+            group: "排序與搜尋"
+            topic: "排序與搜尋"
+            source: "TCIRC 例題 P-2-1"
+            note: "練習排序跟 set"
+            judge: "https://judge.tcirc.tw/problem/d010"
+            solution: ""
+            excluded: false
+      - name: "堆疊"
+        problems:
+          - id: c123
+            key: zjudge-c123
+            site: zjudge
+            title: "00514 - Rails"
+            group: "堆疊"
+            topic: "堆疊"
+            source: ""
+            note: ""
+            judge: "https://zerojudge.tw/ShowProblem?problemid=c123"
+            solution: ""
+            excluded: false
+      - name: "遞迴"
+        problems:
+          - id: e357
+            key: zjudge-e357
+            site: zjudge
+            title: "遞迴函數練習"
+            group: "遞迴"
+            topic: "遞迴"
+            source: ""
+            note: ""
+            judge: "https://zerojudge.tw/ShowProblem?problemid=e357"
+            solution: ""
+            excluded: false
+          - id: d487
+            key: zjudge-d487
+            site: zjudge
+            title: "Order's computation process"
+            group: "遞迴"
+            topic: "遞迴"
+            source: ""
+            note: "輸入行數不固定，要用 sys.stdin"
+            judge: "https://zerojudge.tw/ShowProblem?problemid=d487"
+            solution: ""
+            excluded: false
+          - id: a227
+            key: zjudge-a227
+            site: zjudge
+            title: "三龍杯 -> 河內之塔"
+            group: "遞迴"
+            topic: "遞迴"
+            source: ""
+            note: "輸入行數不固定，要用 sys.stdin"
+            judge: "https://zerojudge.tw/ShowProblem?problemid=a227"
+            solution: ""
+            excluded: false
+      - name: "枚舉"
+        note: "三種方法：迴圈、位元、遞迴。n 小於 20 可用位元枚舉，超過就要用 DP。"
+        problems:
+          - id: c435
+            key: zjudge-c435
+            site: zjudge
+            title: "MAX ! MAX ! MAX !"
+            group: "枚舉"
+            topic: "枚舉"
+            source: ""
+            note: "用迴圈可找出答案，但不能用巢狀迴圈，會超時"
+            judge: "https://zerojudge.tw/ShowProblem?problemid=c435"
+            solution: ""
+            excluded: false
+          - id: c460
+            key: zjudge-c460
+            site: zjudge
+            title: "3. 軍隊部署"
+            group: "枚舉"
+            topic: "枚舉"
+            source: ""
+            note: "狀態壓縮＋迴圈，狀態分類要用 2 進位概念，競賽題"
+            judge: "https://zerojudge.tw/ShowProblem?problemid=c460"
+            solution: ""
+            excluded: false
+          - id: a456
+            key: zjudge-a456
+            site: zjudge
+            title: "子集合"
+            group: "枚舉"
+            topic: "枚舉"
+            source: ""
+            note: "可用位元枚舉"
+            judge: "https://zerojudge.tw/ShowProblem?problemid=a456"
+            solution: ""
+            excluded: false
+          - id: b002
+            key: zjudge-b002
+            site: zjudge
+            title: "關燈"
+            group: "枚舉"
+            topic: "枚舉"
+            source: ""
+            note: "可用位元枚舉，競賽題"
+            judge: "https://zerojudge.tw/ShowProblem?problemid=b002"
+            solution: ""
+            excluded: false
+          - id: k622
+            key: zjudge-k622
+            site: zjudge
+            title: "[棕]0-1背包問題"
+            group: "枚舉"
+            topic: "枚舉"
+            source: ""
+            note: "位元枚舉會超時，DFS 不會超時"
+            judge: "https://zerojudge.tw/ShowProblem?problemid=k622"
+            solution: ""
+            excluded: false
+          - id: a522
+            key: zjudge-a522
+            site: zjudge
+            title: "12455 - Bars"
+            group: "枚舉"
+            topic: "枚舉"
+            source: ""
+            note: "位元枚舉會超時，DFS 不會超時"
+            judge: "https://zerojudge.tw/ShowProblem?problemid=a522"
+            solution: ""
+            excluded: false
+          - id: a229
+            key: zjudge-a229
+            site: zjudge
+            title: "括號匹配問題"
+            group: "枚舉"
+            topic: "枚舉"
+            source: ""
+            note: "位元枚舉會超時，DFS 不會超時"
+            judge: "https://zerojudge.tw/ShowProblem?problemid=a229"
+            solution: ""
+            excluded: false
+          - id: a981
+            key: zjudge-a981
+            site: zjudge
+            title: "求和問題"
+            group: "枚舉"
+            topic: "枚舉"
+            source: ""
+            note: "位元枚舉會超時，DFS＋後綴和可過 80%，這題較難：排序、DFS 先取、後綴和、剪枝"
+            judge: "https://zerojudge.tw/ShowProblem?problemid=a981"
+            solution: ""
+            excluded: false
+      - name: "組合"
+        problems:
+          - id: a524
+            key: zjudge-a524
+            site: zjudge
+            title: "手機之謎"
+            group: "組合"
+            topic: "組合"
+            source: ""
+            note: "n 小於 10 可用組合解題，可用 itertools.permutation 或 DFS"
+            judge: "https://zerojudge.tw/ShowProblem?problemid=a524"
+            solution: ""
+            excluded: false

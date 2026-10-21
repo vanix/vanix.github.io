@@ -1,0 +1,58 @@
+<script>
+(function () {
+  var rows = Array.prototype.slice.call(document.querySelectorAll('.apcs-problem-row'));
+  if (!rows.length) { return; }
+  var chips = Array.prototype.slice.call(document.querySelectorAll('.apcs-chip[data-filter]'));
+  var q = document.getElementById('apcs-q');
+  var onlySolved = document.getElementById('apcs-solved');
+  var count = document.getElementById('apcs-count');
+  var empty = document.getElementById('apcs-empty');
+
+  // 依頁面上實際存在的篩選維度建立狀態（例如 class / topic / site / type / exam）
+  var state = {};
+  chips.forEach(function (chip) {
+    var kind = chip.dataset.filter;
+    if (!(kind in state)) { state[kind] = 'all'; }
+  });
+
+  function apply() {
+    var kw = q ? (q.value || '').trim().toLowerCase() : '';
+    var visible = 0;
+
+    rows.forEach(function (row) {
+      var ok = true;
+      Object.keys(state).forEach(function (kind) {
+        if (state[kind] !== 'all' && row.dataset[kind] !== state[kind]) { ok = false; }
+      });
+      if (ok && onlySolved && onlySolved.checked && row.dataset.solution !== '1') { ok = false; }
+      if (ok && kw && row.dataset.search.toLowerCase().indexOf(kw) === -1) { ok = false; }
+      row.style.display = ok ? '' : 'none';
+      if (ok) { visible++; }
+    });
+
+    document.querySelectorAll('tbody.apcs-group').forEach(function (body) {
+      var shown = body.querySelectorAll('.apcs-problem-row:not([style*="display: none"])').length;
+      body.style.display = shown ? '' : 'none';
+    });
+
+    if (count) { count.textContent = '目前顯示 ' + visible + ' 題／共 ' + rows.length + ' 題'; }
+    if (empty) { empty.style.display = visible ? 'none' : ''; }
+  }
+
+  chips.forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      var kind = chip.dataset.filter;
+      state[kind] = chip.dataset.value;
+      chips.forEach(function (c) {
+        if (c.dataset.filter === kind) { c.classList.remove('active'); }
+      });
+      chip.classList.add('active');
+      apply();
+    });
+  });
+
+  if (q) { q.addEventListener('input', apply); }
+  if (onlySolved) { onlySolved.addEventListener('change', apply); }
+  apply();
+})();
+</script>

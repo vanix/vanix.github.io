@@ -1,0 +1,60 @@
+# APCS 初級學習地圖：五個階段、62 題完整分配
+# problems 的題號會自動連到校內評測系統（judge_base 在 apcs_problems.yml）
+# articles 為對應的教學文章
+
+- stage: 1
+  title: 讓程式跑起來
+  goal: 能用 input() 讀資料、用 print() 把結果印出來，程式跑得動、不報錯
+  topics: [輸入輸出]
+  problems: [a033, a007, a012, a013, a014, a046]
+  articles:
+    - title: "APCS初級課程：Python的print 和 input 輸入輸出基礎教學"
+      url: /2025/12/python-print-input-tutorial.html
+    - title: "APCS初級題單：從0開始的62題分類清單與線上評測連結"
+      url: /2026/10/apcs-beginner-problem-list.html
+
+- stage: 2
+  title: 算得動
+  goal: 熟悉變數指派與四則運算，知道 // 取商、% 取餘、整數與浮點數的差別
+  topics: [算術運算, 整數除法與餘數]
+  problems: [a048, a049, a124, a050, a056, a019, a071, a072, a054, a070, a015, a042, a076, a075, a077, a029, a035]
+  articles:
+    - title: "APCS初級課程：Python的變數與算術運算教學"
+      url: /2025/12/python-variables-arithmetic-tutorial.html
+    - title: "APCS初級 裝飲料解題教學：底面積相除與 while 模擬"
+      url: /2026/10/apcs-o711-pour-drink.html
+
+- stage: 3
+  title: 會分支
+  goal: 寫得出 if／elif／else，理解同一批輸入要依條件走不同的路
+  topics: [條件判斷, 條件判斷（字串）]
+  problems: [a024, a031, a061, a055, a067, a020, a021, a051, a060, a062, a063, a064, a065, a066, a022, a079, a081, a082, a083, a080, a023]
+  articles:
+    - title: "APCS初級課程：Python的條件判斷觀念教學，讓你的程式學會做決策！"
+      url: /2025/12/python-conditional-judgment-tutorial.html
+    - title: "APCS初級 七言對聯解題教學：三條規則的條件判斷與字串處理"
+      url: /2026/10/apcs-qiyan-duilian.html
+
+- stage: 4
+  title: 會重複
+  goal: 用 for 與 while 把重複的動作執行多次，能畫出三角形與 99 乘法表
+  topics: [迴圈, 巢狀迴圈]
+  problems: [a025, a028, a038, a101, a092, a097, a093, a099, a094, a096, a030, a039]
+  articles:
+    - title: "APCS初級課程：Python的迴圈介紹與使用"
+      url: /2025/12/python-loop-introduction.html
+    - title: "APCS初級 裝飲料解題教學：while 迴圈一公分一公分模擬"
+      url: /2026/10/apcs-o711-pour-drink.html
+
+- stage: 5
+  title: 迴圈應用
+  goal: 用迴圈處理質數、最大公因數、因數分解與費氏數列這類經典演算法
+  topics: [迴圈, 巢狀迴圈, while 條件迴圈]
+  problems: [a088, a104, a089, a095, a098, a090]
+  articles:
+    - title: "APCS初級課程：Python的迴圈介紹與使用"
+      url: /2025/12/python-loop-introduction.html
+    - title: "APCS中級課程：Python的遞迴函數基礎教學（費氏數列的另一種寫法）"
+      url: /2025/12/python-recursion.html
+    - title: "APCS初級實作 - Python考前複習及注意事項"
+      url: /2026/07/apcs_basic_level_review.html

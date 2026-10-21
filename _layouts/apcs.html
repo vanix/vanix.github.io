@@ -1,0 +1,134 @@
+---
+layout: default
+---
+
+{% include lang.html %}
+
+<article class="px-1 apcs-zone">
+  <nav class="apcs-subnav" aria-label="APCS 專區導覽">
+    {% for item in site.data.apcs_nav %}
+      {% assign is_on = false %}
+      {% if page.url == item.url %}{% assign is_on = true %}{% endif %}
+      <a href="{{ item.url | relative_url }}" class="apcs-subnav-link{% if is_on %} active{% endif %}">
+        <i class="fa-fw {{ item.icon }}"></i> {{ item.title }}
+      </a>
+    {% endfor %}
+  </nav>
+
+  <h1 class="dynamic-title">{{ page.heading | default: page.title }}</h1>
+  {%- if page.seo_title %}
+  <script>document.title = {{ page.seo_title | jsonify }};</script>
+  {%- endif %}
+  {% if page.subtitle %}<p class="apcs-subtitle">{{ page.subtitle }}</p>{% endif %}
+
+  <div class="content">
+    {{ content }}
+  </div>
+</article>
+
+<style>
+  .apcs-zone { --apcs-accent: #ff8c42; }
+
+  .apcs-subnav {
+    display: flex; flex-wrap: wrap; gap: .4rem;
+    margin: 0 0 1.2rem; padding: .5rem .6rem;
+    border: 1px solid var(--border-color, rgba(128,128,128,.25));
+    border-radius: .6rem;
+    background: rgba(128,128,128,.06);
+  }
+  .apcs-subnav-link {
+    display: inline-block; padding: .3rem .7rem; border-radius: .35rem;
+    font-size: .9rem; text-decoration: none; color: inherit;
+    border: 1px solid transparent; transition: .15s;
+  }
+  .apcs-subnav-link:hover { border-color: var(--apcs-accent); color: var(--apcs-accent); }
+  .apcs-subnav-link.active {
+    background: var(--apcs-accent); color: #fff; font-weight: 600;
+  }
+  .apcs-subtitle { color: var(--text-secondary, #888); font-size: .95rem; margin: -.4rem 0 1.2rem; }
+
+  .apcs-cards { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin: 1.2rem 0; }
+  .apcs-card {
+    border: 1px solid var(--border-color, rgba(128,128,128,.25));
+    border-radius: .6rem; padding: 1rem 1.1rem; background: rgba(128,128,128,.05);
+  }
+  .apcs-card h3 { margin: 0 0 .2rem; font-size: 1.05rem; }
+  .apcs-card .apcs-card-meta { font-size: .8rem; color: var(--apcs-accent); font-weight: 600; margin-bottom: .4rem; }
+  .apcs-card p { margin: .2rem 0; font-size: .92rem; }
+  .apcs-card a { text-decoration: none; }
+
+  .apcs-tools { margin: 1rem 0 .8rem; display: flex; flex-direction: column; gap: .7rem; }
+  .apcs-search {
+    width: 100%; max-width: 420px; padding: .5rem .7rem; font-size: .95rem;
+    border: 1px solid var(--border-color, rgba(128,128,128,.35)); border-radius: .4rem;
+    background: var(--body-bg, transparent); color: inherit;
+  }
+  .apcs-chips { display: flex; flex-wrap: wrap; gap: .35rem; align-items: center; }
+  .apcs-chips .apcs-chips-label { font-size: .82rem; color: var(--text-secondary, #888); margin-right: .3rem; }
+  .apcs-chip {
+    font-size: .82rem; padding: .22rem .6rem; border-radius: 1rem; cursor: pointer;
+    border: 1px solid var(--border-color, rgba(128,128,128,.35)); background: transparent; color: inherit;
+  }
+  .apcs-chip:hover { border-color: var(--apcs-accent); color: var(--apcs-accent); }
+  .apcs-chip.active { background: var(--apcs-accent); border-color: var(--apcs-accent); color: #fff; }
+  .apcs-count { font-size: .85rem; color: var(--text-secondary, #888); margin: .2rem 0 .6rem; }
+
+  .apcs-table-wrap { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .apcs-table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+  .apcs-table th, .apcs-table td { padding: .45rem .6rem; border-bottom: 1px solid var(--border-color, rgba(128,128,128,.18)); text-align: left; }
+  .apcs-table th { font-size: .82rem; color: var(--text-secondary, #888); font-weight: 600; border-bottom-width: 2px; }
+  .apcs-table tr.apcs-group-row td { background: rgba(128,128,128,.10); font-weight: 600; font-size: .9rem; }
+  .apcs-table tr.apcs-row-hidden { display: none; }
+  .apcs-id { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; white-space: nowrap; }
+  .apcs-site-tag {
+    display: inline-block; font-size: .68rem; padding: 0 .35rem; border-radius: .3rem;
+    vertical-align: 1px; letter-spacing: .02em; white-space: nowrap;
+  }
+  .apcs-site-sssh { background: rgba(80,140,255,.16); color: #4a86e8; }
+  .apcs-site-zjudge { background: rgba(255,140,66,.18); color: #e07b2a; }
+  .apcs-note { color: var(--text-secondary, #888); font-size: .84rem; }
+  .apcs-tag {
+    display: inline-block; font-size: .74rem; padding: .05rem .45rem; border-radius: .8rem;
+    border: 1px solid var(--border-color, rgba(128,128,128,.35)); white-space: nowrap;
+  }
+  .apcs-solution { font-size: .84rem; }
+  .apcs-empty { padding: 1.2rem 0; color: var(--text-secondary, #888); }
+
+
+  /* 學習地圖：階段區塊 */
+  .apcs-stages { display: flex; flex-direction: column; gap: 1rem; margin: 1.2rem 0; }
+  .apcs-stage {
+    display: grid; grid-template-columns: 250px 1fr; gap: 1.2rem;
+    padding: 1.1rem 1.2rem; border-radius: .6rem;
+    border: 1px solid var(--border-color, rgba(128,128,128,.25));
+    background: rgba(128,128,128,.05);
+  }
+  .apcs-stage-no {
+    font-size: .78rem; font-weight: 700; letter-spacing: .1em;
+    color: var(--apcs-accent); text-transform: uppercase;
+  }
+  .apcs-stage h3 { margin: .1rem 0 .4rem; font-size: 1.12rem; }
+  .apcs-stage-goal { font-size: .9rem; margin: 0 0 .55rem; line-height: 1.6; }
+  .apcs-stage-topics { display: flex; flex-wrap: wrap; gap: .3rem; margin-bottom: .5rem; }
+  .apcs-stage-body { display: flex; flex-direction: column; gap: .85rem; }
+  .apcs-stage-block h4 {
+    margin: 0 0 .45rem; font-size: .84rem; font-weight: 700;
+    color: var(--text-secondary, #888); letter-spacing: .04em;
+  }
+  .apcs-ids { display: flex; flex-wrap: wrap; gap: .35rem; }
+  .apcs-id-chip {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: .82rem; padding: .2rem .5rem; border-radius: .35rem; text-decoration: none;
+    border: 1px solid var(--border-color, rgba(128,128,128,.35)); color: inherit;
+    transition: .15s;
+  }
+  .apcs-id-chip:hover { border-color: var(--apcs-accent); color: var(--apcs-accent); }
+  .apcs-article-list { list-style: none; padding-left: 0; margin: 0; }
+  .apcs-article-list li { padding: .2rem 0; font-size: .92rem; }
+  .apcs-article-list a { text-decoration: none; }
+  .apcs-article-list a:hover { text-decoration: underline; }
+
+  @media (max-width: 900px) {
+    .apcs-stage { grid-template-columns: 1fr; gap: .8rem; }
+  }
+</style>
