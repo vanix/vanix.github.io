@@ -8,7 +8,9 @@
   var count = document.getElementById('apcs-count');
   var empty = document.getElementById('apcs-empty');
 
-  // 依頁面上實際存在的篩選維度建立狀態（例如 class / topic / site / type / exam）
+  /* 依頁面上實際存在的篩選維度建立狀態（例如 class / topic / site / type / exam）
+     注意：這是 inline script，production 會壓縮 HTML 移除換行，
+     不可使用 // 註解，否則後面的程式碼會整段被註解掉。 */
   var state = {};
   chips.forEach(function (chip) {
     var kind = chip.dataset.filter;
