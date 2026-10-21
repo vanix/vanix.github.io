@@ -1,13 +1,13 @@
 ---
 layout: apcs
-title: APCS 題庫
-heading: APCS 題庫與解題教學｜Python 實作題 113 題、考古題與線上刷題
-seo_title: APCS 題庫與解題教學｜Python 實作題 113 題、考古題與線上刷題 - 充滿意外的宅爸人生
+title: APCS教學
+heading: APCS教學與解題專區｜Python 實作題 113 題、考古題與線上刷題
+seo_title: APCS教學與解題專區｜Python 實作題 113 題、考古題與線上刷題 - 充滿意外的宅爸人生
 subtitle: 從 0 開始的 Python 程式設計・87 題課程題庫・26 題歷屆考古題・五階段學習地圖
 icon: fab fa-python
 order: 4.5
 permalink: /apcs/
-description: "APCS 題庫與解題教學一次整理：113 題線上就能刷的題目，包含壽山高中解題網、ZeroJudge、TCIRC 的 87 題課程題庫，加上 ZeroJudge 26 題歷屆實作考古題。每題都附線上評測連結、考試場次、通過率與寫法要求，可依類別、觀念、評測網站篩選，另有五階段學習地圖與逐行解題文章，適合準備 APCS 初級／中級實作題的學生自學，也能當老師派作業的題庫。"
+description: "APCS教學一次整理：113 題線上就能刷的題目，包含壽山高中解題網、ZeroJudge、TCIRC 的 87 題課程題庫，加上 ZeroJudge 26 題歷屆實作考古題。每題都附線上評測連結、考試場次、通過率與寫法要求，可依類別、觀念、評測網站篩選，另有五階段學習地圖與逐行解題文章，適合準備 APCS 初級／中級實作題的學生自學，也能當老師派作業的題庫。"
 ---
 
 {% assign all_classes = site.data.apcs_problems.classes %}
@@ -33,10 +33,10 @@ description: "APCS 題庫與解題教學一次整理：113 題線上就能刷的
     <p><a href="{{ '/apcs/problem-bank/' | relative_url }}">進入基本題庫 →</a></p>
   </div>
   <div class="apcs-card">
-    <div class="apcs-card-meta">APCS 題庫・ZeroJudge</div>
+    <div class="apcs-card-meta">APCS 歷屆實作題庫・ZeroJudge</div>
     <h3>歷屆實作題 19 題</h3>
     <p class="apcs-note">初級 9 題、中級 10 題，2016 年 3 月～2024 年 10 月。附考試場次、通過率與對應解題文章。</p>
-    <p><a href="{{ '/apcs/exam-bank/' | relative_url }}">進入 APCS 題庫 →</a></p>
+    <p><a href="{{ '/apcs/exam-bank/' | relative_url }}">進入歷屆實作題庫 →</a></p>
   </div>
   <div class="apcs-card">
     <div class="apcs-card-meta">學習路徑</div>
@@ -92,7 +92,7 @@ description: "APCS 題庫與解題教學一次整理：113 題線上就能刷的
 | 內容 | 形式 | 適合誰 |
 | --- | --- | --- |
 | 基本題庫（壽山 + ZeroJudge） | {{ total }} 題 + 可篩選表格 | 想用零散時間刷題的學生 |
-| APCS 題庫（ZeroJudge） | 歷屆初級／中級實作題 19 題 + 考試場次與通過率 | 想考正式題、想知道難度的人 |
+| APCS 歷屆實作題庫（ZeroJudge） | 26 題 + 考試場次與通過率 | 想考正式題、想知道難度的人 |
 | 歷屆實作題解題 | 逐行講解的長文章 | 需要有人帶著讀程式碼的人 |
 | 學習地圖 | 五階段順序 + 可點擊的題號清單 | 不知道自己該練哪題的人 |
 

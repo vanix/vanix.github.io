@@ -19,7 +19,7 @@ description: "APCS 基本題庫 86 題：壽山高中解題網的輸入輸出與
 
 題目來自三個評測網站：**壽山高中解題網**（初級課程題）、**ZeroJudge**（前綴和、二維陣列、演算法等進階題）與 **TCIRC 串中電研OJ**（例題與競賽題）。**每一列的題號與題名都連到對應的評測系統**，點了就能直接寫；題號後面的標籤會標示這題來自哪個網站。
 
-> 另有「APCS 題庫」收錄 ZeroJudge 上的歷屆實作題，會是獨立的一頁；基本題庫裡也會逐步加入 ZeroJudge 的題目，到時會多一個「評測網站」篩選可以切換。
+> 另有「APCS 歷屆實作題庫」收錄 ZeroJudge 上的歷屆實作題，會是獨立的一頁；基本題庫裡也會逐步加入 ZeroJudge 的題目，到時會多一個「評測網站」篩選可以切換。
 
 <div class="apcs-tools">
   <input id="apcs-q" class="apcs-search" type="search" placeholder="搜尋題號或題名，例如 a050、面積、BMI">
