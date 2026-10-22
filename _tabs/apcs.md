@@ -7,7 +7,7 @@ subtitle: 從 0 開始的 Python 程式設計・各階段學習地圖
 icon: fab fa-python
 order: 4.5
 permalink: /apcs/
-description: "APCS教學專區一次整理：基本題庫、APCS 歷屆實作題庫、解題文章，以及一張照順序練的學習地圖。題庫每一題都連到線上評測系統，點題號就能直接寫。題目來自壽高、ZJ 與其他外部題庫，可依類別、觀念、評測網站篩選，適合準備 APCS 初級／中級實作題的學生自學，也能當老師派作業的題庫。"
+description: "APCS教學專區一次整理：基本題庫、APCS 歷屆實作題庫、解題文章，以及一張照順序練的學習地圖。題庫每一題都連到線上評測系統，點題號就能直接寫。題目來自壽高、ZJ、其他外部題庫與 LeetCode，可依類別、觀念、評測網站篩選，適合準備 APCS 初級／中級實作題的學生自學，也能當老師派作業的題庫。"
 ---
 
 {% assign all_classes = site.data.apcs_problems.classes %}
@@ -26,9 +26,9 @@ description: "APCS教學專區一次整理：基本題庫、APCS 歷屆實作題
   </div>
 {% endif %}{% endfor %}
   <div class="apcs-card">
-    <div class="apcs-card-meta">壽高 + ZJ + 其他</div>
+    <div class="apcs-card-meta">壽高 + ZJ + 其他 + LeetCode</div>
     <h3>基本題庫</h3>
-    <p class="apcs-note">初級三大類（輸入輸出／條件判斷／迴圈）加上字串、前綴和、二維陣列與演算法，可依觀念、評測網站與關鍵字篩選。</p>
+    <p class="apcs-note">初級三大類（輸入輸出／條件判斷／迴圈）加上字串、前綴和、二維陣列、演算法與 Greedy、圖論，可依觀念、評測網站與關鍵字篩選。</p>
     <p><a href="{{ '/apcs/problem-bank/' | relative_url }}">進入基本題庫 →</a></p>
   </div>
   <div class="apcs-card">
@@ -47,7 +47,7 @@ description: "APCS教學專區一次整理：基本題庫、APCS 歷屆實作題
 
 ## 基本題庫怎麼用？
 
-基本題庫在 **[{{ '/apcs/problem-bank/' | relative_url }}](/apcs/problem-bank/)**，來自 **壽高**（壽山高中解題網）、**ZJ**（ZeroJudge）與 **其他**（TCIRC 串中電研OJ 等外部題庫），分成五大類。頁面上可以直接：
+基本題庫在 **[{{ '/apcs/problem-bank/' | relative_url }}](/apcs/problem-bank/)**，來自 **壽高**（壽山高中解題網）、**ZJ**（ZeroJudge）、**其他**（TCIRC 串中電研OJ 等外部題庫）與 **LeetCode**（力扣），分成六大類。頁面上可以直接：
 
 - 用搜尋框找題號或題名（打 `a050` 或「面積」都找得到）
 - 按**類別**、**觀念**（算術運算／條件判斷／while 迴圈…）、**評測網站**篩選
@@ -90,7 +90,7 @@ description: "APCS教學專區一次整理：基本題庫、APCS 歷屆實作題
 
 | 內容 | 形式 | 適合誰 |
 | --- | --- | --- |
-| 基本題庫（壽高 + ZJ + 其他） | 可篩選表格，每題連到評測系統 | 想用零散時間刷題的學生 |
+| 基本題庫（壽高 + ZJ + 其他 + LeetCode） | 可篩選表格，每題連到評測系統 | 想用零散時間刷題的學生 |
 | APCS 歷屆實作題庫（ZJ） | 四個等級 + 考試場次與通過率 | 想考正式題、想知道難度的人 |
 | 歷屆實作題解題 | 逐行講解的長文章 | 需要有人帶著讀程式碼的人 |
 | 學習地圖 | 七階段順序 + 可點擊的題號清單 | 不知道自己該練哪題的人 |

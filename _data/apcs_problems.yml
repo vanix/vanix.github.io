@@ -1,6 +1,7 @@
 # APCS教學專區題庫資料
-# 三種評測網站：sssh = 壽山高中解題網、zjudge = ZeroJudge、tcirc = 其他外部題庫（TCIRC 串中電研OJ）
-# key = <網站>-<題號>，因不同網站可能有同號題（例：a015 壽山與 ZeroJudge 都有）
+# 四種評測網站：sssh = 壽高（壽山高中解題網）、zjudge = ZJ（ZeroJudge）、
+#   tcirc = 其他（TCIRC 串中電研OJ）、leetcode = LeetCode（力扣）
+# key = <網站>-<題號>，因不同網站可能有同號題（例：a015 壽高與 ZJ 都有）
 sites:
   sssh:
     name: "壽高"
@@ -14,6 +15,10 @@ sites:
     name: "其他"
     short: "其他"
     base: "https://judge.tcirc.tw/problem/"
+  leetcode:
+    name: "LeetCode"
+    short: "LC"
+    base: "https://leetcode.cn/problems/"
 
 classes:
   - id: io
@@ -876,6 +881,7 @@ classes:
       - "遞迴"
       - "枚舉"
       - "組合"
+      - "APCS 範例題"
     groups:
       - name: "排序與搜尋"
         problems:
@@ -914,6 +920,17 @@ classes:
             judge: "https://zerojudge.tw/ShowProblem?problemid=c123"
             solution: ""
             excluded: false
+          - id: k621
+            key: zjudge-k621
+            site: zjudge
+            title: "[紅]括號匹配問題"
+            group: "堆疊"
+            topic: "堆疊"
+            source: ""
+            note: "ZeroJudge 紅題，括號匹配的進階挑戰"
+            judge: "https://zerojudge.tw/ShowProblem?problemid=k621"
+            solution: ""
+            excluded: false
       - name: "遞迴"
         problems:
           - id: e357
@@ -947,6 +964,17 @@ classes:
             source: ""
             note: "輸入行數不固定，要用 sys.stdin"
             judge: "https://zerojudge.tw/ShowProblem?problemid=a227"
+            solution: ""
+            excluded: false
+          - id: j124
+            key: zjudge-j124
+            site: zjudge
+            title: "3. 石窟探險"
+            group: "遞迴"
+            topic: "遞迴"
+            source: "APCS 2022/10 第3題"
+            note: "依奇偶決定分支數的遞迴下降"
+            judge: "https://zerojudge.tw/ShowProblem?problemid=j124"
             solution: ""
             excluded: false
       - name: "枚舉"
@@ -1051,5 +1079,62 @@ classes:
             source: ""
             note: "n 小於 10 可用組合解題，可用 itertools.permutation 或 DFS"
             judge: "https://zerojudge.tw/ShowProblem?problemid=a524"
+            solution: ""
+            excluded: false
+  - id: greedy_graph
+    name: "Greedy 與圖論"
+    level: "中級"
+    order: 6
+    desc: "兩個進階常用的思路：Greedy 每一步都取當下看起來最好的選擇；圖論則把問題變成節點與邊，用 BFS 找最短路徑。"
+    topics:
+      - "Greedy"
+      - "圖"
+    groups:
+      - name: "Greedy"
+        problems:
+          - id: 2434
+            key: leetcode-2434
+            site: leetcode
+            title: "使用機器人打印字典序最小的字符串"
+            group: "Greedy"
+            topic: "Greedy"
+            source: "LeetCode 2434"
+            note: "Greedy + 堆疊：模擬機器人把字元推上堆、再從堆頂印出"
+            judge: "https://leetcode.cn/problems/using-a-robot-to-print-the-lexicographically-smallest-string/description/"
+            solution: ""
+            excluded: false
+      - name: "圖"
+        problems:
+          - id: a290
+            key: zjudge-a290
+            site: zjudge
+            title: "新手訓練系列 ~ 圖論"
+            group: "圖"
+            topic: "圖"
+            source: ""
+            note: "BFS 基礎練習"
+            judge: "https://zerojudge.tw/ShowProblem?problemid=a290"
+            solution: ""
+            excluded: false
+          - id: b298
+            key: zjudge-b298
+            site: zjudge
+            title: "老闆阿我要退貨"
+            group: "圖"
+            topic: "圖"
+            source: ""
+            note: ""
+            judge: "https://zerojudge.tw/ShowProblem?problemid=b298"
+            solution: ""
+            excluded: false
+          - id: d453
+            key: zjudge-d453
+            site: zjudge
+            title: "三、最短距離"
+            group: "圖"
+            topic: "圖"
+            source: ""
+            note: "BFS 練習"
+            judge: "https://zerojudge.tw/ShowProblem?problemid=d453"
             solution: ""
             excluded: false
