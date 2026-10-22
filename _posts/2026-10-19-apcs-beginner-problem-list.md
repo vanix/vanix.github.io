@@ -3,8 +3,8 @@ author: 歐巴計概
 date: 2026-10-19 16:00:00 +0800
 layout: post
 permalink: /2026/10/apcs-beginner-problem-list.html
-title: APCS初級題單｜從0開始的Python 62題分類清單（輸入輸出、條件判斷、迴圈）與線上評測連結
-description: "APCS 初級題單一次整理三大類共 62 題：輸入輸出與變數算術運算 23 題、條件判斷 21 題、迴圈 18 題，每題都附線上評測系統（SSSH Zero Judge）的超連結，點題號就能直接練習。另附課堂作業分組、建議練習順序與常見問題，適合從零開始學 Python 的學生自學、老師派作業使用，題號與頁面標題一一對照，方便追蹤進度。"
+title: APCS初級前的基礎練習｜從0開始的Python 分類清單（輸入輸出、條件判斷、迴圈、字串與串列）與線上評測連結
+description: "APCS 初級前的基礎題單一次整理三大類：輸入輸出與變數算術運算、條件判斷、迴圈，每題都附線上評測系統（SSSH Zero Judge）的超連結，點題號就能直接練習。另附課堂作業分組、建議練習順序與常見問題，適合從零開始學 Python 的學生自學、老師派作業使用，題號與頁面標題一一對照，方便追蹤進度。"
 categories: [資訊教學, 程式教學]
 tags: [Python, APCS, 程式教學, APCS初級, 題單, 題庫, 評測系統, 練習題]
 image:
@@ -12,19 +12,19 @@ image:
   alt: APCS 初級題單封面，從0開始的 Python 62 題分類練習清單與線上評測連結
 ---
 
-💡 這份 **APCS 初級題單**把三大類共 **62 題**整理好：**輸入輸出與算術運算 23 題、條件判斷 21 題、迴圈 18 題**，每一題都附上評測系統的超連結，點題號就能直接寫。另有 8 題放在「不考」附錄，方便老師派作業時避開。
+💡 這份 **APCS 初級前的基礎題單**把三大類整理好：**輸入輸出與算術運算、條件判斷、迴圈**，每一題都附上評測系統的超連結，點題號就能直接寫。
 
 [APCS教學文章列表](https://vanix.github.io/categories/%E7%A8%8B%E5%BC%8F%E6%95%99%E5%AD%B8/)
 
 [APCS實作線上課程](https://www.youtube.com/playlist?list=PLN9g1rvyo05p70K3HU-hWhEkoNs26WhD0)
 
-| 類別 | 題數 | 重點觀念 | 建議時機 |
-| --- | --- | --- | --- |
-| 第一類：輸入輸出、變數與算術運算 | 23 | `input()`／`print()`、變數、四則運算、整數除法與餘數 | 完全沒寫過程式 |
-| 第二類：條件判斷 | 21 | `if`／`elif`／`else`、比較運算、邏輯判斷 | 會讀寫資料之後 |
-| 第三類：迴圈 | 18 | `for`／`while`、巢狀迴圈、質數與費氏數列 | 會條件判斷之後 |
+| 類別 | 重點觀念 | 建議時機 |
+| --- | --- | --- |
+| 第一類：輸入輸出、變數與算術運算 | `input()`／`print()`、變數、四則運算、整數除法與餘數 | 完全沒寫過程式 |
+| 第二類：條件判斷 | `if`／`elif`／`else`、比較運算、邏輯判斷 | 會讀寫資料之後 |
+| 第三類：迴圈 | `for`／`while`、巢狀迴圈、質數與費氏數列 | 會條件判斷之後 |
 
-## APCS 初級題單怎麼用？
+## APCS 初級前的基礎題單怎麼用？
 
 **每一題的網址都長一樣，只有最後的題號不同。** 評測系統的網址格式是：
 
@@ -39,11 +39,11 @@ http://163.30.43.15/ShowProblem?problemid=a001
 > **先備能力**：第一類之前完全不用準備，會開瀏覽器就行。想先補觀念的話，可以看 [APCS 初級 裝飲料解題教學](https://vanix.github.io/2026/10/apcs-o711-pour-drink.html) 熟悉迴圈與條件判斷。
 {: .prompt-tip }
 
-## 第一類：輸入輸出、變數與算術運算（23 題）
+## 第一類：輸入輸出、變數與算術運算
 
 **這一類只考兩件事：讀得進來、算得出來、印得出去。** 每題都是固定的輸入輸出格式，重點在練 `input()`、`print()`、變數指派，以及整數除法與餘數（`//` 與 `%`）。
 
-### 課堂作業：輸入與輸出（4 題）
+### 課堂作業：輸入與輸出
 
 | 題號 | 題目 |
 | --- | --- |
@@ -52,8 +52,7 @@ http://163.30.43.15/ShowProblem?problemid=a001
 | [a033](http://163.30.43.15/ShowProblem?problemid=a033) | [hello, world](http://163.30.43.15/ShowProblem?problemid=a033) |
 | [a013](http://163.30.43.15/ShowProblem?problemid=a013) | [You can say that again!](http://163.30.43.15/ShowProblem?problemid=a013) |
 
-### 課堂作業：算術運算（5 題）
-
+### 課堂作業：算術運算
 | 題號 | 題目 |
 | --- | --- |
 | [a014](http://163.30.43.15/ShowProblem?problemid=a014) | [中華民國萬歲！](http://163.30.43.15/ShowProblem?problemid=a014) |
@@ -62,7 +61,7 @@ http://163.30.43.15/ShowProblem?problemid=a001
 | [a049](http://163.30.43.15/ShowProblem?problemid=a049) | [二數相加](http://163.30.43.15/ShowProblem?problemid=a049) |
 | [a124](http://163.30.43.15/ShowProblem?problemid=a124) | [累加數字](http://163.30.43.15/ShowProblem?problemid=a124) |
 
-### 基礎練習題（14 題）
+### 基礎練習題
 
 | 題號 | 題目 | 來源／備註 |
 | --- | --- | --- |
@@ -81,11 +80,11 @@ http://163.30.43.15/ShowProblem?problemid=a001
 | [a029](http://163.30.43.15/ShowProblem?problemid=a029) | [分組報告](http://163.30.43.15/ShowProblem?problemid=a029) | |
 | [a035](http://163.30.43.15/ShowProblem?problemid=a035) | [伏林的三角地](http://163.30.43.15/ShowProblem?problemid=a035) | 海龍公式 |
 
-## 第二類：條件判斷（21 題）
+## 第二類：條件判斷（
 
 **這一類的關鍵是「分支」：同一批輸入，走不同的路。** 練 `if`／`elif`／`else`、大小比較、以及像「大月小月」「畢氏數」這種要分情況討論的題目。
 
-### 課堂作業（4 題）
+### 課堂作業
 
 | 題號 | 題目 |
 | --- | --- |
@@ -94,7 +93,7 @@ http://163.30.43.15/ShowProblem?problemid=a001
 | [a061](http://163.30.43.15/ShowProblem?problemid=a061) | [成績分級 1](http://163.30.43.15/ShowProblem?problemid=a061) |
 | [a055](http://163.30.43.15/ShowProblem?problemid=a055) | [計算工讀生薪水 1](http://163.30.43.15/ShowProblem?problemid=a055) |
 
-### 基礎練習題（17 題）
+### 基礎練習題
 
 | 題號 | 題目 | 來源／備註 |
 | --- | --- | --- |
@@ -116,7 +115,7 @@ http://163.30.43.15/ShowProblem?problemid=a001
 | [a080](http://163.30.43.15/ShowProblem?problemid=a080) | [輸入身分證字號，檢查字串長度以及判斷性別](http://163.30.43.15/ShowProblem?problemid=a080) | 字串長度 |
 | [a023](http://163.30.43.15/ShowProblem?problemid=a023) | [文文的求婚--續集（1 行版）](http://163.30.43.15/ShowProblem?problemid=a023) | 板橋高中教學題 |
 
-## 第三類：迴圈（18 題）
+## 第三類：迴圈
 
 **這一類要你把同樣的動作重複很多次。** 前半練 `for` 與固定次數的重複，後半練 `while`、巢狀迴圈，以及質數、最大公因數、費氏數列這類經典題。
 
@@ -141,20 +140,30 @@ http://163.30.43.15/ShowProblem?problemid=a001
 | [a039](http://163.30.43.15/ShowProblem?problemid=a039) | [小明的作業](http://163.30.43.15/ShowProblem?problemid=a039) | 板橋高中教學題 |
 | [a090](http://163.30.43.15/ShowProblem?problemid=a090) | [因數分解](http://163.30.43.15/ShowProblem?problemid=a090) | 使用 `while` |
 
-## 不在這次範圍的 8 題
+## 第四類：串列與字串
 
-**這 8 題本次不考，留著當延伸挑戰就好**，時間不夠可以完全跳過。
+**這一類要你學習基本串列與字串功能。** 如何把資料轉換成串列，串列如何與迴圈結合，還有Python的文字切片法。
 
 | 題號 | 題目 | 備註 |
 | --- | --- | --- |
 | [a119](http://163.30.43.15/ShowProblem?problemid=a119) | [薩爾達傳說](http://163.30.43.15/ShowProblem?problemid=a119) | |
 | [a120](http://163.30.43.15/ShowProblem?problemid=a120) | [薩爾達傳說之武器資料庫](http://163.30.43.15/ShowProblem?problemid=a120) | |
-| [a008](http://163.30.43.15/ShowProblem?problemid=a008) | [盈虧互補](http://163.30.43.15/ShowProblem?problemid=a008) | |
-| [a043](http://163.30.43.15/ShowProblem?problemid=a043) | [棄保效應](http://163.30.43.15/ShowProblem?problemid=a043) | |
 | [a110](http://163.30.43.15/ShowProblem?problemid=a110) | [氣泡排序練習](http://163.30.43.15/ShowProblem?problemid=a110) | 需用巢狀迴圈及 `if`，不可使用 `sort` |
-| [a002](http://163.30.43.15/ShowProblem?problemid=a002) | [電話客服中心](http://163.30.43.15/ShowProblem?problemid=a002) | 板橋高中教學題 |
 | [a107](http://163.30.43.15/ShowProblem?problemid=a107) | [求百數的最大值](http://163.30.43.15/ShowProblem?problemid=a107) | |
 | [a122](http://163.30.43.15/ShowProblem?problemid=a122) | [壽山動物園](http://163.30.43.15/ShowProblem?problemid=a122) | |
+| [a010](http://163.30.43.15/ShowProblem?problemid=a010) | [聖經密碼](http://163.30.43.15/ShowProblem?problemid=a010) | |
+| [a126](http://163.30.43.15/ShowProblem?problemid=a126) | [倒過來唸的句子](http://163.30.43.15/ShowProblem?problemid=a126) | |
+
+## 第五類：綜合題
+
+**這一類是綜合練習題，可放最後再嘗試。**
+
+| 題號 | 題目 | 備註 |
+| --- | --- | --- |
+| [a008](http://163.30.43.15/ShowProblem?problemid=a008) | [盈虧互補](http://163.30.43.15/ShowProblem?problemid=a008) | |
+| [a043](http://163.30.43.15/ShowProblem?problemid=a043) | [棄保效應](http://163.30.43.15/ShowProblem?problemid=a043) | |
+| [a002](http://163.30.43.15/ShowProblem?problemid=a002) | [電話客服中心](http://163.30.43.15/ShowProblem?problemid=a002) | 板橋高中教學題 |
+
 
 ## 建議練習順序怎麼排？
 
@@ -162,15 +171,16 @@ http://163.30.43.15/ShowProblem?problemid=a001
 2. **再寫第一類的算術運算**（a014、a046、a048、a049、a124）：練會 `input()` 讀數字與四則運算。
 3. **接第一類的基礎練習題**：從 a049／a050 這種單純算式的，一路寫到 a075、a077 這種要讀多筆資料的。
 4. **進第二類**：先寫課堂作業 a024、a031、a061、a055，再往下寫到 a080 這種字串判斷。
-5. **最後攻第三類**：先 a092、a097 這種單層迴圈，再挑 a099、a094、a096 巢狀迴圈，最後處理 a088、a089、a095、a098 這些經典演算題。
+5. **攻第三類**：先 a092、a097 這種單層迴圈，再挑 a099、a094、a096 巢狀迴圈，最後處理 a088、a089、a095、a098 這些經典迴圈題。
+6. **最後練習第四類**：練習操作串列與字串的基本功能
 
 **卡關超過 20 分鐘就先跳過、寫下一題**，過一兩天回頭往往就通了；真的解不出來再回去複習觀念文章，例如 [APCS 初級實作考前複習](https://vanix.github.io/2026/07/apcs_basic_level_review.html)。
 
 ## 常見問題（FAQ）
 
-### APCS 初級題單總共幾題？
+### APCS 初級前的基礎題單總共幾類題型？
 
-**三大類共 62 題**：第一類輸入輸出與算術運算 23 題、第二類條件判斷 21 題、第三類迴圈 18 題。另有 8 題本次不考，合計 70 題。
+**共四大類**：第一類輸入輸出與算術運算、第二類條件判斷、第三類迴圈、第四類字串與串列。
 
 ### 這些題目要去哪裡寫？
 
@@ -184,10 +194,6 @@ http://163.30.43.15/ShowProblem?problemid=a001
 
 不會。**那是對寫法的要求**，目的是逼你練到那個觀念（例如 a099、a094、a096、a098），評測系統只比對輸出結果。同理 a104 指定一定要用 `while`、a088 建議用 `while`，也是針對練習方向的提醒。
 
-### 不考的題目還要不要寫？
-
-可以但不急。**a110 氣泡排序、a119／a120 薩爾達傳說這些超出初級題單的範圍**，建議先把三大類 62 題寫完，有餘力再挑戰。
-
 ---
 
-還沒有基礎的同學，可以到[文章分類](https://vanix.github.io/categories/%E7%A8%8B%E5%BC%8F%E6%95%99%E5%AD%B8/)裡觀看教學文章跟教學影片。練到需要完整解題示範時，可以看 [APCS 初級 遊戲選角解題教學](https://vanix.github.io/2026/10/apcs-game-character-selection.html) 與 [APCS 初級 裝飲料解題教學](https://vanix.github.io/2026/10/apcs-o711-pour-drink.html)，兩篇都有逐行程式碼講解。
+還沒有基礎的同學，可以到[文章分類](https://vanix.github.io/categories/%E7%A8%8B%E5%BC%8F%E6%95%99%E5%AD%B8/)裡觀看教學文章跟教學影片。練到需要完整APCS初級解題示範時，可以看 [APCS 初級 遊戲選角解題教學](https://vanix.github.io/2026/10/apcs-game-character-selection.html) 與 [APCS 初級 裝飲料解題教學](https://vanix.github.io/2026/10/apcs-o711-pour-drink.html)，兩篇都有逐行程式碼講解。
