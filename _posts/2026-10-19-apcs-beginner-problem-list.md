@@ -6,10 +6,7 @@ permalink: /2026/10/apcs-beginner-problem-list.html
 title: APCS初級前的基礎練習｜從0開始的Python 分類清單（輸入輸出、條件判斷、迴圈、字串與串列）與線上評測連結
 description: "APCS 初級前的基礎題單一次整理三大類：輸入輸出與變數算術運算、條件判斷、迴圈，每題都附線上評測系統（SSSH Zero Judge）的超連結，點題號就能直接練習。另附課堂作業分組、建議練習順序與常見問題，適合從零開始學 Python 的學生自學、老師派作業使用，題號與頁面標題一一對照，方便追蹤進度。"
 categories: [資訊教學, 程式教學]
-tags: [Python, APCS, 程式教學, APCS初級, 題單, 題庫, 評測系統, 練習題]
-image:
-  path: /assets/images/cover/apcs-beginner-problem-list.png
-  alt: APCS 初級題單封面，從0開始的 Python 62 題分類練習清單與線上評測連結
+tags: [Python, APCS, 程式教學, 基礎題型, 題單, 題庫, 評測系統, 練習題]
 ---
 
 💡 這份 **APCS 初級前的基礎題單**把三大類整理好：**輸入輸出與算術運算、條件判斷、迴圈**，每一題都附上評測系統的超連結，點題號就能直接寫。
