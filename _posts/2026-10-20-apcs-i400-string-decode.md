@@ -22,6 +22,14 @@ image:
 
 [ZeroJudge 字串解碼 題目連結](https://zerojudge.tw/ShowProblem?problemid=i400){:target="_blank"}
 
+<iframe width="560" height="315"
+        src="https://www.youtube.com/embed/LKaQLe5CmRQ"
+        title="APCS中級 字串解碼 解題教學影片"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+</iframe>
+
 ## 字串解碼這題在考什麼？
 
 小虎設計了一個編碼方式，把一個字串變成「樣子完全不一樣、但資訊還在」的新字串，並把這套規則寫成 m 筆 0/1 編碼表。你要做的是**反向操作**：拿到編碼後的訊息，參考編碼表把原始字串還原出來。
