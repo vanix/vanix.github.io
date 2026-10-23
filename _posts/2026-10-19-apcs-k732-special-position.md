@@ -24,7 +24,7 @@ image:
 
 <iframe width="560" height="315"
         src="https://www.youtube.com/embed/AWscy0ISoFA"
-        title="APCS初級 裝飲料解題教學影片"
+        title="APCS中級 特殊位置 解題教學影片"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen>
