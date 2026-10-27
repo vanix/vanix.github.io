@@ -5,7 +5,7 @@ layout: default
 {% include lang.html %}
 
 <article class="px-1 apcs-zone">
-  <nav class="apcs-subnav" aria-label="APCS教學專區導覽">
+  <nav class="apcs-subnav" aria-label="APCS線上課程導覽">
     {% for item in site.data.apcs_nav %}
       {% assign is_on = false %}
       {% if page.url == item.url %}{% assign is_on = true %}{% endif %}

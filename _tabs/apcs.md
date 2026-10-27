@@ -1,13 +1,13 @@
 ---
 layout: apcs
-title: APCS教學專區
-heading: APCS教學專區｜Python 基礎題 、考古題與線上刷題
-seo_title: APCS教學專區｜Python 基礎題 、考古題與線上刷題 - 充滿意外的宅爸人生
+title: APCS線上課程
+heading: APCS線上課程｜Python 基礎題 、考古題與線上刷題
+seo_title: APCS線上課程｜Python 基礎題 、考古題與線上刷題 - 充滿意外的宅爸人生
 subtitle: 從 0 開始的 Python 程式設計・各階段學習地圖
 icon: fab fa-python
-order: 4.5
+order: 0.5
 permalink: /apcs/
-description: "APCS教學專區一次整理：基本題庫、APCS 歷屆實作題庫、解題文章，以及一張照順序練的學習地圖。題庫每一題都連到線上評測系統，點題號就能直接寫。題目來自壽高、ZJ、其他外部題庫與 LeetCode，可依類別、觀念、評測網站篩選，適合準備 APCS 初級／中級實作題的學生自學，也能當老師派作業的題庫。"
+description: "APCS線上課程一次整理：基本題庫、APCS 歷屆實作題庫、解題文章，以及一張照順序練的學習地圖。題庫每一題都連到線上評測系統，點題號就能直接寫。題目來自壽高、ZJ、其他外部題庫與 LeetCode，可依類別、觀念、評測網站篩選，適合準備 APCS 初級／中級實作題的學生自學，也能當老師派作業的題庫。"
 ---
 
 {% assign all_classes = site.data.apcs_problems.classes %}
