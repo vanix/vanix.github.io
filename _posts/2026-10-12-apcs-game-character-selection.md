@@ -3,7 +3,7 @@ author: 歐巴計概
 date: 2026-10-12 09:00:00 +0800
 layout: post
 permalink: /2026/10/apcs-game-character-selection.html
-title: APCS初級 遊戲選角解題教學｜Python 找出第二高綜合能力的兩種寫法
+title: APCS初級實作範例題 - 遊戲選角 解題教學｜Python 找出第二高綜合能力的兩種寫法
 description: "APCS 初級實作 2024 年 1 月第一題「遊戲選角」完整解題教學。綜合能力是攻擊力與防禦力的平方和，要輸出綜合能力第二高角色的攻擊力與防禦力。這篇用 Python 示範兩種寫法：一是用兩個串列搭配即時記錄第一、第二高分，再用 index() 找回原資料；二是用二維串列把能力值放第一欄後排序。含輸入格式、解題思路、逐行程式碼講解、範例走讀與常見錯誤，適合學會迴圈、串列後挑戰 APCS 初級的同學。"
 categories: [資訊教學, 程式教學]
 tags: [Python, APCS, 程式教學, 遊戲選角, ZeroJudge, 串列, 排序, 實作初級]
