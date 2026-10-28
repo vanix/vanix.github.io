@@ -3,7 +3,7 @@ author: 歐巴計概
 date: 2026-10-19 09:00:00 +0800
 layout: post
 permalink: /2026/10/apcs-k732-special-position.html
-title: APCS中級 特殊位置解題教學｜Python 二維陣列找出曼哈頓距離特殊點
+title: APCS中級實作範例題 - 特殊位置解題教學｜Python 二維陣列找出曼哈頓距離特殊點
 description: "APCS 中級實作題「特殊位置」完整解題教學（ZeroJudge k732、2023 年 6 月第 2 題）。先講清楚曼哈頓距離是什麼、為什麼超過矩陣邊界的格子不能算，再用 Python 二維陣列與四層迴圈逐一檢查每個位置，找出所有特殊位置並輸出該位置的列跟欄。含完整程式碼逐行講解、範例走讀與常見錯誤整理，適合練完迴圈、準備挑戰 APCS 中級實作題的同學。"
 categories: [資訊教學, 程式教學]
 tags: [Python, APCS, 程式教學, 特殊位置, 二維陣列, 曼哈頓距離, 巢狀迴圈, 實作中級]
