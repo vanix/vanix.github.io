@@ -3,7 +3,7 @@ author: 歐巴計概
 date: 2026-10-09 09:00:00 +0800
 layout: post
 permalink: /2026/10/apcs-qiyan-duilian.html
-title: APCS初級 七言對聯解題教學｜Python 三規則檢查與程式實作
+title: APCS初級實作範例題 - 七言對聯 解題教學｜Python 三規則檢查與程式實作
 description: "APCS 初級實作 2021 年 9 月第一題「七言對聯」完整解題教學。用 Python 判斷二四不同二六同、仄起平收、同聯相對三條規則，並依序輸出違規規則字母、全對輸出 None。含輸入格式、解題思路、逐行程式碼講解、範例走讀與常見錯誤，適合學會條件、迴圈、串列後挑戰 APCS 初級的同學，看完就能自己動手寫出解答。"
 categories: [資訊教學, 程式教學]
 tags: [Python, APCS, 程式教學, 七言對聯, ZeroJudge, 迴圈, 條件判斷, 實作初級]
