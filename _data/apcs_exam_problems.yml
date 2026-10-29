@@ -268,6 +268,28 @@ levels:
         judge: "https://zerojudge.tw/ShowProblem?problemid=f637"
         solution: ""
         note: 前序解碼，同色整塊用面積
+      - id: j124
+        no: 3
+        title: 石窟探險
+        exam: 2022年10月
+        type: 範例題
+        topic: 遞迴與分治
+        pass: 85%
+        pass_count: 955
+        judge: "https://zerojudge.tw/ShowProblem?problemid=j124"
+        solution: ""
+        note: 歷屆實作題裡的中高級題目，來自範例題。依奇偶決定分支數的遞迴下降
+      - id: g597
+        no: 3
+        title: 生產線
+        exam: 2021年6月
+        type: 舊制題
+        topic: 差分與前綴和
+        pass: 65%
+        pass_count: 647
+        judge: "https://zerojudge.tw/ShowProblem?problemid=g597"
+        solution: ""
+        note: 舊制第三題。需使用差分、前綴和、Greedy
 
   - id: advanced
     name: APCS高級題庫

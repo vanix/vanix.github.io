@@ -966,17 +966,6 @@ classes:
             judge: "https://zerojudge.tw/ShowProblem?problemid=a227"
             solution: ""
             excluded: false
-          - id: j124
-            key: zjudge-j124
-            site: zjudge
-            title: "3. 石窟探險"
-            group: "遞迴"
-            topic: "遞迴"
-            source: "APCS 2022/10 第3題（中高級範例題）"
-            note: "歷屆實作題裡的中高級題目，來自範例題。依奇偶決定分支數的遞迴下降"
-            judge: "https://zerojudge.tw/ShowProblem?problemid=j124"
-            solution: ""
-            excluded: false
       - name: "枚舉"
         note: "三種方法：迴圈、位元、遞迴。n 小於 20 可用位元枚舉，超過就要用 DP。"
         problems:
