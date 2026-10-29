@@ -125,7 +125,7 @@ levels:
         pass: 92%
         pass_count: 1827
         judge: "https://zerojudge.tw/ShowProblem?problemid=o712"
-        solution: ""
+        solution: "/2026/10/apcs-o712-collect-gems.html"
       - id: i400
         no: 2
         title: 字串解碼
