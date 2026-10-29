@@ -128,6 +128,51 @@ layout: default
   .apcs-article-list a { text-decoration: none; }
   .apcs-article-list a:hover { text-decoration: underline; }
 
+  /* 教學影片：每列三部的影片牆 */
+  .apcs-video-section { margin: 1.6rem 0 2.2rem; }
+  .apcs-video-heading {
+    display: flex; align-items: baseline; flex-wrap: wrap; gap: .5rem;
+    font-size: 1.12rem; margin: 0 0 .25rem; padding-bottom: .4rem;
+    border-bottom: 2px solid var(--apcs-accent);
+  }
+  .apcs-video-heading .apcs-video-count {
+    font-size: .78rem; font-weight: 500; color: var(--text-secondary, #888);
+    border: 1px solid var(--border-color, rgba(128,128,128,.35));
+    border-radius: 1rem; padding: 0 .5rem;
+  }
+  .apcs-videos-grid {
+    display: grid; gap: 1.1rem; margin-top: 1rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .apcs-video {
+    margin: 0; display: flex; flex-direction: column; overflow: hidden;
+    border: 1px solid var(--border-color, rgba(128,128,128,.25));
+    border-radius: .6rem; background: rgba(128,128,128,.05);
+  }
+  .apcs-video-frame { position: relative; width: 100%; aspect-ratio: 16 / 9; background: #000; }
+  .apcs-video-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  .apcs-video figcaption { display: flex; flex-direction: column; gap: .4rem; flex: 1; padding: .6rem .75rem .7rem; }
+  .apcs-video-title { font-size: .92rem; font-weight: 600; line-height: 1.45; }
+  .apcs-video-meta {
+    display: flex; flex-wrap: wrap; align-items: center; gap: .55rem;
+    margin-top: auto; font-size: .78rem; color: var(--text-secondary, #888);
+  }
+  .apcs-video-dur { font-variant-numeric: tabular-nums; }
+  .apcs-video-meta a { color: var(--apcs-accent); text-decoration: none; }
+  .apcs-video-meta a:hover { text-decoration: underline; }
+
+  /* 影片頁在桌機上吃掉整個內容寬度（隱藏右側目錄），三部一排才不會太窄 */
+  @media (min-width: 1200px) {
+    body:has(.apcs-videos-grid) #main-wrapper main.col-xl-9 { flex: 0 0 100%; max-width: 100%; }
+    body:has(.apcs-videos-grid) #panel-wrapper { display: none; }
+  }
+  @media (max-width: 1199px) {
+    .apcs-videos-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 699px) {
+    .apcs-videos-grid { grid-template-columns: 1fr; }
+  }
+
   @media (max-width: 900px) {
     .apcs-stage { grid-template-columns: 1fr; gap: .8rem; }
   }

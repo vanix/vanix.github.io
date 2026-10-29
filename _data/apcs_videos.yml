@@ -1,0 +1,81 @@
+# APCS 教學影片（YouTube 播放清單）
+# 播放清單：https://www.youtube.com/playlist?list=PLN9g1rvyo05p70K3HU-hWhEkoNs26WhD0
+# 新增影片：在對應群組的 videos 底下加一筆 id（YouTube 網址 v= 後面那串）即可，頁面會自動長出卡片。
+# 播放清單中設為「私人」或已下架的影片不會列入。
+
+playlist:
+  title: APCS程式實作 Python初級 中級 課程（AI字幕）
+  url: https://www.youtube.com/playlist?list=PLN9g1rvyo05p70K3HU-hWhEkoNs26WhD0
+
+groups:
+  - title: 初級：Python 基礎語法
+    note: 從印出第一行字開始，把輸入輸出、變數、條件判斷、迴圈與遞迴一個一個補齊。建議照順序看。
+    videos:
+      - id: OCMkUz74R3s
+        title: 輸出函數 print 與輸入函數 input
+        duration: "8:55"
+        date: "2021-05-24"
+        article: /2025/12/python-print-input-tutorial.html
+      - id: c6kWZHP2LGI
+        title: 變數與算術運算
+        duration: "10:42"
+        date: "2021-05-24"
+        article: /2025/12/python-variables-arithmetic-tutorial.html
+      - id: KghpckpI8e4
+        title: if 條件判斷
+        duration: "25:28"
+        date: "2021-05-25"
+        article: /2025/12/python-conditional-judgment-tutorial.html
+      - id: X_w3U5izmJM
+        title: 重複執行、迴圈
+        duration: "27:00"
+        date: "2021-06-01"
+        article: /2025/12/python-loop-introduction.html
+      - id: cCjd-5mikWk
+        title: 遞迴
+        duration: "25:20"
+        date: "2021-11-03"
+        article: /2025/12/python-recursion.html
+
+  - title: 初級：解題練習
+    note: 語法學會之後，跟著影片把題目從讀資料、想邏輯到寫出程式走一遍。
+    videos:
+      - id: hPhqGWQxIfg
+        title: 解題練習：巢狀迴圈
+        duration: "28:33"
+        date: "2025-12-01"
+        article: /2025/12/python-loop-introduction.html
+      - id: aZ5sfHJ01Sg
+        title: 解題練習：基本字串及串列
+        duration: "22:24"
+        date: "2025-12-06"
+        article: /2025/12/python-string-list-introduction.html
+      - id: Ooy1F6ye2Yo
+        title: 初級範例題：七言對聯
+        duration: "14:22"
+        date: "2026-10-25"
+        article: /2026/10/apcs-qiyan-duilian.html
+
+  - title: 中級：函數與範例題
+    note: 把程式拆成函數，再挑戰 APCS 中級的正式範例題。
+    videos:
+      - id: qx0jy-Pzn0k
+        title: 自訂函數
+        duration: "19:49"
+        date: "2021-10-21"
+        article: /2025/12/custom-functions-introduction.html
+      - id: AWscy0ISoFA
+        title: 中級範例題：特殊位置
+        duration: "21:23"
+        date: "2026-10-19"
+        article: /2026/10/apcs-k732-special-position.html
+      - id: LKaQLe5CmRQ
+        title: 中級範例題：字串解碼
+        duration: "20:48"
+        date: "2026-10-20"
+        article: /2026/10/apcs-i400-string-decode.html
+      - id: Q7kQNPkNSjQ
+        title: 中級範例題：蒐集寶石
+        duration: "21:13"
+        date: "2026-10-28"
+        article: /2026/10/apcs-o712-collect-gems.html

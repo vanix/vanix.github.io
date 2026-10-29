@@ -14,7 +14,7 @@ description: "APCS線上課程一次整理：基本題庫、APCS 歷屆實作題
 {% assign total = 0 %}
 {% for c in all_classes %}{% for g in c.groups %}{% assign total = total | plus: g.problems.size %}{% endfor %}{% endfor %}
 
-這個專區包含：**基本題庫**、**APCS 歷屆實作題庫**、**解題文章**、以及一張**照順序練的學習地圖**。題庫每一題都連到評測系統，點題號就能直接寫，不用另外找網址。
+這個專區包含：**基本題庫**、**APCS 歷屆實作題庫**、**解題文章**、**教學影片**，以及一張**照順序練的學習地圖**。題庫每一題都連到評測系統，點題號就能直接寫，不用另外找網址。
 
 <div class="apcs-cards">
 {% for c in all_classes %}{% if c.id != 'extra' %}
@@ -42,6 +42,12 @@ description: "APCS線上課程一次整理：基本題庫、APCS 歷屆實作題
     <h3>不知道從哪題開始？</h3>
     <p class="apcs-note">照七個階段的順序練，從「印出字串」一路到「函數與遞迴」，不跳級、不漏觀念。</p>
     <p><a href="{{ '/apcs/roadmap/' | relative_url }}">看學習地圖 →</a></p>
+  </div>
+  <div class="apcs-card">
+    <div class="apcs-card-meta">YouTube 播放清單</div>
+    <h3>教學影片</h3>
+    <p class="apcs-note">12 部 Python 實作課程影片，初級基礎語法、解題練習與中級範例題，每部都附長度與對應的圖文文章。</p>
+    <p><a href="{{ '/apcs/videos/' | relative_url }}">看教學影片 →</a></p>
   </div>
 </div>
 
@@ -86,13 +92,14 @@ description: "APCS線上課程一次整理：基本題庫、APCS 歷屆實作題
 
 > 還沒寫過任何一行程式？先看 [APCS 初級 遊戲選角解題教學]({{ '/2026/10/apcs-game-character-selection.html' | relative_url }}) 與 [APCS 初級 七言對聯解題教學]({{ '/2026/10/apcs-qiyan-duilian.html' | relative_url }})，把讀資料與條件判斷練熟再回來刷題庫。
 
-## 這個專區的四件事
+## 這個專區的五件事
 
 | 內容 | 形式 | 適合誰 |
 | --- | --- | --- |
 | 基本題庫（壽高 + ZJ + 其他 + LeetCode） | 可篩選表格，每題連到評測系統 | 想用零散時間刷題的學生 |
 | APCS 歷屆實作題庫（ZJ） | 四個等級 + 考試場次與通過率 | 想考正式題、想知道難度的人 |
 | 歷屆實作題解題 | 逐行講解的長文章 | 需要有人帶著讀程式碼的人 |
+| 教學影片 | 每列三部嵌入 YouTube 播放器，附長度與對應文章 | 想用影片學、或複習某個觀念的人 |
 | 學習地圖 | 七階段順序 + 可點擊的題號清單 | 不知道自己該練哪題的人 |
 
 💡 題庫的資料放在 `_data/apcs_problems.yml`，**新增題目只要加一行 YAML，頁面會自動更新**，不用回頭改 HTML。

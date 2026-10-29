@@ -13,3 +13,6 @@
 - title: 教學文章
   url: /tags/apcs/
   icon: fab fa-python
+- title: 教學影片
+  url: /apcs/videos/
+  icon: fab fa-youtube
