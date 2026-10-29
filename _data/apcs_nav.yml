@@ -10,6 +10,6 @@
 - title: 歷屆實作題庫
   url: /apcs/exam-bank/
   icon: fas fa-star
-- title: 所有教學文章
+- title: 教學文章
   url: /tags/apcs/
   icon: fab fa-python
