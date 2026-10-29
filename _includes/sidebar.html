@@ -55,6 +55,15 @@
           </a>
         </li>
         <!-- .nav-item -->
+        {% if tab.url == '/apcs/' or tab.title == 'APCS線上課程' %}
+        <li class="nav-item">
+          <a href="https://vanix.github.io/cs-teaching/" class="nav-link">
+            <i class="fa-fw fas fa-laptop-code"></i>
+            <span>計概教學網站</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+        {% endif %}
       {% endfor %}
     </ul>
   </nav>
