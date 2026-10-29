@@ -224,6 +224,17 @@ levels:
         judge: "https://zerojudge.tw/ShowProblem?problemid=j124"
         solution: ""
         note: 歷屆實作題裡的中高級題目，來自範例題。依奇偶決定分支數的遞迴下降
+      - id: o713
+        no: 3
+        title: 連鎖反應
+        exam: 2024年10月
+        type: 範例題
+        topic: 二分搜尋
+        pass: 62%
+        pass_count: 395
+        judge: "https://zerojudge.tw/ShowProblem?problemid=o713"
+        solution: ""
+        note: 對半徑二分搜 + 連鎖 BFS
       - id: g597
         no: 3
         title: 生產線
@@ -246,17 +257,6 @@ levels:
         judge: "https://zerojudge.tw/ShowProblem?problemid=f581"
         solution: ""
         note: 整圈取餘數 + 前綴和搭配二分搜尋
-      - id: o713
-        no: 3
-        title: 連鎖反應
-        exam: 2024年10月
-        type: 範例題
-        topic: 二分搜尋
-        pass: 62%
-        pass_count: 395
-        judge: "https://zerojudge.tw/ShowProblem?problemid=o713"
-        solution: ""
-        note: 對半徑二分搜 + 連鎖 BFS
       - id: i401
         no: 3
         title: 雷射測試
