@@ -8,8 +8,8 @@ playlist:
   url: https://www.youtube.com/playlist?list=PLN9g1rvyo05p70K3HU-hWhEkoNs26WhD0
 
 groups:
-  - title: 初級：Python 基礎語法
-    note: 從印出第一行字開始，把輸入輸出、變數、條件判斷、迴圈與遞迴一個一個補齊。建議照順序看。
+  - title: 初級：Python 基礎語法 
+    note: 從印出第一行字開始，把輸入輸出、變數、條件判斷、迴圈、串列與字串一個一個補齊。建議照順序看。
     videos:
       - id: OCMkUz74R3s
         title: 輸出函數 print 與輸入函數 input
@@ -31,15 +31,6 @@ groups:
         duration: "27:00"
         date: "2021-06-01"
         article: /2025/12/python-loop-introduction.html
-      - id: cCjd-5mikWk
-        title: 遞迴
-        duration: "25:20"
-        date: "2021-11-03"
-        article: /2025/12/python-recursion.html
-
-  - title: 初級：解題練習
-    note: 語法學會之後，跟著影片把題目從讀資料、想邏輯到寫出程式走一遍。
-    videos:
       - id: hPhqGWQxIfg
         title: 解題練習：巢狀迴圈
         duration: "28:33"
@@ -50,20 +41,35 @@ groups:
         duration: "22:24"
         date: "2025-12-06"
         article: /2025/12/python-string-list-introduction.html
+
+  - title: 初級：APCS範例題練習
+    note: 語法學會之後，刷完基本題庫，接著就可以挑戰初級範例題。
+    videos:
       - id: Ooy1F6ye2Yo
         title: 初級範例題：七言對聯
         duration: "14:22"
         date: "2026-10-25"
         article: /2026/10/apcs-qiyan-duilian.html
+      - id: 0ogQ-YVZtUg
+        title: 初級範例題：裝飲料
+        duration: "14:22"
+        date: "2026-10-28"
+        article: /2026/10/apcs-o711-pour-drink.html
+      - id: ss5lfb8Vezo
+        title: 初級範例題：遊戲選角
+        duration: "14:22"
+        date: "2026-10-28"
+        article: /2026/10/apcs-game-character-selection.html 
+  
 
-  - title: 中級：函數與範例題
-    note: 把程式拆成函數，再挑戰 APCS 中級的正式範例題。
-    videos:
+  - title: 中級：二維陣列、字串處理、函數與範例題
+    note: 目前把程式拆成函數，再挑戰 APCS 中級的正式範例題。
+    videos:       
       - id: qx0jy-Pzn0k
         title: 自訂函數
         duration: "19:49"
         date: "2021-10-21"
-        article: /2025/12/custom-functions-introduction.html
+        article: /2025/12/custom-functions-introduction.html        
       - id: AWscy0ISoFA
         title: 中級範例題：特殊位置
         duration: "21:23"
@@ -79,3 +85,12 @@ groups:
         duration: "21:13"
         date: "2026-10-28"
         article: /2026/10/apcs-o712-collect-gems.html
+
+  - title: 中高級：基礎資料結構與遞迴
+    note: 學習如何使用基礎資料結構，並能利用基礎資料結構與演算思維來解決問題，再挑戰 APCS 中級的正式範例題。
+    videos:
+      - id: cCjd-5mikWk
+        title: 遞迴
+        duration: "25:20"
+        date: "2021-11-03"
+        article: /2025/12/python-recursion.html
