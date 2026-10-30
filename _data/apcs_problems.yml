@@ -910,7 +910,7 @@ classes:
             excluded: false
   - id: algo
     name: "搜尋、堆疊、遞迴與枚舉"
-    level: "中級"
+    level: "中高級"
     order: 5
     desc: "初級的迴圈與條件判斷熟了之後，往演算法走：二分搜尋、堆疊、遞迴，以及用窮舉法解決組合問題。"
     topics:
@@ -1110,7 +1110,7 @@ classes:
             excluded: false
   - id: greedy_graph
     name: "Greedy 與圖論"
-    level: "中級"
+    level: "中高級"
     order: 6
     desc: "兩個進階常用的思路：Greedy 每一步都取當下看起來最好的選擇；圖論則把問題變成節點與邊，用 BFS 找最短路徑。"
     topics:
