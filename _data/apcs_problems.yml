@@ -748,7 +748,7 @@ classes:
     order: 3
     desc: "取得串列資料、迴圈與串列結合、串列內建功能"
     topics:
-      - "串列"
+      - "前綴和"
       - "串列與迴圈"
     groups:
       - name: "一維串列"
@@ -763,8 +763,6 @@ classes:
             judge: "http://163.30.43.15/ShowProblem?problemid=a122"
             solution: ""
             excluded: false
-      - name: "一維串列"
-        problems:
           - id: a107
             key: sssh-a107
             site: sssh
@@ -775,8 +773,6 @@ classes:
             judge: "http://163.30.43.15/ShowProblem?problemid=a107"
             solution: ""
             excluded: false
-      - name: "一維串列"
-        problems:
           - id: a110
             key: sssh-a110
             site: sssh
@@ -787,16 +783,6 @@ classes:
             judge: "http://163.30.43.15/ShowProblem?problemid=a110"
             solution: ""
             excluded: false
-  - id: adv
-    name: "字串與陣列處理"
-    level: "中級"
-    order: 4
-    desc: "進到 APCS 中級的三個核心工具：字串的切片與編碼、前綴和讓「區間總和」一次算完，二維陣列是所有矩陣題的基礎。"
-    topics:
-      - "字串"
-      - "前綴和"
-      - "二維陣列"
-    groups:
       - name: "前綴和"
         problems:
           - id: a693
@@ -819,6 +805,50 @@ classes:
             source: ""
             note: ""
             judge: "https://zerojudge.tw/ShowProblem?problemid=a694"
+            solution: ""
+            excluded: false
+  - id: adv
+    name: "字串與陣列處理"
+    level: "中級"
+    order: 4
+    desc: "進到 APCS 中級的三個核心工具：字串的切片與編碼、前綴和讓「區間總和」一次算完，二維陣列是所有矩陣題的基礎。"
+    topics:
+      - "字串"
+      - "二維陣列"
+    groups:
+      - name: "字串"
+        problems:
+          - id: a010
+            key: sssh-a010
+            site: sssh
+            title: "聖經密碼"
+            group: "字串"
+            topic: "字串"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a010"
+            solution: ""
+            excluded: false
+          - id: a126
+            key: sssh-a126
+            site: sssh
+            title: "倒過來唸的句子"
+            group: "字串"
+            topic: "字串"
+            source: ""
+            note: "可用迴圈或字串切片法"
+            judge: "http://163.30.43.15/ShowProblem?problemid=a126"
+            solution: ""
+            excluded: false
+          - id: a009
+            key: zjudge-a009
+            site: zjudge
+            title: "解碼器"
+            group: "字串"
+            topic: "字串"
+            source: ""
+            note: "先備知識：ASCII"
+            judge: "https://zerojudge.tw/ShowProblem?problemid=a009"
             solution: ""
             excluded: false
       - name: "二維陣列"
@@ -876,41 +906,6 @@ classes:
             source: ""
             note: ""
             judge: "https://zerojudge.tw/ShowProblem?problemid=q366"
-            solution: ""
-            excluded: false
-      - name: "字串"
-        problems:
-          - id: a010
-            key: sssh-a010
-            site: sssh
-            title: "聖經密碼"
-            group: "字串"
-            topic: "字串"
-            source: ""
-            note: ""
-            judge: "http://163.30.43.15/ShowProblem?problemid=a010"
-            solution: ""
-            excluded: false
-          - id: a126
-            key: sssh-a126
-            site: sssh
-            title: "倒過來唸的句子"
-            group: "字串"
-            topic: "字串"
-            source: ""
-            note: "可用迴圈或字串切片法"
-            judge: "http://163.30.43.15/ShowProblem?problemid=a126"
-            solution: ""
-            excluded: false
-          - id: a009
-            key: zjudge-a009
-            site: zjudge
-            title: "解碼器"
-            group: "字串"
-            topic: "字串"
-            source: ""
-            note: "先備知識：ASCII"
-            judge: "https://zerojudge.tw/ShowProblem?problemid=a009"
             solution: ""
             excluded: false
   - id: algo
