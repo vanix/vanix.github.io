@@ -65,6 +65,11 @@ groups:
   - title: 中級：二維陣列、字串處理、函數與範例題
     note: 目前把程式拆成函數，再挑戰 APCS 中級的正式範例題。
     videos:       
+      - id: aZ5sfHJ01Sg
+        title: 解題練習：基本字串及串列
+        duration: "22:24"
+        date: "2025-12-06"
+        article: /2025/12/python-string-list-introduction.html
       - id: qx0jy-Pzn0k
         title: 自訂函數
         duration: "19:49"
