@@ -809,7 +809,7 @@ classes:
             excluded: false
   - id: adv
     name: "字串與陣列處理"
-    level: "中級"
+    level: "初級 中級"
     order: 4
     desc: "進到 APCS 中級的三個核心工具：字串的切片與編碼、前綴和讓「區間總和」一次算完，二維陣列是所有矩陣題的基礎。"
     topics:
