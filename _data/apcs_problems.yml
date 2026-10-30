@@ -152,7 +152,7 @@ classes:
             group: "基礎練習"
             topic: "算術運算"
             source: ""
-            note: "用 // 與 % 分別取商與餘數"
+            note: ""
             judge: "http://163.30.43.15/ShowProblem?problemid=a056"
             solution: ""
             excluded: false
@@ -284,7 +284,7 @@ classes:
             group: "課堂作業"
             topic: "算術運算"
             source: ""
-            note: "海龍公式求面積"
+            note: "海龍公式"
             judge: "http://163.30.43.15/ShowProblem?problemid=a035"
             solution: ""
             excluded: false
@@ -517,7 +517,7 @@ classes:
             group: "基礎練習"
             topic: "條件判斷（字串）"
             source: ""
-            note: "會用到 len() 與字串索引"
+            note: ""
             judge: "http://163.30.43.15/ShowProblem?problemid=a080"
             solution: ""
             excluded: false
@@ -528,7 +528,7 @@ classes:
             group: "基礎練習"
             topic: "條件判斷（字串）"
             source: "板橋高中教學題"
-            note: "a025／a028 請用本題改寫"
+            note: ""
             judge: "http://163.30.43.15/ShowProblem?problemid=a023"
             solution: ""
             excluded: false
@@ -540,7 +540,7 @@ classes:
     topics:
       - "迴圈"
       - "巢狀迴圈"
-      - "while 條件迴圈"
+      - "條件迴圈"
     groups:
       - name: "基礎迴圈與巢狀迴圈"
         problems:
@@ -551,7 +551,7 @@ classes:
             group: "基礎練習"
             topic: "迴圈"
             source: ""
-            note: "請用 a023 的 1 行版改寫"
+            note: ""
             judge: "http://163.30.43.15/ShowProblem?problemid=a025"
             solution: ""
             excluded: false
@@ -562,7 +562,7 @@ classes:
             group: "基礎練習"
             topic: "迴圈"
             source: ""
-            note: "請用 a023 的 1 行版改寫，可用 str() 把整數變成文字"
+            note: ""
             judge: "http://163.30.43.15/ShowProblem?problemid=a028"
             solution: ""
             excluded: false
@@ -628,7 +628,7 @@ classes:
             group: "基礎練習"
             topic: "巢狀迴圈"
             source: ""
-            note: "需使用巢狀迴圈"
+            note: ""
             judge: "http://163.30.43.15/ShowProblem?problemid=a099"
             solution: ""
             excluded: false
@@ -639,7 +639,7 @@ classes:
             group: "基礎練習"
             topic: "巢狀迴圈"
             source: ""
-            note: "需使用巢狀迴圈"
+            note: ""
             judge: "http://163.30.43.15/ShowProblem?problemid=a094"
             solution: ""
             excluded: false
@@ -650,7 +650,7 @@ classes:
             group: "基礎練習"
             topic: "巢狀迴圈"
             source: ""
-            note: "需使用巢狀迴圈"
+            note: ""
             judge: "http://163.30.43.15/ShowProblem?problemid=a096"
             solution: ""
             excluded: false
@@ -659,9 +659,9 @@ classes:
             site: sssh
             title: "最大公因數"
             group: "基礎練習"
-            topic: "while 條件迴圈"
+            topic: "條件迴圈"
             source: "wwon"
-            note: "建議使用 while 條件迴圈"
+            note: "建議使用 while"
             judge: "http://163.30.43.15/ShowProblem?problemid=a088"
             solution: "https://www.youtube.com/watch?v=1Gr1x99adoQ"
             excluded: false
@@ -670,9 +670,9 @@ classes:
             site: sssh
             title: "小蝸要離開了"
             group: "基礎練習"
-            topic: "while 條件迴圈"
+            topic: "條件迴圈"
             source: ""
-            note: "一定要用 while 條件迴圈"
+            note: "建議使用 while"
             judge: "http://163.30.43.15/ShowProblem?problemid=a104"
             solution: ""
             excluded: false
@@ -716,7 +716,7 @@ classes:
             group: "基礎練習"
             topic: "巢狀迴圈"
             source: ""
-            note: "需使用巢狀迴圈"
+            note: ""
             judge: "http://163.30.43.15/ShowProblem?problemid=a098"
             solution: ""
             excluded: false
@@ -736,9 +736,9 @@ classes:
             site: sssh
             title: "因數分解"
             group: "基礎練習"
-            topic: "while 條件迴圈"
+            topic: "條件迴圈"
             source: ""
-            note: "使用 while"
+            note: ""
             judge: "http://163.30.43.15/ShowProblem?problemid=a090"
             solution: ""
             excluded: false
@@ -836,7 +836,7 @@ classes:
             group: "字串"
             topic: "字串"
             source: ""
-            note: "可用迴圈或字串切片法"
+            note: ""
             judge: "http://163.30.43.15/ShowProblem?problemid=a126"
             solution: ""
             excluded: false
@@ -847,7 +847,7 @@ classes:
             group: "字串"
             topic: "字串"
             source: ""
-            note: "先備知識：ASCII"
+            note: "ASCII"
             judge: "https://zerojudge.tw/ShowProblem?problemid=a009"
             solution: ""
             excluded: false
@@ -882,7 +882,7 @@ classes:
             group: "二維陣列"
             topic: "二維陣列"
             source: ""
-            note: "ZeroJudge 同號題：壽山 a015 是「妳那裡現在幾點了？」"
+            note: ""
             judge: "https://zerojudge.tw/ShowProblem?problemid=a015"
             solution: ""
             excluded: false
@@ -965,7 +965,7 @@ classes:
             group: "堆疊"
             topic: "堆疊"
             source: ""
-            note: "ZeroJudge 紅題，括號匹配的進階挑戰"
+            note: ""
             judge: "https://zerojudge.tw/ShowProblem?problemid=k621"
             solution: ""
             excluded: false
@@ -989,7 +989,7 @@ classes:
             group: "遞迴"
             topic: "遞迴"
             source: ""
-            note: "輸入行數不固定，要用 sys.stdin"
+            note: "要用 sys.stdin"
             judge: "https://zerojudge.tw/ShowProblem?problemid=d487"
             solution: ""
             excluded: false
@@ -1000,7 +1000,7 @@ classes:
             group: "遞迴"
             topic: "遞迴"
             source: ""
-            note: "輸入行數不固定，要用 sys.stdin"
+            note: "要用 sys.stdin"
             judge: "https://zerojudge.tw/ShowProblem?problemid=a227"
             solution: ""
             excluded: false
@@ -1014,7 +1014,7 @@ classes:
             group: "枚舉"
             topic: "枚舉"
             source: ""
-            note: "用迴圈可找出答案，但不能用巢狀迴圈，會超時"
+            note: ""
             judge: "https://zerojudge.tw/ShowProblem?problemid=c435"
             solution: ""
             excluded: false
@@ -1025,7 +1025,7 @@ classes:
             group: "枚舉"
             topic: "枚舉"
             source: ""
-            note: "狀態壓縮＋迴圈，狀態分類要用 2 進位概念，競賽題"
+            note: "狀態壓縮＋迴圈，狀態分類要用 2 進位概念"
             judge: "https://zerojudge.tw/ShowProblem?problemid=c460"
             solution: ""
             excluded: false
@@ -1036,7 +1036,7 @@ classes:
             group: "枚舉"
             topic: "枚舉"
             source: ""
-            note: "可用位元枚舉"
+            note: "位元枚舉"
             judge: "https://zerojudge.tw/ShowProblem?problemid=a456"
             solution: ""
             excluded: false
@@ -1047,7 +1047,7 @@ classes:
             group: "枚舉"
             topic: "枚舉"
             source: ""
-            note: "可用位元枚舉，競賽題"
+            note: "位元枚舉，競賽題"
             judge: "https://zerojudge.tw/ShowProblem?problemid=b002"
             solution: ""
             excluded: false
@@ -1126,7 +1126,7 @@ classes:
             group: "Greedy"
             topic: "Greedy"
             source: "LeetCode 2434"
-            note: "Greedy + 堆疊：模擬機器人把字元推上堆、再從堆頂印出"
+            note: "Greedy + 堆疊"
             judge: "https://leetcode.cn/problems/using-a-robot-to-print-the-lexicographically-smallest-string/description/"
             solution: ""
             excluded: false
@@ -1139,7 +1139,7 @@ classes:
             group: "圖"
             topic: "圖"
             source: ""
-            note: "BFS 基礎練習"
+            note: "BFS"
             judge: "https://zerojudge.tw/ShowProblem?problemid=a290"
             solution: ""
             excluded: false
