@@ -74,8 +74,8 @@ layout: default
   .apcs-count { font-size: .85rem; color: var(--text-secondary, #888); margin: .2rem 0 .6rem; }
 
   .apcs-table-wrap { width: 100%; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
-  .apcs-table { width: 100%; min-width: 100%; border-collapse: collapse; font-size: .92rem; table-layout: auto; }
-  .apcs-table th, .apcs-table td { padding: .45rem .6rem; border-bottom: 1px solid var(--border-color, rgba(128,128,128,.18)); text-align: left; }
+  .apcs-table { width: 100%; table-layout: fixed; border-collapse: collapse; font-size: .92rem; word-break: break-word; overflow-wrap: break-word; }
+  .apcs-table th, .apcs-table td { padding: .45rem .6rem; border-bottom: 1px solid var(--border-color, rgba(128,128,128,.18)); text-align: left; vertical-align: top; }
   .apcs-table th { font-size: .82rem; color: var(--text-secondary, #888); font-weight: 600; border-bottom-width: 2px; }
   .apcs-table tr.apcs-group-row td { background: rgba(128,128,128,.10); font-weight: 600; font-size: .9rem; }
   .apcs-table tr.apcs-row-hidden { display: none; }
@@ -89,7 +89,7 @@ layout: default
   .apcs-note { color: var(--text-secondary, #888); font-size: .84rem; }
   .apcs-tag {
     display: inline-block; font-size: .74rem; padding: .05rem .45rem; border-radius: .8rem;
-    border: 1px solid var(--border-color, rgba(128,128,128,.35)); white-space: nowrap;
+    border: 1px solid var(--border-color, rgba(128,128,128,.35)); white-space: normal; word-break: break-word;
   }
   .apcs-solution { font-size: .84rem; }
   .apcs-empty { padding: 1.2rem 0; color: var(--text-secondary, #888); }
@@ -177,3 +177,19 @@ layout: default
     .apcs-stage { grid-template-columns: 1fr; gap: .8rem; }
   }
 </style>
+
+
+  /* 響應式：手機版精簡欄位 */
+  @media (max-width: 768px) {
+    .apcs-table { font-size: .88rem; }
+    .apcs-table th, .apcs-table td { padding: .38rem .45rem; }
+    .apcs-table-wrap { position: relative; }
+    .apcs-table-wrap::after {
+      content: "← 左右滑動查看更多 →";
+      display: block;
+      text-align: center;
+      font-size: .78rem;
+      color: var(--text-secondary, #888);
+      padding: .3rem 0;
+    }
+  }

@@ -55,13 +55,20 @@ description: "APCS 基本題庫 93 題：壽高（壽山高中解題網）的輸
 
 <div class="apcs-table-wrap">
 <table class="apcs-table">
+  <colgroup>
+    <col style="width:12%">
+    <col style="width:38%">
+    <col style="width:12%">
+    <col style="width:20%">
+    <col style="width:18%">
+  </colgroup>
   <thead>
     <tr>
-      <th style="width:7rem">題號</th>
+      <th>題號</th>
       <th>題目</th>
-      <th style="width:7rem">觀念</th>
-      <th style="width:8rem">命題來源</th>
-      <th style="width:8rem">解題文章</th>
+      <th>觀念</th>
+      <th>命題來源</th>
+      <th>解題文章</th>
     </tr>
   </thead>
   {% for c in all_classes %}
