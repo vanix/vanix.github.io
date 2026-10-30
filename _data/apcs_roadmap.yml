@@ -12,8 +12,6 @@
   articles:
     - title: "APCS初級課程：Python的print 和 input 輸入輸出基礎教學"
       url: /2025/12/python-print-input-tutorial.html
-    - title: "APCS初級題單：從0開始的Python 62題分類清單與線上評測連結"
-      url: /2026/10/apcs-beginner-problem-list.html
 
 - stage: 2
   site: sssh
@@ -24,8 +22,6 @@
   articles:
     - title: "APCS初級課程：Python的變數與算術運算教學"
       url: /2025/12/python-variables-arithmetic-tutorial.html
-    - title: "APCS初級 裝飲料解題教學：底面積相除與 while 模擬"
-      url: /2026/10/apcs-o711-pour-drink.html
 
 - stage: 3
   site: sssh
@@ -36,8 +32,6 @@
   articles:
     - title: "APCS初級課程：Python的條件判斷觀念教學，讓你的程式學會做決策！"
       url: /2025/12/python-conditional-judgment-tutorial.html
-    - title: "APCS初級 七言對聯解題教學：三條規則的條件判斷與字串處理"
-      url: /2026/10/apcs-qiyan-duilian.html
 
 - stage: 4
   site: sssh
@@ -48,8 +42,6 @@
   articles:
     - title: "APCS初級課程：Python的迴圈介紹與使用"
       url: /2025/12/python-loop-introduction.html
-    - title: "APCS初級 裝飲料解題教學：while 迴圈一公分一公分模擬"
-      url: /2026/10/apcs-o711-pour-drink.html
 
 - stage: 5
   site: sssh
@@ -60,8 +52,6 @@
   articles:
     - title: "APCS初級課程：Python的迴圈介紹與使用"
       url: /2025/12/python-loop-introduction.html
-    - title: "APCS初級題單：從0開始的Python 62題分類清單與線上評測連結"
-      url: /2026/10/apcs-beginner-problem-list.html
 
 - stage: 6
   site: sssh
@@ -72,10 +62,22 @@
   articles:
     - title: "APCS初級、中級課程：Python的字串處理與串列"
       url: /2025/12/python-string-list-introduction.html
-    - title: "APCS初級題單：從0開始的Python 62題分類清單與線上評測連結"
-      url: /2026/10/apcs-beginner-problem-list.html
 
 - stage: 7
+  site: sssh
+  title: APCS初級範例題
+  goal: 活用1~6所學，刷完基礎題庫後，就來挑戰初級範例題吧
+  topics: [APCS初級實作]
+  problems: [zjudge-g275, zjudge-o711, zjudge-m931]
+  articles:
+    - title: "APCS初級 七言對聯解題教學"
+      url: /2026/10/apcs-qiyan-duilian.html
+    - title: "APCS初級 裝飲料解題教學"
+      url: /2026/10/apcs-o711-pour-drink.html
+    - title: "APCS初級 遊戲選角解題教學"
+      url: /2026/10/apcs-game-character-selection.html
+
+- stage: 8
   site: sssh
   title: 函數與遞迴
   goal: 把重複的步驟包成函式，再學會用遞迴把大問題拆成小問題自己呼叫自己
