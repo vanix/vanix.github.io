@@ -56,10 +56,9 @@ description: "APCS 基本題庫 93 題：壽高（壽山高中解題網）的輸
 <div class="apcs-table-wrap">
 <table class="apcs-table">
   <colgroup>
-    <col style="width:12%">
-    <col style="width:38%">
-    <col style="width:12%">
-    <col style="width:20%">
+    <col style="width:16%">
+    <col style="width:50%">
+    <col style="width:16%">
     <col style="width:18%">
   </colgroup>
   <thead>
@@ -67,14 +66,13 @@ description: "APCS 基本題庫 93 題：壽高（壽山高中解題網）的輸
       <th>題號</th>
       <th>題目</th>
       <th>觀念</th>
-      <th>命題來源</th>
       <th>解題文章</th>
     </tr>
   </thead>
   {% for c in all_classes %}
     {% for g in c.groups %}
       <tbody class="apcs-group" data-class="{{ c.id }}">
-        <tr class="apcs-group-row"><td colspan="5">{{ c.name }}｜{{ g.name }}{% if g.note and g.note != '' %} <span class="apcs-note">（{{ g.note }}）</span>{% endif %}</td></tr>
+        <tr class="apcs-group-row"><td colspan="4">{{ c.name }}｜{{ g.name }}{% if g.note and g.note != '' %} <span class="apcs-note">（{{ g.note }}）</span>{% endif %}</td></tr>
         {% for p in g.problems %}
         <tr class="apcs-problem-row"
             data-class="{{ c.id }}"
@@ -85,7 +83,6 @@ description: "APCS 基本題庫 93 題：壽高（壽山高中解題網）的輸
           <td class="apcs-id"><a href="{{ p.judge }}" target="_blank" rel="noopener" title="{{ sites[p.site].name }} {{ p.id }}．{{ p.title }}">{{ p.id }}</a> <span class="apcs-site-tag apcs-site-{{ p.site }}">{{ sites[p.site].short }}</span></td>
           <td><a href="{{ p.judge }}" target="_blank" rel="noopener">{{ p.title }}</a>{% if p.note != '' %} <span class="apcs-note">（{{ p.note }}）</span>{% endif %}</td>
           <td><span class="apcs-tag">{{ p.topic }}</span></td>
-          <td class="apcs-note">{{ p.source }}</td>
           <td class="apcs-solution">{% if p.solution and p.solution != '' %}<a href="{{ p.solution | relative_url }}">看解題 →</a>{% else %}<span class="apcs-note">—</span>{% endif %}</td>
         </tr>
         {% endfor %}
