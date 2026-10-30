@@ -663,7 +663,7 @@ classes:
             source: "wwon"
             note: "建議使用 while 條件迴圈"
             judge: "http://163.30.43.15/ShowProblem?problemid=a088"
-            solution: ""
+            solution: "https://www.youtube.com/watch?v=1Gr1x99adoQ"
             excluded: false
           - id: a104
             key: sssh-a104
@@ -685,7 +685,7 @@ classes:
             source: "板橋高中教學題"
             note: ""
             judge: "http://163.30.43.15/ShowProblem?problemid=a030"
-            solution: ""
+            solution: "https://www.youtube.com/watch?v=FXFn2Jb_XOY"
             excluded: false
           - id: a089
             key: sssh-a089
@@ -696,7 +696,7 @@ classes:
             source: "wwon"
             note: ""
             judge: "http://163.30.43.15/ShowProblem?problemid=a089"
-            solution: ""
+            solution: "https://www.youtube.com/watch?v=TvzU0uFhaBA"
             excluded: false
           - id: a095
             key: sssh-a095
@@ -707,7 +707,7 @@ classes:
             source: ""
             note: ""
             judge: "http://163.30.43.15/ShowProblem?problemid=a095"
-            solution: ""
+            solution: "https://www.youtube.com/watch?v=zL_Tnco6-Pg"
             excluded: false
           - id: a098
             key: sssh-a098
