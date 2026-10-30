@@ -58,11 +58,10 @@
 <table class="apcs-table">
   <colgroup>
     <col style="width:10%">
-    <col style="width:40%">
+    <col style="width:46%">
+    <col style="width:14%">
     <col style="width:12%">
-    <col style="width:10%">
-    <col style="width:14%">
-    <col style="width:14%">
+    <col style="width:18%">
   </colgroup>
   <thead>
     <tr>
@@ -70,13 +69,12 @@
       <th>題目</th>
       <th>考試</th>
       <th>類型</th>
-      <th>通過率</th>
       <th>解題文章</th>
     </tr>
   </thead>
   {% for lv in levels %}
   <tbody class="apcs-group" data-level="{{ lv.id }}">
-    <tr class="apcs-group-row"><td colspan="6">{{ lv.name }}（{{ lv.problems.size }} 題）｜{{ lv.desc }}</td></tr>
+    <tr class="apcs-group-row"><td colspan="5">{{ lv.name }}（{{ lv.problems.size }} 題）｜{{ lv.desc }}</td></tr>
     {% for p in lv.problems %}
     <tr class="apcs-problem-row"
         data-level="{{ lv.id }}"
@@ -89,7 +87,6 @@
       <td><a href="{{ p.judge }}" target="_blank" rel="noopener">{{ p.title }}</a>{% if p.note != '' %} <span class="apcs-note">（{{ p.note }}）</span>{% endif %}</td>
       <td class="apcs-note">{{ p.exam }}</td>
       <td><span class="apcs-tag">{{ p.type }}</span></td>
-      <td class="apcs-note">{{ p.pass }}・{{ p.pass_count }} 人</td>
       <td class="apcs-solution">{% if p.solution and p.solution != '' %}<a href="{{ p.solution | relative_url }}">看解題 →</a>{% else %}<span class="apcs-note">—</span>{% endif %}</td>
     </tr>
     {% endfor %}
