@@ -48,7 +48,7 @@
   title: 迴圈應用
   goal: 用迴圈處理一些經典題目：質數、最大公因數與因數分解。並且進行大量的基礎刷題，徹底學會迴圈與巢狀迴圈
   topics: [迴圈, 條件迴圈]
-  problems: [a089, a088, a104, a090, a098]
+  problems: [a089, a088, a104, a090, a098, a119, a120, a008, a043, a110, a002]
   articles:
     - title: "APCS初級課程：Python的迴圈介紹與使用"
       url: /2025/12/python-loop-introduction.html

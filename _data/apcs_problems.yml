@@ -742,6 +742,61 @@ classes:
             judge: "http://163.30.43.15/ShowProblem?problemid=a090"
             solution: ""
             excluded: false
+          - id: a119
+            key: sssh-a119
+            site: sssh
+            title: "薩爾達傳說"
+            group: "基礎練習"
+            topic: "迴圈"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a119"
+            solution: ""
+            excluded: false
+          - id: a120
+            key: sssh-a120
+            site: sssh
+            title: "薩爾達傳說之武器資料庫"
+            group: "基礎練習"
+            topic: "迴圈"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a120"
+            solution: ""
+            excluded: false
+          - id: a008
+            key: sssh-a008
+            site: sssh
+            title: "盈虧互補"
+            group: "基礎練習"
+            topic: "迴圈"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a008"
+            solution: ""
+            excluded: false
+          - id: a043
+            key: sssh-a043
+            site: sssh
+            title: "棄保效應"
+            group: "基礎練習"
+            topic: "條件迴圈"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a043"
+            solution: ""
+            excluded: false
+          - id: a002
+            key: sssh-a002
+            site: sssh
+            title: "電話客服中心"
+            group: "基礎練習"
+            topic: "迴圈"
+            source: ""
+            note: ""
+            judge: "http://163.30.43.15/ShowProblem?problemid=a002"
+            solution: ""
+            excluded: false
   - id: list
     name: "串列"
     level: "初級"
