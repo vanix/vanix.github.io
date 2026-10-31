@@ -40,7 +40,7 @@ description: "APCS線上課程一次整理：基本題庫、APCS 歷屆實作題
   <div class="apcs-card">
     <div class="apcs-card-meta">學習路徑</div>
     <h3>不知道從哪題開始？</h3>
-    <p class="apcs-note">照七個階段的順序練，從「印出字串」一路到「函數與遞迴」，不跳級、不漏觀念。</p>
+    <p class="apcs-note">照八個階段的順序練，從「印出字串」一路到「APCS初級範例題」與「函數與遞迴」，不跳級、不漏觀念。</p>
     <p><a href="{{ '/apcs/roadmap/' | relative_url }}">看學習地圖 →</a></p>
   </div>
   <div class="apcs-card">
@@ -100,6 +100,6 @@ description: "APCS線上課程一次整理：基本題庫、APCS 歷屆實作題
 | APCS 歷屆實作題庫（ZJ） | 四個等級 + 考試場次與類型 | 想考正式題、想知道難度的人 |
 | 歷屆實作題解題 | 逐行講解的長文章 | 需要有人帶著讀程式碼的人 |
 | 教學影片 | 每列三部嵌入 YouTube 播放器，附長度與對應文章 | 想用影片學、或複習某個觀念的人 |
-| 學習地圖 | 七階段順序 + 可點擊的題號清單 | 不知道自己該練哪題的人 |
+| 學習地圖 | 八階段順序 + 可點擊的題號清單 | 不知道自己該練哪題的人 |
 
 💡 題庫的資料放在 `_data/apcs_problems.yml`，**新增題目只要加一行 YAML，頁面會自動更新**，不用回頭改 HTML。
