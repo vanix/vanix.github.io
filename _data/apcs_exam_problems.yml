@@ -196,17 +196,6 @@ levels:
         pass_count: 3537
         judge: "https://zerojudge.tw/ShowProblem?problemid=f313"
         solution: ""
-      - id: f312
-        no: 1
-        title: 人力分配
-        exam: 2020年10月
-        type: 舊制題
-        topic: 陣列與極值
-        pass: 93%
-        pass_count: 7913
-        judge: "https://zerojudge.tw/ShowProblem?problemid=f312"
-        solution: ""
-        note: 該場第 1 題，同一題在初級題庫也出現
 
   - id: upper_intermediate
     name: APCS中高級題庫
@@ -290,6 +279,17 @@ levels:
         judge: "https://zerojudge.tw/ShowProblem?problemid=f637"
         solution: ""
         note: 前序解碼，同色整塊用面積
+      - id: g277
+        no: 3
+        title: 幸運數字
+        exam: 2021年9月
+        type: 範例題
+        topic: 遞迴與分治
+        pass: 67%
+        pass_count: 1064
+        judge: "https://zerojudge.tw/ShowProblem?problemid=g277"
+        solution: ""
+        note: 遞迴、前綴和與區間最小值：每次以最小值切左右兩段，用前綴和比較總和決定往哪邊走
 
   - id: advanced
     name: APCS高級題庫

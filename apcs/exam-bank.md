@@ -1,12 +1,12 @@
 ---
 layout: apcs
 title: APCS 歷屆實作題庫
-subtitle: ZeroJudge 部分APCS實作題 26 題・初級 9、中級 10、中高級 5、高級 2
+subtitle: ZeroJudge 部分APCS實作題 28 題・初級 9、中級 9、中高級 8、高級 2
 permalink: /apcs/exam-bank/
-description: "APCS 歷屆實作題庫：ZeroJudge 上歷屆程式實作題共 26 題，涵蓋初級 9 題、中級 10 題、中高級 5 題、高級 2 題，時間軸從 2016 年 3 月到 2024 年 10 月。每題附線上評測連結、考試場次、類型與對應解題文章，可依級別、觀念、類型與考試場次篩選，適合想挑戰歷屆真題的學生。"
+description: "APCS 歷屆實作題庫：ZeroJudge 上歷屆程式實作題共 28 題，涵蓋初級 9 題、中級 9 題、中高級 8 題、高級 2 題，時間軸從 2016 年 3 月到 2024 年 10 月。每題附線上評測連結、考試場次、類型與對應解題文章，可依級別、觀念、類型與考試場次篩選，適合想挑戰歷屆真題的學生。"
 ---
 
-這份 **APCS 歷屆實作題庫**收集了 ZeroJudge 上部分的程式實作題，共 **26 題**，從 2016 年 3 月一路到 2024 年 10 月。這裡列出宅爸有練習撰寫的程式，目前打算針對APCS官網範例題，寫一些解題分解的文章，如果想要查詢更多題目，可以到 ZeroJudge 搜尋更多APCS題目。
+這份 **APCS 歷屆實作題庫**收集了 ZeroJudge 上部分的程式實作題，共 **28 題**，從 2016 年 3 月一路到 2024 年 10 月。這裡列出宅爸有練習撰寫的程式，目前打算針對APCS官網範例題，寫一些解題分解的文章，如果想要查詢更多題目，可以到 ZeroJudge 搜尋更多APCS題目。
 
 > 感謝 ZeroJudge 的電神們提供題目 <(_ _)>
 
@@ -27,4 +27,4 @@ description: "APCS 歷屆實作題庫：ZeroJudge 上歷屆程式實作題共 26
 
 {% include apcs-filter.html %}
 
-> 題目資料在 `_data/apcs_exam_problems.yml`，考試場次取自 ZeroJudge 的 APCS 標籤清單。「人力分配」是 2020 年 10 月的第 1 題，初級與中級題庫都有收錄。
+> 題目資料在 `_data/apcs_exam_problems.yml`，考試場次取自 ZeroJudge 的 APCS 標籤清單。
