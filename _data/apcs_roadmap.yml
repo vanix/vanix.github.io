@@ -17,7 +17,7 @@
   site: sssh
   title: 算得動
   goal: 熟悉變數指派與四則運算，知道 // 取商、% 取餘、整數與浮點數的差別
-  topics: [算術運算, 整數除法與餘數]
+  topics: [算術運算, 文字分割]
   problems: [a048, a049, a124, a050, a056, a019, a071, a072, a054, a070, a015, a042, a076, a075, a077, a029, a035]
   articles:
     - title: "APCS初級課程：Python的變數與算術運算教學"
@@ -46,8 +46,8 @@
 - stage: 5
   site: sssh
   title: 迴圈應用
-  goal: 用迴圈處理質數、最大公因數與因數分解：需要反覆試試看，把答案一個一個找出來
-  topics: [迴圈, while 條件迴圈]
+  goal: 用迴圈處理一些經典題目：質數、最大公因數與因數分解。並且進行大量的基礎刷題，徹底學會迴圈與巢狀迴圈
+  topics: [迴圈, 條件迴圈]
   problems: [a089, a088, a104, a090, a098]
   articles:
     - title: "APCS初級課程：Python的迴圈介紹與使用"
@@ -56,9 +56,9 @@
 - stage: 6
   site: sssh
   title: 串列與字串
-  goal: 把字串當成一串可以索引、切段的資料處理，學會用 for 走過每一個字元
-  topics: [字串]
-  problems: [a010, a126, zjudge-a009]
+  goal: 練習串列輸入、內建功能，以及與迴圈結合。把字串當成一串可以索引、切段的資料處理，學會用 for 走過每一個字，以及字串切片法。
+  topics: [串列, 字串]
+  problems: [a122, a107, a110, a010, a126, zjudge-a009]
   articles:
     - title: "APCS初級、中級課程：Python的字串處理與串列"
       url: /2025/12/python-string-list-introduction.html
