@@ -212,7 +212,7 @@ levels:
         pass_count: 955
         judge: "https://zerojudge.tw/ShowProblem?problemid=j124"
         solution: ""
-        note: 歷屆實作題裡的中高級題目，來自範例題。依奇偶決定分支數的遞迴下降
+        note: 遞迴、DFS
       - id: o713
         no: 3
         title: 連鎖反應
@@ -234,7 +234,7 @@ levels:
         pass_count: 647
         judge: "https://zerojudge.tw/ShowProblem?problemid=g597"
         solution: ""
-        note: 舊制第三題。需使用差分、前綴和、Greedy
+        note: 需使用差分、前綴和、Greedy
       - id: f581
         no: 3
         title: 圓環出口
@@ -289,7 +289,7 @@ levels:
         pass_count: 1064
         judge: "https://zerojudge.tw/ShowProblem?problemid=g277"
         solution: ""
-        note: 遞迴、前綴和與區間最小值：每次以最小值切左右兩段，用前綴和比較總和決定往哪邊走
+        note: 遞迴、前綴和與區間最小值
 
   - id: advanced
     name: APCS高級題庫
