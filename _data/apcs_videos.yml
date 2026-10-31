@@ -1,6 +1,7 @@
 # APCS 教學影片（YouTube 播放清單）
 # 播放清單：https://www.youtube.com/playlist?list=PLN9g1rvyo05p70K3HU-hWhEkoNs26WhD0
 # 新增影片：在對應群組的 videos 底下加一筆 id（YouTube 網址 v= 後面那串）即可，頁面會自動長出卡片。
+# 影片還沒拍、但已經有教學文章：id 留空字串（id: ""），卡片會顯示「影片製作中」並只連到文章。
 # 播放清單中設為「私人」或已下架的影片不會列入。
 
 playlist:
@@ -70,9 +71,9 @@ groups:
         duration: "22:24"
         date: "2025-12-06"
         article: /2025/12/python-string-list-introduction.html
-      - id: aZ5sfHJ01Sg
-        title: 二維串列：建立、走訪、翻轉、旋轉 (尚無教學影片)
-        duration: "22:24"
+      - id: ""
+        title: 二維串列：建立、走訪、翻轉、旋轉
+        duration: ""
         date: "2026-10-30"
         article: /2026/10/python-2d-array-introduction.html
       - id: qx0jy-Pzn0k
