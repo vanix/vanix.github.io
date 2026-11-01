@@ -1,4 +1,4 @@
-# APCS 初級學習地圖：八個階段
+# APCS 學習地圖：十個階段
 # problems 的題號會自動連到評測系統（judge_base 在 apcs_problems.yml）
 # 每個階段可標 site（該階段預設的評測網站），跨站題目寫成 "zjudge-a693" 這種格式
 # articles 為對應的教學文章
@@ -80,6 +80,30 @@
       url: /2026/10/apcs-game-character-selection.html
 
 - stage: 8
+  site: zjudge
+  title: 二維串列
+  goal: 把串列疊成一張表格：用雙層迴圈讀入與走訪，學會翻轉、旋轉，以及用列與行座標找相鄰的格子
+  topics: [二維陣列, 巢狀迴圈]
+  problems: [zjudge-a015, zjudge-b266, zjudge-k554, zjudge-d625, zjudge-q366]
+  articles:
+    - title: "APCS中級課程：Python 二維陣列教學｜宣告、存取、走訪與旋轉翻轉"
+      url: /2026/10/python-2d-array-introduction.html
+
+- stage: 9
+  site: zjudge
+  title: APCS中級範例題
+  goal: 把二維串列、字串處理與狀態模擬組合起來，計時挑戰 APCS 中級範例題
+  topics: [APCS中級實作]
+  problems: [zjudge-k732, zjudge-o712, zjudge-i400]
+  articles:
+    - title: "APCS中級實作範例題 - 特殊位置解題教學"
+      url: /2026/10/apcs-k732-special-position.html
+    - title: "APCS中級實作範例題 - 蒐集寶石解題教學"
+      url: /2026/10/apcs-o712-collect-gems.html
+    - title: "APCS中級實作範例題 - 字串解碼 解題教學"
+      url: /2026/10/apcs-i400-string-decode.html
+
+- stage: 10
   site: sssh
   title: 函數與遞迴
   goal: 把重複的步驟包成函式，再學會用遞迴把大問題拆成小問題自己呼叫自己

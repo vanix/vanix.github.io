@@ -1,9 +1,9 @@
 ---
 layout: apcs
 title: APCS 學習地圖
-subtitle: 八個階段、80 題完整分配，題號可直接點去刷題
+subtitle: 十個階段、88 題完整分配，題號可直接點去刷題
 permalink: /apcs/roadmap/
-description: "APCS 學習地圖：把題庫 80 題拆成八個階段——讓程式跑起來、算得動、會分支、會重複、迴圈應用、串列與字串、APCS初級範例題、函數與遞迴，每個階段都附對應的教學文章與可直接點擊刷題的題號連結，不會不知道該從哪題開始。"
+description: "APCS 學習地圖：把題庫 88 題拆成十個階段——讓程式跑起來、算得動、會分支、會重複、迴圈應用、串列與字串、APCS初級範例題、二維串列、APCS中級範例題、函數與遞迴，每個階段都附對應的教學文章與可直接點擊刷題的題號連結，不會不知道該從哪題開始。"
 ---
 
 {% assign stages = site.data.apcs_roadmap %}
@@ -11,10 +11,14 @@ description: "APCS 學習地圖：把題庫 80 題拆成八個階段——讓程
 {% assign exam_levels = site.data.apcs_exam_problems.levels %}
 {% assign all_count = 0 %}
 {% for s in stages %}{% assign all_count = all_count | plus: s.problems.size %}{% endfor %}
+{% assign mapped = "," %}
+{% for s in stages %}{% for pid in s.problems %}{% assign k = pid %}{% unless pid contains "-" %}{% assign k = s.site | default: "sssh" | append: "-" | append: pid %}{% endunless %}{% assign mapped = mapped | append: k | append: "," %}{% endfor %}{% endfor %}
+{% assign outside = 0 %}
+{% for c in all_classes %}{% for g in c.groups %}{% for p in g.problems %}{% assign needle = "," | append: p.key | append: "," %}{% unless mapped contains needle %}{% assign outside = outside | plus: 1 %}{% endunless %}{% endfor %}{% endfor %}{% endfor %}
 
 不知道從哪一題下手？**照順序練就好**。這張地圖把題庫 {{ all_count }} 題拆成 {{ stages.size }} 個階段，每一階段都附上**對應的教學文章**與**可直接點擊去刷題的題號**。
 
-> 前綴和、二維陣列與演算法共 18 題不在這條路徑裡（在[基本題庫](/apcs/problem-bank/)的「搜尋、堆疊、遞迴與枚舉」分類），適合初級練完、有基礎之後再挑戰。
+> 前綴和、排序搜尋、堆疊、枚舉、組合與圖論共 {{ outside }} 題不在這條路徑裡（在[基本題庫](/apcs/problem-bank/)的其他分類），適合這十個階段練完、有基礎之後再挑戰。
 
 | 階段 | 主題 | 題數 | 核心觀念 |
 | --- | --- | --- | --- |
