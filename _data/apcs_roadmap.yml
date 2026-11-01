@@ -1,4 +1,4 @@
-# APCS 學習地圖：十個階段
+# APCS 學習地圖：十一個階段
 # problems 的題號會自動連到評測系統（judge_base 在 apcs_problems.yml）
 # 每個階段可標 site（該階段預設的評測網站），跨站題目寫成 "zjudge-a693" 這種格式
 # articles 為對應的教學文章
@@ -90,6 +90,16 @@
       url: /2026/10/python-2d-array-introduction.html
 
 - stage: 9
+  site: sssh
+  title: 函數
+  goal: 把重複的程式碼包成函式：定義參數與回傳值，主程式只負責讀資料、呼叫函式與輸出。階段 5 寫過的質數與最大公因數，這次改用函式重寫一次
+  topics: [自訂函數]
+  problems: [a154, a155, a088, a089, a115]
+  articles:
+    - title: "APCS中級課程：Python自訂函數基礎介紹"
+      url: /2025/12/custom-functions-introduction.html
+
+- stage: 10
   site: zjudge
   title: APCS中級範例題
   goal: 把二維串列、字串處理與狀態模擬組合起來，計時挑戰 APCS 中級範例題
@@ -103,14 +113,12 @@
     - title: "APCS中級實作範例題 - 字串解碼 解題教學"
       url: /2026/10/apcs-i400-string-decode.html
 
-- stage: 10
+- stage: 11
   site: sssh
-  title: 函數與遞迴
-  goal: 把重複的步驟包成函式，再學會用遞迴把大問題拆成小問題自己呼叫自己
+  title: 遞迴
+  goal: 學會用遞迴把大問題拆成小問題、自己呼叫自己：費氏數列、遞迴函數與河內塔
   topics: [遞迴]
   problems: [a095, zjudge-e357, zjudge-d487, zjudge-a227]
   articles:
-    - title: "APCS中級課程：Python自訂函數基礎介紹"
-      url: /2025/12/custom-functions-introduction.html
     - title: "APCS中級課程：Python的遞迴函數基礎教學"
       url: /2025/12/python-recursion.html

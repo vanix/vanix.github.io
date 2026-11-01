@@ -963,6 +963,49 @@ classes:
             judge: "https://zerojudge.tw/ShowProblem?problemid=q366"
             solution: ""
             excluded: false
+  - id: func
+    name: "函數"
+    level: "初級"
+    order: 4
+    desc: "把重複的程式碼包成函式：定義參數、回傳值，主程式只負責讀資料、呼叫函式與輸出。"
+    topics:
+      - "自訂函數"
+    groups:
+      - name: "自訂函數"
+        problems:
+          - id: a154
+            key: sssh-a154
+            site: sssh
+            title: "骰子左右翻轉"
+            group: "自訂函數"
+            topic: "自訂函數"
+            source: ""
+            note: "定義翻轉函式，處理左翻與右翻兩種情況"
+            judge: "http://163.30.43.15/ShowProblem?problemid=a154"
+            solution: ""
+            excluded: false
+          - id: a155
+            key: sssh-a155
+            site: sssh
+            title: "撲克牌交換"
+            group: "自訂函數"
+            topic: "自訂函數"
+            source: ""
+            note: "定義交換函式，交換陣列中兩個位置的元素"
+            judge: "http://163.30.43.15/ShowProblem?problemid=a155"
+            solution: ""
+            excluded: false
+          - id: a115
+            key: sssh-a115
+            site: sssh
+            title: "找出前N個質數"
+            group: "自訂函數"
+            topic: "自訂函數"
+            source: ""
+            note: "把質數判斷寫成函式，再重複呼叫它"
+            judge: "http://163.30.43.15/ShowProblem?problemid=a115"
+            solution: ""
+            excluded: false
   - id: algo
     name: "搜尋、堆疊、遞迴與枚舉"
     level: "中高級"
