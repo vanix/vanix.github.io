@@ -64,6 +64,8 @@
   articles:
     - title: "APCS初級、中級課程：Python的字串處理與串列"
       url: /2025/12/python-string-list-introduction.html
+    - title: "APCS中級課程：Python 二維陣列教學｜宣告、存取、走訪與旋轉翻轉"
+      url: /2026/10/python-2d-array-introduction.html
 
 - stage: 7
   site: sssh
