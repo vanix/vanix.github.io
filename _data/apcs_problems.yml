@@ -965,7 +965,7 @@ classes:
             excluded: false
   - id: func
     name: "函數"
-    level: "初級"
+    level: "中級"
     order: 4
     desc: "把重複的程式碼包成函式：定義參數、回傳值，主程式只負責讀資料、呼叫函式與輸出。"
     topics:
