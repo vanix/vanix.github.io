@@ -18,14 +18,6 @@ description: "APCS線上課程一次整理：基本題庫、APCS 歷屆實作題
 
 <div class="apcs-cards">
 {% for c in all_classes %}{% if c.id != 'extra' %}
-  {% if c.id == 'func' %}
-  <div class="apcs-card">
-    <div class="apcs-card-meta">中級</div>
-    <h3>二維串列</h3>
-    <p class="apcs-note">把串列疊成一張表格：用雙層迴圈讀入與走訪，學會翻轉、旋轉，以及用列與行座標找相鄰的格子。</p>
-    <p><a href="{{ '/2026/10/python-2d-array-introduction.html' | relative_url }}">看二維串列教學 →</a></p>
-  </div>
-  {% endif %}
   <div class="apcs-card">
     <div class="apcs-card-meta">{{ c.level }}</div>
     <h3>{{ c.name }}</h3>
