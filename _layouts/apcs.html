@@ -170,6 +170,27 @@ layout: default
   .apcs-video-soon-hint { font-size: .74rem; opacity: .8; }
   .apcs-video-meta a { color: var(--apcs-accent); text-decoration: none; }
   .apcs-video-meta a:hover { text-decoration: underline; }
+  .apcs-video-jump {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4rem .7rem;
+    align-items: center;
+    margin: 1rem 0 1.6rem;
+    padding: .5rem .7rem;
+    border: 1px solid var(--border-color, rgba(128,128,128,.25));
+    border-radius: .6rem;
+    background: rgba(128,128,128,.05);
+    font-size: .9rem;
+  }
+  .apcs-video-jump-label {
+    color: var(--text-secondary, #888);
+  }
+  .apcs-video-jump a {
+    text-decoration: none;
+  }
+  .apcs-video-jump a:hover {
+    text-decoration: underline;
+  }
 
   /* 影片頁在桌機上吃掉整個內容寬度（隱藏右側目錄），三部一排才不會太窄 */
   @media (min-width: 1200px) {

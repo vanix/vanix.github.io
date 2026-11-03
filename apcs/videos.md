@@ -18,10 +18,17 @@ description: "APCS 教學影片總整理：包含 Python 程式實作課程與 A
 > 建議搭配[學習地圖]({{ '/apcs/roadmap/' | relative_url }})的階段順序看：先看完基礎語法，再去[基本題庫]({{ '/apcs/problem-bank/' | relative_url }})挑題動手寫，卡住再回來看解題影片。
 {: .prompt-tip }
 
+<div class="apcs-video-jump">
+  <span class="apcs-video-jump-label">快速跳到：</span>
+  {% for g in groups %}
+    <a href="#video-{{ forloop.index }}">{{ g.title }}</a>{% unless forloop.last %} · {% endunless %}
+  {% endfor %}
+</div>
+
 {% for g in groups %}
   {% assign group_count = 0 %}
   {% for v in g.videos %}{% if v.id and v.id != "" %}{% assign group_count = group_count | plus: 1 %}{% endif %}{% endfor %}
-  <section class="apcs-video-section">
+  <section class="apcs-video-section" id="video-{{ forloop.index }}">
     <h2 class="apcs-video-heading">{{ g.title }}<span class="apcs-video-count">{{ group_count }} 部影片</span></h2>
     {% if g.note %}<p class="apcs-note">{{ g.note }}</p>{% endif %}
     <div class="apcs-videos-grid">
