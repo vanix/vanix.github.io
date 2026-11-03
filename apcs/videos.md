@@ -45,7 +45,7 @@ description: "APCS 教學影片總整理：15 部 Python 程式實作課程影�
           <div class="apcs-video-meta">
             {% if v.duration and v.duration != "" %}<span class="apcs-video-dur"><i class="fas fa-clock"></i> {{ v.duration }}</span>{% endif %}
             {% if v.date %}<span>{{ v.date }}</span>{% endif %}
-            {% if v.article %}<a href="{{ v.article | relative_url }}">看文章 →</a>{% endif %}
+            {% if v.article and v.article != "" %}<a href="{{ v.article | relative_url }}">看文章 →</a>{% endif %}
           </div>
         </figcaption>
       </figure>
