@@ -1,4 +1,4 @@
-# APCS 學習地圖：十一個階段
+# APCS 學習地圖：十二個階段
 # problems 的題號會自動連到評測系統（judge_base 在 apcs_problems.yml）
 # 每個階段可標 site（該階段預設的評測網站），跨站題目寫成 "zjudge-a693" 這種格式
 # articles 為對應的教學文章
@@ -124,3 +124,11 @@
   articles:
     - title: "APCS中級課程：Python的遞迴函數基礎教學"
       url: /2025/12/python-recursion.html
+
+- stage: 12
+  site: zjudge
+  title: 前綴和、排序與搜尋、堆疊、枚舉
+  goal: 學會用前綴和處理區間總和，用排序與二分搜尋加速查找，用堆疊處理括號與序列問題，用枚舉法解決子集合、背包等組合問題
+  topics: [前綴和, 排序與搜尋, 堆疊, 枚舉]
+  problems: [zjudge-a693, zjudge-a694, zjudge-d732, tcirc-d010, zjudge-c123, zjudge-k621, zjudge-c435, zjudge-c460, zjudge-a456, zjudge-b002, zjudge-k622, zjudge-a522, zjudge-a229, zjudge-a981]
+  articles: []
