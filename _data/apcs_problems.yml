@@ -1002,7 +1002,7 @@ classes:
       solution: ''
       excluded: false
 - id: algo
-  name: 搜尋、堆疊、遞迴與枚舉
+  name: 搜尋、堆疊、遞迴與枚舉｜堆疊與佇列
   level: 中高級
   order: 5
   desc: 初級的迴圈與條件判斷熟了之後，往演算法走：二分搜尋、堆疊、遞迴，以及用窮舉法解決組合問題。
@@ -1038,7 +1038,7 @@ classes:
       judge: https://judge.tcirc.tw/problem/d010
       solution: ''
       excluded: false
-  - name: 堆疊
+  - name: 堆疊與佇列
     problems:
     - id: c123
       key: zjudge-c123
@@ -1065,11 +1065,11 @@ classes:
     - id: e155
       key: zjudge-e155
       site: zjudge
-      title: 第六次作業-2 叢林探險隊
+      title: Throwing cards away I
       group: 堆疊
-      topic: 堆疊
+      topic: 佇列
       source: ''
-      note: 佇列
+      note: ''
       judge: https://zerojudge.tw/ShowProblem?problemid=e155
       solution: ''
       excluded: false
