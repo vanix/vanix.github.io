@@ -3,10 +3,10 @@ layout: apcs
 title: 教學影片
 heading: APCS 教學影片｜Python 初級到中級課程與解題影片
 seo_title: APCS 教學影片｜Python 初級到中級課程與解題影片 - 充滿意外的宅爸人生
-subtitle: 15 部影片・初級基礎語法、APCS 範例題、中級二維陣列與函數、中高級資料結構，點開就能上課
+subtitle: 程式實作＋程式識讀影片總整理，涵蓋 Python 實作教學與 APCS 程式識讀（Python、C語言）
 permalink: /apcs/videos/
 icon: fab fa-youtube
-description: "APCS 教學影片總整理：15 部 Python 程式實作課程影片，分成初級基礎語法（print／input、變數與算術運算、if 條件判斷、迴圈、巢狀迴圈、字串與串列）、初級 APCS 範例題（七言對聯、裝飲料、遊戲選角）、中級二維陣列與函數（自訂函數、特殊位置、字串解碼、蒐集寶石）與中高級資料結構與遞迴（遞迴），每部影片都附長度、發布日期與對應的圖文教學文章，尚未拍影片的主題也會標示並連到圖文教學，適合準備 APCS 初級、中級與中高級實作題的學生搭配刷題使用。"
+description: "APCS 教學影片總整理：包含 Python 程式實作課程與 APCS 程式識讀（Python、C語言）影片，分成初級基礎語法、APCS 範例題、中級二維陣列與函數、中高級資料結構與遞迴，以及程式識讀練習（閱讀程式碼、追蹤變數、預測輸出），每部影片都附連結與對應的圖文教學，適合準備 APCS 初級、中級實作題與程式識讀的學生搭配刷題使用。"
 ---
 
 {% assign groups = site.data.apcs_videos.groups %}
