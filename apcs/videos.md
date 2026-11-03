@@ -13,7 +13,7 @@ description: "APCS 教學影片總整理：包含 Python 程式實作課程與 A
 {% assign total = 0 %}{% assign pending = 0 %}
 {% for g in groups %}{% for v in g.videos %}{% if v.id and v.id != "" %}{% assign total = total | plus: 1 %}{% else %}{% assign pending = pending | plus: 1 %}{% endif %}{% endfor %}{% endfor %}
 
-這裡把 YouTube 播放清單上的 **{{ total }} 部 APCS 教學影片**整理成一頁，依程度分成四個階段。影片長度都標在卡片上，想複習某個觀念直接點開看，不用再從播放清單裡撈。{% if pending > 0 %}少數主題還沒拍影片，會顯示「影片製作中」，可以先看對應的圖文教學。{% endif %}
+這裡把 YouTube 播放清單上的 **{{ total }} 部 APCS 教學影片**整理成一頁，依主題分成 {{ groups.size }} 個群組（Python 實作教學與 APCS 程式識讀）。影片長度都標在卡片上，想複習某個觀念直接點開看，不用再從播放清單裡撈。{% if pending > 0 %}少數主題還沒拍影片，會顯示「影片製作中」，可以先看對應的圖文教學。{% endif %}
 
 > 建議搭配[學習地圖]({{ '/apcs/roadmap/' | relative_url }})的階段順序看：先看完基礎語法，再去[基本題庫]({{ '/apcs/problem-bank/' | relative_url }})挑題動手寫，卡住再回來看解題影片。
 {: .prompt-tip }
