@@ -105,3 +105,101 @@ groups:
         duration: "25:20"
         date: "2021-11-03"
         article: /2025/12/python-recursion.html
+
+  - title: APCS 程式識讀（Python）
+    note: 練習閱讀程式碼、追蹤變數值、預測程式輸出，針對 APCS 程式識讀題型。
+    videos:
+      - id: VZvk5ZCePqk
+        title: 「APCS Python程式識讀」APCS觀念題 - 變數與算術運算，使用箱子前不需要指定資料型態真方便
+        duration: ""
+        date: ""
+        article: ""
+      - id: KfBGBK95aJM
+        title: 「APCS Python程式識讀」APCS觀念題 - if條件判斷
+        duration: ""
+        date: ""
+        article: ""
+      - id: wVpXuRQmQvc
+        title: 「APCS Python程式識讀」APCS觀念題 - while迴圈
+        duration: ""
+        date: ""
+        article: ""
+      - id: 5oiUVd9_Dp4
+        title: 「APCS Python程式識讀」APCS觀念題 - for迴圈
+        duration: ""
+        date: ""
+        article: ""
+      - id: uoSoh3GqXQ8
+        title: 「APCS Python程式識讀」APCS觀念題 - 陣列、串列
+        duration: ""
+        date: ""
+        article: ""
+      - id: WyGGcqD0cVc
+        title: 「APCS Python程式識讀」APCS觀念題 - 字串
+        duration: ""
+        date: ""
+        article: ""
+      - id: 6W_kMYorG9g
+        title: 「APCS Python程式識讀」APCS觀念題 - 函式
+        duration: ""
+        date: ""
+        article: ""
+
+  - title: APCS 程式識讀（C語言）
+    note: 練習閱讀 C 語言程式碼、追蹤變數值、預測程式輸出，針對 APCS 程式識讀題型。
+    videos:
+      - id: gcXZKGNnd30
+        title: 「APCS觀念題」不會寫C語言該如何準備？需要學習哪些章節？
+        duration: ""
+        date: ""
+        article: ""
+      - id: D-oQ23qn2K0
+        title: 「APCS C程式識讀」APCS觀念題 - 基本I/O、變數、運算
+        duration: ""
+        date: ""
+        article: ""
+      - id: FoITJidGzzQ
+        title: 「APCS C程式識讀」APCS觀念題 - if條件判斷
+        duration: ""
+        date: ""
+        article: ""
+      - id: Koj_hps32KI
+        title: 「APCS C程式識讀」APCS觀念題 - while迴圈
+        duration: ""
+        date: ""
+        article: ""
+      - id: Qq_3KG9pLiY
+        title: 「APCS C程式識讀」APCS觀念題 - for迴圈
+        duration: ""
+        date: ""
+        article: ""
+      - id: l6uJ-dtKdTM
+        title: 「APCS C程式識讀」APCS觀念題 - 陣列
+        duration: ""
+        date: ""
+        article: ""
+      - id: 4HVvpDM8Fxc
+        title: 「APCS C程式識讀」APCS觀念題 - 字串
+        duration: ""
+        date: ""
+        article: ""
+      - id: vkFJ4_ClMf0
+        title: 「APCS C程式識讀」APCS觀念題 - 函式
+        duration: ""
+        date: ""
+        article: ""
+      - id: QaGCfSZNMzA
+        title: 「APCS C程式識讀」APCS觀念題 - 結構
+        duration: ""
+        date: ""
+        article: ""
+      - id: uJFTP9ltgas
+        title: 「APCS C程式識讀」APCS觀念題 - 指標
+        duration: ""
+        date: ""
+        article: ""
+      - id: yzsrLikXK6M
+        title: 「APCS C程式識讀」APCS觀念題 - 動態記憶體配置
+        duration: ""
+        date: ""
+        article: ""
