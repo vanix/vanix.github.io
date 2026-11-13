@@ -3,7 +3,7 @@ layout: apcs
 title: APCS線上課程
 heading: APCS線上課程｜Python 基礎題 、考古題與線上刷題
 seo_title: APCS線上課程｜Python 基礎題 、考古題與線上刷題 - 充滿意外的宅爸人生
-subtitle: 從 0 開始的 Python 程式設計・各階段學習地圖
+subtitle: 從 0 開始的 Python 程式設計・目標是協助學生順利考過APCS初級、中級實作
 icon: fab fa-python
 order: 0.5
 permalink: /apcs/
