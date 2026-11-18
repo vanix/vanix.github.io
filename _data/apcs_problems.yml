@@ -1014,6 +1014,7 @@ classes:
   - 枚舉
   - 組合
   - APCS 範例題
+  - 遞迴下降
   groups:
   - name: 排序與搜尋
     problems:
@@ -1189,6 +1190,17 @@ classes:
       judge: https://zerojudge.tw/ShowProblem?problemid=e357
       solution: ''
       excluded: false
+    - id: c002
+      key: zjudge-c002
+      site: zjudge
+      title: f91
+      group: 遞迴
+      topic: 遞迴
+      source: ''
+      note: ''
+      judge: https://zerojudge.tw/ShowProblem?problemid=c002
+      solution: ''
+      excluded: false
     - id: d487
       key: zjudge-d487
       site: zjudge
@@ -1209,6 +1221,30 @@ classes:
       source: ''
       note: 要用 sys.stdin
       judge: https://zerojudge.tw/ShowProblem?problemid=a227
+      solution: ''
+      excluded: false
+  - name: 遞迴下降
+    problems:
+    - id: b981
+      key: zjudge-b981
+      site: zjudge
+      title: YoJudge 預練(時間之章)
+      group: 遞迴下降
+      topic: 遞迴下降
+      source: ''
+      note: ''
+      judge: https://zerojudge.tw/ShowProblem?problemid=b981
+      solution: ''
+      excluded: false
+    - id: a017
+      key: zjudge-a017
+      site: zjudge
+      title: 五則運算
+      group: 遞迴下降
+      topic: 遞迴下降
+      source: ''
+      note: ''
+      judge: https://zerojudge.tw/ShowProblem?problemid=a017
       solution: ''
       excluded: false
 - id: greedy_graph

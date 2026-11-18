@@ -213,6 +213,17 @@ levels:
         judge: "https://zerojudge.tw/ShowProblem?problemid=j124"
         solution: ""
         note: 遞迴、DFS
+      - id: j607
+        no: 3
+        title: 先加後乘與函數
+        exam: 2023年1月
+        type: 範例題
+        topic: 遞迴下降
+        pass: 85%
+        pass_count: 500
+        judge: "https://zerojudge.tw/ShowProblem?problemid=j607"
+        solution: ""
+        note: 遞迴下降
       - id: o713
         no: 3
         title: 連鎖反應
