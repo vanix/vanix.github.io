@@ -10,9 +10,11 @@ description: "APCS 基本題庫 103 題：壽高（壽山高中解題網）的�
 {% assign sites = site.data.apcs_problems.sites %}
 {% assign topics = "" | split: "" %}
 {% assign site_list = "" | split: "" %}
-{% for c in all_classes %}{% for g in c.groups %}{% for p in g.problems %}{% assign topics = topics | push: p.topic %}{% assign site_list = site_list | push: p.site %}{% endfor %}{% endfor %}{% endfor %}
+{% assign group_list = "" | split: "" %}
+{% for c in all_classes %}{% for g in c.groups %}{% assign group_list = group_list | push: g.name %}{% for p in g.problems %}{% assign topics = topics | push: p.topic %}{% assign site_list = site_list | push: p.site %}{% endfor %}{% endfor %}{% endfor %}
 {% assign topics = topics | uniq %}
 {% assign site_list = site_list | uniq %}
+{% assign group_list = group_list | uniq %}
 {% assign total = 0 %}{% for c in all_classes %}{% for g in c.groups %}{% assign total = total | plus: g.problems.size %}{% endfor %}{% endfor %}
 
 這份**基本題庫**收錄 **{{ total }} 題**，分成七大類：輸入輸出與算術運算 23 題、條件判斷 21 題、迴圈 23 題，加上**字串、串列、前綴和與二維陣列** 13 題、**函數** 3 題、**搜尋、堆疊、遞迴與枚舉** 16 題，以及 **Greedy 與圖論** 4 題。
@@ -26,8 +28,8 @@ description: "APCS 基本題庫 103 題：壽高（壽山高中解題網）的�
   <div class="apcs-chips">
     <span class="apcs-chips-label">類別</span>
     <button class="apcs-chip active" data-filter="class" data-value="all">全部</button>
-    {% for c in all_classes %}
-      <button class="apcs-chip" data-filter="class" data-value="{{ c.id }}">{{ c.name }}</button>
+    {% for g in group_list %}
+      <button class="apcs-chip" data-filter="class" data-value="{{ g }}">{{ g }}</button>
     {% endfor %}
   </div>
   <div class="apcs-chips">
@@ -71,11 +73,11 @@ description: "APCS 基本題庫 103 題：壽高（壽山高中解題網）的�
   </thead>
   {% for c in all_classes %}
     {% for g in c.groups %}
-      <tbody class="apcs-group" data-class="{{ c.id }}">
+      <tbody class="apcs-group" data-class="{{ g.name }}">
         <tr class="apcs-group-row"><td colspan="4">{{ g.name }}{% if g.note and g.note != '' %} <span class="apcs-note">（{{ g.note }}）</span>{% endif %}</td></tr>
         {% for p in g.problems %}
         <tr class="apcs-problem-row"
-            data-class="{{ c.id }}"
+            data-class="{{ g.name }}"
             data-topic="{{ p.topic }}"
             data-site="{{ p.site }}"
             data-search="{{ p.id }} {{ p.title }} {{ p.source }} {{ p.note }} {{ sites[p.site].name }}"
