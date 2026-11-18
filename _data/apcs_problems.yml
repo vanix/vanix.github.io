@@ -1002,13 +1002,14 @@ classes:
       solution: ''
       excluded: false
 - id: algo
-  name: 搜尋、堆疊、遞迴與枚舉｜堆疊與佇列
+  name: 搜尋、堆疊、遞迴與枚舉
   level: 中高級
   order: 5
   desc: 初級的迴圈與條件判斷熟了之後，往演算法走：二分搜尋、堆疊、遞迴，以及用窮舉法解決組合問題。
   topics:
   - 排序與搜尋
   - 堆疊
+  - 佇列
   - 遞迴
   - 枚舉
   - 組合
@@ -1044,7 +1045,7 @@ classes:
       key: zjudge-c123
       site: zjudge
       title: 00514 - Rails
-      group: 堆疊
+      group: 堆疊與佇列
       topic: 堆疊
       source: ''
       note: ''
@@ -1055,7 +1056,7 @@ classes:
       key: zjudge-k621
       site: zjudge
       title: '[紅]括號匹配問題'
-      group: 堆疊
+      group: 堆疊與佇列
       topic: 堆疊
       source: ''
       note: ''
@@ -1066,11 +1067,113 @@ classes:
       key: zjudge-e155
       site: zjudge
       title: Throwing cards away I
-      group: 堆疊
+      group: 堆疊與佇列
       topic: 佇列
       source: ''
       note: ''
       judge: https://zerojudge.tw/ShowProblem?problemid=e155
+      solution: ''
+      excluded: false
+  - name: 枚舉與組合
+    note: 三種方法：迴圈、位元、遞迴。n 小於 20 可用位元枚舉，超過就要用 DP。
+    problems:
+    - id: c435
+      key: zjudge-c435
+      site: zjudge
+      title: MAX ! MAX ! MAX !
+      group: 枚舉與組合
+      topic: 枚舉
+      source: ''
+      note: ''
+      judge: https://zerojudge.tw/ShowProblem?problemid=c435
+      solution: ''
+      excluded: false
+    - id: c460
+      key: zjudge-c460
+      site: zjudge
+      title: 3. 軍隊部署
+      group: 枚舉與組合
+      topic: 枚舉
+      source: ''
+      note: 狀態壓縮＋迴圈，狀態分類要用 2 進位概念
+      judge: https://zerojudge.tw/ShowProblem?problemid=c460
+      solution: ''
+      excluded: false
+    - id: a456
+      key: zjudge-a456
+      site: zjudge
+      title: 子集合
+      group: 枚舉與組合
+      topic: 枚舉
+      source: ''
+      note: 位元枚舉
+      judge: https://zerojudge.tw/ShowProblem?problemid=a456
+      solution: ''
+      excluded: false
+    - id: b002
+      key: zjudge-b002
+      site: zjudge
+      title: 關燈
+      group: 枚舉與組合
+      topic: 枚舉
+      source: ''
+      note: 位元枚舉，競賽題
+      judge: https://zerojudge.tw/ShowProblem?problemid=b002
+      solution: ''
+      excluded: false
+    - id: k622
+      key: zjudge-k622
+      site: zjudge
+      title: '[棕]0-1背包問題'
+      group: 枚舉與組合
+      topic: 枚舉
+      source: ''
+      note: 位元枚舉會超時，DFS 不會超時
+      judge: https://zerojudge.tw/ShowProblem?problemid=k622
+      solution: ''
+      excluded: false
+    - id: a522
+      key: zjudge-a522
+      site: zjudge
+      title: 12455 - Bars
+      group: 枚舉與組合
+      topic: 枚舉
+      source: ''
+      note: 位元枚舉會超時，DFS 不會超時
+      judge: https://zerojudge.tw/ShowProblem?problemid=a522
+      solution: ''
+      excluded: false
+    - id: a229
+      key: zjudge-a229
+      site: zjudge
+      title: 括號匹配問題
+      group: 枚舉與組合
+      topic: 枚舉
+      source: ''
+      note: 位元枚舉會超時，DFS 不會超時
+      judge: https://zerojudge.tw/ShowProblem?problemid=a229
+      solution: ''
+      excluded: false
+    - id: a981
+      key: zjudge-a981
+      site: zjudge
+      title: 求和問題
+      group: 枚舉與組合
+      topic: 枚舉
+      source: ''
+      note: 位元枚舉會超時，DFS＋後綴和可過 80%，這題較難：排序、DFS 先取、後綴和、剪枝
+      judge: https://zerojudge.tw/ShowProblem?problemid=a981
+      solution: ''
+      excluded: false
+    - id: a524
+      key: zjudge-a524
+      site: zjudge
+      title: 手機之謎
+      group: 枚舉與組合
+      topic: 組合
+      source: ''
+      note: n 小於 10 可用組合解題，可用 itertools.permutation 或 DFS
+      judge: https://zerojudge.tw/ShowProblem?problemid=a524
       solution: ''
       excluded: false
   - name: 遞迴
@@ -1106,110 +1209,6 @@ classes:
       source: ''
       note: 要用 sys.stdin
       judge: https://zerojudge.tw/ShowProblem?problemid=a227
-      solution: ''
-      excluded: false
-  - name: 枚舉
-    note: 三種方法：迴圈、位元、遞迴。n 小於 20 可用位元枚舉，超過就要用 DP。
-    problems:
-    - id: c435
-      key: zjudge-c435
-      site: zjudge
-      title: MAX ! MAX ! MAX !
-      group: 枚舉
-      topic: 枚舉
-      source: ''
-      note: ''
-      judge: https://zerojudge.tw/ShowProblem?problemid=c435
-      solution: ''
-      excluded: false
-    - id: c460
-      key: zjudge-c460
-      site: zjudge
-      title: 3. 軍隊部署
-      group: 枚舉
-      topic: 枚舉
-      source: ''
-      note: 狀態壓縮＋迴圈，狀態分類要用 2 進位概念
-      judge: https://zerojudge.tw/ShowProblem?problemid=c460
-      solution: ''
-      excluded: false
-    - id: a456
-      key: zjudge-a456
-      site: zjudge
-      title: 子集合
-      group: 枚舉
-      topic: 枚舉
-      source: ''
-      note: 位元枚舉
-      judge: https://zerojudge.tw/ShowProblem?problemid=a456
-      solution: ''
-      excluded: false
-    - id: b002
-      key: zjudge-b002
-      site: zjudge
-      title: 關燈
-      group: 枚舉
-      topic: 枚舉
-      source: ''
-      note: 位元枚舉，競賽題
-      judge: https://zerojudge.tw/ShowProblem?problemid=b002
-      solution: ''
-      excluded: false
-    - id: k622
-      key: zjudge-k622
-      site: zjudge
-      title: '[棕]0-1背包問題'
-      group: 枚舉
-      topic: 枚舉
-      source: ''
-      note: 位元枚舉會超時，DFS 不會超時
-      judge: https://zerojudge.tw/ShowProblem?problemid=k622
-      solution: ''
-      excluded: false
-    - id: a522
-      key: zjudge-a522
-      site: zjudge
-      title: 12455 - Bars
-      group: 枚舉
-      topic: 枚舉
-      source: ''
-      note: 位元枚舉會超時，DFS 不會超時
-      judge: https://zerojudge.tw/ShowProblem?problemid=a522
-      solution: ''
-      excluded: false
-    - id: a229
-      key: zjudge-a229
-      site: zjudge
-      title: 括號匹配問題
-      group: 枚舉
-      topic: 枚舉
-      source: ''
-      note: 位元枚舉會超時，DFS 不會超時
-      judge: https://zerojudge.tw/ShowProblem?problemid=a229
-      solution: ''
-      excluded: false
-    - id: a981
-      key: zjudge-a981
-      site: zjudge
-      title: 求和問題
-      group: 枚舉
-      topic: 枚舉
-      source: ''
-      note: 位元枚舉會超時，DFS＋後綴和可過 80%，這題較難：排序、DFS 先取、後綴和、剪枝
-      judge: https://zerojudge.tw/ShowProblem?problemid=a981
-      solution: ''
-      excluded: false
-  - name: 組合
-    problems:
-    - id: a524
-      key: zjudge-a524
-      site: zjudge
-      title: 手機之謎
-      group: 組合
-      topic: 組合
-      source: ''
-      note: n 小於 10 可用組合解題，可用 itertools.permutation 或 DFS
-      judge: https://zerojudge.tw/ShowProblem?problemid=a524
       solution: ''
       excluded: false
 - id: greedy_graph
