@@ -72,7 +72,7 @@ description: "APCS 基本題庫 103 題：壽高（壽山高中解題網）的�
   {% for c in all_classes %}
     {% for g in c.groups %}
       <tbody class="apcs-group" data-class="{{ c.id }}">
-        <tr class="apcs-group-row"><td colspan="4">{{ c.name }}｜{{ g.name }}{% if g.note and g.note != '' %} <span class="apcs-note">（{{ g.note }}）</span>{% endif %}</td></tr>
+        <tr class="apcs-group-row"><td colspan="4">{{ g.name }}{% if g.note and g.note != '' %} <span class="apcs-note">（{{ g.note }}）</span>{% endif %}</td></tr>
         {% for p in g.problems %}
         <tr class="apcs-problem-row"
             data-class="{{ c.id }}"
