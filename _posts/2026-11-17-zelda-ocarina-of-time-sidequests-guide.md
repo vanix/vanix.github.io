@@ -85,6 +85,21 @@ _EP.7 [`12:20`](https://youtu.be/gTnqeNU90LY?t=740)：把萬能藥交給迷途�
 ![EP.8 盜獵者鋸子相關進度](/assets/images/blog/zelda-ocarina-of-time-sidequests/zelda-ocarina-of-time-biggoron-poacher-saw.jpg){: .normal}
 _EP.8 [`45:21`](https://youtu.be/NX1sqqGE42U?t=2721)：盜獵者鋸子相關進度，為 EP.12 把鋸子交給木匠師傅鋪路。_
 
+![EP.12 把盜獵者鋸子拿給木匠師傅](/assets/images/blog/zelda-ocarina-of-time-sidequests/zelda-ocarina-of-time-biggoron-saw-to-carpenter.jpg){: .normal}
+_EP.12 [`3:45`](https://youtu.be/q4pwnEAHOr4?t=225)：把盜獵者鋸子交給木匠師傅，換到斷劍。_
+
+![EP.12 把斷劍帶上死亡之山頂](/assets/images/blog/zelda-ocarina-of-time-sidequests/zelda-ocarina-of-time-biggoron-broken-sword.jpg){: .normal}
+_EP.12 [`6:03`](https://youtu.be/q4pwnEAHOr4?t=363)：把斷劍拿到死亡之山頂，找大鼓隆。_
+
+![EP.12 向卓拉王拿藥材](/assets/images/blog/zelda-ocarina-of-time-sidequests/zelda-ocarina-of-time-biggoron-zora-herb.jpg){: .normal}
+_EP.12 [`10:36`](https://youtu.be/q4pwnEAHOr4?t=636)：跟卓拉王拿藥材，準備限時送到湖畔研究所。_
+
+![EP.12 從湖畔研究所拿眼藥水](/assets/images/blog/zelda-ocarina-of-time-sidequests/zelda-ocarina-of-time-biggoron-eye-drops-lab.jpg){: .normal}
+_EP.12 [`13:21`](https://youtu.be/q4pwnEAHOr4?t=801)：從博士手上拿到眼藥水，接著要限時送回山頂。_
+
+![EP.12 把眼藥水交給大鼓隆](/assets/images/blog/zelda-ocarina-of-time-sidequests/zelda-ocarina-of-time-biggoron-eye-drops-goron.jpg){: .normal}
+_EP.12 [`17:10`](https://youtu.be/q4pwnEAHOr4?t=1030)：眼藥水交給大鼓隆，約定三天後領劍。_
+
 ![EP.12 取得大鼓隆之劍](/assets/images/blog/zelda-ocarina-of-time-sidequests/zelda-ocarina-of-time-biggoron-sword.jpg){: .normal}
 _EP.12 [`19:23`](https://youtu.be/q4pwnEAHOr4?t=1163)：吹奏太陽之歌快轉三天後，正式取得大鼓隆之劍。_
 
@@ -126,6 +141,21 @@ _EP.3 [`57:28`](https://youtu.be/bg2CjpJnpVk?t=3448)：在卡卡利科村與警�
 ![EP.4 借用奇坦面具解任務](/assets/images/blog/zelda-ocarina-of-time-sidequests/zelda-ocarina-of-time-mask-keaton.jpg){: .normal}
 _EP.4 [`8:38`](https://youtu.be/Wnb1COZhMCA?t=518)：借用奇坦面具，準備交給指定 NPC。_
 
+![EP.4 把奇坦面具交給卡卡利科村警衛](/assets/images/blog/zelda-ocarina-of-time-sidequests/zelda-ocarina-of-time-mask-keaton-to-guard.jpg){: .normal}
+_EP.4 [`16:26`](https://youtu.be/Wnb1COZhMCA?t=986)：拿奇坦面具給卡卡利科村警衛，推進面具任務。_
+
+![EP.8 回報面具任務並買新面具](/assets/images/blog/zelda-ocarina-of-time-sidequests/zelda-ocarina-of-time-mask-shop.jpg){: .normal}
+_EP.8 [`51:07`](https://youtu.be/NX1sqqGE42U?t=3067)：回報面具任務進度，並在面具店買新面具。_
+
+![EP.10 把骷髏面具交給骷髏小子](/assets/images/blog/zelda-ocarina-of-time-sidequests/zelda-ocarina-of-time-mask-skull-kid.jpg){: .normal}
+_EP.10 [`0:00`](https://youtu.be/DLk_vaVqfa4?t=0)：把骷髏面具交給骷髏小子。_
+
+![EP.11 恐怖面具交給墓園小孩](/assets/images/blog/zelda-ocarina-of-time-sidequests/zelda-ocarina-of-time-mask-redead.jpg){: .normal}
+_EP.11 [`3:40`](https://youtu.be/cpXj4Oxe3QU?t=220)：把恐怖面具交給墓園小孩。_
+
+![EP.11 兔子面具交給馬拉松人](/assets/images/blog/zelda-ocarina-of-time-sidequests/zelda-ocarina-of-time-mask-bunny-hood.jpg){: .normal}
+_EP.11 [`9:29`](https://youtu.be/cpXj4Oxe3QU?t=569)：把兔子面具交給馬拉松人，為最後一步鋪路。_
+
 ![EP.11 取得真實面具](/assets/images/blog/zelda-ocarina-of-time-sidequests/zelda-ocarina-of-time-mask-of-truth.jpg){: .normal}
 _EP.11 [`10:59`](https://youtu.be/cpXj4Oxe3QU?t=659)：所有面具解鎖後，取得真實面具。_
 
@@ -150,6 +180,12 @@ _EP.11 [`10:59`](https://youtu.be/cpXj4Oxe3QU?t=659)：所有面具解鎖後，�
 | EP.4 | [`55:04`](https://youtu.be/Wnb1COZhMCA?t=3304) | 釣到 55cm 的魚（尚未取得金色鱗片） |
 | EP.12 | [`21:41`](https://youtu.be/q4pwnEAHOr4?t=1301) | 來看釣魚池有什麼好貨 |
 | EP.12 | [`28:08`](https://youtu.be/q4pwnEAHOr4?t=1688) | 釣到 62cm 的魚，獲得金色鱗片 |
+
+![EP.4 釣到 55cm 的魚](/assets/images/blog/zelda-ocarina-of-time-sidequests/zelda-ocarina-of-time-golden-scale-55cm.jpg){: .normal}
+_EP.4 [`55:04`](https://youtu.be/Wnb1COZhMCA?t=3304)：EP.4 釣到 55cm 的魚，但還沒拿到金色鱗片。_
+
+![EP.12 到釣魚池再看有什麼好貨](/assets/images/blog/zelda-ocarina-of-time-sidequests/zelda-ocarina-of-time-golden-scale-pond.jpg){: .normal}
+_EP.12 [`21:41`](https://youtu.be/q4pwnEAHOr4?t=1301)：回到釣魚池，準備挑戰更大的魚。_
 
 ![EP.12 釣到 62cm 的魚並取得金色鱗片](/assets/images/blog/zelda-ocarina-of-time-sidequests/zelda-ocarina-of-time-golden-scale-fishing.jpg){: .normal}
 _EP.12 [`28:08`](https://youtu.be/q4pwnEAHOr4?t=1688)：釣到 62cm 的魚，取得金色鱗片。_
