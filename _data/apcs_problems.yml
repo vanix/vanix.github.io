@@ -1270,6 +1270,17 @@ classes:
       judge: https://leetcode.cn/problems/using-a-robot-to-print-the-lexicographically-smallest-string/description/
       solution: ''
       excluded: false
+    - id: d418
+      key: zjudge-d418
+      site: zjudge
+      title: 00993 - Product of digits
+      group: Greedy
+      topic: Greedy
+      source: UVa 993
+      note: ''
+      judge: https://zerojudge.tw/ShowProblem?problemid=d418
+      solution: ''
+      excluded: false
   - name: 圖
     problems:
     - id: a290
