@@ -1255,6 +1255,7 @@ classes:
   topics:
   - Greedy
   - 圖
+  - 樹
   groups:
   - name: Greedy
     problems:
@@ -1302,5 +1303,51 @@ classes:
       source: ''
       note: BFS 練習
       judge: https://zerojudge.tw/ShowProblem?problemid=d453
+      solution: ''
+      excluded: false
+    - id: d908
+      key: zjudge-d908
+      site: zjudge
+      title: 4. 最佳路徑
+      group: 圖
+      topic: 圖
+      source: ''
+      note: DFS 有向圖
+      judge: https://zerojudge.tw/ShowProblem?problemid=d908
+      solution: ''
+      excluded: false
+    - id: c812
+      key: zjudge-c812
+      site: zjudge
+      title: 1. 觀光景點
+      group: 圖
+      topic: 圖
+      source: ''
+      note: DFS 無向圖
+      judge: https://zerojudge.tw/ShowProblem?problemid=c812
+      solution: ''
+      excluded: false
+  - name: 樹
+    problems:
+    - id: d526
+      key: zjudge-d526
+      site: zjudge
+      title: Binary Search Tree
+      group: 樹
+      topic: 樹
+      source: ''
+      note: 練習建立樹，進行前中後序
+      judge: https://zerojudge.tw/ShowProblem?problemid=d526
+      solution: ''
+      excluded: false
+    - id: f673
+      key: zjudge-f673
+      site: zjudge
+      title: 樹高
+      group: 樹
+      topic: 樹
+      source: ''
+      note: DFS
+      judge: https://zerojudge.tw/ShowProblem?problemid=f673
       solution: ''
       excluded: false
