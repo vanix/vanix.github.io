@@ -1234,17 +1234,6 @@ classes:
       judge: https://zerojudge.tw/ShowProblem?problemid=e446
       solution: ''
       excluded: false
-    - id: q868
-      key: zjudge-q868
-      site: zjudge
-      title: 題目推薦
-      group: 遞迴
-      topic: 遞迴
-      source: ''
-      note: ''
-      judge: https://zerojudge.tw/ShowProblem?problemid=q868
-      solution: ''
-      excluded: false
     - id: a227
       key: zjudge-a227
       site: zjudge
@@ -1325,6 +1314,17 @@ classes:
       source: ''
       note: BFS
       judge: https://zerojudge.tw/ShowProblem?problemid=a290
+      solution: ''
+      excluded: false
+    - id: q868
+      key: zjudge-q868
+      site: zjudge
+      title: 題目推薦
+      group: 圖
+      topic: 圖
+      source: ''
+      note: ''
+      judge: https://zerojudge.tw/ShowProblem?problemid=q868
       solution: ''
       excluded: false
     - id: b298
