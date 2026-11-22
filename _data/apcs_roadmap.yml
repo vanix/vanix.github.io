@@ -140,3 +140,13 @@
   topics: [枚舉]
   problems: [zjudge-c435, zjudge-c460, zjudge-a456, zjudge-b002, zjudge-k622, zjudge-a522, zjudge-a229, zjudge-a981]
   articles: []
+
+- stage: 14
+  site: zjudge
+  title: 圖論基礎
+  goal: 認識圖的節點與邊，學會用鄰接表存圖，並用 DFS、BFS 解決可達性與無權最短步數問題
+  topics: [圖, DFS, BFS]
+  problems: [zjudge-a290, zjudge-q868, zjudge-b298, zjudge-d453, zjudge-d908, zjudge-c812]
+  articles:
+    - title: "Python 圖論入門教學｜用 DFS、BFS 搞懂圖的表示法與走訪"
+      url: /2026/11/python-graph-dfs-bfs.html
