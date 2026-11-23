@@ -118,9 +118,9 @@
 - stage: 11
   site: sssh
   title: 遞迴
-  goal: 學會用遞迴把大問題拆成小問題、自己呼叫自己：費氏數列、遞迴函數與河內塔
+  goal: 學會用遞迴把大問題拆成小問題、自己呼叫自己：費氏數列、f91、排列生成、洪水填充與河內塔
   topics: [遞迴]
-  problems: [a095, zjudge-e357, zjudge-d487, zjudge-a227]
+  problems: [a095, zjudge-e357, zjudge-c002, zjudge-d487, zjudge-d115, zjudge-e446, zjudge-e550, zjudge-a227]
   articles:
     - title: "APCS中級課程：Python的遞迴函數基礎教學"
       url: /2025/12/python-recursion.html
