@@ -1406,3 +1406,14 @@ classes:
       judge: https://zerojudge.tw/ShowProblem?problemid=f673
       solution: ''
       excluded: false
+    - id: d001
+      key: tcirc-d001
+      site: tcirc
+      title: 'P-1-1. 合成函數'
+      group: 樹
+      topic: 樹
+      source: 'TCIRC 例題 P-1-1'
+      note: 遞迴下降、運算式樹
+      judge: https://judge.tcirc.tw/problem/d001
+      solution: ''
+      excluded: false
