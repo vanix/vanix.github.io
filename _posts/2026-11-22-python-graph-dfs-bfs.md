@@ -3,7 +3,7 @@ author: 宅爸
 date: 2026-11-22 10:00:00 +0800
 layout: post
 permalink: /2026/11/python-graph-dfs-bfs.html
-title: APCS 中高級課程｜Python 圖論入門教學｜用 DFS、BFS 搞懂圖的表示法與走訪
+title: APCS 中高級課程：Python 圖論入門教學｜用 DFS、BFS 搞懂圖的表示法與走訪
 description: "圖論入門教學：用 Python 從零認識圖（Graph）的節點、邊、無向圖、有向圖、連通分量與樹，學會用鄰接表建圖，並掌握 DFS 深度優先搜尋與 BFS 廣度優先搜尋的核心模板。本文不使用 collections.deque 等額外模組，提供可直接改寫的 Python 程式碼，搭配 APCS 基礎題庫的圖論題目練習路線，適合剛學完串列、迴圈與遞迴，準備挑戰 ZeroJudge 圖論題的同學。"
 categories: [資訊教學, 程式教學]
 tags: [Python, APCS, 程式教學, 圖論, DFS, BFS, ZeroJudge, 鄰接表]
@@ -31,11 +31,11 @@ tags: [Python, APCS, 程式教學, 圖論, DFS, BFS, ZeroJudge, 鄰接表]
 ```text
 無向圖範例：
 
-        (A) -------- (B)
-         | \          |
-         |   \        |
-         |     \      |
-        (C) -------- (D)
+        (A) ---- (B)
+         | \      |
+         |   \    |
+         |     \  |
+        (C) ---- (D)
 
 節點：A、B、C、D
 邊：A-B、A-C、A-D、B-D、C-D
@@ -49,11 +49,11 @@ tags: [Python, APCS, 程式教學, 圖論, DFS, BFS, ZeroJudge, 鄰接表]
 - **度數（Degree）**：一個節點連出去的邊數。
 
 ```text
-        (A) -------- (B)
-         | \          |
-         |   \        |
-         |     \      |
-        (C) -------- (D)
+        (A) -----(B)
+         | \      |
+         |   \    |
+         |     \  |
+        (C) -----(D)
 
 A 的相鄰節點：B、C、D  → 度數 = 3
 B 的相鄰節點：A、D     → 度數 = 2
@@ -526,4 +526,4 @@ print(queue)  # BFS 走訪順序
 3. **會走圖**：DFS 處理可達性，BFS 處理無權最短步數。
 4. **去刷題**：從 [APCS 基本題庫](https://vanix.github.io/apcs/problem-bank/) 的圖論題組開始練習。
 
-把這四步練熟，之後再進入帶權最短路徑、拓撲排序、Union-Find 等主題，會順很多。
+把這四步練熟，之後再進入更深入的圖論理論。
