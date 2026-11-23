@@ -1234,6 +1234,17 @@ classes:
       judge: https://zerojudge.tw/ShowProblem?problemid=e446
       solution: ''
       excluded: false
+    - id: e550
+      key: zjudge-e550
+      site: zjudge
+      title: 00722 - Lakes
+      group: 遞迴
+      topic: 遞迴
+      source: ''
+      note: ''
+      judge: https://zerojudge.tw/ShowProblem?problemid=e550
+      solution: ''
+      excluded: false
     - id: a227
       key: zjudge-a227
       site: zjudge
