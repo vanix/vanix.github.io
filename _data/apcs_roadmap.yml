@@ -1,4 +1,4 @@
-# APCS 學習地圖：十二個階段
+# APCS 學習地圖：十五個階段
 # problems 的題號會自動連到評測系統（judge_base 在 apcs_problems.yml）
 # 每個階段可標 site（該階段預設的評測網站），跨站題目寫成 "zjudge-a693" 這種格式
 # articles 為對應的教學文章
@@ -127,13 +127,21 @@
 
 - stage: 12
   site: zjudge
+  title: 遞迴下降
+  goal: 學會用遞迴下降解析字串：把輸入依照規則一層層拆開，練習時間格式轉換，以及五則運算式中加減乘除餘的優先順序
+  topics: [遞迴下降]
+  problems: [zjudge-b981, zjudge-a017]
+  articles: []
+
+- stage: 13
+  site: zjudge
   title: 前綴和、排序與搜尋、堆疊與佇列
   goal: 學會用前綴和處理區間總和，用排序與二分搜尋加速查找，用堆疊與佇列處理括號、序列與模擬問題
   topics: [前綴和, 排序與搜尋, 堆疊, 佇列]
   problems: [zjudge-a693, zjudge-a694, zjudge-d732, tcirc-d010, zjudge-c123, zjudge-k621, zjudge-e155]
   articles: []
 
-- stage: 13
+- stage: 14
   site: zjudge
   title: 枚舉
   goal: 用窮舉法解決子集合、背包等組合問題，學會如何有效率地列舉所有可能解
@@ -141,7 +149,7 @@
   problems: [zjudge-c435, zjudge-c460, zjudge-a456, zjudge-b002, zjudge-k622, zjudge-a522, zjudge-a229, zjudge-a981]
   articles: []
 
-- stage: 14
+- stage: 15
   site: zjudge
   title: 圖論基礎
   goal: 認識圖的節點與邊，學會用鄰接表存圖，並用 DFS、BFS 解決可達性與無權最短步數問題
